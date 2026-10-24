@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TNGOD — Tamil Nadu Government Online Directory</title>
+<meta name="description" content="Searchable, URL-verified directory of Tamil Nadu government websites — 339 organizations sourced from IGOD, verified 24 Oct 2026.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<style>
+  :root { --bg:#f6f8fa; --card:#ffffff; --text:#1f2328; --muted:#59636e; --border:#d1d9e0; --accent:#0969da; --live:#1a7f37; --warn:#9a6700; --dead:#cf222e; --chip:#eaeef2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0d1117; --card:#161b22; --text:#e6edf3; --muted:#9198a1; --border:#30363d; --accent:#4493f8; --live:#3fb950; --warn:#d29922; --dead:#f85149; --chip:#21262d; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); }
+  header { max-width:1100px; margin:0 auto; padding:2rem 1rem .75rem; }
+  h1 { margin:0 0 .3rem; font-size:1.55rem; }
+  h1 a { color:inherit; text-decoration:none; }
+  .sub { margin:0; color:var(--muted); font-size:.95rem; line-height:1.5; }
+  .sub a { color:var(--accent); text-decoration:none; }
+  .sub a:hover { text-decoration:underline; }
+  .controls { max-width:1100px; margin:1.1rem auto .6rem; padding:0 1rem; display:flex; flex-wrap:wrap; gap:.5rem; }
+  #q { flex:1 1 280px; padding:.6rem .8rem; font-size:1rem; border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--text); }
+  #q:focus { outline:2px solid var(--accent); outline-offset:-1px; }
+  select { padding:.6rem .45rem; font-size:.92rem; border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--text); max-width:46vw; }
+  .meta { max-width:1100px; margin:0 auto; padding:0 1rem; color:var(--muted); font-size:.85rem; }
+  main { max-width:1100px; margin:0 auto; padding:.5rem 1rem 2.5rem; }
+  .tablewrap { overflow-x:auto; border:1px solid var(--border); border-radius:10px; background:var(--card); }
+  table { border-collapse:collapse; width:100%; font-size:.9rem; }
+  th, td { text-align:left; padding:.55rem .75rem; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { position:sticky; top:0; background:var(--card); z-index:1; font-size:.75rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  tbody tr:last-child td { border-bottom:none; }
+  tbody tr:hover td { background:rgba(127,127,127,.07); }
+  a { color:var(--accent); text-decoration:none; word-break:break-word; }
+  a:hover { text-decoration:underline; }
+  .st-live { color:var(--live); } .st-unreachable { color:var(--warn); } .st-dead, .st-nxdomain { color:var(--dead); } .st-none, .st-origin-522 { color:var(--muted); }
+  .host { color:var(--muted); font-size:.8rem; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .empty { padding:2.2rem 1rem; text-align:center; color:var(--muted); }
+  footer { max-width:1100px; margin:0 auto; padding:0 1rem 2.5rem; color:var(--muted); font-size:.8rem; line-height:1.6; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="./">TNGOD</a> — Tamil Nadu Government Online Directory</h1>
+  <p class="sub">Searchable, URL-verified index of Tamil Nadu government websites · sourced from
+    <a href="https://www.india.gov.in/directory/web-directory" target="_blank" rel="noopener">IGOD / National Portal Web Directory</a>
+    · verified 24 Oct 2026 · <a href="https://github.com/LogicIncZo/TNGOD" target="_blank" rel="noopener">source repo</a></p>
+</header>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Search name, URL, or group… (e.g. police, transport, karuvoolam)" autofocus autocomplete="off">
+  <select id="g"><option value="">All groups</option></select>
+  <select id="s">
+    <option value="">All statuses</option>
+    <option value="live">✅ Live</option>
+    <option value="unreachable">🌐 DNS-live, unreachable at check</option>
+    <option value="dead">❌ Defunct</option>
+    <option value="none">➖ No dedicated site</option>
+  </select>
+</div>
+<p class="meta" id="count">Loading directory data…</p>
+
+<main>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th style="width:38%">Organization</th><th style="width:24%">Group</th><th style="width:14%">Status</th><th>Website</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="4" class="empty">Loading…</td></tr></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  🌐 = DNS resolves publicly but the host was unreachable from the verification network at check time (NIC-hosted; treat as likely live).
+  † = hostname corrected during verification. Statuses reflect 24 Oct 2026 and may have changed since.
+  Data: <a href="https://www.india.gov.in/directory/web-directory" target="_blank" rel="noopener">IGOD</a> + manual supplements ·
+  <a href="https://github.com/LogicIncZo/TNGOD" target="_blank" rel="noopener">GitHub repo</a> ·
+  <a href="https://github.com/LogicIncZo/TNGOD/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
+</footer>
+
+<script>
+"use strict";
+const DATA_URL = "https://raw.githubusercontent.com/LogicIncZo/TNGOD/main/tamilnadu-sites.csv";
+const ICON = { live:"✅", unreachable:"🌐", dead:"❌", none:"➖", nxdomain:"❌", "origin-522":"⚠️" };
+const LABEL = { live:"live", unreachable:"likely live", dead:"defunct", none:"no site", nxdomain:"no DNS", "origin-522":"origin error" };
+const GROUP_ORDER = [
+  "State Portal & Key e-Governance","Key e-Governance Portals & Services","Secretariat Departments",
+  "Directorates & Commissionerates","Commissions, Statutory & Autonomous Bodies","Boards, Corporations & PSUs",
+  "Universities & Academic Institutions","Districts","Municipal Corporations & Urban Local Bodies",
+  "Law, Judiciary & Legislature","Schemes, Programmes & e-Governance Portals","Others"
+];
+
+function parseCSV(text){
+  const rows = []; let row = [], field = "", inQ = false;
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (inQ){
+      if (c === '"'){ if (text[i+1] === '"'){ field += '"'; i++; } else inQ = false; }
+      else field += c;
+    } else {
+      if (c === '"') inQ = true;
+      else if (c === ','){ row.push(field); field = ""; }
+      else if (c === '\n'){ row.push(field); rows.push(row); row = []; field = ""; }
+      else if (c !== '\r') field += c;
+    }
+  }
+  if (field !== "" || row.length){ row.push(field); rows.push(row); }
+  const header = rows.shift();
+  return rows.filter(r => r.length >= 5).map(r => ({
+    name: r[0], url: r[1], group: r[2], igodType: r[3], status: r[4], detail: r[5] || ""
+  }));
+}
+
+let data = [];
+
+function groupRank(g){ const i = GROUP_ORDER.indexOf(g); return i === -1 ? GROUP_ORDER.length : i; }
+
+function hostOf(u){
+  if (!u) return "";
+  try { return new URL(u).hostname + (new URL(u).pathname !== "/" ? new URL(u).pathname : ""); }
+  catch(e){ return u.replace(/^https?:\/\//, ""); }
+}
+
+function filtered(){
+  const q = (document.getElementById("q").value || "").toLowerCase().trim();
+  const g = document.getElementById("g").value;
+  const s = document.getElementById("s").value;
+  return data.filter(r =>
+    (!g || r.group === g) &&
+    (!s || r.status === s) &&
+    (!q || (r.name + " " + r.url + " " + r.group + " " + r.igodType).toLowerCase().includes(q))
+  ).sort((a,b) => groupRank(a.group) - groupRank(b.group) || a.name.localeCompare(b.name));
+}
+
+function render(){
+  const rows = filtered();
+  const tb = document.getElementById("rows");
+  if (!rows.length){
+    tb.innerHTML = '<tr><td colspan="4" class="empty">No matches — try a shorter query or clear the filters.</td></tr>';
+  } else {
+    tb.innerHTML = rows.map(r => {
+      const icon = ICON[r.status] || "·";
+      const stCell = '<span class="st-' + r.status + '">' + icon + " " + (LABEL[r.status] || r.status) + "</span>";
+      const nameCell = r.url
+        ? '<a href="' + r.url + '" target="_blank" rel="noopener">' + esc(r.name) + "</a>" + (r.detail.indexOf("corrected hostname") !== -1 ? " †" : "")
+        : "<strong>" + esc(r.name) + "</strong>" + (r.detail ? ' <span class="host">— ' + esc(r.detail) + "</span>" : "");
+      const urlCell = r.url ? '<a href="' + r.url + '" target="_blank" rel="noopener" class="host">' + esc(hostOf(r.url)) + "</a>" : "";
+      return "<tr><td>" + nameCell + "</td><td>" + esc(r.group) + "</td><td>" + stCell + "</td><td>" + urlCell + "</td></tr>";
+    }).join("");
+  }
+  document.getElementById("count").textContent =
+    rows.length + " of " + data.length + " organizations" +
+    (rows.length !== data.length ? " (filtered)" : "");
+  const params = new URLSearchParams();
+  const q = document.getElementById("q").value.trim();
+  if (q) params.set("q", q);
+  if (document.getElementById("g").value) params.set("g", document.getElementById("g").value);
+  if (document.getElementById("s").value) params.set("s", document.getElementById("s").value);
+  history.replaceState(null, "", params.toString() ? "?" + params.toString() : location.pathname);
+}
+
+function esc(s){ const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+function initControls(){
+  const gs = [...new Set(data.map(r => r.group))].sort((a,b) => groupRank(a) - groupRank(b));
+  const sel = document.getElementById("g");
+  gs.forEach(g => { const o = document.createElement("option"); o.value = g; o.textContent = g; sel.appendChild(o); });
+  const usp = new URLSearchParams(location.search);
+  if (usp.get("q")) document.getElementById("q").value = usp.get("q");
+  if (usp.get("g") && gs.indexOf(usp.get("g")) !== -1) sel.value = usp.get("g");
+  if (usp.get("s")) document.getElementById("s").value = usp.get("s");
+  ["q","g","s"].forEach(id => {
+    const el = document.getElementById(id);
+    el.addEventListener(id === "q" ? "input" : "change", render);
+  });
+}
+
+fetch(DATA_URL)
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+  .then(text => {
+    data = parseCSV(text);
+    initControls();
+    render();
+  })
+  .catch(err => {
+    document.getElementById("count").textContent = "Failed to load directory data.";
+    document.getElementById("rows").innerHTML =
+      '<tr><td colspan="4" class="empty">Could not fetch <a href="' + DATA_URL + '">the CSV dataset</a> — check your connection, or browse it directly in the <a href="https://github.com/LogicIncZo/TNGOD">repo</a>.</td></tr>';
+  });
+</script>
+</body>
+</html>

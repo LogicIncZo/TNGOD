@@ -1,6 +1,6 @@
-# IGOTN — Tamil Nadu Government Websites Directory
+# TNGOD — Tamil Nadu Government Online Directory
 
-> **IGOTN** (Indian Government Online directory — Tamil Nadu) is a comprehensive, verified directory of Tamil Nadu government websites, modeled on and sourced from **IGOD — the Integrated Government Online Directory** ([igod.gov.in](https://igod.gov.in), now served by the [National Portal Web Directory](https://www.india.gov.in/directory/web-directory)), cross-checked against the [official TN portal](https://www.tn.gov.in) and supplemented with well-known state portals that IGOD's state listing omits.
+> **TNGOD** (Tamil Nadu Government Online Directory) is a comprehensive, verified directory of Tamil Nadu government websites, modeled on and sourced from **IGOD — the Integrated Government Online Directory** ([igod.gov.in](https://igod.gov.in), now served by the [National Portal Web Directory](https://www.india.gov.in/directory/web-directory)), cross-checked against the [official TN portal](https://www.tn.gov.in) and supplemented with well-known state portals that IGOD's state listing omits.
 
 **Compiled & URL-verified:** 24 October 2026 · **Entries:** 339 · **Unique working URLs:** 265
 
