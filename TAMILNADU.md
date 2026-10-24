@@ -2,20 +2,22 @@
 
 > **TNGOD** (Tamil Nadu Government Online Directory) is a comprehensive, verified directory of Tamil Nadu government websites, modeled on and sourced from **IGOD — the Integrated Government Online Directory** ([igod.gov.in](https://igod.gov.in), now served by the [National Portal Web Directory](https://www.india.gov.in/directory/web-directory)), cross-checked against the [official TN portal](https://www.tn.gov.in) and supplemented with well-known state portals that IGOD's state listing omits.
 
-**Compiled & URL-verified:** 24 October 2026 · **Entries:** 339 · **Unique working URLs:** 265
+**Compiled & URL-verified:** 24 October 2026 · **Entries:** 341 · **Unique working URLs:** 267
 
 ## Status legend
 
 | Icon | Meaning | Count |
 |---|---|---|
-| ✅ | Live — HTTP 200 (or redirect / bot-403) at verification time | 251 |
-| 🌐 | DNS resolves publicly (NIC/tn.gov.in-hosted) but unreachable from the verification network — treat as *likely live* | 18 |
+| ✅ | Live — HTTP 200 (or redirect / bot-403) at verification time | 252 |
+| 🌐 | DNS resolves publicly (NIC/tn.gov.in-hosted) but unreachable from the verification network — treat as *likely live* | 19 |
 | ❌ | No DNS / HTTP 404 at verification time — defunct, retired, or hostname changed | 33 |
 | ➖ | IGOD lists no dedicated website — department served by the TN portal | 37 |
 
 `†` = hostname corrected from a defunct/wrong variant to the live one during verification.
 
 **Sources:** IGOD state directory API dump (category `sg`, `state_id=TN`, 255 records), tn.gov.in department profiles, and manual additions. Verification: HTTP GET (follow-redirects), DNS-over-HTTPS existence checks, strict-TLS spot pass. Machine-readable copy: [`tamilnadu-sites.csv`](./tamilnadu-sites.csv).
+
+A companion **Tier 2** registry — projects, schemes, missions and their (mostly non-`gov.in`) web properties — lives in [`TIER2-SCHEMES.md`](./TIER2-SCHEMES.md).
 
 ## State Portal & Key e-Governance
 
@@ -138,6 +140,7 @@
 - ❌ [Tamil Nadu Kaval (Community Policing)](https://kaval.arspolice.gov.in) — **not reachable at check time** (no DNS A record / NXDOMAIN at check time)
 - ✅ [Tamil Nadu Police](https://eservices.tnpolice.gov.in)
 - ✅ [Tamil Nadu Police](https://tnpolice.gov.in)
+- 🌐 [Tamil Nadu Police (alternate portal)](https://police.tn.gov.in) (DNS live; unreachable from verification network — NIC-hosted)
 - ✅ [Tamil Nadu Real Estate Regulatory Authority (TNRERA)](https://rera.tn.gov.in)
 - ✅ [Tamil Nadu State Disaster Management Authority (TNSDMA)](https://tnsdma.tn.gov.in)
 
@@ -302,6 +305,7 @@ All 38 districts of Tamil Nadu (NIC-hosted collectorate sites):
 
 - 🌐 [Chennai Metro Water (CMWSSB)](https://chennaimetrowater.tn.gov.in) (DNS live; unreachable from verification network — NIC-hosted)
 - ❌ [Coimbatore City Municipal Corporation](https://coimbatorecorporation.tn.gov.in) — **not reachable at check time** (no DNS A record / NXDOMAIN at check time)
+- ✅ [Coimbatore City Municipal Corporation](https://ccmc.gov.in) † (corrected hostname — the `.tn.gov.in` variant has no DNS)
 - ❌ [Dindigul Corporation](https://dindigulcorporation.tn.gov.in) — **not reachable at check time** (no DNS A record / NXDOMAIN at check time)
 - ❌ [Erode Corporation](https://erodecorporation.tn.gov.in) — **not reachable at check time** (no DNS A record / NXDOMAIN at check time)
 - ✅ [Greater Chennai Corporation](https://chennaicorporation.gov.in)

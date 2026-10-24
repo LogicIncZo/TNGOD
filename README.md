@@ -15,18 +15,26 @@ A comprehensive, URL-verified directory of Tamil Nadu government websites, built
 
 Browse and filter the directory at **https://logicinczo.github.io/TNGOD/** — a dependency-free client-side search over the dataset (by name, URL, group, and verification status), served by GitHub Pages from [`docs/`](./docs/index.html) with no tracking.
 
+## Tiers
+
+The directory is organized in two layers:
+
+- **Tier 1 — Institutional estate (326 entries):** permanent government institutions — departments, directorates, commissions, boards, PSUs, universities, districts, ULBs — irrespective of domain.
+- **Tier 2 — Projects & schemes (27 entries):** named schemes, missions, programmes, citizen-service platforms (the TNeGA ecosystem), smart-city SPVs, and project vehicles — mostly on **non-`gov.in`** domains (`*.tnega.org`, `.com`/`.org`/`.in` SPV registrations). Detailed registry with scheme owners and research notes: **[TIER2-SCHEMES.md](./TIER2-SCHEMES.md)**.
+
 ## Files
 
 | File | Contents |
 |---|---|
-| [TAMILNADU.md](./TAMILNADU.md) | The main directory — 339 organizations grouped by sector (departments, directorates, boards/PSUs, universities, 38 districts, corporations, e-governance portals), each with a verification status. |
-| [tamilnadu-sites.csv](./tamilnadu-sites.csv) | Machine-readable copy: `name, url, group, igod_type, status, detail`. |
-| [docs/index.html](./docs/index.html) | Searchable GitHub Pages site (vanilla JS, loads the CSV at render time). |
+| [TAMILNADU.md](./TAMILNADU.md) | The main Tier-1 directory — institutions grouped by sector (departments, directorates, boards/PSUs, universities, 38 districts, corporations), each with a verification status. |
+| [TIER2-SCHEMES.md](./TIER2-SCHEMES.md) | Tier-2 registry — projects, schemes, missions, citizen-service platforms and SPVs, including schemes researched with *no* dedicated portal. |
+| [tamilnadu-sites.csv](./tamilnadu-sites.csv) | Machine-readable copy: `name, url, group, igod_type, status, detail, tier`. |
+| [docs/index.html](./docs/index.html) | Searchable GitHub Pages site (vanilla JS, loads the CSV at render time, tier filter included). |
 
 ## Snapshot (24 Oct 2026)
 
-- **339 entries** · **265 unique URLs** reachable or DNS-confirmed
-- 251 live (HTTP 200 / redirect / bot-403) · 18 DNS-live but network-unreachable at check time · 33 defunct/no-DNS · 37 have no dedicated website (served by the TN portal)
+- **353 entries** (Tier 1: 326 · Tier 2: 27) · **280 unique URLs** reachable or DNS-confirmed
+- 262 live (HTTP 200 / redirect / bot-403) · 20 DNS-live but network-unreachable at check time · 34 defunct/no-DNS/errored · 37 have no dedicated website (served by the TN portal)
 - IGOD org-type codes used for grouping: `SPORT` state portal · `E003` departments · `E004` directorates · `E013` commissions · `E051` statutory/autonomous bodies · `E011` boards/undertakings · `E059` PSUs/JVs · `E009` academies/institutions · `E042` districts · `SPMA` schemes/portals · `OTHR` others
 
 ## Refreshing the IGOD dump

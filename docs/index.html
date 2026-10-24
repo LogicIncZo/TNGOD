@@ -51,12 +51,18 @@
 <div class="controls">
   <input id="q" type="search" placeholder="Search name, URL, or group… (e.g. police, transport, karuvoolam)" autofocus autocomplete="off">
   <select id="g"><option value="">All groups</option></select>
+  <select id="t">
+    <option value="">All tiers</option>
+    <option value="1">Tier 1 — Institutions</option>
+    <option value="2">Tier 2 — Schemes &amp; Projects</option>
+  </select>
   <select id="s">
     <option value="">All statuses</option>
     <option value="live">✅ Live</option>
     <option value="unreachable">🌐 DNS-live, unreachable at check</option>
     <option value="dead">❌ Defunct</option>
     <option value="none">➖ No dedicated site</option>
+    <option value="error">⚠️ Server error</option>
   </select>
 </div>
 <p class="meta" id="count">Loading directory data…</p>
@@ -73,6 +79,7 @@
 <footer>
   🌐 = DNS resolves publicly but the host was unreachable from the verification network at check time (NIC-hosted; treat as likely live).
   † = hostname corrected during verification. Statuses reflect 24 Oct 2026 and may have changed since.
+  Tier 1 = permanent institutions · Tier 2 = schemes, missions, projects &amp; SPVs (<a href="https://github.com/LogicIncZo/TNGOD/blob/main/TIER2-SCHEMES.md" target="_blank" rel="noopener">registry</a>).
   Data: <a href="https://www.india.gov.in/directory/web-directory" target="_blank" rel="noopener">IGOD</a> + manual supplements ·
   <a href="https://github.com/LogicIncZo/TNGOD" target="_blank" rel="noopener">GitHub repo</a> ·
   <a href="https://github.com/LogicIncZo/TNGOD/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
@@ -81,8 +88,8 @@
 <script>
 "use strict";
 const DATA_URL = "https://raw.githubusercontent.com/LogicIncZo/TNGOD/main/tamilnadu-sites.csv";
-const ICON = { live:"✅", unreachable:"🌐", dead:"❌", none:"➖", nxdomain:"❌", "origin-522":"⚠️" };
-const LABEL = { live:"live", unreachable:"likely live", dead:"defunct", none:"no site", nxdomain:"no DNS", "origin-522":"origin error" };
+const ICON = { live:"✅", unreachable:"🌐", dead:"❌", none:"➖", nxdomain:"❌", "origin-522":"⚠️", error:"⚠️" };
+const LABEL = { live:"live", unreachable:"likely live", dead:"defunct", none:"no site", nxdomain:"no DNS", "origin-522":"origin error", error:"server error" };
 const GROUP_ORDER = [
   "State Portal & Key e-Governance","Key e-Governance Portals & Services","Secretariat Departments",
   "Directorates & Commissionerates","Commissions, Statutory & Autonomous Bodies","Boards, Corporations & PSUs",
@@ -107,7 +114,7 @@ function parseCSV(text){
   if (field !== "" || row.length){ row.push(field); rows.push(row); }
   const header = rows.shift();
   return rows.filter(r => r.length >= 5).map(r => ({
-    name: r[0], url: r[1], group: r[2], igodType: r[3], status: r[4], detail: r[5] || ""
+    name: r[0], url: r[1], group: r[2], igodType: r[3], status: r[4], detail: r[5] || "", tier: r[6] || ""
   }));
 }
 
@@ -125,9 +132,11 @@ function filtered(){
   const q = (document.getElementById("q").value || "").toLowerCase().trim();
   const g = document.getElementById("g").value;
   const s = document.getElementById("s").value;
+  const t = document.getElementById("t").value;
   return data.filter(r =>
     (!g || r.group === g) &&
     (!s || r.status === s) &&
+    (!t || r.tier === t) &&
     (!q || (r.name + " " + r.url + " " + r.group + " " + r.igodType).toLowerCase().includes(q))
   ).sort((a,b) => groupRank(a.group) - groupRank(b.group) || a.name.localeCompare(b.name));
 }
@@ -156,6 +165,7 @@ function render(){
   if (q) params.set("q", q);
   if (document.getElementById("g").value) params.set("g", document.getElementById("g").value);
   if (document.getElementById("s").value) params.set("s", document.getElementById("s").value);
+  if (document.getElementById("t").value) params.set("t", document.getElementById("t").value);
   history.replaceState(null, "", params.toString() ? "?" + params.toString() : location.pathname);
 }
 
@@ -169,7 +179,8 @@ function initControls(){
   if (usp.get("q")) document.getElementById("q").value = usp.get("q");
   if (usp.get("g") && gs.indexOf(usp.get("g")) !== -1) sel.value = usp.get("g");
   if (usp.get("s")) document.getElementById("s").value = usp.get("s");
-  ["q","g","s"].forEach(id => {
+  if (usp.get("t")) document.getElementById("t").value = usp.get("t");
+  ["q","g","s","t"].forEach(id => {
     const el = document.getElementById(id);
     el.addEventListener(id === "q" ? "input" : "change", render);
   });
