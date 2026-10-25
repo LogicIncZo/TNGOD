@@ -1,0 +1,147 @@
+{
+ "idx": 7,
+ "host": "eadangal.tn.gov.in",
+ "url": "https://eadangal.tn.gov.in",
+ "name": "eAdangal (agriculture records)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-21",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "eadangal.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "eadangal.tn.gov.in",
+  "leaf_issuer": "SSL.com TLS Issuing RSA CA R1",
+  "leaf_org": "",
+  "notBefore": "Jul 23 06:31:15 2026 GMT",
+  "notAfter": "Oct 21 06:31:15 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "SSL.com TLS Issuing RSA CA R1; SSL.com TLS RSA Root CA 2022; SSL.com EV Root Certification Authority RSA R2",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "302",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.52"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://eadangal.tn.gov.in/eadangal/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "x-frame-options"
+   ],
+   "title": "eAdangal :: TN Revenue Admin Dept",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 11635,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 503,
+   "final_url": "http://eadangal.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-HTTPAPI/2.0",
+    "via": "1.1 ID-0016035524365072 uproxy-2"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "via"
+   ],
+   "title": "Service Unavailable",
+   "generator": "",
+   "content_type": "text/html; charset=us-ascii",
+   "body_bytes": 326,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 3,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ]
+  ]
+ }
+}

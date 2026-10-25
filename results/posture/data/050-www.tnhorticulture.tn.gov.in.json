@@ -1,0 +1,142 @@
+{
+ "idx": 50,
+ "host": "www.tnhorticulture.tn.gov.in",
+ "url": "https://www.tnhorticulture.tn.gov.in",
+ "name": "Horticulture and Plantation Crops Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-10-25",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnhorticulture.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnhorticulture.tn.gov.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Jul 27 21:44:16 2026 GMT",
+  "notAfter": "Oct 25 21:44:15 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.74"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnhorticulture.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Department of Horticulture",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 53495,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnhorticulture.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Department of Horticulture",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 53495,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 76,
+  "grade": "B",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

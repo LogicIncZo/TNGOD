@@ -1,0 +1,156 @@
+{
+ "idx": 3,
+ "host": "agrimark.tn.gov.in",
+ "url": "https://agrimark.tn.gov.in",
+ "name": "Agri Marketing & Agri Business portal",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "agrimark.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "agrimark.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 29 10:14:18 2026 GMT",
+  "notAfter": "Dec 28 10:14:17 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.190"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://agrimark.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "ci_session=efbd2sl8r47kam66j87c28sssqm54m10; expires=Sun, 25-Oct-2026 19:51:25 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "upgrade-insecure-requests",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Department of Agricultural Marketing & Agri Business",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 78926,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://agrimark.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "ci_session=v8pi3b18a9g2bebcvrenog5kftm7evrp; expires=Sun, 25-Oct-2026 19:51:26 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "upgrade-insecure-requests",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Department of Agricultural Marketing & Agri Business",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 78926,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 66,
+  "grade": "C",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

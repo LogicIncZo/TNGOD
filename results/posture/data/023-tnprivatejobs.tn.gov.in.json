@@ -1,0 +1,164 @@
+{
+ "idx": 23,
+ "host": "tnprivatejobs.tn.gov.in",
+ "url": "https://tnprivatejobs.tn.gov.in",
+ "name": "TN Private Jobs Portal",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnprivatejobs.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tnprivatejobs.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Sep 24 00:00:00 2025 GMT",
+  "notAfter": "Oct 24 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "301",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.178"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnprivatejobs.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "ci_session=n4j7aq2g02kopj4rhr43rb367ia0ujtd; expires=Sun, 25-Oct-2026 18:19:43 GMT; Max-Age=1800; path=/; HttpOnly",
+    "x-frame-options": "\u00e2\u0080\u009cDENY\u00e2\u0080\u009d",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src 'self' fonts.gstatic.com data: ;script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net www.google-analytics.com www.googletagmanager.com code.jquery.com ; connect-src 'self' www.google-analytics.com cdn.jsdelivr.net  ;style-src-elem 'self' 'unsafe-inline' unpkg.com cdn.jsdelivr.net code.jquery.com fonts.googleapis.com ;frame-ancestors 'none';",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Online Job Portal",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 0,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnprivatejobs.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "ci_session=ea3p71njgd8i7mbr5iao6jdsh4tt903f; expires=Sun, 25-Oct-2026 18:19:44 GMT; Max-Age=1800; path=/; HttpOnly",
+    "x-frame-options": "\u00e2\u0080\u009cDENY\u00e2\u0080\u009d",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'; font-src 'self' fonts.gstatic.com data: ;script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' cdn.jsdelivr.net www.google-analytics.com www.googletagmanager.com code.jquery.com ; connect-src 'self' www.google-analytics.com cdn.jsdelivr.net  ;style-src-elem 'self' 'unsafe-inline' unpkg.com cdn.jsdelivr.net code.jquery.com fonts.googleapis.com ;frame-ancestors 'none';",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Online Job Portal",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 0,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

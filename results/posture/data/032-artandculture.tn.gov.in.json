@@ -1,0 +1,172 @@
+{
+ "idx": 32,
+ "host": "artandculture.tn.gov.in",
+ "url": "https://artandculture.tn.gov.in",
+ "name": "Art and Culture Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-25",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "artandculture.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "artandculture.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "May 11 00:00:00 2026 GMT",
+  "notAfter": "Nov 25 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "401",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.214"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://artandculture.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "off",
+    "strict-transport-security": "max-age=400;includeSubDomains",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "permissions-policy": "interest-cohort=()",
+    "content-security-policy": "; base-uri 'self'",
+    "set-cookie": "VISTIOR_CONT=yes; expires=Sun, 25-Oct-2026 18:51:30 GMT; Max-Age=3600; path=/;HttpOnly;Secure"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expect-ct",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-frame-options",
+    "x-generator",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Department of Art and Culture",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 66527,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://artandculture.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "off",
+    "strict-transport-security": "max-age=400;includeSubDomains",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "permissions-policy": "interest-cohort=()",
+    "content-security-policy": "; base-uri 'self'",
+    "set-cookie": "VISTIOR_CONT=yes; expires=Sun, 25-Oct-2026 18:51:30 GMT; Max-Age=3600; path=/;HttpOnly;Secure"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expect-ct",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-frame-options",
+    "x-generator",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Department of Art and Culture",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 66527,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 74,
+  "grade": "C",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'off'."
+   ]
+  ]
+ }
+}

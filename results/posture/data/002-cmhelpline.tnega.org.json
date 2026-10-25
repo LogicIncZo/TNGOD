@@ -1,0 +1,162 @@
+{
+ "idx": 2,
+ "host": "cmhelpline.tnega.org",
+ "url": "https://cmhelpline.tnega.org",
+ "name": "Tamil Nadu CM Helpline 1100",
+ "group": "State Portal & Key e-Governance",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-06",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "cmhelpline.tnega.org",
+  "domain": "cmhelpline.tnega.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "support.workforce247.com",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep  7 09:13:25 2026 GMT",
+  "notAfter": "Dec  6 09:13:24 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "400",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "169.148.148.76"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://cmhelpline.tnega.org/portal/ta/home",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "ZGS",
+    "set-cookie": "JSESSIONID=D305A82379047895C2308F108875AB2F; Path=/; Secure; HttpOnly; SameSite=None",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "script-src 'self' 'strict-dynamic' static.zohocdn.com salesiq.zoho.in dtzpfzv31buvf.cloudfront.net cdn.pagesense.io js.zohocdn.com widgets.zohosalesiq.com zohotagmanager.cdn.pagesense.io 'nonce-c487282dbee8b4a32a719b8741b6d1f8';object-src 'none';base-uri 'self' static.zohocdn.com;report-uri https://logsapi.zoho.in/csplog?service=support;",
+    "permissions-policy": "accelerometer=(), ambient-light-sensor=(), bluetooth=(), compute-pressure=(), document-domain=(), encrypted-media=(), gamepad=(), gyroscope=(), hid=(), magnetometer=(), midi=(), screen-wake-lock=(), serial=(), speaker-selection=(), usb=(), xr-spatial-tracking=()",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000;includeSubDomains"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 27210,
+   "cookies": {
+    "total": 4,
+    "no_secure": 0,
+    "no_httponly": 2,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://cmhelpline.tnega.org/portal/ta/home",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "ZGS",
+    "set-cookie": "JSESSIONID=E45F16C21B66C5F3723E6BF9FD2CE4BF; Path=/; Secure; HttpOnly; SameSite=None",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "script-src 'self' 'strict-dynamic' static.zohocdn.com salesiq.zoho.in dtzpfzv31buvf.cloudfront.net cdn.pagesense.io js.zohocdn.com widgets.zohosalesiq.com zohotagmanager.cdn.pagesense.io 'nonce-bbefd43fa44c12c2648f13608386d0b4';object-src 'none';base-uri 'self' static.zohocdn.com;report-uri https://logsapi.zoho.in/csplog?service=support;",
+    "permissions-policy": "accelerometer=(), ambient-light-sensor=(), bluetooth=(), compute-pressure=(), document-domain=(), encrypted-media=(), gamepad=(), gyroscope=(), hid=(), magnetometer=(), midi=(), screen-wake-lock=(), serial=(), speaker-selection=(), usb=(), xr-spatial-tracking=()",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000;includeSubDomains"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 27210,
+   "cookies": {
+    "total": 4,
+    "no_secure": 0,
+    "no_httponly": 2,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 2 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "idx": 40,
+ "host": "www.environment.tn.gov.in",
+ "url": "https://www.environment.tn.gov.in",
+ "name": "Environment and Climate Change Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-10",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "environment.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "environment.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 12 10:02:05 2026 GMT",
+  "notAfter": "Nov 10 10:02:04 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "403",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.19"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.environment.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "laravel_session=eyJpdiI6ImxHUHNlc1Y1OU4rVG1DOEVJK2FYVVE9PSIsInZhbHVlIjoiM3Q3MTFWQ01MOU4zN2lRbTlUUFhNM1dpYWpIMTl5d2ZcLzNVcVg2V2dEM0tjWXdxTEVuaUlYczlKVExiNmZLeE8iLCJtYWMiOiI2MDMwZDM5NDZiNWMxYWZkYmM1ZDY1MDZkN2E4MDIxOGMzZWFhNWRjNmE3YWU2ZDA4MzE3MWRjY2UyNzg3NGVmIn0%3D; expires=Sun, 25-Oct-2026 19:57:20 GMT; Max-Age=7200; path=/; secure; httponly; samesite=strict"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "content_security_policy",
+    "date",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 73912,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://environment.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "laravel_session=eyJpdiI6InRxTUhnTkxVb3JibUxZT1Z6ZFE1aGc9PSIsInZhbHVlIjoiOXU0MXA5d3NZb2tLemFKK1F4alFFXC8xYk1VcjROXC9ZcDlsMGZuTVVFb1RocTRFc0Z4aDdydkROOWFUWlNWT2NkIiwibWFjIjoiOWVmN2M1ZjEzZmFlMTQ5YWE4Njc5OWZlYjY4Y2FmMTc3MTkyNWJhMTE5MWU5YzU2ODBkOTMyN2NhNjBjYWM0MSJ9; expires=Sun, 25-Oct-2026 19:57:20 GMT; Max-Age=7200; path=/; secure; httponly; samesite=strict"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "content_security_policy",
+    "date",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 73464,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 66,
+  "grade": "C",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

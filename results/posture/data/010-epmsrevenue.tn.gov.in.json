@@ -1,0 +1,150 @@
+{
+ "idx": 10,
+ "host": "epmsrevenue.tn.gov.in",
+ "url": "https://epmsrevenue.tn.gov.in",
+ "name": "ePMS Revenue",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "epmsrevenue.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "epmsrevenue.tn.gov.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Sep 21 05:18:40 2026 GMT",
+  "notAfter": "Dec 20 05:18:39 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.142"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://epmsrevenue.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.57 (AlmaLinux) OpenSSL/3.0.7",
+    "x-frame-options": "DENY",
+    "content-security-policy": "frame-ancestors 'none';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Electronic Promotion Management System",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 508,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://epmsrevenue.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.57 (AlmaLinux) OpenSSL/3.0.7",
+    "x-frame-options": "DENY",
+    "content-security-policy": "frame-ancestors 'none';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Electronic Promotion Management System",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 508,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 74,
+  "grade": "C",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.57 (AlmaLinux) OpenSSL/3.0.7'."
+   ]
+  ]
+ }
+}

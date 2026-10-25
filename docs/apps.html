@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TNGOD — Tamil Nadu Government Android Apps</title>
+<meta name="description" content="Verified companion listing of official Tamil Nadu government Android apps — 27 apps from departments, SPVs and schemes, cross-checked against the state's official app registry, 25 Oct 2026.">
+<style>
+  :root { --bg:#fafafa; --card:#fff; --text:#1a1a1a; --muted:#667085; --border:#e4e7ec; --accent:#0969da; --live:#1a7f37; --warn:#b45309; --dead:#dc2626; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0d1117; --card:#161b22; --text:#e6edf3; --muted:#8b949e; --border:#30363d; --accent:#58a6ff; --live:#3fb950; --warn:#d29922; --dead:#f85149; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; background:var(--bg); color:var(--text); }
+  header { max-width:1100px; margin:0 auto; padding:1.6rem 1rem .8rem; }
+  h1 { font-size:1.5rem; margin:.2rem 0; }
+  h1 a { color:var(--accent); }
+  .sub { color:var(--muted); font-size:.9rem; margin:.4rem 0 1rem; }
+  .controls { max-width:1100px; margin:0 auto; padding:0 1rem; display:flex; gap:.6rem; flex-wrap:wrap; }
+  .controls input[type=search], .controls select { flex:1 1 200px; padding:.55rem .8rem; border:1px solid var(--border); border-radius:8px; background:var(--card); color:var(--text); font-size:.9rem; }
+  .meta { max-width:1100px; margin:.7rem auto .6rem; padding:0 1rem; color:var(--muted); font-size:.85rem; }
+  main { max-width:1100px; margin:0 auto 2rem; padding:0 1rem; }
+  .tablewrap { overflow-x:auto; border:1px solid var(--border); border-radius:10px; background:var(--card); }
+  table { border-collapse:collapse; width:100%; font-size:.9rem; }
+  th, td { text-align:left; padding:.55rem .75rem; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { position:sticky; top:0; background:var(--card); z-index:1; font-size:.75rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }
+  tbody tr:last-child td { border-bottom:none; }
+  tbody tr:hover td { background:rgba(127,127,127,.07); }
+  a { color:var(--accent); text-decoration:none; word-break:break-word; }
+  a:hover { text-decoration:underline; }
+  .pkg { color:var(--muted); font-size:.78rem; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .empty { padding:2.2rem 1rem; text-align:center; color:var(--muted); }
+  .chip { display:inline-block; font-size:.72rem; padding:.1rem .5rem; border-radius:999px; border:1px solid var(--border); white-space:nowrap; }
+  .chip.t2 { color:#b45309; border-color:#f59e0b; background:rgba(245,158,11,.12); }
+  :root.dark .chip.t2, body.dark .chip.t2 { color:#fbbf24; }
+  .badge { display:inline-block; font-size:.7rem; padding:.08rem .45rem; border-radius:6px; background:rgba(9,105,218,.1); color:var(--accent); margin-left:.35rem; }
+  footer { max-width:1100px; margin:0 auto; padding:0 1rem 2.5rem; color:var(--muted); font-size:.8rem; line-height:1.6; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="./">TNGOD</a> — Tamil Nadu Government <strong>Android Apps</strong></h1>
+  <p class="sub">Companion to the website directory · every app's Google Play listing verified 25 Oct 2026 · seeded from the
+    <a href="https://www.tn.gov.in/mobileappform.php" target="_blank" rel="noopener">official state app registry</a> ·
+    <a href="https://github.com/LogicIncZo/TNGOD/blob/main/ANDROID-APPS.md" target="_blank" rel="noopener">details &amp; methodology</a></p>
+</header>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Search app, owner, or package… (e.g. patta, metro, police)" autofocus autocomplete="off">
+  <select id="g"><option value="">All groups</option></select>
+  <select id="t">
+    <option value="">All tiers</option>
+    <option value="1">Tier 1 — Institutions</option>
+    <option value="2">Tier 2 — Schemes</option>
+  </select>
+</div>
+<p class="meta" id="count">Loading app data…</p>
+
+<main>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th style="width:26%">App</th><th style="width:20%">Owner</th><th style="width:14%">Group</th><th style="width:8%">Installs</th><th style="width:9%">Updated</th><th>Package / Play</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="6" class="empty">Loading…</td></tr></tbody>
+    </table>
+  </div>
+</main>
+
+<footer>
+  Installs / Updated / Rating reflect the 25 Oct 2026 Play Store snapshot. Inclusion rule: the Play developer must be
+  the government entity itself (<code>org.tnega.*</code>, <code>in.gov.tn.*</code>, or a verifiable official developer account) —
+  third-party wrappers and private land-record apps are excluded. Schemes with app-only presence: see the
+  <a href="https://github.com/LogicIncZo/TNGOD/blob/main/TIER2-SCHEMES.md" target="_blank" rel="noopener">Tier-2 registry</a>.
+  <a href="./">← Website directory</a> ·
+  <a href="https://github.com/LogicIncZo/TNGOD" target="_blank" rel="noopener">GitHub repo</a> ·
+  <a href="https://github.com/LogicIncZo/TNGOD/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
+</footer>
+
+<script>
+"use strict";
+const DATA_URL = "https://raw.githubusercontent.com/LogicIncZo/TNGOD/main/android-apps.csv";
+const GROUP_ORDER = [
+  "Citizen Services & Grievance","Revenue & Land Records","Police & Safety","Transport",
+  "Energy","Agriculture","Municipal & Urban","Rural Development","Health","Education & Exams",
+  "Education & Skilling","Welfare Schemes"
+];
+
+function parseCSV(text){
+  const rows = []; let row = [], field = "", inQ = false;
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (inQ){
+      if (c === '"'){ if (text[i+1] === '"'){ field += '"'; i++; } else inQ = false; }
+      else field += c;
+    } else {
+      if (c === '"') inQ = true;
+      else if (c === ','){ row.push(field); field = ""; }
+      else if (c === '\n'){ row.push(field); rows.push(row); row = []; field = ""; }
+      else if (c !== '\r') field += c;
+    }
+  }
+  if (field !== "" || row.length){ row.push(field); rows.push(row); }
+  rows.shift();
+  return rows.filter(r => r.length >= 6).map(r => ({
+    name: r[0], pkg: r[1], group: r[2], tier: r[3] || "1", owner: r[4],
+    playUrl: r[5], installs: r[6] || "", updated: r[7] || "", rating: r[8] || "",
+    source: r[9] || "", notes: r[10] || ""
+  }));
+}
+
+let data = [];
+function groupRank(g){ const i = GROUP_ORDER.indexOf(g); return i === -1 ? GROUP_ORDER.length : i; }
+
+function filtered(){
+  const q = (document.getElementById("q").value || "").toLowerCase().trim();
+  const g = document.getElementById("g").value;
+  const t = document.getElementById("t").value;
+  return data.filter(r =>
+    (!g || r.group === g) &&
+    (!t || r.tier === t) &&
+    (!q || (r.name + " " + r.pkg + " " + r.owner + " " + r.notes).toLowerCase().includes(q))
+  ).sort((a,b) => groupRank(a.group) - groupRank(b.group) || a.name.localeCompare(b.name));
+}
+
+function esc(s){ const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+
+function render(){
+  const rows = filtered();
+  const tb = document.getElementById("rows");
+  if (!rows.length){
+    tb.innerHTML = '<tr><td colspan="6" class="empty">No matches — try a shorter query or clear the filters.</td></tr>';
+  } else {
+    tb.innerHTML = rows.map(r => {
+      const tierChip = r.tier === "2" ? ' <span class="chip t2">Tier 2 · scheme</span>' : "";
+      const nameCell = '<a href="' + r.playUrl + '" target="_blank" rel="noopener">' + esc(r.name) + "</a>" + tierChip +
+        (r.notes ? ' <span class="pkg">— ' + esc(r.notes) + "</span>" : "");
+      const pkgCell = '<span class="pkg">' + esc(r.pkg) + "</span><br>" +
+        '<a href="' + r.playUrl + '" target="_blank" rel="noopener" class="pkg">Play ▸</a>' +
+        (r.rating ? " ★" + esc(r.rating) : "");
+      return "<tr><td>" + nameCell + "</td><td>" + esc(r.owner) + "</td><td>" + esc(r.group) +
+             "</td><td>" + esc(r.installs) + "</td><td>" + esc(r.updated) + "</td><td>" + pkgCell + "</td></tr>";
+    }).join("");
+  }
+  document.getElementById("count").textContent =
+    rows.length + " of " + data.length + " apps" +
+    (rows.length !== data.length ? " (filtered)" : "") + " · verified on Google Play 25 Oct 2026";
+  const params = new URLSearchParams();
+  const q = document.getElementById("q").value.trim();
+  if (q) params.set("q", q);
+  if (document.getElementById("g").value) params.set("g", document.getElementById("g").value);
+  if (document.getElementById("t").value) params.set("t", document.getElementById("t").value);
+  history.replaceState(null, "", params.toString() ? "?" + params.toString() : location.pathname);
+}
+
+function initControls(){
+  const gs = [...new Set(data.map(r => r.group))].sort((a,b) => groupRank(a) - groupRank(b));
+  const sel = document.getElementById("g");
+  gs.forEach(g => { const o = document.createElement("option"); o.value = g; o.textContent = g; sel.appendChild(o); });
+  const usp = new URLSearchParams(location.search);
+  if (usp.get("q")) document.getElementById("q").value = usp.get("q");
+  if (usp.get("g") && gs.indexOf(usp.get("g")) !== -1) sel.value = usp.get("g");
+  if (usp.get("t")) document.getElementById("t").value = usp.get("t");
+  ["q","g","t"].forEach(id => {
+    const el = document.getElementById(id);
+    el.addEventListener(id === "q" ? "input" : "change", render);
+  });
+}
+
+fetch(DATA_URL)
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
+  .then(text => { data = parseCSV(text); initControls(); render(); })
+  .catch(() => {
+    document.getElementById("count").textContent = "Failed to load app data.";
+    document.getElementById("rows").innerHTML =
+      '<tr><td colspan="6" class="empty">Could not fetch <a href="' + DATA_URL + '">the apps CSV</a> — check your connection, or browse <a href="https://github.com/LogicIncZo/TNGOD/blob/main/ANDROID-APPS.md">ANDROID-APPS.md</a>.</td></tr>';
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+{
+ "idx": 29,
+ "host": "www.tnagrisnet.tn.gov.in",
+ "url": "https://www.tnagrisnet.tn.gov.in",
+ "name": "Agriculture and Farmers Welfare Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-26",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnagrisnet.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnagrisnet.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 28 06:25:23 2026 GMT",
+  "notAfter": "Nov 26 06:25:22 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.101"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnagrisnet.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "ci_session=40e4e676c5aa571c644e1bd91776df7ff40d725f; expires=Sun, 25-Oct-2026 19:31:56 GMT; Max-Age=7200; path=/; HttpOnly;HttpOnly;Secure;SameSite=Strict"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Department of Agriculture - Farmers Welfare",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 165880,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnagrisnet.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "ci_session=ec87f2e054d40982c272043c501f4520ac04a2e5; expires=Sun, 25-Oct-2026 19:31:56 GMT; Max-Age=7200; path=/; HttpOnly;HttpOnly;Secure;SameSite=Strict"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Department of Agriculture - Farmers Welfare",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 165880,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 76,
+  "grade": "B",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "idx": 28,
+ "host": "aed.tn.gov.in",
+ "url": "https://aed.tn.gov.in/ta",
+ "name": "Agricultural Engineering Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-15",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "aed.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "aed.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 16 10:40:52 2026 GMT",
+  "notAfter": "Dec 15 10:40:51 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.168"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://aed.tn.gov.in/ta/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "gunicorn",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "same-origin",
+    "set-cookie": "django_language=ta; expires=Mon, 25 Oct 2027 17:51:28 GMT; Max-Age=31536000; Path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "\u0bae\u0bc1\u0b95\u0baa\u0bcd\u0baa\u0bc1",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 134300,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://aed.tn.gov.in/ta/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "gunicorn",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "same-origin",
+    "set-cookie": "django_language=ta; expires=Mon, 25 Oct 2027 17:51:29 GMT; Max-Age=31536000; Path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "\u0bae\u0bc1\u0b95\u0baa\u0bcd\u0baa\u0bc1",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 134300,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

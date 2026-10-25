@@ -1,0 +1,166 @@
+{
+ "idx": 15,
+ "host": "punal.tn.gov.in",
+ "url": "https://punal.tn.gov.in",
+ "name": "PUNAL (drinking water grievance redressal)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-22",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "punal.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "punal.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Aug 24 09:01:53 2026 GMT",
+  "notAfter": "Nov 22 09:01:52 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.118.158.150"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://punal.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "default-src * data: blob: 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:; font-src * data:; connect-src *; frame-src *;",
+    "permissions-policy": "geolocation=(), camera=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-powered-by-plesk",
+    "x-xss-protection"
+   ],
+   "title": "PUNAL - Tamilnadu Integrated Drinking Water Grievance Redressal Centre",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 84681,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://punal.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "default-src * data: blob: 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:; font-src * data:; connect-src *; frame-src *;",
+    "permissions-policy": "geolocation=(), camera=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-powered-by-plesk",
+    "x-xss-protection"
+   ],
+   "title": "PUNAL - Tamilnadu Integrated Drinking Water Grievance Redressal Centre",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 84681,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 74,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

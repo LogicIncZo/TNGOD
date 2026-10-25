@@ -1,0 +1,148 @@
+{
+ "idx": 13,
+ "host": "nallosai.tn.gov.in",
+ "url": "https://nallosai.tn.gov.in",
+ "name": "Nallosai (Adi Dravidar & Tribal Welfare portal)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-04-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "nallosai.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "nallosai.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Oct  7 00:00:00 2026 GMT",
+  "notAfter": "Apr 23 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.82"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://nallosai.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "permissions-policy": "geolocation=(self), microphone=(), camera=(), payment=()",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://code.jquery.com https://cdn.datatables.net https://ajax.googleapis.com https://unpkg.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.datatables.net https://unpkg.com; img-src 'self' data: blob: https:; connect-src 'self' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://unpkg.com; font-src 'self' data: https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Adi Dravidar",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 176695,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://nallosai.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "permissions-policy": "geolocation=(self), microphone=(), camera=(), payment=()",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://code.jquery.com https://cdn.datatables.net https://ajax.googleapis.com https://unpkg.com;style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.datatables.net https://unpkg.com; img-src 'self' data: blob: https:; connect-src 'self' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://unpkg.com; font-src 'self' data: https://fonts.gstatic.com; object-src 'none'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Adi Dravidar",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 176695,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

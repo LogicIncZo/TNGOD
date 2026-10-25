@@ -1,0 +1,82 @@
+{
+ "idx": 36,
+ "host": "ctd.tn.gov.in",
+ "url": "https://ctd.tn.gov.in",
+ "name": "Commercial Taxes Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "unreachable",
+ "csv_detail": "DNS live (public A record); unreachable from verification network (NIC-hosted)",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "ctd.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "164.100.134.62"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.ctd.tn.gov.in.",
+   "20 mail1.ctd.tn.gov.in.",
+   "30 mail2.ctd.tn.gov.in."
+  ],
+  "txt": [
+   "v=spf1 ip4:164.100.134.57 ip4:202.191.177.50 ip4:164.100.134.133 ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 ip4:164.100.134.57 ip4:202.191.177.50 ip4:164.100.134.133 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1081)>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 63,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

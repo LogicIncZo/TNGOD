@@ -168,7 +168,7 @@ These flagship schemes had **no standalone website**; official information lives
 | Kudimaramathu (waterbody restoration with community participation) | WRD policy notes — https://www.wrd.tn.gov.in |
 | Ungaludan Stalin (outreach camps, launched Jul 2025) | tn.gov.in press releases + district collectorate sites |
 | Ennum Ezhuthum (foundational literacy & numeracy mission) | School Ed policy notes; tnschools.gov.in / EMIS |
-| Kaaval Uthavi / Kavalan SOS (community policing apps) | App-only — Google Play / App Store; https://tnpolice.gov.in |
-| Uzhavan (farmer services app) | App-only — Play Store; Agriculture Dept https://www.tnagrisnet.tn.gov.in |
+| Kaaval Uthavi / Kavalan SOS (community policing apps) | App-only — see the [Android apps registry](./ANDROID-APPS.md); https://tnpolice.gov.in (Kavalan SOS has no separate Play listing; folded into Kaaval Uthavi) |
+| Uzhavan (farmer services app) | App-only — see the [Android apps registry](./ANDROID-APPS.md) (`agri.tnagri`); Agriculture Dept https://www.tnagrisnet.tn.gov.in |
 
 *Maintained as part of [TNGOD](./README.md). Public-information index only.*

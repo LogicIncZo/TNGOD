@@ -1,0 +1,156 @@
+{
+ "idx": 58,
+ "host": "prisons.tn.gov.in",
+ "url": "https://prisons.tn.gov.in",
+ "name": "Prison Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2024-05-29",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "prisons.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "prisons.tn.gov.in",
+  "leaf_issuer": "R3",
+  "leaf_org": "",
+  "notBefore": "Feb 29 10:40:11 2024 GMT",
+  "notAfter": "May 29 10:40:10 2024 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "R3; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.14"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://prisons.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Hai",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu Prison Department",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 17978,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://prisons.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Hai",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu Prison Department",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 17978,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

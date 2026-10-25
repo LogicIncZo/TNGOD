@@ -1,0 +1,162 @@
+{
+ "idx": 38,
+ "host": "employmentexchange.tn.gov.in",
+ "url": "https://employmentexchange.tn.gov.in",
+ "name": "Employment and Training Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-10-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "employmentexchange.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "employmentexchange.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Sep 24 00:00:00 2025 GMT",
+  "notAfter": "Oct 24 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.16"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://employmentexchange.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "permissions-policy": "fullscreen 'none' ",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "referrer-policy": "no-referrer"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "clear-site-data",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies"
+   ],
+   "title": "Department of Employment and Training",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 117059,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://employmentexchange.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "permissions-policy": "fullscreen 'none' ",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "referrer-policy": "no-referrer"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "clear-site-data",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies"
+   ],
+   "title": "Department of Employment and Training",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 117059,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "idx": 22,
+ "host": "tnedistrict.tn.gov.in",
+ "url": "https://tnedistrict.tn.gov.in",
+ "name": "TN eDistrict",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-03-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnedistrict.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnedistrict.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Sep  7 00:00:00 2026 GMT",
+  "notAfter": "Mar 24 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.19"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnedistrict.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-frame-options": "SAMEORIGIN",
+    "via": "1.1 ID-0016035524365072 uproxy-2"
+   },
+   "all_header_names": [
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "vary",
+    "via",
+    "x-frame-options"
+   ],
+   "title": "Page Redirection",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 587,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnedistrict.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-frame-options": "SAMEORIGIN",
+    "via": "1.1 ID-0016035524365072 uproxy-2"
+   },
+   "all_header_names": [
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "vary",
+    "via",
+    "x-frame-options"
+   ],
+   "title": "Page Redirection",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 587,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

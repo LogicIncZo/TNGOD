@@ -1,0 +1,138 @@
+{
+ "idx": 18,
+ "host": "ssp.tn.gov.in",
+ "url": "https://ssp.tn.gov.in",
+ "name": "State Scholarship Portal (SSP)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "error",
+ "csv_detail": "HTTP 503 (service restarting)",
+ "csv_cert_expires": "2026-01-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "ssp.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "ssp.tn.gov.in",
+  "leaf_issuer": "R13",
+  "leaf_org": "",
+  "notBefore": "Oct 26 04:23:07 2025 GMT",
+  "notAfter": "Jan 24 04:23:06 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "R13; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "000",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.188"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 503,
+   "final_url": "https://ssp.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "503 Service Unavailable",
+   "generator": "",
+   "content_type": "text/html; charset=iso-8859-1",
+   "body_bytes": 299,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 503,
+   "final_url": "https://ssp.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "503 Service Unavailable",
+   "generator": "",
+   "content_type": "text/html; charset=iso-8859-1",
+   "body_bytes": 299,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 18,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "idx": 14,
+ "host": "ocmms.tn.gov.in",
+ "url": "https://ocmms.tn.gov.in",
+ "name": "OCMMS (TNPCB online consent management)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "ocmms.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "ocmms.tn.gov.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Aug  1 06:58:55 2026 GMT",
+  "notAfter": "Oct 30 06:58:54 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.210"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://ocmms.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "referrer-policy",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "TNPCB, Govt of Tamil Nadu, India",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 288,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://ocmms.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "referrer-policy",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "TNPCB, Govt of Tamil Nadu, India",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 288,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

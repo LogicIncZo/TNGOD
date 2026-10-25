@@ -1,0 +1,118 @@
+{
+ "idx": 25,
+ "host": "tnurbaneseva.tn.gov.in",
+ "url": "https://tnurbaneseva.tn.gov.in",
+ "name": "TN Urban eSeva (Commissionerate of Municipal Administration)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "tnurbaneseva.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "164.100.134.36"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 302,
+   "final_url": null,
+   "redirects": [
+    {
+     "from": "https://tnurbaneseva.tn.gov.in/",
+     "to": "https://tnurbaneseva.tn.gov.in/CMA_LoginPage.aspx",
+     "status": 302
+    },
+    {
+     "from": "https://tnurbaneseva.tn.gov.in/CMA_LoginPage.aspx",
+     "to": "https://tnurbaneseva.tn.gov.in/CMA_LoginPage.aspx",
+     "status": 302
+    }
+   ],
+   "error": "URLError: <urlopen error timed out>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": 302,
+   "final_url": "https://tnurbaneseva.tn.gov.in/CMA_LoginPage.aspx",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "location": "https://tnurbaneseva.tn.gov.in/CMA_LoginPage.aspx",
+    "server": "Microsoft-IIS/10.0",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "ASP.NET_SessionId=4oiayiaaonq3x0eyv2ieixki; path=/; secure; HttpOnly; SameSite=Lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "location",
+    "server",
+    "set-cookie",
+    "x-frame-options"
+   ],
+   "title": "Object moved",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 17117,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 58,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

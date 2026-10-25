@@ -1,0 +1,156 @@
+{
+ "idx": 59,
+ "host": "tncpe.gov.in",
+ "url": "https://tncpe.gov.in",
+ "name": "Prohibition and Excise Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-25",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tncpe.gov.in",
+  "domain": "tncpe.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tncpe.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Jun 10 00:00:00 2026 GMT",
+  "notAfter": "Dec 25 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.102"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tncpe.gov.in/TNCPE/Default.aspx",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "tncpe=fjab4k5oz1dz3tl4fobxeh2m; path=/; HttpOnly; SameSite=Lax; SameSite=strict; secure",
+    "permissions-policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'\"",
+    "referrer-policy": "strict-origin",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "content-security-policy": "connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *;frame-ancestors 'self';\""
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "x-content-security-policy",
+    "x-content-security-policy-report-only",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Prohibition and Excise Department Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 60743,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tncpe.gov.in/TNCPE/Default.aspx",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "tncpe=wwlvlwodpqzkjbfucu11vu45; path=/; HttpOnly; SameSite=Lax; SameSite=strict; secure",
+    "permissions-policy": "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'\"",
+    "referrer-policy": "strict-origin",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "content-security-policy": "connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *;frame-ancestors 'self';\""
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "x-content-security-policy",
+    "x-content-security-policy-report-only",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Prohibition and Excise Department Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 60743,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

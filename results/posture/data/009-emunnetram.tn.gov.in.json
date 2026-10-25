@@ -1,0 +1,151 @@
+{
+ "idx": 9,
+ "host": "emunnetram.tn.gov.in",
+ "url": "https://emunnetram.tn.gov.in",
+ "name": "Emunnetram (infra project monitoring)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-07-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "emunnetram.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "emunnetram.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Jun 27 00:00:00 2025 GMT",
+  "notAfter": "Jul 16 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.195"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://emunnetram.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "PHPSESSID=4otp3f6fo6057on0f8e04qj7u8; path=/; HttpOnly; Secure",
+    "permissions-policy": "geolocation=(self), microphone=(), camera=(), fullscreen=*, payment=(), accelerometer=(), autoplay=(), encrypted-media=(), midi=(), sync-xhr=(), usb=()",
+    "referrer-policy": "strict-origin-when-cross-origin"
+   },
+   "all_header_names": [
+    "access-control-allow-credentials",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Infrastructure - Projects",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 16091,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://emunnetram.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 42,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 8,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

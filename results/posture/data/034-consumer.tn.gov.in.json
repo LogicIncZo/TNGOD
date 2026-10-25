@@ -1,0 +1,142 @@
+{
+ "idx": 34,
+ "host": "consumer.tn.gov.in",
+ "url": "https://consumer.tn.gov.in",
+ "name": "Civil Supplies and Consumer Protection Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-21",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "consumer.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "consumer.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Oct 23 18:38:54 2026 GMT",
+  "notAfter": "Jan 21 18:38:53 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "218.248.29.76"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://consumer.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Civil Supplies and Consumer Protection Department",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 15082,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://consumer.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Civil Supplies and Consumer Protection Department",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 15082,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 47,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

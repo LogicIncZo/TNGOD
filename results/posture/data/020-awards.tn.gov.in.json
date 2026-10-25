@@ -1,0 +1,158 @@
+{
+ "idx": 20,
+ "host": "awards.tn.gov.in",
+ "url": "https://awards.tn.gov.in",
+ "name": "TN Awards Portal",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "awards.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "awards.tn.gov.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Aug 13 06:20:31 2026 GMT",
+  "notAfter": "Nov 11 06:20:30 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.167.82"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://awards.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "PHPSESSID=psv62heungp1pr2jq4bloppjac; path=/",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "access-control-allow-credentials",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "\u0bb5\u0bbf\u0bb0\u0bc1\u0ba4\u0bc1\u0b95\u0bb3\u0bcd \u0b87\u0ba3\u0bc8\u0baf \u0bae\u0bc1\u0b95\u0baa\u0bcd\u0baa\u0bc1 - \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1 \u0b85\u0bb0\u0b9a\u0bc1",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 88004,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://awards.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "PHPSESSID=cog8u4hvgvhal8rntlctghg8ik; path=/",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "access-control-allow-credentials",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "\u0bb5\u0bbf\u0bb0\u0bc1\u0ba4\u0bc1\u0b95\u0bb3\u0bcd \u0b87\u0ba3\u0bc8\u0baf \u0bae\u0bc1\u0b95\u0baa\u0bcd\u0baa\u0bc1 - \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1 \u0b85\u0bb0\u0b9a\u0bc1",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 88004,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

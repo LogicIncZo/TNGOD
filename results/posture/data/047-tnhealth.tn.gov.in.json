@@ -1,0 +1,156 @@
+{
+ "idx": 47,
+ "host": "tnhealth.tn.gov.in",
+ "url": "https://tnhealth.tn.gov.in",
+ "name": "Health and Family Welfare Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnhealth.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnhealth.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Dec 31 00:00:00 2025 GMT",
+  "notAfter": "Jan 12 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.199"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnhealth.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "PHPSESSID=sbcacrob8ff5mdc0hhr4pcv9s4; path=/; secure; httponly",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Health & Family Welfare Department, Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 38367,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnhealth.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "PHPSESSID=a9m7vlijf8n4g1odt9d0tbuu02; path=/; secure; httponly",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Health & Family Welfare Department, Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 38367,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 45,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

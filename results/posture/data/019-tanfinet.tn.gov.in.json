@@ -1,0 +1,152 @@
+{
+ "idx": 19,
+ "host": "tanfinet.tn.gov.in",
+ "url": "https://tanfinet.tn.gov.in",
+ "name": "TanFINet (TN Financial Network)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tanfinet.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tanfinet.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Aug 14 07:40:16 2026 GMT",
+  "notAfter": "Nov 12 07:40:15 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.23"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tanfinet.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "CAKEPHP=e00pl9nalc9ghkkgm9oqfcpnms; path=/; secure; HttpOnly",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Welcome to TANFINET | TANFINET",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 56346,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tanfinet.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "CAKEPHP=5beno0heo3pl2evh80hn8cqrn9; path=/; secure; HttpOnly",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Welcome to TANFINET | TANFINET",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 56346,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "idx": 16,
+ "host": "rtionline.tn.gov.in",
+ "url": "https://rtionline.tn.gov.in",
+ "name": "RTI Online Tamil Nadu",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-25",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "rtionline.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "rtionline.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Jul 27 03:12:04 2026 GMT",
+  "notAfter": "Oct 25 03:12:03 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.254"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://rtionline.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "PHPSESSID=a1emq8ls8hg5e28f7mv4q515oc; path=/; secure; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "rtionline.tn.gov.in",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "feature-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-served-by",
+    "x-xss-protection"
+   ],
+   "title": "RTI Online :: Online RTI Information System",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 81094,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://rtionline.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "PHPSESSID=erq46gk4bvugec65ng13v1l764; path=/; secure; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "rtionline.tn.gov.in",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "feature-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-served-by",
+    "x-xss-protection"
+   ],
+   "title": "RTI Online :: Online RTI Information System",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 81094,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 8,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

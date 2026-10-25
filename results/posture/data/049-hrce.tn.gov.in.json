@@ -1,0 +1,152 @@
+{
+ "idx": 49,
+ "host": "hrce.tn.gov.in",
+ "url": "https://hrce.tn.gov.in/hrcehome/index.php",
+ "name": "Hindu Religious & Charitable Endowments Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "hrce.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.hrce.tn.gov.in",
+  "leaf_issuer": "Sectigo RSA Domain Validation Secure Server CA",
+  "leaf_org": "",
+  "notBefore": "Nov 11 00:00:00 2025 GMT",
+  "notAfter": "Dec 12 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo RSA Domain Validation Secure Server CA; USERTrust RSA Certification Authority; AAA Certificate Services",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.170"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://hrce.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "upgrade",
+    "vary",
+    "x-content-type-options"
+   ],
+   "title": "HR-CE",
+   "generator": "HTML Tidy for HTML5 for Linux version 5.2.0",
+   "content_type": "text/html",
+   "body_bytes": 1515,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tiruchendurmurugan.hrce.tn.gov.in/hrcehome/index_temple.php?tid=38271",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "language=TN; expires=Sat, 23-Jan-2027 17:57:20 GMT; Max-Age=7776000; path=/",
+    "strict-transport-security": "max-age=31536000",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options"
+   ],
+   "title": "Arulmigu Subramania Swamy Temple, Tiruchendur - 628215, Thoothukudi District [TM038271].,Senthilambathy, Thirucheeralaiv",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

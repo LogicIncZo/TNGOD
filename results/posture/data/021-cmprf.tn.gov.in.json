@@ -1,0 +1,130 @@
+{
+ "idx": 21,
+ "host": "cmprf.tn.gov.in",
+ "url": "https://cmprf.tn.gov.in",
+ "name": "TN CM Public Relief Fund (TNCMPRF)",
+ "group": "Key e-Governance Portals & Services",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 403 to bots; operational",
+ "csv_cert_expires": "2026-12-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "cmprf.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cmprf.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep 21 10:20:32 2026 GMT",
+  "notAfter": "Dec 20 10:20:31 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "403",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.76"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 403,
+   "final_url": "https://cmprf.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "TNCMPRF",
+   "generator": "HTML Tidy for HTML5 for Linux version 5.7.28",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 363,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://cmprf.tn.gov.in/tncmprf/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "x-frame-options"
+   ],
+   "title": "Tamil Nadu Chief Minister&#039;s Public Relief Fund &#8211; Government of Tamil Nadu",
+   "generator": "Give v2.11.1",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 40157,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Info",
+    "HTTPS root returns HTTP 403 (not a normal 200 landing page)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

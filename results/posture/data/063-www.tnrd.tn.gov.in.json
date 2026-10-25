@@ -1,0 +1,146 @@
+{
+ "idx": 63,
+ "host": "www.tnrd.tn.gov.in",
+ "url": "https://www.tnrd.tn.gov.in",
+ "name": "Rural Development and Panchayat Raj Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-04-29",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnrd.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tnrd.tn.gov.in",
+  "leaf_issuer": "SSL.com TLS Issuing RSA CA R1",
+  "leaf_org": "",
+  "notBefore": "Oct 13 11:08:27 2026 GMT",
+  "notAfter": "Apr 29 08:09:41 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "SSL.com TLS Issuing RSA CA R1; SSL.com TLS RSA Root CA 2022; SecureTrust CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.167.196"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnrd.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Rural Development &amp; Panchayat Raj Department, Government of Tamil Nadu, India",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 51673,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnrd.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Rural Development &amp; Panchayat Raj Department, Government of Tamil Nadu, India",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 51673,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}
