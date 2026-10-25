@@ -2,20 +2,21 @@
 
 > **TNGOD** (Tamil Nadu Government Online Directory) is a comprehensive, verified directory of Tamil Nadu government websites, modeled on and sourced from **IGOD — the Integrated Government Online Directory** ([igod.gov.in](https://igod.gov.in), now served by the [National Portal Web Directory](https://www.india.gov.in/directory/web-directory)), cross-checked against the [official TN portal](https://www.tn.gov.in) and supplemented with well-known state portals that IGOD's state listing omits.
 
-**Compiled & URL-verified:** 24 October 2026 · **Entries:** 341 · **Unique working URLs:** 267
+**Compiled & URL-verified:** 24 October 2026 · **Link-sweep expansion:** 25 October 2026 · **Entries:** 441 · **Unique URLs:** 404
 
 ## Status legend
 
 | Icon | Meaning | Count |
 |---|---|---|
-| ✅ | Live — HTTP 200 (or redirect / bot-403) at verification time | 252 |
-| 🌐 | DNS resolves publicly (NIC/tn.gov.in-hosted) but unreachable from the verification network — treat as *likely live* | 19 |
-| ❌ | No DNS / HTTP 404 at verification time — defunct, retired, or hostname changed | 33 |
+| ✅ | Live — HTTP 200 (or redirect / bot-403) at verification time | 334 |
+| 🌐 | DNS resolves publicly (NIC/tn.gov.in-hosted) but unreachable from the verification network — treat as *likely live* | 28 |
+| ⚠️ | Server responded with an error page (HTTP 4xx/5xx/522) — operational but degraded | 10 |
+| ❌ | No DNS / HTTP 404 at verification time — defunct, retired, or hostname changed | 32 |
 | ➖ | IGOD lists no dedicated website — department served by the TN portal | 37 |
 
 `†` = hostname corrected from a defunct/wrong variant to the live one during verification.
 
-**Sources:** IGOD state directory API dump (category `sg`, `state_id=TN`, 255 records), tn.gov.in department profiles, and manual additions. Verification: HTTP GET (follow-redirects), DNS-over-HTTPS existence checks, strict-TLS spot pass. Machine-readable copy: [`tamilnadu-sites.csv`](./tamilnadu-sites.csv).
+**Sources:** IGOD state directory API dump (category `sg`, `state_id=TN`, 255 records), tn.gov.in department profiles, manual additions, and the **25 Oct 2026 homepage/sitemap link sweep** (`tools/sweep_links.py` + `tools/verify_hosts.py`) that crawled all 316 inventory URLs and added 88 newly discovered TN-relevant hosts. Machine-readable copy: [`tamilnadu-sites.csv`](./tamilnadu-sites.csv). Hygiene findings (hijacked/lapsed domains): [`SECURITY-NOTES.md`](./SECURITY-NOTES.md).
 
 A companion **Tier 2** registry — projects, schemes, missions and their (mostly non-`gov.in`) web properties — lives in [`TIER2-SCHEMES.md`](./TIER2-SCHEMES.md).
 
@@ -390,6 +391,20 @@ All 38 districts of Tamil Nadu (NIC-hosted collectorate sites):
 - ✅ [Tamilnadu Tourism Development Corporation (TTDC)](https://www.ttdconline.com)
 - ✅ [The Tamilnadu Handloom Weavers Co-operative Society Ltd. (Co-optex)](https://www.cooptex.gov.in)
 - ✅ [Transplant Authority](https://transtan.tn.gov.in)
+
+## Link-sweep additions — 25 Oct 2026 (new hosts found crawling all inventory homepages & sitemaps)
+
+Newly discovered service portals and institutions, all verified 25 Oct 2026 (full rows with group/status in [`tamilnadu-sites.csv`](./tamilnadu-sites.csv)):
+
+- ✅ [RTI Online Tamil Nadu](https://rtionline.tn.gov.in) · [TN Tenders](https://tenders.tn.gov.in) 🌐 · [TanFINet](https://tanfinet.tn.gov.in) · [TN Awards Portal](https://awards.tn.gov.in) · [TN eDistrict](https://tnedistrict.tn.gov.in) · [TN Private Jobs Portal](https://tnprivatejobs.tn.gov.in) · [Easy Business](https://easybusiness.tn.gov.in) 🌐
+- ✅ [State Scholarship Portal](https://ssp.tn.gov.in) ⚠️ · [Skill Development Portal](https://skilldevelopment.tn.gov.in) · [TN ePass](https://epass.tnega.org) · [eAdangal](https://eadangal.tn.gov.in) · [ePMS Revenue](https://epmsrevenue.tn.gov.in) · [Emunnetram](https://emunnetram.tn.gov.in) · [DGE Certificate Verification](https://dgeverification.tn.gov.in) 🌐 · [AgriMark](https://agrimark.tn.gov.in)
+- ✅ [Kooturavu — Registrar of Co-op Societies](https://kooturavu.tn.gov.in) · [TN Cooperative Union](https://tncu.tn.gov.in) · [TNCSC eDPC](https://tncsc-edpc.tn.gov.in) · [Koyambedu Wholesale Market](https://mmckwmc.tn.gov.in) · [Aavin Online](https://aavinonline.tn.gov.in) · [OCMMS (TNPCB consents)](https://ocmms.tn.gov.in) · [TN Urban eSeva](https://tnurbaneseva.tn.gov.in) · [TWAD e-ODB](https://twadeodb.tn.gov.in) · [PUNAL drinking-water grievances](https://punal.tn.gov.in)
+- ✅ [TTFC Textile Trade Centre](https://ttfc.tn.gov.in) · [Poompuhar Ferry Service](https://psckfs.tn.gov.in) · [TN Maritime Board](https://tnmaritime.tn.gov.in) · [TN Livestock Development Corporation](https://tnlda.tn.gov.in) · [TN Fisheries Welfare Board](https://tnfwb.tn.gov.in) · [Cable TV Welfare Board](https://tnctvwb.in) · [TN BizBuddy](https://tnbizbuddy.com) · [TNPL Cements](https://tnplcement.in)
+- ✅ [Madras High Court (new portal)](https://hcmadras.tn.gov.in) · [TN Legislative Assembly Digital Repository](https://tnlasdigital.tn.gov.in) · [Raj Bhavan — Lok Bhavan](https://tnrajbhavan.gov.in) † · [TNREAT](https://tnreat.tn.gov.in) · [TNRERA](https://tnrera.in) 🌐 · [SEIAA](https://seiaa.tn.gov.in) · [TN State Wetlands Authority](https://tnswa.tn.gov.in)
+- ✅ [Commissionerate of Survey & Settlement](https://tnlandsurvey.tn.gov.in) · [Directorate of Public Health & PM](https://tndphpm.com) ⚠️ · [IIITDM Kancheepuram](https://iiitdm.ac.in) · [SGH Guest House booking](https://sgh.tn.gov.in) · [Nallosai (AD&TW)](https://nallosai.tn.gov.in) · [Flag Day Fund](https://flagday.tn.gov.in) · [CM Public Relief Fund](https://cmprf.tn.gov.in) · [Birth & Death Certificates](https://crstn.org) · [Coimbatore City Police](https://coimbatorecitypolice.com) · [Wildlife Division Chennai](https://wlwchennai.tn.gov.in)
+- Tier-2 projects (Green TN Mission, Nilgiri Tahr, tiger reserves, TNRSP-II, DOTE admission portals, TNSand, tourism systems, etc.) — see [TIER2-SCHEMES.md §9](./TIER2-SCHEMES.md).
+
+Corrections applied to existing rows: **tnarchives.tn.gov.in** now 404 · **Madras HC** → `hcmadras.tn.gov.in` · **Raj Bhavan** → `tnrajbhavan.gov.in` † · **Guidance TN** → `investingintamilnadu.com` · **maduraismartcity.in** domain squatted → dead · **tnslurb.tn.gov.in** likely compromised (spam links). Details in [SECURITY-NOTES.md](./SECURITY-NOTES.md).
 
 ## Appendix A — Retired / non-resolving domains noted during verification
 

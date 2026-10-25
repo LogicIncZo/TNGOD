@@ -71,6 +71,90 @@
 - **Coimbatore City Municipal Corporation** — the corporation's real host is **https://ccmc.gov.in** (✅ live); the `coimbatorecorporation.tn.gov.in` variant commonly cited has no DNS. Fixed in the main directory.
 - **TN Police alternate portal** — https://police.tn.gov.in (🌐 DNS-live, unreachable from verification network; main site `tnpolice.gov.in` is DNS-live too).
 - **Naan Mudhalvan alias** — `naanmudhalvan.in` is registered and redirects into the skill-development portal.
+- **Guidance Tamil Nadu** — the live portal is **https://investingintamilnadu.com** (✅); `guidancetn.com` no longer responds (see [SECURITY-NOTES.md](./SECURITY-NOTES.md)).
+
+## 9. Link-sweep additions (25 Oct 2026) — Tier-2 discoveries
+
+New Tier-2 entries found by crawling every inventory homepage, robots.txt and
+sitemap (`tools/sweep_links.py`), then verifying each candidate host
+(`tools/verify_hosts.py`). Full data in `tamilnadu-sites.csv` (tier=2).
+
+### Forest, wildlife & environment projects
+
+| Project | Website | Status |
+|---|---|---|
+| Green Tamil Nadu Mission | https://greentnmission.com | ✅ live |
+| Project Nilgiri Tahr | https://tnprojectnilgiritahr.com | ✅ live |
+| TNFD Yaanai (Thadam) | https://tnfdyaanai.com | ✅ live |
+| Thamizh Maram (tree cultivation) | https://thamizhmaram.com | ✅ live |
+| TNFWCCB (wildlife conflict mitigation) | https://tnfwccb.com | ✅ live |
+| TN Biodiversity Conservation & Greening Project (TGBPCCR) | https://tbgpccr.tn.gov.in | ✅ live |
+| Sathyamangalam Tiger Reserve | https://sathytiger.tn.gov.in | ✅ live |
+| Kalakkad Mundanthurai Tiger Reserve | https://kmtr.co.in | ✅ live |
+| Trek Tamil Nadu (TNWEC) | https://trektamilnadu.com | ✅ live |
+| Nilgiris Tree Cutting Permissions | https://nilgiristreecuttingpermissions.org | ⚠️ HTTP 429 |
+
+### Water resources & land
+
+| Project | Website | Status |
+|---|---|---|
+| TNsand (sand mining portal, WRD) | https://tnsand.in | ✅ live |
+| Ground & Surface Water Resources Data Centre (WRD) | https://groundwatertnpwd.org.in | ✅ live |
+| IMTI (WRD training institute) | https://tamilnaduimti.org | ⚠️ HTTP 403 |
+| TN Fisheries Development Corporation | https://tnfdc.in | ✅ live |
+| TN Fisheries Welfare Board | https://tnfwb.tn.gov.in | ✅ live |
+| TN Maritime Board | https://tnmaritime.tn.gov.in | ✅ live |
+| PUNAL (drinking-water grievances) | https://punal.tn.gov.in | ✅ live |
+| TWAD Board e-ODB | https://twadeodb.tn.gov.in | ✅ live |
+
+### Education, employment & welfare service portals
+
+| Portal | Website | Status |
+|---|---|---|
+| State Scholarship Portal | https://ssp.tn.gov.in | ⚠️ HTTP 503 |
+| TN ePass | https://epass.tnega.org | ✅ live |
+| Tamil Digital Library | https://tamildigitallibrary.in | ✅ live |
+| Kani Tamil (Tamil Virtual Academy) | https://kanitamil.in | ⚠️ HTTP 403 |
+| Thiran 360 (capacity building) | https://thiran360.tn.gov.in | ✅ live |
+| PM-KUSUM solar pumps (TN) | https://pmkusum.tn.gov.in | ✅ live |
+| TN Medical Selection (DME) | https://tnmedicalselection.net | ✅ live |
+| TN AYUSH admissions | https://tnayushonline.co.in | ✅ live |
+| AD&TW Dept Overseas Scholarship | https://tnadwscholarship.in | ✅ live |
+| DipExOnline (DGE) | https://dipexamstndte.in | ✅ live |
+| DoTE GTE | https://tndtegteonline.in | ✅ live |
+| DoTE Web Apps | https://tndotehub.in | ✅ live |
+| DOTE Polytechnic admissions | https://tnpoly.in | ✅ live |
+| TN Lateral Entry | https://tnlea.com | ✅ live |
+| TN MBA/MCA counselling | https://tn-mbamca.com | ✅ live |
+| PTBE-TNEA | https://ptbe-tnea.com | 🌐 unreachable |
+| UMS (Univ of Madras IDE) | https://ideunom.ac.in | ✅ live |
+| Anna University CeGov | https://auegov.ac.in | ✅ live |
+| TNOU student portal | https://tnouportal.in | ✅ live |
+| TNAU AgriCart | https://tnauagricart.com | ✅ live |
+
+### Infrastructure, industry & roads
+
+| Portal | Website | Status |
+|---|---|---|
+| TN Road Sector Project II | https://tnrsp.tn.gov.in | ✅ live |
+| CKICP (Highways project portal) | https://ckicp.tn.gov.in | ✅ live |
+| Trichy Master Plan (DTCP) | https://trichymasterplan.com | ✅ live |
+| TN RERA | https://tnrera.in | 🌐 unreachable |
+| TNREAT (real-estate appellate tribunal) | https://tnreat.tn.gov.in | ✅ live |
+| TN BizBuddy | https://tnbizbuddy.com | ✅ live |
+| TNPL Cements | https://tnplcement.in | ✅ live |
+| TN Polymer Park | https://tnpolymerpark.com | ⚠️ HTTP 403 |
+| TANTEA | https://tantea.co.in | ⚠️ HTTP 429 |
+
+### Tourism & civic services
+
+| Portal | Website | Status |
+|---|---|---|
+| TN Tourism Operator Registration System | https://tntourismtors.com | ✅ live |
+| TN Tourism Awards | https://tntourismawards.com | ✅ live |
+| TN Green Climate Company tracker | https://trackertngcc.tn.gov.in | ✅ live |
+| Birth & Death Certificates (crstn.org) | https://crstn.org | ✅ live |
+| eAdangal / Emunnetram / OCMMS / PUNAL / Urban eSeva | see `tamilnadu-sites.csv` | ✅ live |
 
 ## Appendix — Schemes researched with no dedicated portal (as of 24 Oct 2026)
 
