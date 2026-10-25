@@ -1,442 +1,442 @@
-name,url,group,igod_type,status,detail,tier
-Official Portal of Tamil Nadu Government,https://www.tn.gov.in,State Portal & Key e-Governance,SPORT,live,HTTP 200; strict TLS OK,1
-Tamil Nadu CM Helpline 1100,https://cmhelpline.tnega.org,State Portal & Key e-Governance,SPORT,live,HTTP 200,2
-Agri Marketing & Agri Business portal,https://agrimark.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-Birth & Death Certificates Portal (crstn.org),https://crstn.org,Key e-Governance Portals & Services,OTHR,live,HTTP 200; /birth_death_tn/,1
-CM Special Cell,https://cmcell.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1
-DGE Certificate Verification,https://dgeverification.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1
-eAdangal (agriculture records),https://eadangal.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-Easy Business (single-window clearances),https://easybusiness.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1
-Emunnetram (infra project monitoring),https://emunnetram.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-ePMS Revenue,https://epmsrevenue.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-Flag Day Fund (online donation),https://flagday.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-Naan Mudhalvan Skill Development Portal,https://skilldevelopment.tn.gov.in,Key e-Governance Portals & Services,SPMA,live,HTTP 200,1
-Nallosai (Adi Dravidar & Tribal Welfare portal),https://nallosai.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-OCMMS (TNPCB online consent management),https://ocmms.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-PUNAL (drinking water grievance redressal),https://punal.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-RTI Online Tamil Nadu,https://rtionline.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-SGH Guest House Booking (TN House),https://sgh.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-State Scholarship Portal (SSP),https://ssp.tn.gov.in,Key e-Governance Portals & Services,OTHR,error,HTTP 503 (service restarting),1
-TanFINet (TN Financial Network),https://tanfinet.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-TN Awards Portal,https://awards.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-TN CM Public Relief Fund (TNCMPRF),https://cmprf.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 403 to bots; operational,1
-TN eDistrict,https://tnedistrict.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-TN Private Jobs Portal,https://tnprivatejobs.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-TN Tenders Portal,https://tenders.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1
-TN Urban eSeva (Commissionerate of Municipal Administration),https://tnurbaneseva.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-TWAD Board e-ODB,https://twadeodb.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1
-UMIS (education management information system),https://umis.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1
-Agricultural Engineering Department,https://aed.tn.gov.in/ta,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Agriculture and Farmers Welfare Department,https://www.tnagrisnet.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Animal Husbandry Department,https://ahd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Archaeology Department,https://www.tnarch.gov.in,Secretariat Departments,E003,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Art and Culture Department,https://artandculture.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Backward Classes Most Backward Classes and Minorities Welfare Department,https://bcmbcmw.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1
-Civil Supplies and Consumer Protection Department,https://consumer.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1
-Co-operative Audit Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-Commercial Taxes Department,https://ctd.tn.gov.in,Secretariat Departments,E003,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Department of Textiles,https://tntextilesschemes.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Employment and Training Department,https://employmentexchange.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Energy Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-Environment and Climate Change Department,https://www.environment.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Finance Department,https://financedept.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Fire Service Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-Fisheries Department,https://www.fisheries.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Food Safety and Drug Administration Department,https://www.drugscontrol.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1
-Geology and Mining Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-Handlooms Department,https://www.tnhandlooms.tn.gov.in/english,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Health and Family Welfare Department,https://tnhealth.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Highways Department,https://www.tnhighways.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Hindu Religious & Charitable Endowments Department,https://hrce.tn.gov.in/hrcehome/index.php,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Horticulture and Plantation Crops Department,https://www.tnhorticulture.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Housing and Urban Development Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-Information Technology Department,https://it.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Labour Department,https://labour.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Law Department,https://www.tn.gov.in/department/19,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Micro Small and Medium Enterprises Department,https://www.msmeonline.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Personnel and Administrative Reforms Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-"Planning, Development and Special Initiatives Department",https://www.tn.gov.in/department/23,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Prison Department,https://prisons.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1
-Prohibition and Excise Department,https://tncpe.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Public Department,https://www.tn.gov.in/department/24,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Public Works Department,https://www.tn.gov.in/department/42,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Public Works Department,https://pwd.tn.gov.in,Secretariat Departments,E003,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Rural Development and Panchayat Raj Department,https://www.tnrd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-School Education Department,https://tnschools.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Sericulture Department,https://tnsericulture.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Social Reforms Department,https://www.tn.gov.in/department/39,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Social Welfare and Women Empowerment Department,https://www.tnsocialwelfare.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Special Programme Implementation Department,https://www.tn.gov.in/department/41,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Sports Development Authority,https://www.sdat.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Stationery and Printing Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1
-Survey and Settlement Department,https://eservices.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Tamil Development and Information Department,https://www.tn.gov.in/department/31,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Forest Department,https://forests.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Motor Vehicles Maintenance Department,https://www.tnmvmd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1
-Textiles Department,https://tntextiles.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-TN Adi Dravidar Welfare,https://adidravidar.tn.gov.in,Secretariat Departments,E003,dead,no DNS A record / NXDOMAIN at check time,1
-TNREGINET (Registration Dept),https://tnreginet.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Tourism Department,https://www.tamilnadutourism.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Transport and Road Safety Commission,https://tnsta.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Transport Department TN,https://transport.tn.gov.in,Secretariat Departments,E003,dead,no DNS A record / NXDOMAIN at check time,1
-Treasuries and Accounts Department,https://www.tn.gov.in/karuvoolam/whatsnew.html,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Tribal Welfare Department,https://www.tntribalwelfare.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1
-Water Resources Department,https://www.wrd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1
-"Central GST Commissionerate, Coimbatore",https://coimbatoregst.gov.in,Directorates & Commissionerates,E004,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Commissionerate of Municipal Administration,https://cma.tn.gov.in,Directorates & Commissionerates,E004,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Commissionerate of Revenue Administration and Disaster Management,https://www.cra.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-Commissionerate of Survey & Settlement,https://tnlandsurvey.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-Directorate for Welfare of the Differently Abled,https://www.scd.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-Directorate of Boilers,https://www.boilers.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-Directorate of Collegiate Education,https://www.tndce.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-Directorate of Ex-Servicemen's Welfare,https://www.exwel.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-Directorate of Government Examinations,https://www.dge.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-Directorate of Indian Medicine & Homoeopathy,https://tnism.tn.gov.in,Directorates & Commissionerates,E004,dead,no DNS A record / NXDOMAIN at check time,1
-Directorate of Industrial Safety and Health,https://dish.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-Directorate of Medical Education,https://dme.tn.gov.in,Directorates & Commissionerates,E004,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Directorate of Pension Tamil Nadu,https://www.tn.gov.in/dop,Directorates & Commissionerates,E004,live,recovered on retry (slow NIC network),1
-Directorate of Prosecution,https://prosecution.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-Directorate of Public Health & Preventive Medicine,https://tndphpm.com,Directorates & Commissionerates,E004,error,HTTP 429 (rate-limited),1
-Directorate of Technical Education - Chennai,https://dte.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1
-"Directorate of Technical Education, Diploma Exam Time Table",,Directorates & Commissionerates,E004,none,no dedicated website in IGOD listing,1
-Directorate of Town and Country Planning,https://tcp.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-Directorate of Town Panchayats,https://www.tn.gov.in/dtp,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-Directorate of Vigilance & Anti-Corruption,https://www.dvac.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-TN Agri Marketing (Agri Markets),https://tnagmark.tn.gov.in,Directorates & Commissionerates,E004,dead,no DNS A record / NXDOMAIN at check time,1
-TN Employment Exchange (legacy portal),https://tnvelaivaaippu.gov.in,Directorates & Commissionerates,E004,live,recovered on retry (slow NIC network),1
-TN Food Safety,https://foodsafety.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-TNVAT (legacy),https://tnvat.gov.in,Directorates & Commissionerates,E004,dead,no DNS A record / NXDOMAIN at check time,1
-"Virtual Learning Portal, Commissionerate of Employment & Training",https://tamilnaducareerservices.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1
-Chennai City Police,,"Commissions, Statutory & Autonomous Bodies",E051,none,no dedicated website in IGOD listing,1
-Commissionerate of Rural Development and Panchayat Raj (Training),https://crdpr.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-SEIAA Tamil Nadu (environment impact assessment),https://seiaa.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-State Human Rights Commission,https://www.shrc.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,live,HTTP 200,1
-State Planning Commission (SPC),https://www.spc.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,live,HTTP 200; strict TLS OK,1
-Tamil Nadu e-Governance Agency,https://tnega.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Electricity Regulatory Commission (TNERC),https://tnerc.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Tamil Nadu Information Commission,https://www.tnsic.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Kaval (Community Policing),https://kaval.arspolice.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,dead,no DNS A record / NXDOMAIN at check time,1
-Tamil Nadu Police,https://eservices.tnpolice.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-Tamil Nadu Police,https://tnpolice.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-Tamil Nadu Police (alternate portal),https://police.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,unreachable,DNS live; unreachable from verification network (NIC-hosted),1
-Tamil Nadu Real Estate Regulatory Authority (TNRERA),https://rera.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200; strict TLS OK,1
-Tamil Nadu State Disaster Management Authority (TNSDMA),https://tnsdma.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-TN Child Rights Commission,https://tncpcr.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-TN e-Governance Agency,https://www.tnega.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-TN Real Estate Appellate Tribunal (TNREAT),https://tnreat.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-TN Real Estate Regulatory Authority (TNRERA),https://tnrera.in,"Commissions, Statutory & Autonomous Bodies",E051,unreachable,DNS live; no HTTP response,1
-TN State Wetlands Authority,https://tnswa.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1
-Aavin (TN Co-operative Milk),https://aavin.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Arasu Rubber Corporation Limited,https://arasurubber.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Chennai Metropolitan Development Authority (CMDA),https://www.cmdachennai.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Chennai Metropolitan Water Supply and Sewerage Board,,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1
-Chennai Rivers Restoration Trust,https://www.chennairivers.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1
-Electronics Corporation of Tamil Nadu Ltd. (ELCOT),https://www.elcot.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Guidance Tamil Nadu,https://investingintamilnadu.com,"Boards, Corporations & PSUs",E059,live,HTTP 200; guidancetn.com now unreachable — live Guidance portal is investingintamilnadu.com,1
-"Information Technology Park, Chennai (TIDEL Park)",https://www.tidelpark.com,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1
-Kooturavu — Registrar of Co-operative Societies portal,https://kooturavu.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200 (RCS TN),1
-Koyambedu Wholesale Market Complex,https://mmckwmc.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Medical Services Recruitment Board (MRB),https://www.mrb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Metropolitan Transport Corporation (Chennai) Ltd.,https://mtcbus.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-MSME Investment Promotion Bureau,https://mipb.tn.gov.in,"Boards, Corporations & PSUs",E059,dead,no DNS A record / NXDOMAIN at check time,1
-Overseas Manpower Corporation Ltd.,https://omcmanpower.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Poompuhar Ferry Service,https://psckfs.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1
-Registrar of Cooperative Societies,https://rcs.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1
-Single Window Portal (Business-Related Approvals/ Licenses/ Clearances/ NOCs),https://tnswp.com,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Startup TN,https://startuptn.in,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1
-State Industries Promotion Corporation of Tamil Nadu Limited (SIPCOT),https://sipcot.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO),https://www.tahdco.tn.gov.in,"Boards, Corporations & PSUs",E011,live,recovered on retry (slow NIC network),1
-Tamil Nadu Cooperative Marketing Federation Limited (TANFED),https://www.tanfed.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Tamil Nadu Corporation for Development of Women (TNCDW),https://tncdw.org,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Electrical Inspectorate,https://www.tnei.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Tamil Nadu Energy Development Agency (TEDA),,"Boards, Corporations & PSUs",E005,none,no dedicated website in IGOD listing,1
-Tamil Nadu Forest Plantation Corporation Limited (TAFCORN),https://www.tafcorn.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Tamil Nadu Housing Board,https://tnhb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,recovered on retry (slow NIC network),1
-Tamil Nadu Infrastructure Development Board,https://tnidb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Maritime Board,https://www.tnmaritime.com,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Medical Plant Farms & Herbal Medicine Corporation (TAMPCOL),,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1
-Tamil Nadu Medical Services Corporation Limited (TNMSC),https://tnmsc.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Pollution Control Board (TNPCB),https://tnpcb.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Skill Development Corporation (TNSDC),https://www.tnskill.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Small Industries Corporation Limited,https://www.tansismart.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Small Industries Corporation Limited (TANSI),https://tansi.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamil Nadu State Biodiversity Board,https://tnbb.tn.gov.in,"Boards, Corporations & PSUs",E011,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Tamil Nadu State Land Use Research Board,https://tnslurb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; ⚠ likely compromised — injected gambling spam links observed (2026-10-25); see SECURITY-NOTES.md,1
-Tamil Nadu Technology Development & Promotion Centre,,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1
-Tamil Nadu Traders Welfare Board,https://www.tn.gov.in/tntwb,"Boards, Corporations & PSUs",E011,live,recovered on retry (slow NIC network),1
-Tamil Nadu Uniformed Service Recruitment Board,https://www.tnusrb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Tamil Nadu Water Supply and Drainage Board (TWAD),https://www.twadboard.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamilnadu Arasu Cable TV Corporation Limited (TACTV),https://www.tactv.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamilnadu Cements Corporation Limited,https://www.tancem.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamilnadu Civil Supplies Corporation,https://www.tncsc.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1
-TamilNadu Electrical Licensing Board,https://www.tnelb.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-TamilNadu Electricity Board Limited,https://www.tnebltd.org,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-Tamilnadu Electricity Board Limited (TNEB),,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1
-Tamilnadu Magnesite Limited (TANMAG),https://tanmag.org,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1
-Tamilnadu News Print And Papers Ltd. (TNPL),https://www.tnpl.com,"Boards, Corporations & PSUs",E059,live,recovered on retry (slow NIC network),1
-Tamilnadu State Marketing Corporation Ltd. (TASMAC),https://www.tasmac.co.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-TamilNadu Sugar Corporation Ltd. (TASCO),https://www.tasco.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-TamilNadu Tea Plantation Corporation (TANTEA),https://tantea.nic.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-Tamilnadu Trade Promotion Organization (TNTPO),https://www.chennaitradecentre.org,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1
-TANHODA,https://tanhoda.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1
-TANSIDCO,https://tansidco.org,"Boards, Corporations & PSUs",E011,live,corrected hostname (original guess had no DNS),1
-TANTEA (TN Tea Plantation Corporation),https://tantea.co.in,"Boards, Corporations & PSUs",E059,error,HTTP 429 (rate-limited),2
-Teachers Recruitment Board,https://www.trb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-TEDA,https://teda.tn.gov.in,"Boards, Corporations & PSUs",E005,live,HTTP 200,1
-Textile Trade Facilitation Centre (TTFC),https://ttfc.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1
-The Tamilnadu Industrial Investment Corporation Ltd.,https://www.tiic.org,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-TN BizBuddy (SIPCOT/Guidance),https://tnbizbuddy.com,"Boards, Corporations & PSUs",E059,live,HTTP 200,2
-TN Cable TV Operators & Workers Welfare Board,https://tnctvwb.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-TN Civil Supplies Corporation eDPC,https://tncsc-edpc.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-TN Cooperative Union,https://tncu.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-TN Fisheries Welfare Board,https://tnfwb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-TN Khadi and Village Industries Board,https://tnkvib.tn.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1
-TN Livestock Development Corporation,https://tnlda.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1
-TN Maritime Board,https://tnmaritime.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-TN Police Recruitment Board,https://tnprb.tn.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1
-TN Polymer Park (TANSIDCO),https://tnpolymerpark.com,"Boards, Corporations & PSUs",E059,error,HTTP 403 to bots,2
-TN Road Development Company (TNRIDC),https://tnrd.gov.in,"Boards, Corporations & PSUs",E059,dead,no DNS A record / NXDOMAIN at check time,1
-TN Slum Clearance Board,https://tnscb.org,"Boards, Corporations & PSUs",E011,live,corrected hostname (original guess had no DNS),1
-TN State Transport Corporation (TNSTC/SETC),https://www.tnstc.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1
-TN Urban Habitat Development Board,https://tnuhdb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1
-TN Wakf Board,https://tnwakfboard.org,"Boards, Corporations & PSUs",E011,origin-522,corrected hostname (original guess had no DNS),1
-TNPL Cements (TNPL product portal),https://tnplcement.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,2
-Alagappa University,https://www.alagappauniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Anna University,https://www.annauniv.edu,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Anna University Regional Campus (AURCM), Madurai",https://www.autmdu.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-Anna University Regional Campus - Tirunelveli,https://www.auttvl.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Anna University, Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-Annamalai University,https://annamalaiuniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Bharathiar University, Coimbatore",https://b-u.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Bharathidasan Institute of Management (BIM), Tiruchirappalli",https://www.bim.edu,Universities & Academic Institutions,E009,live,HTTP 200,1
-"Bharathidasan University, Tiruchirappalli",https://www.bdu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-Education Manual Revision,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-"Government College of Engineering (GCE), Salem",https://gcesalem.edu.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-"Government College of Technology, Coimbatore",https://gct.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Government Medical College, Omandurar Government Estate, Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-IIITDM Kancheepuram,https://iiitdm.ac.in,Universities & Academic Institutions,E009,live,"HTTP 200; Institute of National Importance (GoI, TN campus)",1
-Institute of Distance Education University of Madras,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-Madurai Kamaraj University,https://mkuniversity.ac.in,Universities & Academic Institutions,E009,live,recovered on retry (slow NIC network),1
-Manonmaniam Sundaranar University,https://www.msuniv.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Mother Teresa Women's University, Kodaikanal",https://www.motherteresawomenuniv.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Namma School Namma Ooru Palli (NSNOP),https://nammaschool.tnschools.gov.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Periyar University,https://www.periyaruniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Stanley Medical College (SMC), Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-Tamil Nadu Agricultural University (TNAU),https://www.tnau.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Dr. Ambedkar Law University,https://tndalu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Dr. M.G.R. Medical University,https://tnmgrmu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Tamil Nadu Dr.M.G.R. Medical University, Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-Tamil Nadu Institute of Urban Studies,https://www.tnius.org,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-"Tamil Nadu Institute of Urban Studies (TNIUS), Coimbatore",https://www.tniuscbe.org,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Open University,https://www.tnou.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-"Tamil Nadu Physical Education and Sports University, Chennai",https://tnpesu.org,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Schools,https://tnschools.gov.in/welcome,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Nadu State Council for Higher Education (TANSCHE),,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-"Tamil Nadu State Council for Science and Technology, Chennai",https://www.tanscst.tn.gov.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Text Book and Educational Services Corporation,https://textbookcorp.tn.gov.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-"Tamil Nadu Veterinary and Animal Sciences University , TANUVAS",https://www.tanuvas.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamil Unicode New Encoding,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-"Tamil University, Thanjavur",https://www.tamiluniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-Tamil Virtual Academy,https://www.tamilvu.org,Universities & Academic Institutions,E009,live,HTTP 200,1
-TamilNadu Maritime Academy (TNMA),https://www.tn.gov.in/tnma,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Tamilnadu Science & Technology Centre,https://tnstc.gov.in,Universities & Academic Institutions,E009,dead,no DNS A record / NXDOMAIN at check time,1
-TamilNadu Teachers Education University,https://tnteu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-TANSCHE,https://tansche.tn.gov.in,Universities & Academic Institutions,E009,dead,no DNS A record / NXDOMAIN at check time,1
-The Tamil Nadu Agricultural University (TNAU),https://agritech.tnau.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-The Tamil Nadu Dr. Ambedkar Law University,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-"Thiruvalluvar University, Vellore",https://www.tvu.edu.in,Universities & Academic Institutions,E009,live,recovered on retry (slow NIC network),1
-TN Dr. J. Jayalalithaa Fisheries University,https://www.tnjfu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1
-University of Madras,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1
-University of Madras,https://www.unom.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1
-Ariyalur,https://ariyalur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Chengalpattu,https://chengalpattu.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Chennai,https://chennai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Coimbatore,https://coimbatore.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Cuddalore,https://cuddalore.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Dharmapuri,https://dharmapuri.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Dindigul,https://dindigul.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Erode,https://erode.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Kallakurichi,https://kallakurichi.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Kancheepuram,https://kancheepuram.nic.in,Districts,E042,live,HTTP 200,1
-Kanniyakumari,https://kanniyakumari.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Karur,https://karur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Krishnagiri,https://krishnagiri.nic.in,Districts,E042,live,HTTP 200,1
-Madurai,https://madurai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Mayiladuthurai,https://mayiladuthurai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Nagapattinam,https://www.nagapattinam.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Namakkal,https://namakkal.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Perambalur,https://perambalur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Pudukkottai,https://pudukkottai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Ramanathapuram,https://ramanathapuram.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Ranipet,,Districts,E042,none,no dedicated website in IGOD listing,1
-Salem,https://salem.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Sivaganga,https://sivaganga.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Tenkasi,https://tenkasi.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Thanjavur,https://thanjavur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-The Nilgiris,https://nilgiris.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Theni,https://theni.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Thiruvallur,https://tiruvallur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Thiruvarur,https://tiruvarur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Thoothukkudi,https://thoothukudi.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Tiruchirappalli,https://tiruchirappalli.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Tirunelveli,https://tirunelveli.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Tirupathur,https://tirupathur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Tiruppur,https://tiruppur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Tiruvannamalai,https://tiruvannamalai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Vellore,https://vellore.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Viluppuram,https://viluppuram.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Virudhunagar,https://virudhunagar.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1
-Chennai Metro Water (CMWSSB),https://chennaimetrowater.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Coimbatore City Municipal Corporation,https://coimbatorecorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Coimbatore City Municipal Corporation,https://ccmc.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200 (corrected hostname; the .tn.gov.in variant has no DNS),1
-Dindigul Corporation,https://dindigulcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Erode Corporation,https://erodecorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Greater Chennai Corporation,https://chennaicorporation.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200; strict TLS OK,1
-Madurai Corporation,https://maduraicorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Nagercoil Corporation,https://nagercoilcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Salem Corporation,https://salemcorporation.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,corrected hostname (original guess had no DNS),1
-Tambaram Corporation,https://tambaramcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200,1
-Thanjavur Corporation,https://thanjavurcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Thoothukudi Corporation,https://thoothukudicorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Tiruchirappalli Corporation,https://trichycorporation.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Tirunelveli Corporation,https://www.tirunelvelicorporation.com,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200; strict TLS OK,1
-Tiruppur Corporation,https://tiruppurcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Vellore Corporation,https://vellorecorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1
-Chief Electoral Officer,https://elections.tn.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; strict TLS OK,1
-Madras High Court,https://hcmadras.tn.gov.in,"Law, Judiciary & Legislature",JUD,live,HTTP 200; new HC portal (mhc.tn.gov.in legacy also resolves),1
-Raj Bhavan (Lok Bhavan),https://tnrajbhavan.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; corrected hostname (rajbhavan.tn.gov.in has no DNS),1
-State Election Commission,https://tnsec.tn.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Legislative Assembly,https://assembly.tn.gov.in,"Law, Judiciary & Legislature",LEG,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Lokayukta,https://tnlokayukta.tn.gov.in,"Law, Judiciary & Legislature",JUD,dead,no DNS A record / NXDOMAIN at check time,1
-Tamil Nadu Public Service Commission,https://tnpsc.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; strict TLS OK,1
-TN Legislative Assembly Digital Repository,https://tnlasdigital.tn.gov.in,"Law, Judiciary & Legislature",OTHR,live,HTTP 200,1
-TN State Legal Services Authority,https://tnlsa.gov.in,"Law, Judiciary & Legislature",JUD,dead,no DNS A record / NXDOMAIN at check time,1
-Animal Disease Info System,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Anna Centenary Celebrations INPR,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Anna Centenary Library,https://annacentenarylibrary.org,"Schemes, Programmes & e-Governance Portals",OTHR,dead,no DNS A record / NXDOMAIN at check time,1
-Archives and Historical Research,https://www.tnarchives.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,error,HTTP 404 — site offline (2026-10-25 sweep; see SECURITY-NOTES.md),1
-"Central Electrical Testing Laboratory (CETL), Kakkalur",https://cetl.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Chief Minister's Comprehensive Health Insurance Scheme,https://cmchistn.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,2
-Chief Minister's Special Cell (Mudhalvarin Mugavari),https://cms.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-Commissionerate of Employmnet and Traning,https://skilltraining.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Comprehensive Audit Management System,https://cams.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-Court Case Monitoring System,https://www.ccms.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-COVID-19 Updates & Information,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-"CRA, CLA, CLR Management Information System",https://gdp.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-e-Pay and Receive (Treasury),https://epayandreceive.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,1
-e-Payment System,https://tnregipayment.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Economic Offences Wing,https://www.tneow.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-EIACP PC-HuB State of Environment and Related Issues,https://tnenvis.nic.in,"Schemes, Programmes & e-Governance Portals",OTHR,dead,no DNS A record / NXDOMAIN at check time,1
-EMIS (School Education),https://emis.tnschools.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200,1
-eProcurement System,https://tntenders.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Examination Results,https://tnresults.nic.in,"Schemes, Programmes & e-Governance Portals",OTHR,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Fire and Rescue Services,https://www.tnfrs.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Forensic Sciences Department,https://www.forensic.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-Geographical Information System - Nagapattinam,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-"Geographical Information System, Cuddalore",,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Government Budget Text 2023-2024,https://www.tnbudget.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-"Government Museum, Chennai",https://governmentmuseumchennai.org,"Schemes, Programmes & e-Governance Portals",OTHR,dead,no DNS A record / NXDOMAIN at check time,1
-High Court Judgements,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Karuvoolam (IFHRMS),https://karuvoolam.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-Makkalai Thedi Maruthuvam,https://mtm.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,1
-Mineral Management System,https://mimas.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-Mudhalvar Marundhagam Portal,https://mudhalvarmarundhagam.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2
-MyGov Tamil Nadu,https://tamilnadu.mygov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Naan Mudhalvan,https://naanmudhalvan.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2
-National Health Mission TN,https://nhm.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-Office of the Chief Electoral Officer,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Online Citizen Services Portal,https://edistricts.tn.gov.in:8443/certificates_csc,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Open Government Data Portal,https://tn.data.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Public Distribution Scheme (PDS),https://tnpds.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,recovered on retry (slow NIC network),2
-Puratchi Thalaivar M.G.R. Nutritious Meal Programme (Mid Day Meal Scheme),https://middaymeal.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,2
-Sarasvati Mahal Library,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Season & Crop Report Tamilnadu,,"Schemes, Programmes & e-Governance Portals",E043,none,no dedicated website in IGOD listing,1
-"State Ground and Surface Water Resources Data Centre, Taramani, Chennai",,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Tamil Nadu Agricultural Weather Network (TAWN),,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Tamil Nadu eSevai Portal,https://www.tnesevai.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Geographical Information System,https://tngis.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Green Climate Company (TNGCC),https://www.tngcc.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2
-Tamil Nadu Health Systems Project (TNHSP),https://www.tnhsp.org,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,2
-Tamil Nadu House - New Delhi,https://tnhouse.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamil Nadu IT Nanban Portal,https://www.itnanban.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,2
-"Tamil Nadu Nurses and Midwives Council, Chennai",https://www.tamilnadunursingcouncil.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Tamil Nadu Panchayat Tax Portal,https://vptax.tnrd.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2
-Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act-2017,https://www.tenancy.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Tamil Nadu State AIDS Control Society,https://tnsacs.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamil Nadu State Apex Co-op. Bank Ltd. (TNSC Bank),https://www.tnscbank.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamil Nadu Urban Infrastructure Financial Services,https://www.tnuifsl.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Tamil Nadu Urban Infrastructure Financial Services Ltd.,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1
-Tamilnadu Generation and Distribution Corporation Limited (TANGEDCO),https://www.tangedco.org/en,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-TamilNadu Industrial Development Corporation Ltd.,https://tidco.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamilnadu Postal Circle,https://tamilnadupost.cept.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Tamilnadu Power Finance and Infrastructure Development Corporation Limited,https://www.tnpowerfinance.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1
-Tamilnadu Single Window Portal for Planning Permission,https://onlineppa.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2
-Tamilnadu Tourism Development Corporation (TTDC),https://www.ttdconline.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,recovered on retry (slow NIC network),1
-The Tamilnadu Handloom Weavers Co-operative Society Ltd. (Co-optex),https://www.cooptex.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-TICEL Biopark Ltd.,https://ticelbiopark.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-TN e-Governance - eSevai,https://tnesevai.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-TN e-Pension,https://epension.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1
-TN Medical Selection (DME admissions),https://tnmedicalselection.org,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-TN State Pharmacy Council,https://www.tnpharmacycouncil.org,"Schemes, Programmes & e-Governance Portals",OTHR,nxdomain,domain not found (defunct/retired),1
-TNEA Counselling (Anna University),https://tneaonline.org,"Schemes, Programmes & e-Governance Portals",SPMA,live,recovered on retry (slow NIC network),1
-TNPSC Exams Portal,https://tnpscexams.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-TNSand,https://tnsand.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,1
-TNUrbanPay,https://tnurbanepay.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1
-Transplant Authority,https://transtan.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1
-Chennai Smart City Limited (CSCL),https://cscl.co.in,Smart City SPVs (Tier 2),E059,error,server up but HTTP 500 at check time,2
-Coimbatore Smart City (Idhu Namma Kovai),https://coimbatoresmartcity.org,Smart City SPVs (Tier 2),E059,live,HTTP 200,2
-CSCL Open Data Portal,https://opendata.cscl.co.in/welcome,Smart City SPVs (Tier 2),E059,live,HTTP 200,2
-Erode Smart City,https://erodesmartcity.org,Smart City SPVs (Tier 2),E059,live,HTTP 200 (redirects to www.erodesmartcity.org),2
-Madurai Smart City,https://maduraismartcity.in,Smart City SPVs (Tier 2),E059,dead,domain squatted — serves gambling content (2026-10-25); SPV site offline; see SECURITY-NOTES.md,2
-Salem Smart City,https://salemsmartcity.org,Smart City SPVs (Tier 2),E059,live,HTTP 200,2
-Singara Chennai 2.0 (GCC project),https://singarachennai.com,Smart City SPVs (Tier 2),E059,live,HTTP 200,2
-Crop Survey / e-Adangal,https://cropsurvey.tnega.org/dashboard/index.html,e-Governance Platforms (Tier 2),SPMA,live,HTTP 200,2
-Pudhumai Penn scheme portal,https://pudhumaipenn.tnega.org,e-Governance Platforms (Tier 2),SPMA,unreachable,DNS live (AWS-hosted); unreachable from verification network,2
-TN Direct Benefit Transfer (DBT) Portal,https://dbt.tn.gov.in,e-Governance Platforms (Tier 2),SPMA,live,HTTP 200,2
-TNeGA (alternate domain),https://tnega.org,e-Governance Platforms (Tier 2),E051,live,redirects to tnega.tn.gov.in,2
-UMIS - Unified Monitoring Information System (Pudhumai Penn / Tamil Pudhalvan),https://umisdashboard.tnega.org,e-Governance Platforms (Tier 2),SPMA,live,HTTP 200,2
-Green Tamil Nadu Mission,https://greentnmission.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-Kalakkad Mundanthurai Tiger Reserve (KMTR),https://kmtr.co.in,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-Nilgiris Tree Cutting Permissions,https://nilgiristreecuttingpermissions.org,Eco-Tourism & Environment (Tier 2),OTHR,error,HTTP 429 (rate-limited),2
-Project Nilgiri Tahr,https://tnprojectnilgiritahr.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-Sathyamangalam Tiger Reserve,https://sathytiger.tn.gov.in,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-Thamizh Maram (timber & tree cultivation),https://thamizhmaram.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-TN Biodiversity Conservation & Greening Project (TGBPCCR),https://tbgpccr.tn.gov.in,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-TN Wilderness Experiences Corporation (TNWEC),https://tnwec.com,Eco-Tourism & Environment (Tier 2),E059,live,HTTP 200,2
-TN Wildscapes (eco-tourism booking portal),https://tnwildscapes.com,Eco-Tourism & Environment (Tier 2),E059,live,HTTP 200,2
-TNFD Yaanai (Thadam),https://tnfdyaanai.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-TNFWCCB (wildlife conflict mitigation),https://tnfwccb.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-Trek Tamil Nadu (TNWEC),https://trektamilnadu.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2
-AD&TW Dept Overseas Scholarship,https://tnadwscholarship.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-Anna University e-Governance (CeGov),https://auegov.ac.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-CKICP (Highways Dept project portal),https://ckicp.tn.gov.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-DipExOnline (DGE exam portal),https://dipexamstndte.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-DoTE GTE portal,https://tndtegteonline.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-DOTE Polytechnic admissions,https://tnpoly.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-DoTE Web Apps,https://tndotehub.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-Ground & Surface Water Resources Data Centre (WRD),https://groundwatertnpwd.org.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-IMTI (WRD training institute),https://tamilnaduimti.org,Service Portals & Projects (Tier 2),OTHR,error,HTTP 403 to bots,2
-Kani Tamil (Tamil Virtual Academy),https://kanitamil.in,Service Portals & Projects (Tier 2),OTHR,error,HTTP 403 to bots,2
-PM-KUSUM Solar Pumps (TN),https://pmkusum.tn.gov.in,Service Portals & Projects (Tier 2),SPMA,live,HTTP 200,2
-PTBE-TNEA (DOTE admissions),https://ptbe-tnea.com,Service Portals & Projects (Tier 2),OTHR,unreachable,DNS live; no HTTP response,2
-Tamil Digital Library,https://tamildigitallibrary.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-Tamil Nadu Open University student portal,https://tnouportal.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-Thiran 360 (administrative capacity building),https://thiran360.tn.gov.in,Service Portals & Projects (Tier 2),SPMA,live,HTTP 200,2
-TN AYUSH admissions,https://tnayushonline.co.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN ePass,https://epass.tnega.org,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN Fisheries Development Corporation,https://tnfdc.in,Service Portals & Projects (Tier 2),E059,live,HTTP 200,2
-TN Green Climate Company tracker,https://trackertngcc.tn.gov.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN Lateral Entry admissions,https://tnlea.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN MBA/MCA counselling,https://tn-mbamca.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN Medical Selection (DME Selection Committee),https://tnmedicalselection.net,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN Road Sector Project II (TNRSP-II),https://tnrsp.tn.gov.in,Service Portals & Projects (Tier 2),SPMA,live,HTTP 200,2
-TN Rural Transformation Project (TNRTP),https://tnrtp.org,Service Portals & Projects (Tier 2),SPMA,unreachable,DNS live; no HTTP response,2
-TN Tourism Awards,https://tntourismawards.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TN Tourism Operator Registration System,https://tntourismtors.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-TNsand (WRD sand mining portal),https://tnsand.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-Trichy Master Plan (DTCP),https://trichymasterplan.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-University of Madras — Institute of Distance Education,https://ideunom.ac.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2
-Coimbatore City Police,https://coimbatorecitypolice.com,Others,OTHR,live,HTTP 200,1
-Wildlife Division Chennai (Forest Dept),https://wlwchennai.tn.gov.in,Others,OTHR,live,HTTP 200,1
-Illam Thedi Kalvi (Education at the Doorstep),https://illamthedikalvi.tnschools.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200,2
-TN-RISE Women Start-Up Council,https://tnrise.co.in,Service Portals & Projects (Tier 2),E059,live,HTTP 200,2
+name,url,group,igod_type,status,detail,tier,cert_expires,emudhra
+Official Portal of Tamil Nadu Government,https://www.tn.gov.in,State Portal & Key e-Governance,SPORT,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Tamil Nadu CM Helpline 1100,https://cmhelpline.tnega.org,State Portal & Key e-Governance,SPORT,live,HTTP 200,2,2026-12-06,unaffected
+Agri Marketing & Agri Business portal,https://agrimark.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-12-28,unaffected
+Birth & Death Certificates Portal (crstn.org),https://crstn.org,Key e-Governance Portals & Services,OTHR,live,HTTP 200; /birth_death_tn/,1,2027-04-30,unaffected
+CM Special Cell,https://cmcell.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1,,
+DGE Certificate Verification,https://dgeverification.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1,,
+eAdangal (agriculture records),https://eadangal.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-10-21,unaffected
+Easy Business (single-window clearances),https://easybusiness.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1,,
+Emunnetram (infra project monitoring),https://emunnetram.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-07-16,unaffected
+ePMS Revenue,https://epmsrevenue.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-12-20,unaffected
+Flag Day Fund (online donation),https://flagday.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-11-15,unaffected
+Naan Mudhalvan Skill Development Portal,https://skilldevelopment.tn.gov.in,Key e-Governance Portals & Services,SPMA,live,HTTP 200,1,2027-01-30,unaffected
+Nallosai (Adi Dravidar & Tribal Welfare portal),https://nallosai.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2027-04-23,unaffected
+OCMMS (TNPCB online consent management),https://ocmms.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-10-30,unaffected
+PUNAL (drinking water grievance redressal),https://punal.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-11-22,unaffected
+RTI Online Tamil Nadu,https://rtionline.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-10-25,unaffected
+SGH Guest House Booking (TN House),https://sgh.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2027-02-26,unaffected
+State Scholarship Portal (SSP),https://ssp.tn.gov.in,Key e-Governance Portals & Services,OTHR,error,HTTP 503 (service restarting),1,2026-01-24,unaffected
+TanFINet (TN Financial Network),https://tanfinet.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-11-12,unaffected
+TN Awards Portal,https://awards.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-11-11,unaffected
+TN CM Public Relief Fund (TNCMPRF),https://cmprf.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 403 to bots; operational,1,2026-12-20,unaffected
+TN eDistrict,https://tnedistrict.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2027-03-24,unaffected
+TN Private Jobs Portal,https://tnprivatejobs.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2026-10-24,unaffected
+TN Tenders Portal,https://tenders.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1,,
+TN Urban eSeva (Commissionerate of Municipal Administration),https://tnurbaneseva.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,,
+TWAD Board e-ODB,https://twadeodb.tn.gov.in,Key e-Governance Portals & Services,OTHR,live,HTTP 200,1,2027-02-04,unaffected
+UMIS (education management information system),https://umis.tn.gov.in,Key e-Governance Portals & Services,OTHR,unreachable,DNS live; unreachable from verification network (NIC-hosted),1,,
+Agricultural Engineering Department,https://aed.tn.gov.in/ta,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-15,unaffected
+Agriculture and Farmers Welfare Department,https://www.tnagrisnet.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-26,unaffected
+Animal Husbandry Department,https://ahd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-01-10,unaffected
+Archaeology Department,https://www.tnarch.gov.in,Secretariat Departments,E003,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Art and Culture Department,https://artandculture.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-25,unaffected
+Backward Classes Most Backward Classes and Minorities Welfare Department,https://bcmbcmw.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1,2026-11-23,unaffected
+Civil Supplies and Consumer Protection Department,https://consumer.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1,2027-01-21,unaffected
+Co-operative Audit Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+Commercial Taxes Department,https://ctd.tn.gov.in,Secretariat Departments,E003,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Department of Textiles,https://tntextilesschemes.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-11,unaffected
+Employment and Training Department,https://employmentexchange.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-10-24,unaffected
+Energy Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+Environment and Climate Change Department,https://www.environment.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-10,unaffected
+Finance Department,https://financedept.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-03-10,unaffected
+Fire Service Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+Fisheries Department,https://www.fisheries.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-06,unaffected
+Food Safety and Drug Administration Department,https://www.drugscontrol.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1,,
+Geology and Mining Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+Handlooms Department,https://www.tnhandlooms.tn.gov.in/english,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-01-09,unaffected
+Health and Family Welfare Department,https://tnhealth.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-01-12,unaffected
+Highways Department,https://www.tnhighways.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-01-12,unaffected
+Hindu Religious & Charitable Endowments Department,https://hrce.tn.gov.in/hrcehome/index.php,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-12,unaffected
+Horticulture and Plantation Crops Department,https://www.tnhorticulture.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-10-25,unaffected
+Housing and Urban Development Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+Information Technology Department,https://it.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-27,unaffected
+Labour Department,https://labour.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-01-10,unaffected
+Law Department,https://www.tn.gov.in/department/19,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Micro Small and Medium Enterprises Department,https://www.msmeonline.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-04-29,unaffected
+Personnel and Administrative Reforms Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+"Planning, Development and Special Initiatives Department",https://www.tn.gov.in/department/23,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Prison Department,https://prisons.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1,2024-05-29,unaffected
+Prohibition and Excise Department,https://tncpe.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-25,unaffected
+Public Department,https://www.tn.gov.in/department/24,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Public Works Department,https://www.tn.gov.in/department/42,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Public Works Department,https://pwd.tn.gov.in,Secretariat Departments,E003,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Rural Development and Panchayat Raj Department,https://www.tnrd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-04-29,unaffected
+School Education Department,https://tnschools.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-02-27,unaffected
+Sericulture Department,https://tnsericulture.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-09,g1-watch
+Social Reforms Department,https://www.tn.gov.in/department/39,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Social Welfare and Women Empowerment Department,https://www.tnsocialwelfare.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-17,unaffected
+Special Programme Implementation Department,https://www.tn.gov.in/department/41,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Sports Development Authority,https://www.sdat.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-22,unaffected
+Stationery and Printing Department,,Secretariat Departments,E003,none,no dedicated website in IGOD listing,1,,
+Survey and Settlement Department,https://eservices.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-06,unaffected
+Tamil Development and Information Department,https://www.tn.gov.in/department/31,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Tamil Nadu Forest Department,https://forests.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-15,unaffected
+Tamil Nadu Motor Vehicles Maintenance Department,https://www.tnmvmd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1,2027-01-10,unaffected
+Textiles Department,https://tntextiles.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-05-04,unaffected
+TN Adi Dravidar Welfare,https://adidravidar.tn.gov.in,Secretariat Departments,E003,dead,no DNS A record / NXDOMAIN at check time,1,,
+TNREGINET (Registration Dept),https://tnreginet.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Tourism Department,https://www.tamilnadutourism.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2027-02-07,unaffected
+Transport and Road Safety Commission,https://tnsta.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-12-03,unaffected
+Transport Department TN,https://transport.tn.gov.in,Secretariat Departments,E003,dead,no DNS A record / NXDOMAIN at check time,1,,
+Treasuries and Accounts Department,https://www.tn.gov.in/karuvoolam/whatsnew.html,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Tribal Welfare Department,https://www.tntribalwelfare.tn.gov.in,Secretariat Departments,E003,live,HTTP 200; strict TLS OK,1,2026-11-20,unaffected
+Water Resources Department,https://www.wrd.tn.gov.in,Secretariat Departments,E003,live,HTTP 200,1,2026-07-11,unaffected
+"Central GST Commissionerate, Coimbatore",https://coimbatoregst.gov.in,Directorates & Commissionerates,E004,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Commissionerate of Municipal Administration,https://cma.tn.gov.in,Directorates & Commissionerates,E004,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Commissionerate of Revenue Administration and Disaster Management,https://www.cra.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,,
+Commissionerate of Survey & Settlement,https://tnlandsurvey.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,2026-12-10,unaffected
+Directorate for Welfare of the Differently Abled,https://www.scd.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,2027-01-20,unaffected
+Directorate of Boilers,https://www.boilers.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,2027-01-20,unaffected
+Directorate of Collegiate Education,https://www.tndce.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,2026-12-04,unaffected
+Directorate of Ex-Servicemen's Welfare,https://www.exwel.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,2026-10-11,unaffected
+Directorate of Government Examinations,https://www.dge.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,,
+Directorate of Indian Medicine & Homoeopathy,https://tnism.tn.gov.in,Directorates & Commissionerates,E004,dead,no DNS A record / NXDOMAIN at check time,1,,
+Directorate of Industrial Safety and Health,https://dish.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,,
+Directorate of Medical Education,https://dme.tn.gov.in,Directorates & Commissionerates,E004,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Directorate of Pension Tamil Nadu,https://www.tn.gov.in/dop,Directorates & Commissionerates,E004,live,recovered on retry (slow NIC network),1,2026-11-11,unaffected
+Directorate of Prosecution,https://prosecution.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,2026-11-22,unaffected
+Directorate of Public Health & Preventive Medicine,https://tndphpm.com,Directorates & Commissionerates,E004,error,HTTP 429 (rate-limited),1,2026-12-06,unaffected
+Directorate of Technical Education - Chennai,https://dte.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200,1,,
+"Directorate of Technical Education, Diploma Exam Time Table",,Directorates & Commissionerates,E004,none,no dedicated website in IGOD listing,1,,
+Directorate of Town and Country Planning,https://tcp.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,2026-11-10,unaffected
+Directorate of Town Panchayats,https://www.tn.gov.in/dtp,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Directorate of Vigilance & Anti-Corruption,https://www.dvac.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,,
+TN Agri Marketing (Agri Markets),https://tnagmark.tn.gov.in,Directorates & Commissionerates,E004,dead,no DNS A record / NXDOMAIN at check time,1,,
+TN Employment Exchange (legacy portal),https://tnvelaivaaippu.gov.in,Directorates & Commissionerates,E004,live,recovered on retry (slow NIC network),1,,
+TN Food Safety,https://foodsafety.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,2026-12-13,unaffected
+TNVAT (legacy),https://tnvat.gov.in,Directorates & Commissionerates,E004,dead,no DNS A record / NXDOMAIN at check time,1,,
+"Virtual Learning Portal, Commissionerate of Employment & Training",https://tamilnaducareerservices.tn.gov.in,Directorates & Commissionerates,E004,live,HTTP 200; strict TLS OK,1,2026-11-18,unaffected
+Chennai City Police,,"Commissions, Statutory & Autonomous Bodies",E051,none,no dedicated website in IGOD listing,1,,
+Commissionerate of Rural Development and Panchayat Raj (Training),https://crdpr.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+SEIAA Tamil Nadu (environment impact assessment),https://seiaa.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-11-30,unaffected
+State Human Rights Commission,https://www.shrc.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,live,HTTP 200,1,2026-11-14,unaffected
+State Planning Commission (SPC),https://www.spc.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,live,HTTP 200; strict TLS OK,1,2026-12-09,unaffected
+Tamil Nadu e-Governance Agency,https://tnega.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200; strict TLS OK,1,2026-12-30,unaffected
+Tamil Nadu Electricity Regulatory Commission (TNERC),https://tnerc.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Tamil Nadu Information Commission,https://www.tnsic.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,live,HTTP 200; strict TLS OK,1,2026-12-07,unaffected
+Tamil Nadu Kaval (Community Policing),https://kaval.arspolice.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,dead,no DNS A record / NXDOMAIN at check time,1,,
+Tamil Nadu Police,https://eservices.tnpolice.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-09-24,unaffected
+Tamil Nadu Police,https://tnpolice.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-09-24,unaffected
+Tamil Nadu Police (alternate portal),https://police.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,unreachable,DNS live; unreachable from verification network (NIC-hosted),1,2027-04-05,unaffected
+Tamil Nadu Real Estate Regulatory Authority (TNRERA),https://rera.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200; strict TLS OK,1,2026-12-31,unaffected
+Tamil Nadu State Disaster Management Authority (TNSDMA),https://tnsdma.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-06-30,unaffected
+TN Child Rights Commission,https://tncpcr.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E013,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+TN e-Governance Agency,https://www.tnega.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-12-30,unaffected
+TN Real Estate Appellate Tribunal (TNREAT),https://tnreat.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-11-22,unaffected
+TN Real Estate Regulatory Authority (TNRERA),https://tnrera.in,"Commissions, Statutory & Autonomous Bodies",E051,unreachable,DNS live; no HTTP response,1,,
+TN State Wetlands Authority,https://tnswa.tn.gov.in,"Commissions, Statutory & Autonomous Bodies",E051,live,HTTP 200,1,2026-11-04,unaffected
+Aavin (TN Co-operative Milk),https://aavin.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-01-22,unaffected
+Arasu Rubber Corporation Limited,https://arasurubber.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-12-22,unaffected
+Chennai Metropolitan Development Authority (CMDA),https://www.cmdachennai.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-05,unaffected
+Chennai Metropolitan Water Supply and Sewerage Board,,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1,,
+Chennai Rivers Restoration Trust,https://www.chennairivers.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1,,
+Electronics Corporation of Tamil Nadu Ltd. (ELCOT),https://www.elcot.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,,
+Guidance Tamil Nadu,https://investingintamilnadu.com,"Boards, Corporations & PSUs",E059,live,HTTP 200; guidancetn.com now unreachable — live Guidance portal is investingintamilnadu.com,1,2027-01-20,unaffected
+"Information Technology Park, Chennai (TIDEL Park)",https://www.tidelpark.com,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1,2027-01-09,unaffected
+Kooturavu — Registrar of Co-operative Societies portal,https://kooturavu.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200 (RCS TN),1,2027-03-11,unaffected
+Koyambedu Wholesale Market Complex,https://mmckwmc.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-12-19,unaffected
+Medical Services Recruitment Board (MRB),https://www.mrb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-01-29,unaffected
+Metropolitan Transport Corporation (Chennai) Ltd.,https://mtcbus.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2027-03-04,unaffected
+MSME Investment Promotion Bureau,https://mipb.tn.gov.in,"Boards, Corporations & PSUs",E059,dead,no DNS A record / NXDOMAIN at check time,1,,
+Overseas Manpower Corporation Ltd.,https://omcmanpower.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-20,unaffected
+Poompuhar Ferry Service,https://psckfs.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1,2026-11-19,unaffected
+Registrar of Cooperative Societies,https://rcs.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1,2026-09-24,unaffected
+Single Window Portal (Business-Related Approvals/ Licenses/ Clearances/ NOCs),https://tnswp.com,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-01-01,unaffected
+Startup TN,https://startuptn.in,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1,2027-04-11,unaffected
+State Industries Promotion Corporation of Tamil Nadu Limited (SIPCOT),https://sipcot.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-11-18,unaffected
+Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO),https://www.tahdco.tn.gov.in,"Boards, Corporations & PSUs",E011,live,recovered on retry (slow NIC network),1,2024-09-16,unaffected
+Tamil Nadu Cooperative Marketing Federation Limited (TANFED),https://www.tanfed.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-11-26,unaffected
+Tamil Nadu Corporation for Development of Women (TNCDW),https://tncdw.org,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Tamil Nadu Electrical Inspectorate,https://www.tnei.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2027-01-24,unaffected
+Tamil Nadu Energy Development Agency (TEDA),,"Boards, Corporations & PSUs",E005,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu Forest Plantation Corporation Limited (TAFCORN),https://www.tafcorn.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2027-01-22,unaffected
+Tamil Nadu Housing Board,https://tnhb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,recovered on retry (slow NIC network),1,,
+Tamil Nadu Infrastructure Development Board,https://tnidb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Tamil Nadu Maritime Board,https://www.tnmaritime.com,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-01,unaffected
+Tamil Nadu Medical Plant Farms & Herbal Medicine Corporation (TAMPCOL),,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu Medical Services Corporation Limited (TNMSC),https://tnmsc.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-01-12,unaffected
+Tamil Nadu Pollution Control Board (TNPCB),https://tnpcb.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-10-30,unaffected
+Tamil Nadu Skill Development Corporation (TNSDC),https://www.tnskill.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1,2026-10-25,unaffected
+Tamil Nadu Small Industries Corporation Limited,https://www.tansismart.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Tamil Nadu Small Industries Corporation Limited (TANSI),https://tansi.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-01-29,unaffected
+Tamil Nadu State Biodiversity Board,https://tnbb.tn.gov.in,"Boards, Corporations & PSUs",E011,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Tamil Nadu State Land Use Research Board,https://tnslurb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; ⚠ likely compromised — injected gambling spam links observed (2026-10-25); see SECURITY-NOTES.md,1,2027-03-19,unaffected
+Tamil Nadu Technology Development & Promotion Centre,,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu Traders Welfare Board,https://www.tn.gov.in/tntwb,"Boards, Corporations & PSUs",E011,live,recovered on retry (slow NIC network),1,2026-11-11,unaffected
+Tamil Nadu Uniformed Service Recruitment Board,https://www.tnusrb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2027-04-10,unaffected
+Tamil Nadu Water Supply and Drainage Board (TWAD),https://www.twadboard.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-02-24,unaffected
+Tamilnadu Arasu Cable TV Corporation Limited (TACTV),https://www.tactv.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-03-14,unaffected
+Tamilnadu Cements Corporation Limited,https://www.tancem.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-03,unaffected
+Tamilnadu Civil Supplies Corporation,https://www.tncsc.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1,2026-12-29,unaffected
+TamilNadu Electrical Licensing Board,https://www.tnelb.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-11-23,unaffected
+TamilNadu Electricity Board Limited,https://www.tnebltd.org,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,,
+Tamilnadu Electricity Board Limited (TNEB),,"Boards, Corporations & PSUs",E011,none,no dedicated website in IGOD listing,1,,
+Tamilnadu Magnesite Limited (TANMAG),https://tanmag.org,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1,2026-12-24,unaffected
+Tamilnadu News Print And Papers Ltd. (TNPL),https://www.tnpl.com,"Boards, Corporations & PSUs",E059,live,recovered on retry (slow NIC network),1,2026-12-27,unaffected
+Tamilnadu State Marketing Corporation Ltd. (TASMAC),https://www.tasmac.co.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-23,unaffected
+TamilNadu Sugar Corporation Ltd. (TASCO),https://www.tasco.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-12,unaffected
+TamilNadu Tea Plantation Corporation (TANTEA),https://tantea.nic.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-05-25,g1-watch
+Tamilnadu Trade Promotion Organization (TNTPO),https://www.chennaitradecentre.org,"Boards, Corporations & PSUs",E059,live,HTTP 200; strict TLS OK,1,2027-03-18,unaffected
+TANHODA,https://tanhoda.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1,,
+TANSIDCO,https://tansidco.org,"Boards, Corporations & PSUs",E011,live,corrected hostname (original guess had no DNS),1,2027-01-07,unaffected
+TANTEA (TN Tea Plantation Corporation),https://tantea.co.in,"Boards, Corporations & PSUs",E059,error,HTTP 429 (rate-limited),2,2026-11-27,unaffected
+Teachers Recruitment Board,https://www.trb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-04-26,unaffected
+TEDA,https://teda.tn.gov.in,"Boards, Corporations & PSUs",E005,live,HTTP 200,1,2027-01-07,unaffected
+Textile Trade Facilitation Centre (TTFC),https://ttfc.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1,2027-01-03,unaffected
+The Tamilnadu Industrial Investment Corporation Ltd.,https://www.tiic.org,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2026-12-09,unaffected
+TN BizBuddy (SIPCOT/Guidance),https://tnbizbuddy.com,"Boards, Corporations & PSUs",E059,live,HTTP 200,2,2027-04-14,unaffected
+TN Cable TV Operators & Workers Welfare Board,https://tnctvwb.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2027-01-04,unaffected
+TN Civil Supplies Corporation eDPC,https://tncsc-edpc.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2027-01-31,unaffected
+TN Cooperative Union,https://tncu.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-10-25,unaffected
+TN Fisheries Welfare Board,https://tnfwb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-11-01,unaffected
+TN Khadi and Village Industries Board,https://tnkvib.tn.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1,,
+TN Livestock Development Corporation,https://tnlda.tn.gov.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,1,2026-11-08,unaffected
+TN Maritime Board,https://tnmaritime.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-12-08,unaffected
+TN Police Recruitment Board,https://tnprb.tn.gov.in,"Boards, Corporations & PSUs",E011,dead,no DNS A record / NXDOMAIN at check time,1,,
+TN Polymer Park (TANSIDCO),https://tnpolymerpark.com,"Boards, Corporations & PSUs",E059,error,HTTP 403 to bots,2,2026-12-18,unaffected
+TN Road Development Company (TNRIDC),https://tnrd.gov.in,"Boards, Corporations & PSUs",E059,dead,no DNS A record / NXDOMAIN at check time,1,,
+TN Slum Clearance Board,https://tnscb.org,"Boards, Corporations & PSUs",E011,live,corrected hostname (original guess had no DNS),1,2026-12-23,unaffected
+TN State Transport Corporation (TNSTC/SETC),https://www.tnstc.in,"Boards, Corporations & PSUs",E011,live,HTTP 200; strict TLS OK,1,2027-01-05,unaffected
+TN Urban Habitat Development Board,https://tnuhdb.tn.gov.in,"Boards, Corporations & PSUs",E011,live,HTTP 200,1,2026-11-02,unaffected
+TN Wakf Board,https://tnwakfboard.org,"Boards, Corporations & PSUs",E011,origin-522,corrected hostname (original guess had no DNS),1,2027-01-04,unaffected
+TNPL Cements (TNPL product portal),https://tnplcement.in,"Boards, Corporations & PSUs",E059,live,HTTP 200,2,2027-01-14,unaffected
+Alagappa University,https://www.alagappauniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-01-12,unaffected
+Anna University,https://www.annauniv.edu,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-04-21,unaffected
+"Anna University Regional Campus (AURCM), Madurai",https://www.autmdu.in,Universities & Academic Institutions,E009,live,HTTP 200,1,,
+Anna University Regional Campus - Tirunelveli,https://www.auttvl.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-12-17,unaffected
+"Anna University, Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+Annamalai University,https://annamalaiuniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-01-10,unaffected
+"Bharathiar University, Coimbatore",https://b-u.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-03-11,unaffected
+"Bharathidasan Institute of Management (BIM), Tiruchirappalli",https://www.bim.edu,Universities & Academic Institutions,E009,live,HTTP 200,1,2027-02-23,unaffected
+"Bharathidasan University, Tiruchirappalli",https://www.bdu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1,2027-03-23,unaffected
+Education Manual Revision,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+"Government College of Engineering (GCE), Salem",https://gcesalem.edu.in,Universities & Academic Institutions,E009,live,HTTP 200,1,2026-12-12,unaffected
+"Government College of Technology, Coimbatore",https://gct.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,,
+"Government Medical College, Omandurar Government Estate, Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+IIITDM Kancheepuram,https://iiitdm.ac.in,Universities & Academic Institutions,E009,live,"HTTP 200; Institute of National Importance (GoI, TN campus)",1,2026-12-05,unaffected
+Institute of Distance Education University of Madras,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+Madurai Kamaraj University,https://mkuniversity.ac.in,Universities & Academic Institutions,E009,live,recovered on retry (slow NIC network),1,2026-11-10,unaffected
+Manonmaniam Sundaranar University,https://www.msuniv.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-12-07,unaffected
+"Mother Teresa Women's University, Kodaikanal",https://www.motherteresawomenuniv.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-11-30,unaffected
+Namma School Namma Ooru Palli (NSNOP),https://nammaschool.tnschools.gov.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-04-18,unaffected
+Periyar University,https://www.periyaruniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-01-22,unaffected
+"Stanley Medical College (SMC), Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu Agricultural University (TNAU),https://www.tnau.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-11-13,unaffected
+Tamil Nadu Dr. Ambedkar Law University,https://tndalu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-01-19,unaffected
+Tamil Nadu Dr. M.G.R. Medical University,https://tnmgrmu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-12-11,unaffected
+"Tamil Nadu Dr.M.G.R. Medical University, Chennai",,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu Institute of Urban Studies,https://www.tnius.org,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,,
+"Tamil Nadu Institute of Urban Studies (TNIUS), Coimbatore",https://www.tniuscbe.org,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,,
+Tamil Nadu Open University,https://www.tnou.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1,2027-02-16,unaffected
+"Tamil Nadu Physical Education and Sports University, Chennai",https://tnpesu.org,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-01-10,unaffected
+Tamil Nadu Schools,https://tnschools.gov.in/welcome,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-02-27,unaffected
+Tamil Nadu State Council for Higher Education (TANSCHE),,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+"Tamil Nadu State Council for Science and Technology, Chennai",https://www.tanscst.tn.gov.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-03-12,unaffected
+Tamil Nadu Text Book and Educational Services Corporation,https://textbookcorp.tn.gov.in,Universities & Academic Institutions,E009,live,HTTP 200,1,2025-05-02,unaffected
+"Tamil Nadu Veterinary and Animal Sciences University , TANUVAS",https://www.tanuvas.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-01-22,unaffected
+Tamil Unicode New Encoding,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+"Tamil University, Thanjavur",https://www.tamiluniversity.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1,2026-11-30,unaffected
+Tamil Virtual Academy,https://www.tamilvu.org,Universities & Academic Institutions,E009,live,HTTP 200,1,2026-12-22,unaffected
+TamilNadu Maritime Academy (TNMA),https://www.tn.gov.in/tnma,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-11-11,unaffected
+Tamilnadu Science & Technology Centre,https://tnstc.gov.in,Universities & Academic Institutions,E009,dead,no DNS A record / NXDOMAIN at check time,1,,
+TamilNadu Teachers Education University,https://tnteu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-03-26,unaffected
+TANSCHE,https://tansche.tn.gov.in,Universities & Academic Institutions,E009,dead,no DNS A record / NXDOMAIN at check time,1,,
+The Tamil Nadu Agricultural University (TNAU),https://agritech.tnau.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2026-12-08,unaffected
+The Tamil Nadu Dr. Ambedkar Law University,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+"Thiruvalluvar University, Vellore",https://www.tvu.edu.in,Universities & Academic Institutions,E009,live,recovered on retry (slow NIC network),1,2026-12-16,unaffected
+TN Dr. J. Jayalalithaa Fisheries University,https://www.tnjfu.ac.in,Universities & Academic Institutions,E009,live,HTTP 200,1,2026-12-23,unaffected
+University of Madras,,Universities & Academic Institutions,E009,none,no dedicated website in IGOD listing,1,,
+University of Madras,https://www.unom.ac.in,Universities & Academic Institutions,E009,live,HTTP 200; strict TLS OK,1,2027-03-06,unaffected
+Ariyalur,https://ariyalur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Chengalpattu,https://chengalpattu.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Chennai,https://chennai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-11-30,unaffected
+Coimbatore,https://coimbatore.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Cuddalore,https://cuddalore.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Dharmapuri,https://dharmapuri.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Dindigul,https://dindigul.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Erode,https://erode.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Kallakurichi,https://kallakurichi.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Kancheepuram,https://kancheepuram.nic.in,Districts,E042,live,HTTP 200,1,2026-12-27,unaffected
+Kanniyakumari,https://kanniyakumari.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-08,unaffected
+Karur,https://karur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Krishnagiri,https://krishnagiri.nic.in,Districts,E042,live,HTTP 200,1,2026-12-27,unaffected
+Madurai,https://madurai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Mayiladuthurai,https://mayiladuthurai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+Nagapattinam,https://www.nagapattinam.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Namakkal,https://namakkal.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Perambalur,https://perambalur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Pudukkottai,https://pudukkottai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Ramanathapuram,https://ramanathapuram.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Ranipet,,Districts,E042,none,no dedicated website in IGOD listing,1,,
+Salem,https://salem.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Sivaganga,https://sivaganga.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Tenkasi,https://tenkasi.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,,
+Thanjavur,https://thanjavur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+The Nilgiris,https://nilgiris.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Theni,https://theni.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Thiruvallur,https://tiruvallur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Thiruvarur,https://tiruvarur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Thoothukkudi,https://thoothukudi.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Tiruchirappalli,https://tiruchirappalli.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Tirunelveli,https://tirunelveli.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Tirupathur,https://tirupathur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Tiruppur,https://tiruppur.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Tiruvannamalai,https://tiruvannamalai.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-11-29,unaffected
+Vellore,https://vellore.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-28,unaffected
+Viluppuram,https://viluppuram.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Virudhunagar,https://virudhunagar.nic.in,Districts,E042,live,HTTP 200; strict TLS OK,1,2026-12-16,unaffected
+Chennai Metro Water (CMWSSB),https://chennaimetrowater.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Coimbatore City Municipal Corporation,https://coimbatorecorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Coimbatore City Municipal Corporation,https://ccmc.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200 (corrected hostname; the .tn.gov.in variant has no DNS),1,2027-02-11,unaffected
+Dindigul Corporation,https://dindigulcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Erode Corporation,https://erodecorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Greater Chennai Corporation,https://chennaicorporation.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200; strict TLS OK,1,2026-12-20,unaffected
+Madurai Corporation,https://maduraicorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Nagercoil Corporation,https://nagercoilcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Salem Corporation,https://salemcorporation.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,corrected hostname (original guess had no DNS),1,2026-12-23,unaffected
+Tambaram Corporation,https://tambaramcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200,1,2026-05-27,unaffected
+Thanjavur Corporation,https://thanjavurcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Thoothukudi Corporation,https://thoothukudicorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Tiruchirappalli Corporation,https://trichycorporation.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Tirunelveli Corporation,https://www.tirunelvelicorporation.com,Municipal Corporations & Urban Local Bodies,ULB,live,HTTP 200; strict TLS OK,1,2026-12-12,unaffected
+Tiruppur Corporation,https://tiruppurcorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Vellore Corporation,https://vellorecorporation.tn.gov.in,Municipal Corporations & Urban Local Bodies,ULB,dead,no DNS A record / NXDOMAIN at check time,1,,
+Chief Electoral Officer,https://elections.tn.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; strict TLS OK,1,,
+Madras High Court,https://hcmadras.tn.gov.in,"Law, Judiciary & Legislature",JUD,live,HTTP 200; new HC portal (mhc.tn.gov.in legacy also resolves),1,2026-12-27,unaffected
+Raj Bhavan (Lok Bhavan),https://tnrajbhavan.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; corrected hostname (rajbhavan.tn.gov.in has no DNS),1,2026-12-16,unaffected
+State Election Commission,https://tnsec.tn.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; strict TLS OK,1,2026-11-08,unaffected
+Tamil Nadu Legislative Assembly,https://assembly.tn.gov.in,"Law, Judiciary & Legislature",LEG,live,HTTP 200; strict TLS OK,1,2026-11-02,unaffected
+Tamil Nadu Lokayukta,https://tnlokayukta.tn.gov.in,"Law, Judiciary & Legislature",JUD,dead,no DNS A record / NXDOMAIN at check time,1,,
+Tamil Nadu Public Service Commission,https://tnpsc.gov.in,"Law, Judiciary & Legislature",CON,live,HTTP 200; strict TLS OK,1,2026-11-02,unaffected
+TN Legislative Assembly Digital Repository,https://tnlasdigital.tn.gov.in,"Law, Judiciary & Legislature",OTHR,live,HTTP 200,1,2026-11-26,unaffected
+TN State Legal Services Authority,https://tnlsa.gov.in,"Law, Judiciary & Legislature",JUD,dead,no DNS A record / NXDOMAIN at check time,1,,
+Animal Disease Info System,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Anna Centenary Celebrations INPR,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Anna Centenary Library,https://annacentenarylibrary.org,"Schemes, Programmes & e-Governance Portals",OTHR,dead,no DNS A record / NXDOMAIN at check time,1,,
+Archives and Historical Research,https://www.tnarchives.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,error,HTTP 404 — site offline (2026-10-25 sweep; see SECURITY-NOTES.md),1,2024-09-16,unaffected
+"Central Electrical Testing Laboratory (CETL), Kakkalur",https://cetl.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2027-02-06,unaffected
+Chief Minister's Comprehensive Health Insurance Scheme,https://cmchistn.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,2,2026-12-27,unaffected
+Chief Minister's Special Cell (Mudhalvarin Mugavari),https://cms.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2026-12-09,unaffected
+Commissionerate of Employmnet and Traning,https://skilltraining.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2026-12-09,unaffected
+Comprehensive Audit Management System,https://cams.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2027-02-20,unaffected
+Court Case Monitoring System,https://www.ccms.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2026-12-27,unaffected
+COVID-19 Updates & Information,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+"CRA, CLA, CLR Management Information System",https://gdp.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+e-Pay and Receive (Treasury),https://epayandreceive.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,1,,
+e-Payment System,https://tnregipayment.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2018-03-12,unaffected
+Economic Offences Wing,https://www.tneow.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2026-11-22,unaffected
+EIACP PC-HuB State of Environment and Related Issues,https://tnenvis.nic.in,"Schemes, Programmes & e-Governance Portals",OTHR,dead,no DNS A record / NXDOMAIN at check time,1,,
+EMIS (School Education),https://emis.tnschools.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200,1,2027-04-18,unaffected
+eProcurement System,https://tntenders.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2026-12-29,unaffected
+Examination Results,https://tnresults.nic.in,"Schemes, Programmes & e-Governance Portals",OTHR,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Fire and Rescue Services,https://www.tnfrs.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-07,unaffected
+Forensic Sciences Department,https://www.forensic.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+Geographical Information System - Nagapattinam,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+"Geographical Information System, Cuddalore",,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Government Budget Text 2023-2024,https://www.tnbudget.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2026-11-14,unaffected
+"Government Museum, Chennai",https://governmentmuseumchennai.org,"Schemes, Programmes & e-Governance Portals",OTHR,dead,no DNS A record / NXDOMAIN at check time,1,,
+High Court Judgements,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Karuvoolam (IFHRMS),https://karuvoolam.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2026-12-20,unaffected
+Makkalai Thedi Maruthuvam,https://mtm.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,1,,
+Mineral Management System,https://mimas.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2026-12-09,unaffected
+Mudhalvar Marundhagam Portal,https://mudhalvarmarundhagam.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2,2026-12-11,unaffected
+MyGov Tamil Nadu,https://tamilnadu.mygov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2026-12-29,unaffected
+Naan Mudhalvan,https://naanmudhalvan.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2,2026-11-12,unaffected
+National Health Mission TN,https://nhm.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2026-11-28,unaffected
+Office of the Chief Electoral Officer,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Online Citizen Services Portal,https://edistricts.tn.gov.in:8443/certificates_csc,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-28,unaffected
+Open Government Data Portal,https://tn.data.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-11,unaffected
+Public Distribution Scheme (PDS),https://tnpds.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,recovered on retry (slow NIC network),2,2027-03-01,unaffected
+Puratchi Thalaivar M.G.R. Nutritious Meal Programme (Mid Day Meal Scheme),https://middaymeal.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,2,2026-11-09,unaffected
+Sarasvati Mahal Library,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Season & Crop Report Tamilnadu,,"Schemes, Programmes & e-Governance Portals",E043,none,no dedicated website in IGOD listing,1,,
+"State Ground and Surface Water Resources Data Centre, Taramani, Chennai",,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu Agricultural Weather Network (TAWN),,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Tamil Nadu eSevai Portal,https://www.tnesevai.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-03-24,unaffected
+Tamil Nadu Geographical Information System,https://tngis.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-02-21,unaffected
+Tamil Nadu Green Climate Company (TNGCC),https://www.tngcc.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2,2026-11-04,unaffected
+Tamil Nadu Health Systems Project (TNHSP),https://www.tnhsp.org,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,2,2027-01-12,unaffected
+Tamil Nadu House - New Delhi,https://tnhouse.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2026-11-10,unaffected
+Tamil Nadu IT Nanban Portal,https://www.itnanban.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,2,,
+"Tamil Nadu Nurses and Midwives Council, Chennai",https://www.tamilnadunursingcouncil.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2027-01-28,unaffected
+Tamil Nadu Panchayat Tax Portal,https://vptax.tnrd.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2,2027-04-29,unaffected
+Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act-2017,https://www.tenancy.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2026-10-21,unaffected
+Tamil Nadu State AIDS Control Society,https://tnsacs.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-12,unaffected
+Tamil Nadu State Apex Co-op. Bank Ltd. (TNSC Bank),https://www.tnscbank.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-06,unaffected
+Tamil Nadu Urban Infrastructure Financial Services,https://www.tnuifsl.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,2026-12-31,unaffected
+Tamil Nadu Urban Infrastructure Financial Services Ltd.,,"Schemes, Programmes & e-Governance Portals",OTHR,none,no dedicated website in IGOD listing,1,,
+Tamilnadu Generation and Distribution Corporation Limited (TANGEDCO),https://www.tangedco.org/en,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,,
+TamilNadu Industrial Development Corporation Ltd.,https://tidco.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2026-12-26,unaffected
+Tamilnadu Postal Circle,https://tamilnadupost.cept.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2026-12-27,g1-watch
+Tamilnadu Power Finance and Infrastructure Development Corporation Limited,https://www.tnpowerfinance.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200,1,,
+Tamilnadu Single Window Portal for Planning Permission,https://onlineppa.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,2,2026-11-12,unaffected
+Tamilnadu Tourism Development Corporation (TTDC),https://www.ttdconline.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,recovered on retry (slow NIC network),1,2026-10-25,unaffected
+The Tamilnadu Handloom Weavers Co-operative Society Ltd. (Co-optex),https://www.cooptex.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,,
+TICEL Biopark Ltd.,https://ticelbiopark.com,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-11,unaffected
+TN e-Governance - eSevai,https://tnesevai.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2027-03-24,unaffected
+TN e-Pension,https://epension.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,unreachable,DNS live (public A record); unreachable from verification network (NIC-hosted),1,,
+TN Medical Selection (DME admissions),https://tnmedicalselection.org,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2027-05-05,unaffected
+TN State Pharmacy Council,https://www.tnpharmacycouncil.org,"Schemes, Programmes & e-Governance Portals",OTHR,nxdomain,domain not found (defunct/retired),1,,
+TNEA Counselling (Anna University),https://tneaonline.org,"Schemes, Programmes & e-Governance Portals",SPMA,live,recovered on retry (slow NIC network),1,2027-04-17,unaffected
+TNPSC Exams Portal,https://tnpscexams.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2027-03-01,unaffected
+TNSand,https://tnsand.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,dead,no DNS A record / NXDOMAIN at check time,1,,
+TNUrbanPay,https://tnurbanepay.tn.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200; strict TLS OK,1,2027-02-11,unaffected
+Transplant Authority,https://transtan.tn.gov.in,"Schemes, Programmes & e-Governance Portals",OTHR,live,HTTP 200; strict TLS OK,1,2027-01-30,unaffected
+Chennai Smart City Limited (CSCL),https://cscl.co.in,Smart City SPVs (Tier 2),E059,error,server up but HTTP 500 at check time,2,2026-10-20,g1-watch
+Coimbatore Smart City (Idhu Namma Kovai),https://coimbatoresmartcity.org,Smart City SPVs (Tier 2),E059,live,HTTP 200,2,2026-12-16,unaffected
+CSCL Open Data Portal,https://opendata.cscl.co.in/welcome,Smart City SPVs (Tier 2),E059,live,HTTP 200,2,2027-03-01,unaffected
+Erode Smart City,https://erodesmartcity.org,Smart City SPVs (Tier 2),E059,live,HTTP 200 (redirects to www.erodesmartcity.org),2,2027-01-03,unaffected
+Madurai Smart City,https://maduraismartcity.in,Smart City SPVs (Tier 2),E059,dead,domain squatted — serves gambling content (2026-10-25); SPV site offline; see SECURITY-NOTES.md,2,2026-12-16,unaffected
+Salem Smart City,https://salemsmartcity.org,Smart City SPVs (Tier 2),E059,live,HTTP 200,2,2026-11-14,unaffected
+Singara Chennai 2.0 (GCC project),https://singarachennai.com,Smart City SPVs (Tier 2),E059,live,HTTP 200,2,2027-01-18,unaffected
+Crop Survey / e-Adangal,https://cropsurvey.tnega.org/dashboard/index.html,e-Governance Platforms (Tier 2),SPMA,live,HTTP 200,2,2027-04-14,unaffected
+Pudhumai Penn scheme portal,https://pudhumaipenn.tnega.org,e-Governance Platforms (Tier 2),SPMA,unreachable,DNS live (AWS-hosted); unreachable from verification network,2,,
+TN Direct Benefit Transfer (DBT) Portal,https://dbt.tn.gov.in,e-Governance Platforms (Tier 2),SPMA,live,HTTP 200,2,,
+TNeGA (alternate domain),https://tnega.org,e-Governance Platforms (Tier 2),E051,live,redirects to tnega.tn.gov.in,2,2027-01-23,unaffected
+UMIS - Unified Monitoring Information System (Pudhumai Penn / Tamil Pudhalvan),https://umisdashboard.tnega.org,e-Governance Platforms (Tier 2),SPMA,live,HTTP 200,2,2026-12-20,unaffected
+Green Tamil Nadu Mission,https://greentnmission.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-12-16,unaffected
+Kalakkad Mundanthurai Tiger Reserve (KMTR),https://kmtr.co.in,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2027-01-23,unaffected
+Nilgiris Tree Cutting Permissions,https://nilgiristreecuttingpermissions.org,Eco-Tourism & Environment (Tier 2),OTHR,error,HTTP 429 (rate-limited),2,2026-12-30,unaffected
+Project Nilgiri Tahr,https://tnprojectnilgiritahr.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-12-07,unaffected
+Sathyamangalam Tiger Reserve,https://sathytiger.tn.gov.in,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2027-01-08,unaffected
+Thamizh Maram (timber & tree cultivation),https://thamizhmaram.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-11-28,unaffected
+TN Biodiversity Conservation & Greening Project (TGBPCCR),https://tbgpccr.tn.gov.in,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-11-12,unaffected
+TN Wilderness Experiences Corporation (TNWEC),https://tnwec.com,Eco-Tourism & Environment (Tier 2),E059,live,HTTP 200,2,2026-12-16,unaffected
+TN Wildscapes (eco-tourism booking portal),https://tnwildscapes.com,Eco-Tourism & Environment (Tier 2),E059,live,HTTP 200,2,2026-12-27,unaffected
+TNFD Yaanai (Thadam),https://tnfdyaanai.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-11-26,unaffected
+TNFWCCB (wildlife conflict mitigation),https://tnfwccb.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-12-02,unaffected
+Trek Tamil Nadu (TNWEC),https://trektamilnadu.com,Eco-Tourism & Environment (Tier 2),SPMA,live,HTTP 200,2,2026-12-24,unaffected
+AD&TW Dept Overseas Scholarship,https://tnadwscholarship.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-15,unaffected
+Anna University e-Governance (CeGov),https://auegov.ac.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-09,unaffected
+CKICP (Highways Dept project portal),https://ckicp.tn.gov.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-12,unaffected
+DipExOnline (DGE exam portal),https://dipexamstndte.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-12-20,unaffected
+DoTE GTE portal,https://tndtegteonline.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-07,unaffected
+DOTE Polytechnic admissions,https://tnpoly.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-10-24,unaffected
+DoTE Web Apps,https://tndotehub.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-12,unaffected
+Ground & Surface Water Resources Data Centre (WRD),https://groundwatertnpwd.org.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-06-11,unaffected
+IMTI (WRD training institute),https://tamilnaduimti.org,Service Portals & Projects (Tier 2),OTHR,error,HTTP 403 to bots,2,2027-01-10,unaffected
+Kani Tamil (Tamil Virtual Academy),https://kanitamil.in,Service Portals & Projects (Tier 2),OTHR,error,HTTP 403 to bots,2,2026-12-09,unaffected
+PM-KUSUM Solar Pumps (TN),https://pmkusum.tn.gov.in,Service Portals & Projects (Tier 2),SPMA,live,HTTP 200,2,2027-04-21,unaffected
+PTBE-TNEA (DOTE admissions),https://ptbe-tnea.com,Service Portals & Projects (Tier 2),OTHR,unreachable,DNS live; no HTTP response,2,,
+Tamil Digital Library,https://tamildigitallibrary.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-12-30,unaffected
+Tamil Nadu Open University student portal,https://tnouportal.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-12-18,unaffected
+Thiran 360 (administrative capacity building),https://thiran360.tn.gov.in,Service Portals & Projects (Tier 2),SPMA,live,HTTP 200,2,2027-02-05,unaffected
+TN AYUSH admissions,https://tnayushonline.co.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-23,unaffected
+TN ePass,https://epass.tnega.org,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-12-31,unaffected
+TN Fisheries Development Corporation,https://tnfdc.in,Service Portals & Projects (Tier 2),E059,live,HTTP 200,2,2027-02-26,unaffected
+TN Green Climate Company tracker,https://trackertngcc.tn.gov.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-02-09,unaffected
+TN Lateral Entry admissions,https://tnlea.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-12-29,unaffected
+TN MBA/MCA counselling,https://tn-mbamca.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-05-05,unaffected
+TN Medical Selection (DME Selection Committee),https://tnmedicalselection.net,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-02,unaffected
+TN Road Sector Project II (TNRSP-II),https://tnrsp.tn.gov.in,Service Portals & Projects (Tier 2),SPMA,live,HTTP 200,2,2027-01-12,unaffected
+TN Rural Transformation Project (TNRTP),https://tnrtp.org,Service Portals & Projects (Tier 2),SPMA,unreachable,DNS live; no HTTP response,2,2027-02-12,unaffected
+TN Tourism Awards,https://tntourismawards.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-10-28,unaffected
+TN Tourism Operator Registration System,https://tntourismtors.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-10-28,unaffected
+TNsand (WRD sand mining portal),https://tnsand.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-03,unaffected
+Trichy Master Plan (DTCP),https://trichymasterplan.com,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2027-01-17,unaffected
+University of Madras — Institute of Distance Education,https://ideunom.ac.in,Service Portals & Projects (Tier 2),OTHR,live,HTTP 200,2,2026-05-10,g1-watch
+Coimbatore City Police,https://coimbatorecitypolice.com,Others,OTHR,live,HTTP 200,1,,
+Wildlife Division Chennai (Forest Dept),https://wlwchennai.tn.gov.in,Others,OTHR,live,HTTP 200,1,2027-01-18,unaffected
+Illam Thedi Kalvi (Education at the Doorstep),https://illamthedikalvi.tnschools.gov.in,"Schemes, Programmes & e-Governance Portals",SPMA,live,HTTP 200,2,2027-04-18,unaffected
+TN-RISE Women Start-Up Council,https://tnrise.co.in,Service Portals & Projects (Tier 2),E059,live,HTTP 200,2,2026-12-31,unaffected

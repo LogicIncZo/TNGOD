@@ -16,7 +16,7 @@
 
 `†` = hostname corrected from a defunct/wrong variant to the live one during verification.
 
-**Sources:** IGOD state directory API dump (category `sg`, `state_id=TN`, 255 records), tn.gov.in department profiles, manual additions, and the **25 Oct 2026 homepage/sitemap link sweep** (`tools/sweep_links.py` + `tools/verify_hosts.py`) that crawled all 316 inventory URLs and added 88 newly discovered TN-relevant hosts. Machine-readable copy: [`tamilnadu-sites.csv`](./tamilnadu-sites.csv). Hygiene findings (hijacked/lapsed domains): [`SECURITY-NOTES.md`](./SECURITY-NOTES.md).
+**Sources:** IGOD state directory API dump (category `sg`, `state_id=TN`, 255 records), tn.gov.in department profiles, manual additions, and the **25 Oct 2026 homepage/sitemap link sweep** (`tools/sweep_links.py` + `tools/verify_hosts.py`) that crawled all 316 inventory URLs and added 88 newly discovered TN-relevant hosts. Machine-readable copy: [`tamilnadu-sites.csv`](./tamilnadu-sites.csv) — now carrying **TLS certificate expiry** (`cert_expires`) and **eMudhra chain status** (`emudhra`) from the 25 Oct openssl chain scan (0 hosts on the revoked G3 chains · 5 on the emSign G1 watch-list · 24 expired leaf certs; details in [`SECURITY-NOTES.md`](./SECURITY-NOTES.md), incident tracker [eMudraImpacts](https://github.com/LogicIncZo/eMudraImpacts)). Hygiene findings (hijacked/lapsed domains): [`SECURITY-NOTES.md`](./SECURITY-NOTES.md).
 
 A companion **Tier 2** registry — projects, schemes, missions and their (mostly non-`gov.in`) web properties — lives in [`TIER2-SCHEMES.md`](./TIER2-SCHEMES.md).
 

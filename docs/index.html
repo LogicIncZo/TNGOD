@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TNGOD — Tamil Nadu Government Online Directory</title>
-<meta name="description" content="Searchable, URL-verified directory of Tamil Nadu government websites — 441 organizations sourced from IGOD and a full link sweep, verified 25 Oct 2026.">
+<meta name="description" content="Searchable, URL-verified directory of Tamil Nadu government websites — 441 organizations sourced from IGOD and a full link sweep, with TLS certificate expiry and eMudhra chain status, verified 25 Oct 2026.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
 <style>
   :root { --bg:#f6f8fa; --card:#ffffff; --text:#1f2328; --muted:#59636e; --border:#d1d9e0; --accent:#0969da; --live:#1a7f37; --warn:#9a6700; --dead:#cf222e; --chip:#eaeef2; }
@@ -35,6 +35,13 @@
   a:hover { text-decoration:underline; }
   .st-live { color:var(--live); } .st-unreachable { color:var(--warn); } .st-dead, .st-nxdomain { color:var(--dead); } .st-none, .st-origin-522 { color:var(--muted); }
   .host { color:var(--muted); font-size:.8rem; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .cert { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.8rem; white-space:nowrap; }
+  .cert.expired { color:var(--dead); font-weight:600; }
+  .chip { display:inline-block; font-size:.72rem; padding:.1rem .5rem; border-radius:999px; border:1px solid var(--border); white-space:nowrap; }
+  .chip.g1 { color:#b45309; border-color:#f59e0b; background:rgba(245,158,11,.12); }
+  .chip.g3 { color:var(--dead); border-color:var(--dead); background:rgba(220,38,38,.1); }
+  .chip.ok { color:var(--muted); }
+  :root.dark .chip.g1, body.dark .chip.g1 { color:#fbbf24; }
   .empty { padding:2.2rem 1rem; text-align:center; color:var(--muted); }
   footer { max-width:1100px; margin:0 auto; padding:0 1rem 2.5rem; color:var(--muted); font-size:.8rem; line-height:1.6; }
   footer a { color:var(--accent); }
@@ -64,14 +71,20 @@
     <option value="none">➖ No dedicated site</option>
     <option value="error">⚠️ Server error</option>
   </select>
+  <select id="e">
+    <option value="">All TLS / eMudhra chains</option>
+    <option value="g1-watch">🟠 emSign G1 — watch-list</option>
+    <option value="g3-compromised">🔴 eMudhra G3 — revoked chain</option>
+    <option value="unaffected">✅ Other CA — unaffected</option>
+  </select>
 </div>
 <p class="meta" id="count">Loading directory data…</p>
 
 <main>
   <div class="tablewrap">
     <table>
-      <thead><tr><th style="width:38%">Organization</th><th style="width:24%">Group</th><th style="width:14%">Status</th><th>Website</th></tr></thead>
-      <tbody id="rows"><tr><td colspan="4" class="empty">Loading…</td></tr></tbody>
+      <thead><tr><th style="width:32%">Organization</th><th style="width:19%">Group</th><th style="width:12%">Status</th><th style="width:10%">Cert expiry</th><th style="width:12%">TLS / eMudhra</th><th>Website</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="6" class="empty">Loading…</td></tr></tbody>
     </table>
   </div>
 </main>
@@ -80,6 +93,8 @@
   🌐 = DNS resolves publicly but the host was unreachable from the verification network at check time (NIC-hosted; treat as likely live).
   † = hostname corrected during verification. Statuses reflect 25 Oct 2026 and may have changed since.
   Tier 1 = permanent institutions · Tier 2 = schemes, missions, projects &amp; SPVs (<a href="https://github.com/LogicIncZo/TNGOD/blob/main/TIER2-SCHEMES.md" target="_blank" rel="noopener">registry</a>).
+  Cert expiry = leaf-certificate notAfter observed 25 Oct 2026; ⚠ red = already expired at scan time.
+  TLS / eMudhra = issuing chain: <span class="chip g1">emSign G1 · watch</span> = on the eMudhra/emSign G1-family watch-list (root still trusted, Chrome evaluating removal — see the <a href="https://github.com/LogicIncZo/eMudraImpacts" target="_blank" rel="noopener">eMudraImpacts</a> incident tracker); <span class="chip g3">eMudhra G3 · revoked</span> = served a chain through the revoked eMudhra G3 intermediates; <span class="chip ok">other CA</span> = unaffected. Blank = no TLS observed at scan time (NIC-hosted timeouts).
   Data: <a href="https://www.india.gov.in/directory/web-directory" target="_blank" rel="noopener">IGOD</a> + manual supplements ·
   <a href="https://github.com/LogicIncZo/TNGOD" target="_blank" rel="noopener">GitHub repo</a> ·
   <a href="https://github.com/LogicIncZo/TNGOD/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
@@ -116,11 +131,19 @@ function parseCSV(text){
   if (field !== "" || row.length){ row.push(field); rows.push(row); }
   const header = rows.shift();
   return rows.filter(r => r.length >= 5).map(r => ({
-    name: r[0], url: r[1], group: r[2], igodType: r[3], status: r[4], detail: r[5] || "", tier: r[6] || ""
+    name: r[0], url: r[1], group: r[2], igodType: r[3], status: r[4], detail: r[5] || "",
+    tier: r[6] || "", certExpires: r[7] || "", emudhra: r[8] || ""
   }));
 }
 
 let data = [];
+
+const EMU_CHIP = {
+  "g1-watch": ["g1", "emSign G1 · watch"],
+  "g3-compromised": ["g3", "eMudhra G3 · revoked"],
+  "unaffected": ["ok", "other CA"]
+};
+const TODAY = new Date().toISOString().slice(0, 10);
 
 function groupRank(g){ const i = GROUP_ORDER.indexOf(g); return i === -1 ? GROUP_ORDER.length : i; }
 
@@ -135,10 +158,12 @@ function filtered(){
   const g = document.getElementById("g").value;
   const s = document.getElementById("s").value;
   const t = document.getElementById("t").value;
+  const e = document.getElementById("e").value;
   return data.filter(r =>
     (!g || r.group === g) &&
     (!s || r.status === s) &&
     (!t || r.tier === t) &&
+    (!e || r.emudhra === e) &&
     (!q || (r.name + " " + r.url + " " + r.group + " " + r.igodType).toLowerCase().includes(q))
   ).sort((a,b) => groupRank(a.group) - groupRank(b.group) || a.name.localeCompare(b.name));
 }
@@ -147,7 +172,7 @@ function render(){
   const rows = filtered();
   const tb = document.getElementById("rows");
   if (!rows.length){
-    tb.innerHTML = '<tr><td colspan="4" class="empty">No matches — try a shorter query or clear the filters.</td></tr>';
+    tb.innerHTML = '<tr><td colspan="6" class="empty">No matches — try a shorter query or clear the filters.</td></tr>';
   } else {
     tb.innerHTML = rows.map(r => {
       const icon = ICON[r.status] || "·";
@@ -156,7 +181,16 @@ function render(){
         ? '<a href="' + r.url + '" target="_blank" rel="noopener">' + esc(r.name) + "</a>" + (r.detail.indexOf("corrected hostname") !== -1 ? " †" : "")
         : "<strong>" + esc(r.name) + "</strong>" + (r.detail ? ' <span class="host">— ' + esc(r.detail) + "</span>" : "");
       const urlCell = r.url ? '<a href="' + r.url + '" target="_blank" rel="noopener" class="host">' + esc(hostOf(r.url)) + "</a>" : "";
-      return "<tr><td>" + nameCell + "</td><td>" + esc(r.group) + "</td><td>" + stCell + "</td><td>" + urlCell + "</td></tr>";
+      let certCell = "";
+      if (r.certExpires){
+        const expired = r.certExpires < TODAY;
+        certCell = '<span class="cert' + (expired ? " expired" : "") + '">' +
+          (expired ? "⚠ " : "") + r.certExpires + "</span>";
+      }
+      const chip = EMU_CHIP[r.emudhra];
+      const emuCell = chip ? '<span class="chip ' + chip[0] + '">' + chip[1] + "</span>" : "";
+      return "<tr><td>" + nameCell + "</td><td>" + esc(r.group) + "</td><td>" + stCell +
+             "</td><td>" + certCell + "</td><td>" + emuCell + "</td><td>" + urlCell + "</td></tr>";
     }).join("");
   }
   document.getElementById("count").textContent =
@@ -168,6 +202,7 @@ function render(){
   if (document.getElementById("g").value) params.set("g", document.getElementById("g").value);
   if (document.getElementById("s").value) params.set("s", document.getElementById("s").value);
   if (document.getElementById("t").value) params.set("t", document.getElementById("t").value);
+  if (document.getElementById("e").value) params.set("e", document.getElementById("e").value);
   history.replaceState(null, "", params.toString() ? "?" + params.toString() : location.pathname);
 }
 
@@ -182,9 +217,10 @@ function initControls(){
   if (usp.get("g") && gs.indexOf(usp.get("g")) !== -1) sel.value = usp.get("g");
   if (usp.get("s")) document.getElementById("s").value = usp.get("s");
   if (usp.get("t")) document.getElementById("t").value = usp.get("t");
-  ["q","g","s","t"].forEach(id => {
+  if (usp.get("e") && document.getElementById("e")) document.getElementById("e").value = usp.get("e");
+  ["q","g","s","t","e"].forEach(id => {
     const el = document.getElementById(id);
-    el.addEventListener(id === "q" ? "input" : "change", render);
+    if (el) el.addEventListener(id === "q" ? "input" : "change", render);
   });
 }
 
@@ -198,7 +234,7 @@ fetch(DATA_URL)
   .catch(err => {
     document.getElementById("count").textContent = "Failed to load directory data.";
     document.getElementById("rows").innerHTML =
-      '<tr><td colspan="4" class="empty">Could not fetch <a href="' + DATA_URL + '">the CSV dataset</a> — check your connection, or browse it directly in the <a href="https://github.com/LogicIncZo/TNGOD">repo</a>.</td></tr>';
+      '<tr><td colspan="6" class="empty">Could not fetch <a href="' + DATA_URL + '">the CSV dataset</a> — check your connection, or browse it directly in the <a href="https://github.com/LogicIncZo/TNGOD">repo</a>.</td></tr>';
   });
 </script>
 </body>
