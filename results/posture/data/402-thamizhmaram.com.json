@@ -1,0 +1,172 @@
+{
+ "idx": 402,
+ "host": "thamizhmaram.com",
+ "url": "https://thamizhmaram.com",
+ "name": "Thamizh Maram (timber & tree cultivation)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "thamizhmaram.com",
+  "domain": "thamizhmaram.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "thamizhmaram.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Aug 30 09:55:33 2026 GMT",
+  "notAfter": "Nov 28 10:54:03 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.75.72",
+   "172.67.216.153"
+  ],
+  "aaaa": [
+   "2606:4700:3036::6815:4b48",
+   "2606:4700:3036::ac43:d899"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://thamizhmaram.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=ru2d457dltii98v546lu3045tlsfp94d; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Home | Timber Trade",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 94560,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://thamizhmaram.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=8n44ahlvmhds8n2n14akdl8739tadt1f; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Home | Timber Trade",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 94615,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 45,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

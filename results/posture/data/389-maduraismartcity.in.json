@@ -1,0 +1,165 @@
+{
+ "idx": 389,
+ "host": "maduraismartcity.in",
+ "url": "https://maduraismartcity.in",
+ "name": "Madurai Smart City",
+ "group": "Smart City SPVs (Tier 2)",
+ "tier": "2",
+ "csv_status": "dead",
+ "csv_detail": "domain squatted \u2014 serves gambling content (2026-10-25); SPV site offline; see SECURITY-NOTES.md",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "maduraismartcity.in",
+  "domain": "maduraismartcity.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "maduraismartcity.in",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 16:08:10 2026 GMT",
+  "notAfter": "Dec 16 17:08:08 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.15.167",
+   "172.67.163.36"
+  ],
+  "aaaa": [
+   "2606:4700:3031::6815:fa7",
+   "2606:4700:3032::ac43:a324"
+  ],
+  "mx": [],
+  "txt": [
+   "google-site-verification=GmJ6fEP7DviqQI6I_RSOMZyrBWfZ70DXWcmAiXBjfv4",
+   "google-site-verification=uMypAFMadlLHk6pgkv8Slx_6YoNy1k5FuMdcNiYngMY"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://maduraismartcity.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "nel",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "x-content-type-options"
+   ],
+   "title": "Aviator Game India 2026 \u2014 Tournament Edition: Compete Rise Dominate",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 59671,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://maduraismartcity.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "nel",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "x-content-type-options"
+   ],
+   "title": "Aviator Game India 2026 \u2014 Tournament Edition: Compete Rise Dominate",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 59671,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

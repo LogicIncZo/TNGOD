@@ -1,0 +1,146 @@
+{
+ "idx": 200,
+ "host": "tnuhdb.tn.gov.in",
+ "url": "https://tnuhdb.tn.gov.in",
+ "name": "TN Urban Habitat Development Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-02",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnuhdb.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnuhdb.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Aug  4 12:36:33 2026 GMT",
+  "notAfter": "Nov  2 12:36:32 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.65"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnuhdb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options"
+   ],
+   "title": "TN-UHDB",
+   "generator": "HTML Tidy for HTML5 for Linux version 5.2.0",
+   "content_type": "text/html",
+   "body_bytes": 1518,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnuhdb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options"
+   ],
+   "title": "TN-UHDB",
+   "generator": "HTML Tidy for HTML5 for Linux version 5.2.0",
+   "content_type": "text/html",
+   "body_bytes": 1518,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "idx": 317,
+ "host": "cetl.tn.gov.in",
+ "url": "https://cetl.tn.gov.in",
+ "name": "Central Electrical Testing Laboratory (CETL), Kakkalur",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-02-06",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "cetl.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cetl.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jan  6 00:00:00 2026 GMT",
+  "notAfter": "Feb  6 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.139"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://cetl.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin",
+    "set-cookie": "name=value; httpOnly",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "CETL - Kakkular",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 67278,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://cetl.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin",
+    "set-cookie": "name=value; httpOnly",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "CETL - Kakkular",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 67278,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

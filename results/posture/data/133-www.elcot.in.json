@@ -1,0 +1,142 @@
+{
+ "idx": 133,
+ "host": "www.elcot.in",
+ "url": "https://www.elcot.in",
+ "name": "Electronics Corporation of Tamil Nadu Ltd. (ELCOT)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "elcot.in",
+  "domain": "elcot.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "103.59.64.86"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "_bhxqxgl18ugxpk8jkmc9lc708dhy1of",
+   "brevo-code:779b12314fe954e31f3c13d4c8eeb97c",
+   " _r9igwhwtz8f2nu85lgpfm8akwsipmmt",
+   "v=spf1 include:zoho.in ip4:164.100.134.56 +include:webhostbox.net -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+  ],
+  "spf": "v=spf1 include:zoho.in ip4:164.100.134.56 +include:webhostbox.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.elcot.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "ELCOT \u2013 Electronics Corporation of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 10763,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.elcot.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "ELCOT \u2013 Electronics Corporation of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 10763,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 56,
+  "grade": "D",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

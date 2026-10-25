@@ -1,0 +1,165 @@
+{
+ "idx": 345,
+ "host": "nhm.tn.gov.in",
+ "url": "https://nhm.tn.gov.in",
+ "name": "National Health Mission TN",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "nhm.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "nhm.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "May 14 00:00:00 2026 GMT",
+  "notAfter": "Nov 28 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "DigiCert Global Root G2",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.231"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://nhm.tn.gov.in/en",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "permissions-policy": "geolocation=(self)",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "PHP/7.2.34"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-powered-by",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "Home | National Health Mission Tamil Nadu, Department of Health &amp; Family Welfare Govt. of Tamil Nadu, India",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 78829,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://nhm.tn.gov.in/en",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "PHP/7.2.34",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-powered-by",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "Home | National Health Mission Tamil Nadu, Department of Health &amp; Family Welfare Govt. of Tamil Nadu, India",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 78817,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/7.2.34'."
+   ]
+  ]
+ }
+}

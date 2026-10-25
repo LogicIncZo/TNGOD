@@ -1,0 +1,158 @@
+{
+ "idx": 202,
+ "host": "tnplcement.in",
+ "url": "https://tnplcement.in",
+ "name": "TNPL Cements (TNPL product portal)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-14",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnplcement.in",
+  "domain": "tnplcement.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tnplcement.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Oct 16 16:13:48 2026 GMT",
+  "notAfter": "Jan 14 16:13:47 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "134.209.158.223"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [
+   "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
+  ],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnplcement.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "pll_language=en; expires=Mon, 25 Oct 2027 18:03:03 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax",
+    "x-cache": "MISS"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "age",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-cache"
+   ],
+   "title": "TNPL Cements Sustainable &amp; High-Strength Cement Manufacturer",
+   "generator": "All in One SEO (AIOSEO) 5.0.3",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnplcement.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "pll_language=en; expires=Mon, 25 Oct 2027 18:03:05 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax",
+    "x-cache": "MISS"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "age",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-cache"
+   ],
+   "title": "TNPL Cements Sustainable &amp; High-Strength Cement Manufacturer",
+   "generator": "All in One SEO (AIOSEO) 5.0.3",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 42,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

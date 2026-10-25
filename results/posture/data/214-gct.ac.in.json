@@ -1,0 +1,127 @@
+{
+ "idx": 214,
+ "host": "gct.ac.in",
+ "url": "https://gct.ac.in",
+ "name": "Government College of Technology, Coimbatore",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "gct.ac.in",
+  "domain": "gct.ac.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "103.194.242.18",
+   "103.21.78.186"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 aspmx2.googlemail.com.",
+   "10 aspmx3.googlemail.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "google-site-verification=8STrDEqKJmmuIr3DxIDn4bBw1q9_dWsJSaJNeXlOYPk",
+   "v=spf1 include:gct.ac.in include:_spf.google.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:gct.ac.in include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://gct.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(), microphone=(), camera=()",
+    "content-security-policy": "frame-ancestors 'self';"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-dns-prefetch-control",
+    "x-frame-options"
+   ],
+   "title": "Government College of Techonlogy (GCT) | Government College Of Technology",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 53,
+  "grade": "D",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

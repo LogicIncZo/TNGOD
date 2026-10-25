@@ -1,0 +1,120 @@
+{
+ "idx": 370,
+ "host": "tamilnadupost.cept.gov.in",
+ "url": "https://tamilnadupost.cept.gov.in",
+ "name": "Tamilnadu Postal Circle",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "g1-watch",
+ "tls": {
+  "host": "tamilnadupost.cept.gov.in",
+  "domain": "cept.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.cept.gov.in",
+  "leaf_issuer": "EM DV TLS CA - G2A-1",
+  "leaf_org": "",
+  "notBefore": "Sep 28 05:12:58 2026 GMT",
+  "notAfter": "Dec 27 05:12:58 2026 GMT",
+  "impacted": "EMSIGN-FAMILY",
+  "matched_intermediates": "EM DV TLS CA - G2A-1; emSign Root CA - G1; emSign Root TLS CA - G1",
+  "chain_roots": "emSign Root CA - G1",
+  "chain_issuers": "EM DV TLS CA - G2A-1; emSign Root TLS CA - G1; emSign Root CA - G1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.244.127.129"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tamilnadupost.cept.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "set-cookie": "session_972e409cf4425f0c3355dbb7f1079163=6tv4aditjvc765nok1po0sltie; path=/; domain=postal.360degreeinfo.online; secure; HttpOnly; SameSite=Strict",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "permissions-policy": "geolocation=(), microphone=(), camera=()"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamilnadu Postal Circle",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 185214,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ]
+  ]
+ }
+}

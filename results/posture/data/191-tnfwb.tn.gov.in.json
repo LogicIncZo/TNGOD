@@ -1,0 +1,160 @@
+{
+ "idx": 191,
+ "host": "tnfwb.tn.gov.in",
+ "url": "https://tnfwb.tn.gov.in",
+ "name": "TN Fisheries Welfare Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-01",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnfwb.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnfwb.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Aug  3 04:02:45 2026 GMT",
+  "notAfter": "Nov  1 04:02:44 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.171"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnfwb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "GOTNServer",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000",
+    "permissions-policy": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
+    "set-cookie": "ci_session=00bfa85429ebbd37e73f21a7301752bea069a797; expires=Sun, 25-Oct-2026 19:03:01 GMT; Max-Age=3600; path=/; HttpOnly",
+    "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 30052,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnfwb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "GOTNServer",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000",
+    "permissions-policy": "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()",
+    "set-cookie": "ci_session=89fc0ac1cf2deb405f7ce8fe2ea691d651d863c0; expires=Sun, 25-Oct-2026 19:03:02 GMT; Max-Age=3600; path=/; HttpOnly",
+    "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 30052,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

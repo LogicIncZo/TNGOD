@@ -1,0 +1,164 @@
+{
+ "idx": 297,
+ "host": "tambaramcorporation.tn.gov.in",
+ "url": "https://tambaramcorporation.tn.gov.in",
+ "name": "Tambaram Corporation",
+ "group": "Municipal Corporations & Urban Local Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-05-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tambaramcorporation.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tambaramcorporation.tn.gov.in",
+  "leaf_issuer": "E7",
+  "leaf_org": "",
+  "notBefore": "Feb 26 10:10:41 2026 GMT",
+  "notAfter": "May 27 10:10:40 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "E7; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "302",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.190"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tambaramcorporation.tn.gov.in/en/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "x-frame-options": "DENY",
+    "set-cookie": "example=value; secure; HttpOnly; SameSite=Strict"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Tambaram City Municipal Corporation",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 168037,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tambaramcorporation.tn.gov.in/en/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "x-frame-options": "DENY",
+    "set-cookie": "example=value; secure; HttpOnly; SameSite=Strict"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Tambaram City Municipal Corporation",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 168037,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.58 (Ubuntu)'."
+   ]
+  ]
+ }
+}

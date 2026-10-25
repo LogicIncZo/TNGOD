@@ -1,0 +1,154 @@
+{
+ "idx": 136,
+ "host": "kooturavu.tn.gov.in",
+ "url": "https://kooturavu.tn.gov.in",
+ "name": "Kooturavu \u2014 Registrar of Co-operative Societies portal",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200 (RCS TN)",
+ "csv_cert_expires": "2027-03-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "kooturavu.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "kooturavu.tn.gov.in",
+  "leaf_issuer": "GoDaddy TLS Intermediate CA DV - R1v1",
+  "leaf_org": "",
+  "notBefore": "Aug 25 08:23:44 2026 GMT",
+  "notAfter": "Mar 11 08:23:44 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Go Daddy Root Certificate Authority - G2",
+  "chain_issuers": "GoDaddy TLS Intermediate CA DV - R1v1; GoDaddy TLS Root CA - R1; Go Daddy Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "43.205.52.64"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://kooturavu.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (Unix) OpenSSL/3.2.2",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "vary",
+    "x-content-type-options",
+    "x-xss-protection"
+   ],
+   "title": "RCS Tamil Nadu | RCS TN | Tamil Nadu Cooperative Societies - Official Portal",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 8524,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://kooturavu.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (Unix) OpenSSL/3.2.2",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "vary",
+    "x-content-type-options",
+    "x-xss-protection"
+   ],
+   "title": "RCS Tamil Nadu | RCS TN | Tamil Nadu Cooperative Societies - Official Portal",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 8524,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 48,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.62 (Unix) OpenSSL/3.2.2'."
+   ]
+  ]
+ }
+}

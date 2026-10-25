@@ -1,0 +1,144 @@
+{
+ "idx": 78,
+ "host": "www.tamilnadutourism.tn.gov.in",
+ "url": "https://www.tamilnadutourism.tn.gov.in",
+ "name": "Tourism Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-02-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tamilnadutourism.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tamilnadutourism.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jul 24 00:00:00 2026 GMT",
+  "notAfter": "Feb  7 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.26"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tamilnadutourism.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "csrf_cookie_name=447de71b2e9d18feadb1dd4efe334472; expires=Sun, 25-Oct-2026 20:02:46 GMT; Max-Age=7199; path=/; secure; HttpOnly; SameSite=Lax;HttpOnly;Secure"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Welcome to Tamil Nadu | Official Website of Tamil Nadu Tourism Department",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 179255,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 500,
+   "final_url": "http://www.tamilnadutourism.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "vary",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 1739,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 65,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

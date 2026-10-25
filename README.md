@@ -29,7 +29,7 @@ The directory is organized in two layers:
 |---|---|
 | [TAMILNADU.md](./TAMILNADU.md) | The main Tier-1 directory — institutions grouped by sector (departments, directorates, boards/PSUs, universities, 38 districts, corporations), each with a verification status. |
 | [TIER2-SCHEMES.md](./TIER2-SCHEMES.md) | Tier-2 registry — projects, schemes, missions, citizen-service platforms and SPVs, including schemes researched with *no* dedicated portal. |
-| [ANDROID-APPS.md](./ANDROID-APPS.md) | Companion registry of **official Android apps** (27 verified on Play) — seeded from the state's own app registry, third-party wrappers excluded. |
+| [ANDROID-APPS.md](./ANDROID-APPS.md) | Companion registry of **official Android apps** (27 verified on Play) + **Tier 3 app-backend domains** (30 hosts) — seeded from the state's own app registry and static APK URL extraction. |
 | [android-apps.csv](./android-apps.csv) | Machine-readable apps copy: `name, pkg, group, tier, owner, play_url, installs, updated, rating, source, notes`. |
 | [tamilnadu-sites.csv](./tamilnadu-sites.csv) | Machine-readable copy: `name, url, group, igod_type, status, detail, tier, cert_expires, emudhra`. |
 | [docs/index.html](./docs/index.html) | Searchable GitHub Pages site for the websites (vanilla JS, tier + TLS/eMudhra filters). |
@@ -40,10 +40,11 @@ The directory is organized in two layers:
 ## Snapshot (25 Oct 2026, after the homepage/sitemap link sweep)
 
 - **441 entries** (Tier 1: 371 · Tier 2: 70) · **404 unique URLs** reachable or DNS-confirmed
-- 334 live (HTTP 200 / redirect / bot-403) · 28 DNS-live but network-unreachable at check time · 10 server-error pages (HTTP 4xx/5xx/522) · 32 defunct/no-DNS/errored · 37 have no dedicated website (served by the TN portal)
+- **471 entries** (Tier 1: 371 · Tier 2: 70 · Tier 3: 30 app backends) · 334+ live / 28 unreachable / 10 server-error / 32 defunct / 37 no-site (Tier-3 rows carry their own verification status)
 - The sweep crawled all 316 inventory URLs (homepages + robots.txt + sitemaps), extracted 3,685 outbound hostnames, filtered to 748 new candidates, and added 88 verified TN-relevant hosts
 - **TLS certificates scanned for all 389 hosts** (2026-10-25, openssl chain capture): **0 sites on the revoked eMudhra G3 intermediates**, 5 on the eMudhra/emSign **G1 watch-list** (`tamilnadupost.cept.gov.in`, `tnsericulture.tn.gov.in`, `ideunom.ac.in`, `cscl.co.in`, `tantea.nic.in`), 320 on unaffected CAs, and **24 with already-expired leaf certs** — expiry dates are the new `cert_expires` column, chain status the `emudhra` column
 - **Companion Android-app registry (25 Oct 2026):** 27 official apps verified on Google Play, seeded from the state's [own app registry](https://www.tn.gov.in/mobileappform.php) — [ANDROID-APPS.md](./ANDROID-APPS.md) / [apps page](https://logicinczo.github.io/TNGOD/apps.html)
+- **Tier 3 — app backends (30 rows):** static URL extraction from 26 APKs (`tools/extract_app_urls.py`) found 48 first-party backend hosts the apps talk to (GCC ERP/GIS estate, `urbantamilnilam.tn.gov.in`, `tnurbanepay.tn.gov.in`, `tn.erss.in`, `tnstc.in`, `api.moving.tech`, `mobileapi.phr.tn.gov.in`, …); central-government integrations (ABDM, Parivahan) and SDK noise excluded
 - IGOD org-type codes used for grouping: `SPORT` state portal · `E003` departments · `E004` directorates · `E013` commissions · `E051` statutory/autonomous bodies · `E011` boards/undertakings · `E059` PSUs/JVs · `E009` academies/institutions · `E042` districts · `SPMA` schemes/portals · `OTHR` others
 
 ## Reproducing the sweep
@@ -52,6 +53,8 @@ The directory is organized in two layers:
 pip install requests
 python3 tools/sweep_links.py            # crawl inventory homepages + robots/sitemaps
 python3 tools/verify_hosts.py hosts.txt out.jsonl   # DoH + HTTP verify any host list
+python3 tools/extract_app_urls.py       # static URL extraction from apks/ (needs apks fetched)
+BACKEND_VERIFY=... python3 tools/build_tier3.py    # promote first-party backends to Tier 3
 # TLS chain scan (uses eMudraImpacts' scanner), then merge into the CSV:
 SCAN_OUT=results/tn-inventory SCAN_NO_WWW=1 python3 ../eMudraImpacts/scripts/scan_tls.py hosts.txt
 EMUDRA_SCAN=../eMudraImpacts/results/tn-inventory/scan-all.csv python3 tools/cert_status.py

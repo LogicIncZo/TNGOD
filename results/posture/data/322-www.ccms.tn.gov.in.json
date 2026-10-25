@@ -1,0 +1,160 @@
+{
+ "idx": 322,
+ "host": "www.ccms.tn.gov.in",
+ "url": "https://www.ccms.tn.gov.in",
+ "name": "Court Case Monitoring System",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "ccms.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "ccms.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 28 08:22:35 2026 GMT",
+  "notAfter": "Dec 27 08:22:34 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.156"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.ccms.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "Path=/tmp/NGINX_cache; HttpOnly; Secure",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "preload",
+    "content-security-policy": "ccms.tn.gov.in",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "feature-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Court Case Monitoring System | Govt. of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 29163,
+   "cookies": {
+    "total": 3,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.ccms.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "Path=/tmp/NGINX_cache; HttpOnly; Secure",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "preload",
+    "content-security-policy": "ccms.tn.gov.in",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "feature-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Court Case Monitoring System | Govt. of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 29163,
+   "cookies": {
+    "total": 3,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

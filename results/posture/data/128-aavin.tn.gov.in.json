@@ -1,0 +1,147 @@
+{
+ "idx": 128,
+ "host": "aavin.tn.gov.in",
+ "url": "https://aavin.tn.gov.in",
+ "name": "Aavin (TN Co-operative Milk)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-22",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "aavin.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.aavin.tn.gov.in",
+  "leaf_issuer": "SSL2BUY EMEA RSA Domain Validation Secure Server CA",
+  "leaf_org": "",
+  "notBefore": "Dec 23 00:00:00 2025 GMT",
+  "notAfter": "Jan 22 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "SSL2BUY EMEA RSA Domain Validation Secure Server CA; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.148"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.aavin.tn.gov.in."
+  ],
+  "txt": [
+   "v=spf1 ip4:164.100.134.160 ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 ip4:164.100.134.160 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://aavin.tn.gov.in/web/guest/home/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "COOKIE_SUPPORT=true; Expires=Mon, 25-Oct-2027 18:02:51 GMT; Path=/; Secure; HttpOnly;HttpOnly;Secure;SameSite=Lax;",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "liferay-portal",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "AAVIN - The Largest Dairy Co-Operative - Tamilnadu Co-operative Milk Producers\u2019 Federation Limited",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 123606,
+   "cookies": {
+    "total": 5,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://aavin.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 0,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 73,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

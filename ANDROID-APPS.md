@@ -16,6 +16,25 @@ Nadu government departments, SPVs and schemes. **27 apps verified on Google Play
 The official portal's list also includes **eSevai TPA** (`org.tnega.esevai.tpa`, an internal
 TNeGA auditing app) which **no longer resolves on Play** — listed as delisted below.
 
+## Methodology (Tier 3 — app backends)
+
+The 26 obtainable APKs (1 of the 27, TN CMSWFS `com.xts.dma`, is unavailable on the public
+mirror) were statically analyzed with `tools/extract_app_urls.py`: every URL string embedded
+in dex bytecodes, binary XML, `resources.arsc`, assets and native libs was extracted (UTF-8
++ UTF-16LE decoding), hosts deduped per app, and classified:
+
+- **first-party** — government-owned or named scheme-vendor backends (`*.gov.in`, `*.nic.in`,
+  `*.tnega.org`, `tnstc.in`, `tangedco.org`, `chennaimetrorail.org`, `moving.tech` (CUMTA's
+  ticketing vendor), `tn-nhis.com` (CMCHIS vendor), …) → promoted to **Tier 3** rows in
+  [`tamilnadu-sites.csv`](./tamilnadu-sites.csv) (group *App API Backends (Tier 3)*, 30 rows)
+- **sdk** — payments/analytics/maps/crash SDKs (Juspay, Google/Firebase, Razorpay, Mappls, …) — excluded
+- **other** — framework/vendor noise (react.dev, wikipedia, font hosts, …) — excluded
+
+Central-government integrations surfaced by the apps (ABDM/ABHA for TNPHR, Parivahan
+e-Challan and cybercrime.gov.in for Kaaval Uthavi) are noted here but not Tier-3 rows,
+as they are national infrastructure. See [SECURITY-NOTES.md](./SECURITY-NOTES.md) for
+hygiene observations.
+
 ## Citizen services & grievance
 
 | App | Owner | Installs | Updated | Play |
@@ -96,3 +115,45 @@ Kavalan SOS (from the [Tier-2 appendix](./TIER2-SCHEMES.md)) no longer has a sep
 - State's official app registry: https://www.tn.gov.in/mobileappform.php
 
 *Maintained as part of [TNGOD](./README.md). Public-information index only; installs/updated/rating snapshot 25 Oct 2026.*
+
+## Tier 3 — domains these apps talk to (app backends)
+
+Static extraction of every URL embedded in the 26 APKs (dex bytecodes, binary XML,
+resources, assets, native libs — no execution), filtered to **first-party** backends:
+hosts owned by TN government entities (or their named scheme vendors). Central-government
+integrations (ABDM, Parivahan e-Challan, cybercrime.gov.in), UAT/sandbox hosts and vendor
+dashboards are documented but not listed as rows. Full per-host evidence with reference
+counts: [`tools/app-backends.jsonl`](./tools/app-backends.jsonl).
+
+| Backend host | What it is | Apps using it | Status |
+|---|---|---|---|
+| ⚠️ [`appmonitor.moving.tech`](https://appmonitor.moving.tech) | appmonitor (TN gov app backend) | Chennai One | ⚠️ error |
+| ⚠️ [`assets.moving.tech`](https://assets.moving.tech) | assets (TN gov app backend) | Chennai One | ⚠️ error |
+| ✅ [`ccmc.appifeedback.in`](https://ccmc.appifeedback.in) | CCMC citizen-feedback backend (AppiFeedback) — vendor-operated feedback tool used by Coimbatore corporation | Namma Kovai | ✅ live |
+| ✅ [`chennaimetrorail.org`](https://chennaimetrorail.org) | Chennai Metro Rail Limited website — official CMRL site + app content host | CMRL Metro App | ✅ live |
+| ⚠️ [`api.moving.tech`](https://api.moving.tech) | Chennai One API (Moving Tech — CUMTA vendor) — primary ticketing backend of the official CUMTA app; vendor-operated; assets/config/appmonitor.moving.tech also live | Chennai One | ⚠️ error |
+| ✅ [`commuters-data.chennaimetrorail.org`](https://commuters-data.chennaimetrorail.org) | CMRL commuter-data API — official CMRL app backend | CMRL Metro App | ✅ live |
+| ✅ [`collabland-tn.gov.in`](https://collabland-tn.gov.in) | Collabland TN (CollabWeb) — land-records collaboration platform | TamilNilam | ✅ live |
+| ⚠️ [`config.moving.tech`](https://config.moving.tech) | config (TN gov app backend) | Chennai One | ⚠️ error |
+| ✅ [`cropsurveyapi.tnega.org`](https://cropsurveyapi.tnega.org) | Crop Survey API — field crop-survey data collection API | Crop Survey (O) | ✅ live |
+| ✅ [`cumta.tn.gov.in`](https://cumta.tn.gov.in) | CUMTA — Chennai Unified Metropolitan Transport Authority — transport authority portal | Chennai One | ✅ live |
+| 🌐 [`appkvl.spmcrdial100.in`](https://appkvl.spmcrdial100.in) | ERSS 112 backend (SPMCR) — 112-India platform endpoint; unreachable at check | Kaaval Uthavi | 🌐 unreachable |
+| ✅ [`tn.erss.in`](https://tn.erss.in) | ERSS 112 — TN Emergency Response Support System — national emergency-number backend used by Kaaval Uthavi | Kaaval Uthavi | ✅ live |
+| ✅ [`gccapp.chennaicorporation.gov.in`](https://gccapp.chennaicorporation.gov.in) | GCC app API — GCC mobile-app API host | TN Urban Esevai | ✅ live |
+| ✅ [`erp.chennaicorporation.gov.in`](https://erp.chennaicorporation.gov.in) | GCC ERP backend — Greater Chennai Corporation ERP (property tax etc.) | GCC Official App, Namma Chennai | ✅ live |
+| ✅ [`gisgcc.chennaicorporation.gov.in`](https://gisgcc.chennaicorporation.gov.in) | GCC GIS backend — Greater Chennai Corporation GIS (Tomcat) | GCC Official App, Namma Chennai | ✅ live |
+| ✅ [`portal.chennaicorporation.gov.in`](https://portal.chennaicorporation.gov.in) | GCC portal services | Namma Chennai | ✅ live |
+| ✅ [`gccservices.chennaicorporation.gov.in`](https://gccservices.chennaicorporation.gov.in) | GCC services backend — GCC civic services API | Namma Chennai | ✅ live |
+| ✅ [`kmut.tnega.org`](https://kmut.tnega.org) | Kalaignar Magalir Urimai Thittam portal — scheme portal | MUT Verification 2026 | ✅ live |
+| ⚠️ [`mut.secureapp.tnega.org`](https://mut.secureapp.tnega.org) | KMUT verification API — entitlement-verification API host | MUT Verification 2026 | ⚠️ error |
+| ✅ [`tamilnilam.tn.gov.in`](https://tamilnilam.tn.gov.in) | TamilNilam citizen portal — land-records e-services | TamilNilam | ✅ live |
+| ⚠️ [`app1.tangedco.org`](https://app1.tangedco.org) | TANGEDCO app backend (app1) — secondary app API host | TANGEDCO Mobile App | ⚠️ error |
+| ✅ [`ccms.tangedco.org`](https://ccms.tangedco.org) | TANGEDCO app backend (CCMS) — consumer-care/billing API of the TANGEDCO app | TANGEDCO Mobile App | ✅ live |
+| ✅ [`thiranmigutiruppur.com`](https://thiranmigutiruppur.com) | Tiruppur Smart City backend (TSC) — vendor-operated portal of Tiruppur Smart City | Tiruppur City Municipal Corporation app | ✅ live |
+| ✅ [`tnurbantree.tn.gov.in`](https://tnurbantree.tn.gov.in) | TN Urban Tree Authority portal | TN Urban Esevai | ✅ live |
+| ✅ [`tn-nhis.com`](https://tn-nhis.com) | TN-NHIS (CM Comprehensive Health Insurance Scheme backend) — scheme backend of the CMCHIS app; vendor-operated domain | CMCHIS (CM Health Insurance Scheme) | ✅ live |
+| ✅ [`ekyc.tnega.org`](https://ekyc.tnega.org) | TNeGA generic eKYC — shared eKYC gateway (Makkal Sevai) | Makkal Sevai Generic eKYC | ✅ live |
+| 🌐 [`tngis.tnega.org`](https://tngis.tnega.org) | TNeGA GIS service — no DNS at check time (referenced by app) | TamilNilam Geo-Info | 🌐 unreachable |
+| 🌐 [`mobileapi.phr.tn.gov.in`](https://mobileapi.phr.tn.gov.in) | TNPHR mobile API — TN Personal Health Record API; unreachable at check (NIC) | TNPHR | 🌐 unreachable |
+| ✅ [`tnpscems.tn.gov.in`](https://tnpscems.tn.gov.in) | TNPSC EMS portal — exam-management portal behind the TNPSC app | TNPSC EMS | ✅ live |
+| ✅ [`urbantamilnilam.tn.gov.in`](https://urbantamilnilam.tn.gov.in) | Urban TamilNilam — urban land-records e-services | TamilNilam | ✅ live |

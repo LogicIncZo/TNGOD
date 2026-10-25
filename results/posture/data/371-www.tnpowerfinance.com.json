@@ -1,0 +1,189 @@
+{
+ "idx": 371,
+ "host": "www.tnpowerfinance.com",
+ "url": "https://www.tnpowerfinance.com",
+ "name": "Tamilnadu Power Finance and Infrastructure Development Corporation Limited",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "tnpowerfinance.com",
+  "domain": "tnpowerfinance.com",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "54.230.27.127",
+   "54.230.27.35",
+   "54.230.27.51",
+   "54.230.27.80"
+  ],
+  "aaaa": [
+   "2600:9000:2634:2000:1f:2869:b840:93a1",
+   "2600:9000:2634:3000:1f:2869:b840:93a1",
+   "2600:9000:2634:5c00:1f:2869:b840:93a1",
+   "2600:9000:2634:8400:1f:2869:b840:93a1",
+   "2600:9000:2634:c800:1f:2869:b840:93a1",
+   "2600:9000:2634:e00:1f:2869:b840:93a1",
+   "2600:9000:2634:f000:1f:2869:b840:93a1",
+   "2600:9000:2634:f200:1f:2869:b840:93a1"
+  ],
+  "mx": [],
+  "txt": [
+   "qkzjtf3wn2xmw09xfnv99p1czm4244gq",
+   "50xk0jmqq303kx7gsnt3rlmsq64rc9f6",
+   "0yvq214c6qk2dl23bg7ymmz0w3zp57nc",
+   "c5r5vcfcpggw4qrcdhc6nwwj91h7vblq",
+   "rkmp0l9bxnl05wyv33j4k1bcnszlfrsc",
+   "z18gpttgg37cyfj7ryx8gyl789367cbf",
+   "5nv1k6ftqtvwn8687l00d8259j9bc2ww",
+   "01l8s1v86kf323r14j3n3f4v96y4r2tw",
+   "p0bfm92rwj066bcv356pb3n2dbf75b8k",
+   "r4c3mdqt3nf1xccrr4h30kzr15mpjpyt"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnpowerfinance.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "CloudFront",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 4bdf501203700a430d426463d626d83c.cloudfront.net (CloudFront)",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "vary",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-amz-version-id",
+    "x-cache",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNPFC Depositor Login",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 3075,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnpowerfinance.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "CloudFront",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 dbae6b2ce4cce2f7c1803757a782b3e6.cloudfront.net (CloudFront)",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "vary",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-amz-version-id",
+    "x-cache",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNPFC Depositor Login",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 3075,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 40,
+  "grade": "D",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

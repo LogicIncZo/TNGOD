@@ -1,0 +1,72 @@
+{
+ "idx": 171,
+ "host": "www.tnelb.gov.in",
+ "url": "https://www.tnelb.gov.in",
+ "name": "TamilNadu Electrical Licensing Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnelb.gov.in",
+  "domain": "tnelb.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnelb.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 25 06:23:19 2026 GMT",
+  "notAfter": "Nov 23 06:23:18 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.167.20"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject;"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  }
+ },
+ "posture": {
+  "score": 98,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

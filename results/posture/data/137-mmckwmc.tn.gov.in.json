@@ -1,0 +1,160 @@
+{
+ "idx": 137,
+ "host": "mmckwmc.tn.gov.in",
+ "url": "https://mmckwmc.tn.gov.in",
+ "name": "Koyambedu Wholesale Market Complex",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-19",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "mmckwmc.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "mmckwmc.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 20 11:20:42 2026 GMT",
+  "notAfter": "Dec 19 11:20:41 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.103"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://mmckwmc.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "content-security-policy": "default-src 'self' ; frame-src 'self' https://www.google.com ; script-src 'unsafe-inline' 'unsafe-eval' 'self' https://code.iconify.design https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://getbootstrap.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://cdnjs.cloudflare.com https://unpkg.com https://netdna.bootstrapcdn.com ; img-src 'self' data: https://i.ibb.co https://api.mmckwmc.tn.gov.in https://keshraf.github.io https://mmckwmc.tn.gov.in blob:; connect-src 'self' https://cdn.jsdelivr.net https://api.mmckwmc.tn.gov.in; font-src 'self' https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://cdn.jsdelivr.net https://unpkg.com https://netdna.bootstrapcdn.com; object-src 'none' ; media-src 'self' https://mmckwmc.tn.gov.in blob:; frame-ancestors 'self';"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "allow",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "expires",
+    "last-modified",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "MMC KWMC | Koyambedu Wholesale Market Complex",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 7241,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://mmckwmc.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "content-security-policy": "default-src 'self' ; frame-src 'self' https://www.google.com ; script-src 'unsafe-inline' 'unsafe-eval' 'self' https://code.iconify.design https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://getbootstrap.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://cdnjs.cloudflare.com https://unpkg.com https://netdna.bootstrapcdn.com ; img-src 'self' data: https://i.ibb.co https://api.mmckwmc.tn.gov.in https://keshraf.github.io https://mmckwmc.tn.gov.in blob:; connect-src 'self' https://cdn.jsdelivr.net https://api.mmckwmc.tn.gov.in; font-src 'self' https://maxcdn.bootstrapcdn.com https://cdnjs.cloudflare.com https://fonts.gstatic.com https://cdn.jsdelivr.net https://unpkg.com https://netdna.bootstrapcdn.com; object-src 'none' ; media-src 'self' https://mmckwmc.tn.gov.in blob:; frame-ancestors 'self';"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "allow",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "expires",
+    "last-modified",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "MMC KWMC | Koyambedu Wholesale Market Complex",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 7241,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

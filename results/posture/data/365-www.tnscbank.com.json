@@ -1,0 +1,155 @@
+{
+ "idx": 365,
+ "host": "www.tnscbank.com",
+ "url": "https://www.tnscbank.com",
+ "name": "Tamil Nadu State Apex Co-op. Bank Ltd. (TNSC Bank)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-06",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnscbank.com",
+  "domain": "tnscbank.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tnscbank.com",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Oct  8 12:22:48 2026 GMT",
+  "notAfter": "Jan  6 12:22:47 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "43.225.55.214"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 tnscbank-com.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "MS=ms44625338",
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "D2469210",
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "MS=ms44625338",
+   "D2469210"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=quarantine; rua=mailto:admin@tnscbank.com; ruf=mailto:admin@tnscbank.com; fo=1"
+  ],
+  "spf": "v=spf1 include:spf.protection.outlook.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnscbank.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.25.5"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "server",
+    "vary",
+    "x-proxy-cache",
+    "x-server-cache"
+   ],
+   "title": "Page Redirection",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 380,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.tnscbank.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.25.5"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "server",
+    "vary",
+    "x-proxy-cache",
+    "x-server-cache"
+   ],
+   "title": "Page Redirection",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 380,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.25.5'."
+   ]
+  ]
+ }
+}

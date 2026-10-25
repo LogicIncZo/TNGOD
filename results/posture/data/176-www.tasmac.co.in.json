@@ -1,0 +1,154 @@
+{
+ "idx": 176,
+ "host": "www.tasmac.co.in",
+ "url": "https://www.tasmac.co.in",
+ "name": "Tamilnadu State Marketing Corporation Ltd. (TASMAC)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tasmac.co.in",
+  "domain": "tasmac.co.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tasmac.co.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep 24 04:31:58 2026 GMT",
+  "notAfter": "Dec 23 04:31:57 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "125.17.109.102"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tasmac.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "vary",
+    "x-content-security-policy",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "This site has moved \u2014 TASMAC | \u0ba4\u0bb3\u0bae\u0bcd \u0bae\u0bbe\u0bb1\u0bcd\u0bb1\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 10792,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tasmac.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "vary",
+    "x-content-security-policy",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "This site has moved \u2014 TASMAC | \u0ba4\u0bb3\u0bae\u0bcd \u0bae\u0bbe\u0bb1\u0bcd\u0bb1\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 10792,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 58,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

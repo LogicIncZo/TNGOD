@@ -1,0 +1,127 @@
+{
+ "idx": 187,
+ "host": "tnbizbuddy.com",
+ "url": "https://tnbizbuddy.com",
+ "name": "TN BizBuddy (SIPCOT/Guidance)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-04-14",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnbizbuddy.com",
+  "domain": "tnbizbuddy.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnbizbuddy.com",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Sep 28 00:00:00 2026 GMT",
+  "notAfter": "Apr 14 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "65.1.202.70"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "_mc9kxbv2kkbix70lkg1yleagsm8ab5z"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnbizbuddy.com/BIZBUDDY/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=16070400; includeSubDomains",
+    "set-cookie": "JSESSIONID=9D26A2BCEF56D506E0A2B21DEE040F00; Path=/BIZBUDDY; HttpOnly"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "BizBuddy",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 34516,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

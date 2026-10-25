@@ -1,0 +1,157 @@
+{
+ "idx": 361,
+ "host": "www.tamilnadunursingcouncil.com",
+ "url": "https://www.tamilnadunursingcouncil.com",
+ "name": "Tamil Nadu Nurses and Midwives Council, Chennai",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tamilnadunursingcouncil.com",
+  "domain": "tamilnadunursingcouncil.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tamilnadunursingcouncil.com",
+  "leaf_issuer": "Go Daddy Secure Certificate Authority - G2",
+  "leaf_org": "",
+  "notBefore": "Jan 28 01:40:01 2026 GMT",
+  "notAfter": "Jan 28 16:32:04 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Go Daddy Secure Certificate Authority - G2",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "000",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "68.178.167.171"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 tamilnadunursingcouncil-com.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "google-site-verification=uKouH0Gy-SpSsC2QrtZjVHulkp8pL81yoNXmNN-H-tc",
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "MS=ms22795760",
+   "google-site-verification=uKouH0Gy-SpSsC2QrtZjVHulkp8pL81yoNXmNN-H-tc",
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "MS=ms22795760"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:spf.protection.outlook.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tamilnadunursingcouncil.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "cross-origin-resource-policy",
+    "date",
+    "etag",
+    "last-modified",
+    "permission-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu Nurses & Midwives Council",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 37630,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tamilnadunursingcouncil.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "cross-origin-resource-policy",
+    "date",
+    "etag",
+    "last-modified",
+    "permission-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu Nurses & Midwives Council",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 37630,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 75,
+  "grade": "B",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

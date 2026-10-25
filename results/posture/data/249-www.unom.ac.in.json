@@ -1,0 +1,120 @@
+{
+ "idx": 249,
+ "host": "www.unom.ac.in",
+ "url": "https://www.unom.ac.in",
+ "name": "University of Madras",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-03-06",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "unom.ac.in",
+  "domain": "unom.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.unom.ac.in",
+  "leaf_issuer": "GoDaddy TLS Intermediate CA DV - R1v1",
+  "leaf_org": "",
+  "notBefore": "Aug 20 09:52:23 2026 GMT",
+  "notAfter": "Mar  6 09:52:23 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Go Daddy Root Certificate Authority - G2",
+  "chain_issuers": "GoDaddy TLS Intermediate CA DV - R1v1; GoDaddy TLS Root CA - R1; Go Daddy Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "218.248.44.203"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 include:mgovcloud.in  mx ip4:164.100.14.0/24 ip4:164.100.2.0/24 ip4:164.100.10.0/24 ip4:164.100.15.0/24 -all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:mgovcloud.in  mx ip4:164.100.14.0/24 ip4:164.100.2.0/24 ip4:164.100.10.0/24 ip4:164.100.15.0/24 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 404,
+   "final_url": "https://www.unom.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "vary"
+   ],
+   "title": "404 Not Found",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 564,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 404,
+   "final_url": "https://www.unom.ac.in:443/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security",
+    "vary"
+   ],
+   "title": "404 Not Found",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 564,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 93,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

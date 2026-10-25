@@ -1,0 +1,111 @@
+{
+ "idx": 438,
+ "host": "coimbatorecitypolice.com",
+ "url": "https://coimbatorecitypolice.com",
+ "name": "Coimbatore City Police",
+ "group": "Others",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "coimbatorecitypolice.com",
+  "domain": "coimbatorecitypolice.com",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "107.161.23.204",
+   "198.251.81.30",
+   "209.141.38.71"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.coimbatorecitypolice.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-proxy-cache"
+   ],
+   "title": "Welcome to coimbatorecitypolice.com",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 4730,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 48,
+  "grade": "D",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -52,7 +52,7 @@
     "x-frame-options": "SAMEORIGIN",
     "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
     "x-content-type-options": "nosniff",
-    "set-cookie": "PHPSESSID=4otp3f6fo6057on0f8e04qj7u8; path=/; HttpOnly; Secure",
+    "set-cookie": "PHPSESSID=14o3e9ipvs93cpnnerpaesru92; path=/; HttpOnly; Secure",
     "permissions-policy": "geolocation=(self), microphone=(), camera=(), fullscreen=*, payment=(), accelerometer=(), autoplay=(), encrypted-media=(), midi=(), sync-xhr=(), usb=()",
     "referrer-policy": "strict-origin-when-cross-origin"
    },

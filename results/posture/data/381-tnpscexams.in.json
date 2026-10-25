@@ -1,0 +1,169 @@
+{
+ "idx": 381,
+ "host": "tnpscexams.in",
+ "url": "https://tnpscexams.in",
+ "name": "TNPSC Exams Portal",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-03-01",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpscexams.in",
+  "domain": "tnpscexams.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpscexams.in",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Jan 31 00:00:00 2026 GMT",
+  "notAfter": "Mar  1 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "108.157.238.104",
+   "108.157.238.118",
+   "108.157.238.15",
+   "108.157.238.16"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnpscexams.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "AmazonS3",
+    "x-cache": "RefreshHit from cloudfront",
+    "via": "1.1 9e077f08bc031bc03377d200c4c01c6a.cloudfront.net (CloudFront)"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "alt-svc",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-amz-meta-s3b-last-modified",
+    "x-cache"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 299,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnpscexams.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "AmazonS3",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 28863c630dd32c0034abbd5d365c944c.cloudfront.net (CloudFront)"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "alt-svc",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-amz-meta-s3b-last-modified",
+    "x-cache"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 299,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

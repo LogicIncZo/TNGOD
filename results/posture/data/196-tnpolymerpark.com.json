@@ -1,0 +1,124 @@
+{
+ "idx": 196,
+ "host": "tnpolymerpark.com",
+ "url": "https://tnpolymerpark.com",
+ "name": "TN Polymer Park (TANSIDCO)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "2",
+ "csv_status": "error",
+ "csv_detail": "HTTP 403 to bots",
+ "csv_cert_expires": "2026-12-18",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpolymerpark.com",
+  "domain": "tnpolymerpark.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpolymerpark.com",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jun  3 00:00:00 2026 GMT",
+  "notAfter": "Dec 18 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "198.23.48.180"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "google-site-verification=1HBlDsUnyRUQGAL2zWgDLxY0jQGMp-A4VZzxQG7yQuI"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 403,
+   "final_url": "https://tnpolymerpark.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "403 Forbidden",
+   "generator": "",
+   "content_type": "text/html; charset=iso-8859-1",
+   "body_bytes": 476,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 403,
+   "final_url": "http://tnpolymerpark.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "403 Forbidden",
+   "generator": "",
+   "content_type": "text/html; charset=iso-8859-1",
+   "body_bytes": 476,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 88,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

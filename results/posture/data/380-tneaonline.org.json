@@ -1,0 +1,155 @@
+{
+ "idx": 380,
+ "host": "tneaonline.org",
+ "url": "https://tneaonline.org",
+ "name": "TNEA Counselling (Anna University)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2027-04-17",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tneaonline.org",
+  "domain": "tneaonline.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tneaonline.org",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Oct  2 00:00:00 2026 GMT",
+  "notAfter": "Apr 17 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "54.240.162.120",
+   "54.240.162.43",
+   "54.240.162.52",
+   "54.240.162.88"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mx1.privateemail.com.",
+   "10 mx2.privateemail.com."
+  ],
+  "txt": [
+   "v=spf1 include:spf.privateemail.com ~all",
+   "google-site-verification=1Qw6FwcwEJyL-5JYHDo0kpYmCYIK6Z93XS86ridIr4Y"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:spf.privateemail.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tneaonline.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "vary",
+    "x_frame-options"
+   ],
+   "title": "Tamil nadu Engineering Admissions(TNEA Online Counselling)-2026",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 7218,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tneaonline.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "vary",
+    "x_frame-options"
+   ],
+   "title": "Tamil nadu Engineering Admissions(TNEA Online Counselling)-2026",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 7218,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

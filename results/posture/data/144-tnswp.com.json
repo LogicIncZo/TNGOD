@@ -1,0 +1,151 @@
+{
+ "idx": 144,
+ "host": "tnswp.com",
+ "url": "https://tnswp.com",
+ "name": "Single Window Portal (Business-Related Approvals/ Licenses/ Clearances/ NOCs)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-01",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnswp.com",
+  "domain": "tnswp.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tnswp.com",
+  "leaf_issuer": "Amazon RSA 2048 M04",
+  "leaf_org": "",
+  "notBefore": "Jun 18 00:00:00 2026 GMT",
+  "notAfter": "Jan  1 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M04; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "75.2.10.42",
+   "99.83.195.86"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 mx ptr a:dilsmtp.dil.in a:tbms.datainfosys.net ~all"
+  ],
+  "dmarc": [
+   "_n3dlep322abmds06dvcpm75rhqiw909"
+  ],
+  "spf": "v=spf1 mx ptr a:dilsmtp.dil.in a:tbms.datainfosys.net ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnswp.com/DIGIGOV/swp-tnswp.jsp",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "default-src 'self'; connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';",
+    "strict-transport-security": "max-age=16070400; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "JSESSIONID=D44566E3FD79A0B5E7692FE00D46DBC2; Path=/DIGIGOV; HttpOnly"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "Single Window Portal",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 94176,
+   "cookies": {
+    "total": 3,
+    "no_secure": 2,
+    "no_httponly": 2,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnswp.com/DIGIGOV/swp-tnswp.jsp",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "default-src 'self'; connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';",
+    "strict-transport-security": "max-age=16070400; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "JSESSIONID=03772B7E24F99E3AA1E5C8FE3F0A41A0; Path=/DIGIGOV; HttpOnly"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "Single Window Portal",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 94176,
+   "cookies": {
+    "total": 3,
+    "no_secure": 2,
+    "no_httponly": 2,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 2 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

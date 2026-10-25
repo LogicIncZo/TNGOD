@@ -1,0 +1,170 @@
+{
+ "idx": 421,
+ "host": "tamildigitallibrary.in",
+ "url": "https://tamildigitallibrary.in",
+ "name": "Tamil Digital Library",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tamildigitallibrary.in",
+  "domain": "tamildigitallibrary.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tamildigitallibrary.in",
+  "leaf_issuer": "Thawte TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Dec 31 00:00:00 2025 GMT",
+  "notAfter": "Dec 30 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "DigiCert Global Root G2",
+  "chain_issuers": "Thawte TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "404",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "117.239.70.111"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "15 wxgs6ho2pqjfxokijc3pn2qi72nof3he6vpdqjoapmzmhr7btd3a.mx-verification.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "_w9cmfas8f3h79agvjrsdd3mjdfib58e",
+   "_52tveyf87e7uh8ysauy22y05gv99qu4"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tamildigitallibrary.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "csrf_cookie_name=bbe73f0a80f1d2e6ee085fffda21b9b1; expires=Sun, 25 Oct 2026 20:03:46 GMT; Max-Age=7200; path=/; secure; HttpOnly; SameSite=Strict",
+    "x-frame-options": "sameorigin",
+    "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval'; font-src * data:; img-src * wss: blob:",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "referrer-policy": "no-referrer-when-downgrade"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expect-ct",
+    "expires",
+    "feature-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0b87\u0ba3\u0bc8\u0baf\u0b95\u0bcd \u0b95\u0bb2\u0bcd\u0bb5\u0bbf\u0b95\u0bcd\u0b95\u0bb4\u0b95 \u0bae\u0bbf\u0ba9\u0bcd \u0ba8\u0bc2\u0bb2\u0b95\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tamildigitallibrary.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "csrf_cookie_name=7e0ae3735684dac4dc38729253bdf537; expires=Sun, 25 Oct 2026 20:03:48 GMT; Max-Age=7200; path=/; secure; HttpOnly; SameSite=Strict",
+    "x-frame-options": "sameorigin",
+    "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval'; font-src * data:; img-src * wss: blob:",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "referrer-policy": "no-referrer-when-downgrade"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expect-ct",
+    "expires",
+    "feature-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0b87\u0ba3\u0bc8\u0baf\u0b95\u0bcd \u0b95\u0bb2\u0bcd\u0bb5\u0bbf\u0b95\u0bcd\u0b95\u0bb4\u0b95 \u0bae\u0bbf\u0ba9\u0bcd \u0ba8\u0bc2\u0bb2\u0b95\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

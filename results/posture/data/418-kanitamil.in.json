@@ -1,0 +1,120 @@
+{
+ "idx": 418,
+ "host": "kanitamil.in",
+ "url": "https://kanitamil.in",
+ "name": "Kani Tamil (Tamil Virtual Academy)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "error",
+ "csv_detail": "HTTP 403 to bots",
+ "csv_cert_expires": "2026-12-09",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "kanitamil.in",
+  "domain": "kanitamil.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.zoho.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "May 25 00:00:00 2026 GMT",
+  "notAfter": "Dec  9 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "403",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "169.148.148.76"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 403,
+   "final_url": "https://kanitamil.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "ZGS",
+    "strict-transport-security": "max-age=64072000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security"
+   ],
+   "title": "403 Forbidden",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 520,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 403,
+   "final_url": "https://kanitamil.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "ZGS",
+    "strict-transport-security": "max-age=64072000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "strict-transport-security"
+   ],
+   "title": "403 Forbidden",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 520,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 88,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

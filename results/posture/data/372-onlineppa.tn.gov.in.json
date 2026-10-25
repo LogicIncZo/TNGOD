@@ -1,0 +1,176 @@
+{
+ "idx": 372,
+ "host": "onlineppa.tn.gov.in",
+ "url": "https://onlineppa.tn.gov.in",
+ "name": "Tamilnadu Single Window Portal for Planning Permission",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "onlineppa.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "onlineppa.tn.gov.in",
+  "leaf_issuer": "Go Daddy Secure Certificate Authority - G2",
+  "leaf_org": "",
+  "notBefore": "Apr 28 09:56:51 2026 GMT",
+  "notAfter": "Nov 12 09:56:51 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Go Daddy Root Certificate Authority - G2",
+  "chain_issuers": "Go Daddy Secure Certificate Authority - G2; Go Daddy Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.21"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://onlineppa.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-powered-by": "PHP/8.3.36",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "interest-cohort=()",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "permissions-policy",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-generator",
+    "x-powered-by",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "Welcome to Tamilnadu Single Window Portal for Planning Permission :: Tamilnadu Single Window Portal for Planning Permiss",
+   "generator": "Drupal 9 (https://www.drupal.org)",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 61180,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://onlineppa.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-powered-by": "PHP/8.3.36",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "interest-cohort=()",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "permissions-policy",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-generator",
+    "x-powered-by",
+    "x-ua-compatible",
+    "x-xss-protection"
+   ],
+   "title": "Welcome to Tamilnadu Single Window Portal for Planning Permission :: Tamilnadu Single Window Portal for Planning Permiss",
+   "generator": "Drupal 9 (https://www.drupal.org)",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 61180,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 56,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.3.36'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "idx": 101,
+ "host": "tcp.tn.gov.in",
+ "url": "https://tcp.tn.gov.in",
+ "name": "Directorate of Town and Country Planning",
+ "group": "Directorates & Commissionerates",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-10",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tcp.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tcp.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Nov 11 00:00:00 2025 GMT",
+  "notAfter": "Nov 10 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "DigiCert Global Root G2",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.75"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tcp.tn.gov.in/home",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": "geolocation=(), microphone=()",
+    "set-cookie": "laravel_session=eyJpdiI6InJ5eFJOSFBnbWxxZG5ma0tydWZYU1E9PSIsInZhbHVlIjoiXC9IXC9LbUtJTHdsVnRhekx5MU45djB2REliMk5JbEplTHJsYXZUcHFUMktFNFMza2paclp4Z0V4SytHV3VPNFFLIiwibWFjIjoiYTYzMDExYmUyODA5Y2RhODVkZDU3ZDRjYWJhZGFjODhjNmVhNjk2OWI1ZGUxZjY2ZDgxNzI1ZTc3ZWZiMGY2MiJ9; expires=Sun, 25-Oct-2026 20:02:49 GMT; Max-Age=7200; path=/; httponly;HttpOnly;Secure;SameSite=Strict"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Directorate of Town and Country Planning, Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 164565,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tcp.tn.gov.in/home",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": "geolocation=(), microphone=()",
+    "set-cookie": "laravel_session=eyJpdiI6Im1DQkU5c1pqMWRBcWNDVzNwWWpqdUE9PSIsInZhbHVlIjoiVzY5cGZRXC9GQ2RwakNxZm1ST3ZYWTg0V0txbU5oWnFlUWZMTXVEZWxFNHpzUGhXZ2psNkVHXC9GMWZiZXZEbmlvIiwibWFjIjoiMTU0OTQzMjlmNjBlOTI4YjhiY2QzN2EyMTE5NjFmMTcyMThjZGRmZTVlYjA1ZTk0YjM3ZjkyMDk3MDcxYTdjMyJ9; expires=Sun, 25-Oct-2026 20:02:50 GMT; Max-Age=7200; path=/; httponly;HttpOnly;Secure;SameSite=Strict"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Directorate of Town and Country Planning, Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 164565,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

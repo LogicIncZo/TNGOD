@@ -1,0 +1,144 @@
+{
+ "idx": 321,
+ "host": "cams.tn.gov.in",
+ "url": "https://cams.tn.gov.in",
+ "name": "Comprehensive Audit Management System",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-02-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "cams.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cams.tn.gov.in",
+  "leaf_issuer": "Amazon RSA 2048 M04",
+  "leaf_org": "",
+  "notBefore": "Jan 22 00:00:00 2026 GMT",
+  "notAfter": "Feb 20 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M04; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "35.154.182.56"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://cams.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "set-cookie": "laravel_session=eyJpdiI6ImN5a0RtZzA1TzBIWFFlWDhrYkpkT2c9PSIsInZhbHVlIjoibmkrK0F2TzBmYTY0Z0dnZ0gxQVZWNm9oKzBBenFWUnZscEgvSXlCQW1EaDg2T2lNR1FYNzdsL1BmRUh4VXZBWFBwRE9OeVhpL3RxOWlDMUNDTTY2U2NyV2k4dG5GeGcyZ1NIbTNiYTBZNi81cDlpb3E1Zlg2Ym5DMWtXLzNhVkoiLCJtYWMiOiJiNjc2MTU3ZDYzMTljM2YzMDc4NWEyZTViNjhiMWZhY2QwMzlhMmE5NDVjNDQwOTE5MzAyNWNjODNkMzFjMWJmIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 19:03:25 GMT; Max-Age=3600; path=/; secure; httponly; samesite=lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Home - CAMS",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 37305,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 400,
+   "final_url": "http://cams.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "awselb/2.0"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "400 The plain HTTP request was sent to HTTPS port",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 622,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

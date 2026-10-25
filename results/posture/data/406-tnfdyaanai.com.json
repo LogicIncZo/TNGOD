@@ -1,0 +1,172 @@
+{
+ "idx": 406,
+ "host": "tnfdyaanai.com",
+ "url": "https://tnfdyaanai.com",
+ "name": "TNFD Yaanai (Thadam)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-26",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnfdyaanai.com",
+  "domain": "tnfdyaanai.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnfdyaanai.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Aug 28 19:18:44 2026 GMT",
+  "notAfter": "Nov 26 20:18:32 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.10.224",
+   "172.67.164.139"
+  ],
+  "aaaa": [
+   "2606:4700:3032::6815:ae0",
+   "2606:4700:3034::ac43:a48b"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnfdyaanai.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=73538efbgrmntvtboqe5q0pqsk2ss64d; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Thadam | Tamil Nadu Forest Department Yaanai",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 128584,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnfdyaanai.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=97fl9ureskqgvg6e9i25u8qe1pnkf295; expires=Sun, 25-Oct-2026 20:03:40 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Thadam | Tamil Nadu Forest Department Yaanai",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 128564,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 45,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

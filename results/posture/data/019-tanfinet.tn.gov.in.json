@@ -48,7 +48,7 @@
    "error": null,
    "headers": {
     "server": "Apache",
-    "set-cookie": "CAKEPHP=e00pl9nalc9ghkkgm9oqfcpnms; path=/; secure; HttpOnly",
+    "set-cookie": "CAKEPHP=m2tmbu5rfnoo573s033l9h7urp; path=/; secure; HttpOnly",
     "x-frame-options": "SAMEORIGIN"
    },
    "all_header_names": [
@@ -83,7 +83,7 @@
    "error": null,
    "headers": {
     "server": "Apache",
-    "set-cookie": "CAKEPHP=5beno0heo3pl2evh80hn8cqrn9; path=/; secure; HttpOnly",
+    "set-cookie": "CAKEPHP=cghd5sbuhsgf3bg2i0n3gl3omh; path=/; secure; HttpOnly",
     "x-frame-options": "SAMEORIGIN"
    },
    "all_header_names": [

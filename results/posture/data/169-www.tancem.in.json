@@ -1,0 +1,161 @@
+{
+ "idx": 169,
+ "host": "www.tancem.in",
+ "url": "https://www.tancem.in",
+ "name": "Tamilnadu Cements Corporation Limited",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-03",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tancem.in",
+  "domain": "tancem.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cpanel.tancem.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep  4 05:49:47 2026 GMT",
+  "notAfter": "Dec  3 05:49:46 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "190.92.174.126"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 tancem.in."
+  ],
+  "txt": [
+   "v=spf1 ip4:190.92.174.126 include:spf.mysecurecloudhost.com ip4:103.118.16.26 ip4:103.138.189.138 include:antispamcloud.com include:iserverplanet.net +a +mx +ip4:103.118.16.236 ~all",
+   "google-site-verification=bQTifhrDl6iBlUO3HpAakRYACsk8ZGtilFAXqgawVmc",
+   "google-site-verification=bQTifhrDl6iBlUO3HpAakRYACsk8ZGtilFAXqgawVmc",
+   "v=spf1 ip4:190.92.174.126 include:spf.mysecurecloudhost.com ip4:103.118.16.26 ip4:103.138.189.138 include:antispamcloud.com include:iserverplanet.net +a +mx +ip4:103.118.16.236 ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 ip4:190.92.174.126 include:spf.mysecurecloudhost.com ip4:103.118.16.26 ip4:103.138.189.138 include:antispamcloud.com include:iserverplanet.net +a +mx +ip4:103.118.16.236 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tancem.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.5.12",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "content-security-policy": "script-src 'self' https://ajax.googleapis.com https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com https://kit.fontawesome.com https://cdn.jsdelivr.net https://translate.google.com *.googleapis.com https://code.jquery.com https://maps.googleapis.com 'unsafe-inline'; style-src 'self' https://www.gstatic.com/ https://fonts.googleapis.com https://ajax.googleapis.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com 'unsafe-inline'; img-src *.gstatic.com 'self' data:; font-src 'self' *.gstatic.com *.cloudflare.com https://fonts.googleapis.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com; frame-src 'self' https://translate.google.com; object-src 'none';",
+    "permissions-policy": "geolocation=(), microphone=(), camera=()",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Tamilnadu Cements Corporation Limited",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tancem.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.5.12",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "content-security-policy": "script-src 'self' https://ajax.googleapis.com https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com https://kit.fontawesome.com https://cdn.jsdelivr.net https://translate.google.com *.googleapis.com https://code.jquery.com https://maps.googleapis.com 'unsafe-inline'; style-src 'self' https://www.gstatic.com/ https://fonts.googleapis.com https://ajax.googleapis.com https://cdnjs.cloudflare.com https://stackpath.bootstrapcdn.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com 'unsafe-inline'; img-src *.gstatic.com 'self' data:; font-src 'self' *.gstatic.com *.cloudflare.com https://fonts.googleapis.com https://use.fontawesome.com https://maxcdn.bootstrapcdn.com; frame-src 'self' https://translate.google.com; object-src 'none';",
+    "permissions-policy": "geolocation=(), microphone=(), camera=()",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Tamilnadu Cements Corporation Limited",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 81,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.5.12'."
+   ]
+  ]
+ }
+}

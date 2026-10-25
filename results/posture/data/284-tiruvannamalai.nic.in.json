@@ -1,0 +1,136 @@
+{
+ "idx": 284,
+ "host": "tiruvannamalai.nic.in",
+ "url": "https://tiruvannamalai.nic.in",
+ "name": "Tiruvannamalai",
+ "group": "Districts",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-29",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tiruvannamalai.nic.in",
+  "domain": "tiruvannamalai.nic.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tiruvannamalai.nic.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 31 08:09:53 2026 GMT",
+  "notAfter": "Nov 29 08:09:52 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.195.223.188"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1;p=quarantine;sp=quarantine;pct=100"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tiruvannamalai.nic.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Tiruvannamalai District, Govt. of Tamil Nadu | Temple Town | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 185659,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tiruvannamalai.nic.in:443/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Tiruvannamalai District, Govt. of Tamil Nadu | Temple Town | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 185659,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 59,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ]
+  ]
+ }
+}

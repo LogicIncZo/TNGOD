@@ -52,7 +52,7 @@
     "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
     "content-security-policy": "upgrade-insecure-requests;",
     "x-content-type-options": "nosniff",
-    "set-cookie": "ci_session=40e4e676c5aa571c644e1bd91776df7ff40d725f; expires=Sun, 25-Oct-2026 19:31:56 GMT; Max-Age=7200; path=/; HttpOnly;HttpOnly;Secure;SameSite=Strict"
+    "set-cookie": "ci_session=323baacd5c81b8d7ed0d9173d8e8a3bdf2fc5f7d; expires=Sun, 25-Oct-2026 19:45:13 GMT; Max-Age=7200; path=/; HttpOnly;HttpOnly;Secure;SameSite=Strict"
    },
    "all_header_names": [
     "cache-control",
@@ -94,7 +94,7 @@
     "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
     "content-security-policy": "upgrade-insecure-requests;",
     "x-content-type-options": "nosniff",
-    "set-cookie": "ci_session=ec87f2e054d40982c272043c501f4520ac04a2e5; expires=Sun, 25-Oct-2026 19:31:56 GMT; Max-Age=7200; path=/; HttpOnly;HttpOnly;Secure;SameSite=Strict"
+    "set-cookie": "ci_session=093e515570282ee3f69b0fb0791ce6f70a3c7275; expires=Sun, 25-Oct-2026 19:45:14 GMT; Max-Age=7200; path=/; HttpOnly;HttpOnly;Secure;SameSite=Strict"
    },
    "all_header_names": [
     "cache-control",

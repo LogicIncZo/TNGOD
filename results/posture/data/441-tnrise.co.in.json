@@ -1,0 +1,151 @@
+{
+ "idx": 441,
+ "host": "tnrise.co.in",
+ "url": "https://tnrise.co.in",
+ "name": "TN-RISE Women Start-Up Council",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-31",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnrise.co.in",
+  "domain": "tnrise.co.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnrise.co.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Oct  2 13:43:37 2026 GMT",
+  "notAfter": "Dec 31 13:43:36 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "13.202.108.40"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "google-gws-recovery-domain-verification=52654558",
+   "google-site-verification=xiix63Dx58mMZpijPSNkxNyDQv70yQKlSJ9tYk94iNg",
+   "v=spf1 include:dc-aa8e722993._spfm.tnrise.co.in ~all",
+   "google-site-verification=IGfahrDNwCDpq2gKN0w9MMFOfEDguHgfQrsrfvWKXWo"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:dc-aa8e722993._spfm.tnrise.co.in ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnrise.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "TN-RISE Women Start Up Council",
+   "generator": "WordPress 6.6.10",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 183169,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnrise.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "TN-RISE Women Start Up Council",
+   "generator": "WordPress 6.6.10",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 183169,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

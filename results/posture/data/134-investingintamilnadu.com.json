@@ -1,0 +1,154 @@
+{
+ "idx": 134,
+ "host": "investingintamilnadu.com",
+ "url": "https://investingintamilnadu.com",
+ "name": "Guidance Tamil Nadu",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; guidancetn.com now unreachable \u2014 live Guidance portal is investingintamilnadu.com",
+ "csv_cert_expires": "2027-01-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "investingintamilnadu.com",
+  "domain": "investingintamilnadu.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "investingintamilnadu.com",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Oct 22 14:53:21 2026 GMT",
+  "notAfter": "Jan 20 14:53:20 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "37.27.137.247"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 ip4:37.27.137.247 ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": "v=spf1 ip4:37.27.137.247 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://investingintamilnadu.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "x-powered-by": "Next.js"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-powered-by"
+   ],
+   "title": "Guidance Tamilnadu | Home",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://investingintamilnadu.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "x-powered-by": "Next.js"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-powered-by"
+   ],
+   "title": "Guidance Tamilnadu | Home",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 53,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.24.0 (Ubuntu)'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'Next.js'."
+   ]
+  ]
+ }
+}

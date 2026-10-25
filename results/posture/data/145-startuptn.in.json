@@ -1,0 +1,168 @@
+{
+ "idx": 145,
+ "host": "startuptn.in",
+ "url": "https://startuptn.in",
+ "name": "Startup TN",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-04-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "startuptn.in",
+  "domain": "startuptn.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "startuptn.in",
+  "leaf_issuer": "Amazon RSA 2048 M04",
+  "leaf_org": "",
+  "notBefore": "Sep 26 00:00:00 2026 GMT",
+  "notAfter": "Apr 11 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M04; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "108.157.238.101",
+   "108.157.238.28",
+   "108.157.238.43",
+   "108.157.238.57"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "10 feedback-smtp.ap-south-1.amazonses.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "google-site-verification=_J-3HI8cbRF0GwAKXD8qEyZkxcUKoniDDLn8db4xGyg",
+   "v=spf1 include:zeptomail.net.in ~all",
+   "MS=ms53180270",
+   "brevo-code:b8ca7934c0a6234a56c5606a1e04a30c",
+   "google-site-verification=IB7JEPcPxUc36MLM_fixUfhrYgBWscpUlOGwq2Osk6U"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": "v=spf1 include:zeptomail.net.in ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://startuptn.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "AmazonS3",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 d6b7fb120b4e2299da597478482406b4.cloudfront.net (CloudFront)"
+   },
+   "all_header_names": [
+    "age",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-cache"
+   ],
+   "title": "StartupTN",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 4485,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://startuptn.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "AmazonS3",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 84979832156646107bdbe881854d9eee.cloudfront.net (CloudFront)"
+   },
+   "all_header_names": [
+    "age",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-cache"
+   ],
+   "title": "StartupTN",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 4485,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 57,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

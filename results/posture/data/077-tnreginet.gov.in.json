@@ -1,0 +1,125 @@
+{
+ "idx": 77,
+ "host": "tnreginet.gov.in",
+ "url": "https://tnreginet.gov.in",
+ "name": "TNREGINET (Registration Dept)",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnreginet.gov.in",
+  "domain": "tnreginet.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnreginet.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Jun  1 00:00:00 2026 GMT",
+  "notAfter": "Dec 16 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "DigiCert Global Root G2",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.24"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnreginet.gov.in/portal/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "JSP/2.3",
+    "set-cookie": "PORTALJSESSIONID=wxgy5D1mL-wiQLtS-2XrDzsOeIS6FMhU1B_eNZRs.portal6; path=/portal; HttpOnly",
+    "x-frame-options": "DENY",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=16070400; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "via": "1.1 ID-7716077353175423 uproxy-2"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-encoding",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "via",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "TNREGINET - Registration Department Goverment of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html;charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'JSP/2.3'."
+   ]
+  ]
+ }
+}

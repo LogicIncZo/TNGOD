@@ -1,0 +1,164 @@
+{
+ "idx": 122,
+ "host": "tnsdma.tn.gov.in",
+ "url": "https://tnsdma.tn.gov.in",
+ "name": "Tamil Nadu State Disaster Management Authority (TNSDMA)",
+ "group": "Commissions, Statutory & Autonomous Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-06-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnsdma.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnsdma.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "May 30 00:00:00 2025 GMT",
+  "notAfter": "Jun 30 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "301",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.165"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "http://tnsdma.tn.gov.in/pages/home",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.2.2",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "csrfToken=1afabd83447f85b7cb32797aa6ef0dd9bedd81e5b806f4872222c975e5e46136abd9e0a49a0cd98352184054b4fd0755c6e566ecd5699662a9149ab5a025d4e7; path=/; secure; HttpOnly"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "TNSDMA",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://tnsdma.tn.gov.in/pages/home",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.2.2",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "csrfToken=7a94b593d56d393efe5a5b5ca30794248106c88528d4ea814f9d4f7235a8255965255d29ecbb9f3c83ca331e432beb524305438e272212893fb7f148e4920a5e; path=/; secure; HttpOnly"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "TNSDMA",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.62 (CentOS Stream) OpenSSL/3.2.2'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/7.4.33'."
+   ]
+  ]
+ }
+}

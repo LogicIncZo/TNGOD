@@ -1,0 +1,157 @@
+{
+ "idx": 358,
+ "host": "www.tnhsp.org",
+ "url": "https://www.tnhsp.org",
+ "name": "Tamil Nadu Health Systems Project (TNHSP)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnhsp.org",
+  "domain": "tnhsp.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnhsp.org",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Oct 14 21:51:07 2026 GMT",
+  "notAfter": "Jan 12 21:51:06 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "403",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "161.118.183.230"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "MS=ms95826091",
+   "v=spf1 include:spf.protection.outlook.com -all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:spf.protection.outlook.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnhsp.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "strict-origin",
+    "server": "Apache",
+    "set-cookie": "PHPSESSID=misvclqqfdkj5jhhsmfrbrvoq4; path=/; HttpOnly; SameSite=Lax",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu Health System Project",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 178557,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnhsp.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "strict-origin",
+    "server": "Apache",
+    "set-cookie": "PHPSESSID=0nb9pi61bhmk319atovnvrjjrm; path=/; HttpOnly; SameSite=Lax",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu Health System Project",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 178557,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 65,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

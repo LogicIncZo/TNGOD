@@ -1,0 +1,124 @@
+{
+ "idx": 316,
+ "host": "www.tnarchives.tn.gov.in",
+ "url": "https://www.tnarchives.tn.gov.in",
+ "name": "Archives and Historical Research",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "error",
+ "csv_detail": "HTTP 404 \u2014 site offline (2026-10-25 sweep; see SECURITY-NOTES.md)",
+ "csv_cert_expires": "2024-09-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnarchives.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnarchives.tn.gov.in",
+  "leaf_issuer": "R10",
+  "leaf_org": "",
+  "notBefore": "Jun 18 18:32:39 2024 GMT",
+  "notAfter": "Sep 16 18:32:38 2024 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "R10",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "404",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "218.248.29.76"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 404,
+   "final_url": "https://www.tnarchives.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "404 Not Found",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 548,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 404,
+   "final_url": "https://tnarchives.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "404 Not Found",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 548,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 18,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

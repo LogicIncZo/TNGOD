@@ -1,0 +1,161 @@
+{
+ "idx": 391,
+ "host": "singarachennai.com",
+ "url": "https://singarachennai.com",
+ "name": "Singara Chennai 2.0 (GCC project)",
+ "group": "Smart City SPVs (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-18",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "singarachennai.com",
+  "domain": "singarachennai.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "singarachennai.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Oct 20 21:26:14 2026 GMT",
+  "notAfter": "Jan 18 22:26:10 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.63.206",
+   "172.67.150.91"
+  ],
+  "aaaa": [
+   "2606:4700:3035::ac43:965b",
+   "2606:4700:3036::6815:3fce"
+  ],
+  "mx": [],
+  "txt": [
+   "godaddyverification=0B/zZ4X+VLVzK7xCTkVdyw==",
+   "60c87772e4a0c66a5789a681e300e150"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://singarachennai.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "SingaraChennai.com \u2013 Premium City Domain for Sale",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 48060,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://singarachennai.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "SingaraChennai.com \u2013 Premium City Domain for Sale",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 48060,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

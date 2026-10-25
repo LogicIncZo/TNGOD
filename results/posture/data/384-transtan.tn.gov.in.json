@@ -1,0 +1,152 @@
+{
+ "idx": 384,
+ "host": "transtan.tn.gov.in",
+ "url": "https://transtan.tn.gov.in",
+ "name": "Transplant Authority",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "transtan.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.transtan.tn.gov.in",
+  "leaf_issuer": "GlobalSign RSA OV SSL CA 2018",
+  "leaf_org": "TRANSPLANT AUTHORITY OF TAMIL NADU",
+  "notBefore": "Dec 29 06:01:25 2025 GMT",
+  "notAfter": "Jan 30 06:01:24 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "GlobalSign RSA OV SSL CA 2018; GlobalSign",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.151"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://transtan.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/8.5",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "TRANSTAN | Transplant Authority Government Of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 161112,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://transtan.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/8.5",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "TRANSTAN | Transplant Authority Government Of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 161112,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 51,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/8.5'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

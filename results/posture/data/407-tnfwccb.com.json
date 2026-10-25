@@ -1,0 +1,150 @@
+{
+ "idx": 407,
+ "host": "tnfwccb.com",
+ "url": "https://tnfwccb.com",
+ "name": "TNFWCCB (wildlife conflict mitigation)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-02",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnfwccb.com",
+  "domain": "tnfwccb.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnfwccb.com",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep  3 04:37:03 2026 GMT",
+  "notAfter": "Dec  2 04:37:02 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "3.108.97.230"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnfwccb.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "same-origin",
+    "server": "uvicorn",
+    "set-cookie": "__Secure-csrftoken=Br7VookySQptUMRPnNcaukQdqzTaOaGV; expires=Sun, 24 Oct 2027 18:03:40 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax; Secure",
+    "strict-transport-security": "max-age=60; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "cross-origin-opener-policy",
+    "date",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "TNFWCCB - Home",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 162398,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnfwccb.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "same-origin",
+    "server": "uvicorn",
+    "set-cookie": "__Secure-csrftoken=bXMUKE8za0GEeW6zv2hU563L3idGFNpE; expires=Sun, 24 Oct 2027 18:03:40 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax; Secure",
+    "strict-transport-security": "max-age=60; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "cross-origin-opener-policy",
+    "date",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "TNFWCCB - Home",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 162398,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

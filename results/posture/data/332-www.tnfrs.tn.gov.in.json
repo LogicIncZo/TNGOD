@@ -1,0 +1,166 @@
+{
+ "idx": 332,
+ "host": "www.tnfrs.tn.gov.in",
+ "url": "https://www.tnfrs.tn.gov.in",
+ "name": "Fire and Rescue Services",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnfrs.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tnfrs.tn.gov.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Oct  9 07:51:21 2026 GMT",
+  "notAfter": "Jan  7 07:51:20 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.143"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnfrs.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.0.7",
+    "x-powered-by": "PHP/8.0.30",
+    "set-cookie": "PHPSESSID=21gkvbcsf7egaiu9io597p3c68; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Fire and Rescue Service",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 68425,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnfrs.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.0.7",
+    "x-powered-by": "PHP/8.0.30",
+    "set-cookie": "PHPSESSID=v99hveki94tsgq18ma52vq8g9u; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Fire and Rescue Service",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 68425,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 33,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.62 (AlmaLinux) OpenSSL/3.0.7'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.0.30'."
+   ]
+  ]
+ }
+}

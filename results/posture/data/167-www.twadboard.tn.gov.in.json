@@ -1,0 +1,156 @@
+{
+ "idx": 167,
+ "host": "www.twadboard.tn.gov.in",
+ "url": "https://www.twadboard.tn.gov.in",
+ "name": "Tamil Nadu Water Supply and Drainage Board (TWAD)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-02-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "twadboard.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "twadboard.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Aug 10 00:00:00 2026 GMT",
+  "notAfter": "Feb 24 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "DigiCert Global Root G2",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.188"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.twadboard.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "report-uri /report-csp-violation",
+    "strict-transport-security": "max-age=1000; includeSubDomains",
+    "referrer-policy": "strict-origin-when-cross-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-generator",
+    "x-xss-protection"
+   ],
+   "title": "| Twadboard",
+   "generator": "Drupal 11 (https://www.drupal.org)",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 38857,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.twadboard.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "report-uri /report-csp-violation",
+    "strict-transport-security": "max-age=1000; includeSubDomains",
+    "referrer-policy": "strict-origin-when-cross-origin"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-generator",
+    "x-xss-protection"
+   ],
+   "title": "| Twadboard",
+   "generator": "Drupal 11 (https://www.drupal.org)",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 38853,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

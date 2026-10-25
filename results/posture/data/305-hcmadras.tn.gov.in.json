@@ -1,0 +1,160 @@
+{
+ "idx": 305,
+ "host": "hcmadras.tn.gov.in",
+ "url": "https://hcmadras.tn.gov.in",
+ "name": "Madras High Court",
+ "group": "Law, Judiciary & Legislature",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; new HC portal (mhc.tn.gov.in legacy also resolves)",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "hcmadras.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "hcmadras.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 28 09:30:31 2026 GMT",
+  "notAfter": "Dec 27 09:30:30 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.38"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://hcmadras.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "connect-src 'self' ;media-src 'self' object-src 'none'; report-uri script-src 'self' 'unsafe-inline' ga.js ;style-src 'self' 'unsafe-inline';",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "PHPSESSID=be4eb60a3cf7c309a8bda917d9f6d746; path=/; secure; HttpOnly",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Madras High Court",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 81873,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://hcmadras.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "connect-src 'self' ;media-src 'self' object-src 'none'; report-uri script-src 'self' 'unsafe-inline' ga.js ;style-src 'self' 'unsafe-inline';",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "PHPSESSID=cf8c2793d953558db98ed86a0fd98de2; path=/; secure; HttpOnly",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Madras High Court",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 81873,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "idx": 396,
+ "host": "umisdashboard.tnega.org",
+ "url": "https://umisdashboard.tnega.org",
+ "name": "UMIS - Unified Monitoring Information System (Pudhumai Penn / Tamil Pudhalvan)",
+ "group": "e-Governance Platforms (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "umisdashboard.tnega.org",
+  "domain": "umisdashboard.tnega.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tnega.org",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Jun  6 00:00:00 2026 GMT",
+  "notAfter": "Dec 20 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "13.202.118.168",
+   "65.0.255.10"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://umisdashboard.tnega.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.18.0 (Ubuntu)"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "UMIS-University Management and Information System",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 30424,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://umisdashboard.tnega.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.18.0 (Ubuntu)"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "UMIS-University Management and Information System",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 30424,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 45,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.18.0 (Ubuntu)'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "idx": 434,
+ "host": "tntourismtors.com",
+ "url": "https://tntourismtors.com",
+ "name": "TN Tourism Operator Registration System",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tntourismtors.com",
+  "domain": "tntourismtors.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tntourismtors.com",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Jul 30 10:07:15 2026 GMT",
+  "notAfter": "Oct 28 10:07:14 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "137.59.54.138"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.tntourismtors.com."
+  ],
+  "txt": [
+   "google-site-verification=Nv8lTtedoOFar4P7lCKVXQRNNEwFX-LLXas5pTbq8Z8",
+   "v=spf1 +a +mx +a:hostytr.rbdc.net -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none"
+  ],
+  "spf": "v=spf1 +a +mx +a:hostytr.rbdc.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tntourismtors.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "set-cookie": "ASP.NET_SessionId=aipstovcsn15zksjlmnhvmr1; path=/; HttpOnly; SameSite=Lax",
+    "x-aspnet-version": "4.0.30319",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "'self' https://www.tntourismtors.com/",
+    "strict-transport-security": "max-age=31536000"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "x-aspnet-version",
+    "x-content-type-options",
+    "x-powered-by-plesk",
+    "x-xss-protection"
+   ],
+   "title": "Tourism Operator Registration System",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 66876,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tntourismtors.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "set-cookie": "ASP.NET_SessionId=cwzuhidw3tbsp2bl0vsnptsv; path=/; HttpOnly; SameSite=Lax",
+    "x-aspnet-version": "4.0.30319",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "'self' https://www.tntourismtors.com/",
+    "strict-transport-security": "max-age=31536000"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "x-aspnet-version",
+    "x-content-type-options",
+    "x-powered-by-plesk",
+    "x-xss-protection"
+   ],
+   "title": "Tourism Operator Registration System",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 66876,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 66,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ]
+  ]
+ }
+}

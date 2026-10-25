@@ -1,0 +1,170 @@
+{
+ "idx": 247,
+ "host": "www.tnjfu.ac.in",
+ "url": "https://www.tnjfu.ac.in",
+ "name": "TN Dr. J. Jayalalithaa Fisheries University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnjfu.ac.in",
+  "domain": "tnjfu.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnjfu.ac.in",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 24 19:51:44 2026 GMT",
+  "notAfter": "Dec 23 20:49:19 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.45.196",
+   "172.67.218.127"
+  ],
+  "aaaa": [
+   "2606:4700:3032::6815:2dc4",
+   "2606:4700:3037::ac43:da7f"
+  ],
+  "mx": [],
+  "txt": [
+   "v=spf1 a mx include:oddek.com include:_spf.google.com -all"
+  ],
+  "dmarc": [
+   "v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s;pct=100;fo=1;rf=afrf;ri=86400;rua=mailto:admin@tnjfu.ac.in;ruf=mailto:admin@tnjfu.ac.in"
+  ],
+  "spf": "v=spf1 a mx include:oddek.com include:_spf.google.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnjfu.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "PHPSESSID=4bcb68a015c82ac012b4758e1b5093cf; path=/; secure",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-turbo-charged-by"
+   ],
+   "title": "TNJFU - Tamil Nadu Dr. J. Jayalalithaa Fisheries University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 178076,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnjfu.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "PHPSESSID=4c94d85a13d1ed4b73b1e0372db9b51f; path=/; secure",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-turbo-charged-by"
+   ],
+   "title": "TNJFU - Tamil Nadu Dr. J. Jayalalithaa Fisheries University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 178076,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 47,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

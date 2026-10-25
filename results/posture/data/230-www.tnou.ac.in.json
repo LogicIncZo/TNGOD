@@ -1,0 +1,115 @@
+{
+ "idx": 230,
+ "host": "www.tnou.ac.in",
+ "url": "https://www.tnou.ac.in",
+ "name": "Tamil Nadu Open University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-02-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnou.ac.in",
+  "domain": "tnou.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tnou.ac.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Feb 16 00:00:00 2026 GMT",
+  "notAfter": "Feb 16 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "20.33.120.18"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 include:_spf.google.com ~all",
+   "google-site-verification=fQ0j6_wEtyqIe5Cqxpz1IzgaHgcU_ltIr3t6ZNvBrJI"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnou.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding"
+   ],
+   "title": "Tamil Nadu Open University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 117513,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 62,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

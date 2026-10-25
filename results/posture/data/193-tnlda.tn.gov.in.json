@@ -1,0 +1,152 @@
+{
+ "idx": 193,
+ "host": "tnlda.tn.gov.in",
+ "url": "https://tnlda.tn.gov.in",
+ "name": "TN Livestock Development Corporation",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-08",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnlda.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnlda.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 10 03:27:10 2026 GMT",
+  "notAfter": "Nov  8 03:27:09 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.157"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnlda.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "laravel_session=eyJpdiI6IkFGVWJkTVhzcnl3MUtCeEx1Qm44Tnc9PSIsInZhbHVlIjoicjJSM0Z6a0ZwNlhuR0g5cUVVTFRCSGdqOG1UWGpzWXRNK29pbks2WVlSNEYvMVAwN3prUTJwVGRQYzlyUFFiNGpYTkQxbFpwL0FkcWdoSG4wbXYwSU5BR1BJVXFsNFNSSkhjWlFhRDhQeE1qY25IWmVyRitpNlIwR21ZbU5HenQiLCJtYWMiOiI1NjA5ZDFhZTc1MDJjNDEzM2I3OTM0ZTk5ZThlODc1ZjNkNzUzZTE5Yjk4ZWI0MDVhZmIzNWM2ZTUwYzJjODc3IiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:01 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+    "content-security-policy": "frame-ancestors 'none';",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNLDC - Tamil Nadu LiveStock Development Corporation Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 15226,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnlda.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "laravel_session=eyJpdiI6ImpTQkQyakhwclA0RmZmd2FzYitlanc9PSIsInZhbHVlIjoiMmdRK3pUakErUHk4OTFaUTBqVWNGZHF5RW5mNVNWdkhTTFRCaHE5dzB4ZlBPMzFpVnFaWUtQV2Qyd3RuUEN0emtLcHhtQVZZdDdYTGszTW5tOG5uY2ZobEN4Q2llaHVHa1hmYlJENjd0Tjc4amVvUVNyNm5haEI3SmdqMnA5MEMiLCJtYWMiOiIyOWJmNzdiZjk3MDgxNTkzMmJkNjZjMzEzMDE3M2RjMzdhMTUwNzUwNTQ4OTNkNTA0MDFhODEzNzM2MTZlOGRlIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:02 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+    "content-security-policy": "frame-ancestors 'none';",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNLDC - Tamil Nadu LiveStock Development Corporation Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 15226,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 63,
+  "grade": "C",
+  "findings": [
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

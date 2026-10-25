@@ -1,0 +1,148 @@
+{
+ "idx": 392,
+ "host": "cropsurvey.tnega.org",
+ "url": "https://cropsurvey.tnega.org/dashboard/index.html",
+ "name": "Crop Survey / e-Adangal",
+ "group": "e-Governance Platforms (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-04-14",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "cropsurvey.tnega.org",
+  "domain": "cropsurvey.tnega.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cropsurvey.tnega.org",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Sep 29 00:00:00 2026 GMT",
+  "notAfter": "Apr 14 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "3.108.83.240",
+   "3.109.223.179"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://cropsurvey.tnega.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "Crop Survey",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 264,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://cropsurvey.tnega.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "upgrade"
+   ],
+   "title": "Crop Survey",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 264,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 47,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

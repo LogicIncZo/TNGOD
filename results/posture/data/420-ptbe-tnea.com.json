@@ -1,0 +1,80 @@
+{
+ "idx": 420,
+ "host": "ptbe-tnea.com",
+ "url": "https://ptbe-tnea.com",
+ "name": "PTBE-TNEA (DOTE admissions)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "unreachable",
+ "csv_detail": "DNS live; no HTTP response",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "ptbe-tnea.com",
+  "domain": "ptbe-tnea.com",
+  "port": "",
+  "tls": "no-tls (4007ED70727F0000:error:80000071:system library:BIO_connect:No route to host:../crypto/bio/bio_sock2.c:183:calling connec)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "182.72.28.34"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 smtp.secureserver.net.",
+   "10 mailstore1.secureserver.net."
+  ],
+  "txt": [
+   "B6B8E0663CC5128E3E035F3D3FAB0EB8",
+   "v=spf1 include:secureserver.net -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject; rua=mailto:dmarc_rua@onsecureserver.net; adkim=r; aspf=r;"
+  ],
+  "spf": "v=spf1 include:secureserver.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 113] No route to host>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 113] No route to host>"
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

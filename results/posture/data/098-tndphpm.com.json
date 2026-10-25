@@ -1,0 +1,161 @@
+{
+ "idx": 98,
+ "host": "tndphpm.com",
+ "url": "https://tndphpm.com",
+ "name": "Directorate of Public Health & Preventive Medicine",
+ "group": "Directorates & Commissionerates",
+ "tier": "1",
+ "csv_status": "error",
+ "csv_detail": "HTTP 429 (rate-limited)",
+ "csv_cert_expires": "2026-12-06",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tndphpm.com",
+  "domain": "tndphpm.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tndphpm.com",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Sep  7 12:28:00 2026 GMT",
+  "notAfter": "Dec  6 12:27:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "88.222.243.139",
+   "93.127.173.187"
+  ],
+  "aaaa": [
+   "2a02:4780:1f:d02d:9184:a955:683d:11e7",
+   "2a02:4780:3d:f22d:96a1:c7cd:da07:ff8d"
+  ],
+  "mx": [
+   "10 mx2.hostinger.com.",
+   "5 mx1.hostinger.com."
+  ],
+  "txt": [
+   "v=spf1 include:_spf.mail.hostinger.com ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none"
+  ],
+  "spf": "v=spf1 include:_spf.mail.hostinger.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tndphpm.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "upgrade-insecure-requests",
+    "server": "hcdn"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "panel",
+    "platform",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-hcdn-cache-status",
+    "x-hcdn-request-id",
+    "x-hcdn-upstream-rt"
+   ],
+   "title": "TN - DPH & PM",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 76645,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tndphpm.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "upgrade-insecure-requests",
+    "server": "hcdn"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "panel",
+    "platform",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-hcdn-cache-status",
+    "x-hcdn-request-id",
+    "x-hcdn-upstream-rt"
+   ],
+   "title": "TN - DPH & PM",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 76645,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 65,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

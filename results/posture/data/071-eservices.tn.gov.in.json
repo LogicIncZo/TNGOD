@@ -1,0 +1,148 @@
+{
+ "idx": 71,
+ "host": "eservices.tn.gov.in",
+ "url": "https://eservices.tn.gov.in",
+ "name": "Survey and Settlement Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-06",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "eservices.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "eservices.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep  7 06:03:48 2026 GMT",
+  "notAfter": "Dec  6 06:03:47 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.43"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://eservices.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "HttpOnly; Secure; SameSite=Lax",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Commissioner of Land Administration, Govt of Tamil Nadu,India",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 243,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://eservices.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "HttpOnly; Secure; SameSite=Lax",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Commissioner of Land Administration, Govt of Tamil Nadu,India",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 243,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

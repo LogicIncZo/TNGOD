@@ -1,0 +1,72 @@
+{
+ "idx": 273,
+ "host": "tenkasi.nic.in",
+ "url": "https://tenkasi.nic.in",
+ "name": "Tenkasi",
+ "group": "Districts",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "tenkasi.nic.in",
+  "domain": "tenkasi.nic.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "164.100.224.89"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1;p=quarantine;sp=quarantine;pct=100"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ]
+  ]
+ }
+}

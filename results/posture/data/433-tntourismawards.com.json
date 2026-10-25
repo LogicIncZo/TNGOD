@@ -1,0 +1,155 @@
+{
+ "idx": 433,
+ "host": "tntourismawards.com",
+ "url": "https://tntourismawards.com",
+ "name": "TN Tourism Awards",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tntourismawards.com",
+  "domain": "tntourismawards.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tntourismawards.com",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Jul 30 10:13:58 2026 GMT",
+  "notAfter": "Oct 28 10:13:57 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "137.59.54.138"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.tntourismawards.com."
+  ],
+  "txt": [
+   "v=spf1 +a +mx +a:hostytr.rbdc.net -all",
+   "google-site-verification=Yu4VRNdDDtGyVfBEZ8vfCJXyNq1rzlteXFp9F2ocwSc"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none"
+  ],
+  "spf": "v=spf1 +a +mx +a:hostytr.rbdc.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tntourismawards.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "ASP.NET_SessionId=byv2vw34pbyi0uja3bjwlfiw; path=/; HttpOnly; SameSite=Lax",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "set-cookie",
+    "x-frame-options",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "Awards Nomination - 2026",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 73645,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tntourismawards.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "ASP.NET_SessionId=rxtxmdilgczkgthfj3dosdum; path=/; HttpOnly; SameSite=Lax",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "set-cookie",
+    "x-frame-options",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "Awards Nomination - 2026",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 73645,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 53,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

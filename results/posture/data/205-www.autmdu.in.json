@@ -1,0 +1,166 @@
+{
+ "idx": 205,
+ "host": "www.autmdu.in",
+ "url": "https://www.autmdu.in",
+ "name": "Anna University Regional Campus (AURCM), Madurai",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "autmdu.in",
+  "domain": "autmdu.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "216.198.79.65",
+   "64.29.17.65"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "google-site-verification=Wg51lQvt79vFkH5XpbL5J1dtwaghv0Xa02zdpFMh1Pk",
+   "google-site-verification=YM_kKdHaxk1BfsPZkFKNgdFU6bMInKhjU3AbL9ZMzQk"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://autmdu.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Vercel",
+    "strict-transport-security": "max-age=63072000"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-origin",
+    "age",
+    "cache-control",
+    "connection",
+    "content-disposition",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-vercel-cache",
+    "x-vercel-id"
+   ],
+   "title": "AURCM",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 982,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://autmdu.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Vercel",
+    "strict-transport-security": "max-age=63072000"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-origin",
+    "age",
+    "cache-control",
+    "connection",
+    "content-disposition",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "x-vercel-cache",
+    "x-vercel-id"
+   ],
+   "title": "AURCM",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 982,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 27,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

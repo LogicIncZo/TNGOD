@@ -1,0 +1,159 @@
+{
+ "idx": 220,
+ "host": "www.motherteresawomenuniv.ac.in",
+ "url": "https://www.motherteresawomenuniv.ac.in",
+ "name": "Mother Teresa Women's University, Kodaikanal",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "motherteresawomenuniv.ac.in",
+  "domain": "motherteresawomenuniv.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "motherteresawomenuniv.ac.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Sep  1 12:55:08 2026 GMT",
+  "notAfter": "Nov 30 12:55:07 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "77.37.47.181"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "google-site-verification=zm2mNtE49u7sNlSwRKO9TAf3yPbfN-2RgzLS2j1HT7I",
+   "tsce0ii8ef13k54se0h6ek67a0"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.motherteresawomenuniv.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "set-cookie": "laravel_session=eyJpdiI6ImdZZWpTNHV6T0lnRG1RR1Y5S0VXZGc9PSIsInZhbHVlIjoibFd6ZTdnNENRekd4U2JaRDNnK1k2NFNWeGlmL1lSRHNENTFlYkdjSE9aTmJ3Z0ZEdHNJTnM0Nnc1OU9DWCtzN0hHRjJ2QXd2WStBYk1WRk80ZWhKMHJPREZUekp4SVlGeEduMlRsNExlZWhvVmxvVjRvRXFNd2kwTE1BMVVEMm8iLCJtYWMiOiIyMjBhZDY3MjFlNDhkODFhN2MwMjNmOGE5ZDViYjM5N2MzYzYxZGU5YTQ3MjE5NzY0MmM5NmY1MDZkOGQzNDc4IiwidGFnIjoiIn0%3D; expires=Sun, 25-Oct-2026 20:03:06 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Mother Teresa Women's University Kodaikanal",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 101213,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.motherteresawomenuniv.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "set-cookie": "laravel_session=eyJpdiI6Im9SZnV3clpxNmNGVlpRZ2RxbDZ6d3c9PSIsInZhbHVlIjoieldFTEE1QTZuUTdKN2hEOE9KeGdNWmlTM1RJcmdEcHRScXExK1YvMFVScFBnWHZZUlJaQU5ScTE1ZGxRakZYQktGTWVmeUVsL3dOYUpXMFo0eVdNam8wM1BWTkgxR2dTaVBLeEZtdnBRdlM4N1BhNnFmc0ZKY080L29hdG9QdEIiLCJtYWMiOiIyZDk2ZmZhZTEwMGZiZjg3ODUzZTFlN2FhNzlhNTczZjNjOGFhZjg0YTllNzUyOGI3YWNmYjU3ZjFjYWE3YTY1IiwidGFnIjoiIn0%3D; expires=Sun, 25-Oct-2026 20:03:06 GMT; Max-Age=7200; path=/; httponly; samesite=lax",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Mother Teresa Women's University Kodaikanal",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 101213,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 46,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.24.0 (Ubuntu)'."
+   ]
+  ]
+ }
+}

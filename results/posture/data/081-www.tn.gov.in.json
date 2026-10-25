@@ -1,0 +1,159 @@
+{
+ "idx": 81,
+ "host": "www.tn.gov.in",
+ "url": "https://www.tn.gov.in/karuvoolam/whatsnew.html",
+ "name": "Treasuries and Accounts Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tn.gov.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Aug 13 04:32:04 2026 GMT",
+  "notAfter": "Nov 11 04:32:03 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.104"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 ip4:103.59.65.10/32 ip4:103.59.65.11/32 ip4:103.59.65.12/32 ip4:164.100.134.10/32 -all",
+   "google-site-verification=ZuqJq1YxzjXM7xt6nKVJUmEJUBvPx2rtc5KIHiDvq8s"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject; rua=mailto:dmarc-report@tn.gov.in; ruf=mailto:dmarc-failed@tn.gov.in; sp=reject; pct=100; fo=1; ri=28800; adkim=s; aspf=s; "
+  ],
+  "spf": "v=spf1 ip4:103.59.65.10/32 ip4:103.59.65.11/32 ip4:103.59.65.12/32 ip4:164.100.134.10/32 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "PHPSESSID=a4qmjcj2lgra0bt882ai5sic4t; path=/; secure; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "referrer-policy": "strict-origin",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+    "content-security-policy": "frame-ancestors 'self'"
+   },
+   "all_header_names": [
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 96670,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "set-cookie": "PHPSESSID=sq7623elgm4hlhehp37a5hubbf; path=/; secure; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "referrer-policy": "strict-origin",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+    "content-security-policy": "frame-ancestors 'self'"
+   },
+   "all_header_names": [
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 96670,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 88,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

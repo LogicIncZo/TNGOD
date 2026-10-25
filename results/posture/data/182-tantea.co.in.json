@@ -1,0 +1,171 @@
+{
+ "idx": 182,
+ "host": "tantea.co.in",
+ "url": "https://tantea.co.in",
+ "name": "TANTEA (TN Tea Plantation Corporation)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "2",
+ "csv_status": "error",
+ "csv_detail": "HTTP 429 (rate-limited)",
+ "csv_cert_expires": "2026-11-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tantea.co.in",
+  "domain": "tantea.co.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tantea.co.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Aug 29 04:12:03 2026 GMT",
+  "notAfter": "Nov 27 04:12:02 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "145.79.210.215"
+  ],
+  "aaaa": [
+   "2a02:4780:11:2090:0:1e12:c5bd:2"
+  ],
+  "mx": [
+   "10 mx2.hostinger.com.",
+   "5 mx1.hostinger.com."
+  ],
+  "txt": [
+   "v=spf1 include:_spf.mail.hostinger.com ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none"
+  ],
+  "spf": "v=spf1 include:_spf.mail.hostinger.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tantea.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.2.34",
+    "set-cookie": "tantea_session=eyJpdiI6ImVJT3h5anpidkZKS1ZwSzFhTG8vYVE9PSIsInZhbHVlIjoicWk0QkFBeDVHUVNjekI4Z2dQVndPK0hmUDVLN3AxazM1S3d1UDdvaEwxSXBjN0dEV0s0eVF0N29yU0wxdDJJWDQrc3ZGNndiNXRWMXQ4MzIvaUt1UURYS2dJbG5oM1RyUEpkc3NVZTh5RnJ4K3BVM3BZejZYOUlwRGdod2JSRTUiLCJtYWMiOiI1ZTdhZmYzYjFjMmQwZDYxYzFjMWYxNmMwZTJlNmU0MWE4NWY1N2RkZWM0NzE4MzYyNTU1NDExNWMxN2MzNTFkIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:00 GMT; Max-Age=7200; path=/; secure; httponly",
+    "server": "LiteSpeed",
+    "content-security-policy": "upgrade-insecure-requests",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(), camera=(), microphone=(), fullscreen=(self)"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "edit",
+    "panel",
+    "permissions-policy",
+    "platform",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "TanTea - One of the best black tea producers of India",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 154612,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tantea.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.2.34",
+    "set-cookie": "tantea_session=eyJpdiI6IlBmZEFvSlhUM1dkdnI2MTAzQW1hckE9PSIsInZhbHVlIjoiejZacW8vOUVnMmhNczNHTUpuR09IY0VWR2NpUTRhQ295UFR6WnJjTWFHbmpCZE8xemtzYnhyN0hUeDlNQXlyUFBjUkhpY09hNGphanZaeUlvWWV4cGZDVE5QVytzeGRpcEJuWjdmd2xxSzZESVh4ZzZOelVpTDF4NlN0ZWhSaGciLCJtYWMiOiI1MzBlODFkYjRiYjE3MmQ5MzllMDMzNGUyYTA0MDFlMTZkZDUzM2Q0NTc2MmMzM2FmODBiNTIyMDNjMzU2OGMyIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:00 GMT; Max-Age=7200; path=/; secure; httponly",
+    "server": "LiteSpeed",
+    "content-security-policy": "upgrade-insecure-requests",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(), camera=(), microphone=(), fullscreen=(self)"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "edit",
+    "panel",
+    "permissions-policy",
+    "platform",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "TanTea - One of the best black tea producers of India",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 154612,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 66,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.2.34'."
+   ]
+  ]
+ }
+}

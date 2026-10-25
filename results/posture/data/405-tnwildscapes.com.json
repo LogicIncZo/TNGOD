@@ -1,0 +1,171 @@
+{
+ "idx": 405,
+ "host": "tnwildscapes.com",
+ "url": "https://tnwildscapes.com",
+ "name": "TN Wildscapes (eco-tourism booking portal)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnwildscapes.com",
+  "domain": "tnwildscapes.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnwildscapes.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 28 12:17:15 2026 GMT",
+  "notAfter": "Dec 27 13:15:45 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.65.63",
+   "172.67.158.201"
+  ],
+  "aaaa": [
+   "2606:4700:3033::6815:413f",
+   "2606:4700:3037::ac43:9ec9"
+  ],
+  "mx": [
+   "0 tnwildscapes-com.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "v=spf1 include:secureserver.net -all",
+   "MS=ms67558200"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=quarantine; adkim=r; aspf=r; rua=mailto:dmarc_rua@onsecureserver.net;"
+  ],
+  "spf": "v=spf1 include:secureserver.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnwildscapes.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=4kg2lhrcv9t9b67lmqqi8r5f9p43qll8; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "TNWILDSCAPES - Official Tamil Nadu Eco-Tourism Portal",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 187037,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnwildscapes.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=fsf3v0q24lm8o08gld54g2ilgupico7p; expires=Sun, 25-Oct-2026 20:03:40 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "TNWILDSCAPES - Official Tamil Nadu Eco-Tourism Portal",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 187051,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

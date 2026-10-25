@@ -1,0 +1,162 @@
+{
+ "idx": 414,
+ "host": "tnpoly.in",
+ "url": "https://tnpoly.in",
+ "name": "DOTE Polytechnic admissions",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpoly.in",
+  "domain": "tnpoly.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpoly.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Jul 26 16:10:58 2026 GMT",
+  "notAfter": "Oct 24 16:10:57 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "112.133.214.68"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnpoly.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.30.6",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "default-src 'self' http: https: data: blob: 'unsafe-inline' 'unsafe-eval'"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "referrer-policy",
+    "server",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "DOTE | Admission Portal",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 487,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnpoly.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.30.6",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "default-src 'self' http: https: data: blob: 'unsafe-inline' 'unsafe-eval'"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "referrer-policy",
+    "server",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "DOTE | Admission Portal",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 487,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.30.6'."
+   ]
+  ]
+ }
+}

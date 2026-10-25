@@ -1,0 +1,160 @@
+{
+ "idx": 103,
+ "host": "www.dvac.tn.gov.in",
+ "url": "https://www.dvac.tn.gov.in",
+ "name": "Directorate of Vigilance & Anti-Corruption",
+ "group": "Directorates & Commissionerates",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "dvac.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "103.59.64.16"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.dvac.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "HttpOnly; secure",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "strict-transport_security",
+    "x-content-type-options",
+    "x-error-log-id",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Directorate of Vigilance and Anti-Corruption",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 43413,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.dvac.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "HttpOnly; secure",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; frame-ancestors 'none';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "strict-transport_security",
+    "x-content-type-options",
+    "x-error-log-id",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Directorate of Vigilance and Anti-Corruption",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 43413,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 46,
+  "grade": "D",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

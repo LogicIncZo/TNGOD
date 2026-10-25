@@ -1,0 +1,49 @@
+{
+ "idx": 248,
+ "host": "",
+ "url": "",
+ "name": "University of Madras",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "none",
+ "csv_detail": "no dedicated website in IGOD listing",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {},
+ "dns": {
+  "a": [],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": "AD",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error no host given>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error no host given>"
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "Domain does not resolve (no A/AAAA record)."
+   ]
+  ]
+ }
+}

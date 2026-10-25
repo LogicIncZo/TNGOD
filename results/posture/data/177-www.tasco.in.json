@@ -1,0 +1,157 @@
+{
+ "idx": 177,
+ "host": "www.tasco.in",
+ "url": "https://www.tasco.in",
+ "name": "TamilNadu Sugar Corporation Ltd. (TASCO)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tasco.in",
+  "domain": "tasco.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tasco.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 13 18:44:16 2026 GMT",
+  "notAfter": "Dec 12 18:44:15 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "208.91.198.123"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.tasco.in."
+  ],
+  "txt": [
+   "v=spf1 include:webhostbox.net ~all",
+   "v=spf1 include:webhostbox.net ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:webhostbox.net ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tasco.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-powered-by": "ASP.NET"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "TASCO-Welcomes you",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 31904,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tasco.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-powered-by": "ASP.NET"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "TASCO-Welcomes you",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 31904,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

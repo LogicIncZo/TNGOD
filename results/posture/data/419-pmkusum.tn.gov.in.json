@@ -1,0 +1,115 @@
+{
+ "idx": 419,
+ "host": "pmkusum.tn.gov.in",
+ "url": "https://pmkusum.tn.gov.in",
+ "name": "PM-KUSUM Solar Pumps (TN)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-04-21",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "pmkusum.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "pmkusum.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Oct  5 00:00:00 2026 GMT",
+  "notAfter": "Apr 21 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "404",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.36"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://pmkusum.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "MyServerDetails",
+    "content-security-policy": "default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http: https:; connect-src 'self' http: https: ws: wss: blob:; img-src 'self' data: http: https:; style-src 'self' 'unsafe-inline' http: https:;font-src 'self' http: https:;media-src 'self' http: https:",
+    "strict-transport-security": "max-age=31536000"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "strict-transport-security"
+   ],
+   "title": "State Solar Water Pumping System",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 35109,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "BadStatusLine: \u0015\u0003\u0003\u0000\u0002\u0002\n"
+  }
+ },
+ "posture": {
+  "score": 75,
+  "grade": "B",
+  "findings": [
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

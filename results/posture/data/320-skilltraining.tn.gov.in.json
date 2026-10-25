@@ -1,0 +1,166 @@
+{
+ "idx": 320,
+ "host": "skilltraining.tn.gov.in",
+ "url": "https://skilltraining.tn.gov.in",
+ "name": "Commissionerate of Employmnet and Traning",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-09",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "skilltraining.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "skilltraining.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "May 25 00:00:00 2026 GMT",
+  "notAfter": "Dec  9 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; ISRG Root X1",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.230"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://skilltraining.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-powered-by": "PHP/8.2.20",
+    "set-cookie": "skilltraining_session=eyJpdiI6InNxNlRSdHdTQ2ZoOEYvL3dwTjVzUnc9PSIsInZhbHVlIjoiTjJJNmxZb09ON2pmM2tpTlJWZDM3ZmUrayt4TmtLVWZFR1VVS1ZVd2MzSHhORm1WNXQ5YXVQSndvSW9iaTFEREVjQWVkcVBFMUNhNk5nYkoxbHVTTTI2dzhpN2U4VDY0a2hMY1BpdUVCb1BaY0NvL2RLZlFOMytyOW1Tb3dmb0IiLCJtYWMiOiJmOTY2ZmYyNmM3OTBiNzljZjYxODZkZjIyNmQ3ZjAzODE3MzI1MTJiMDIyZWMwYmI5NTAzZmFiMTgxMTZkM2U1IiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 19:21:37 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+    "x-frame-options": "sameorigin",
+    "referrer-policy": "same-origin",
+    "permissions-policy": "accelerometer=(),autoplay=(),camera=(),encrypted-media=(),fullscreen=*,geolocation=*,gyroscope=(),interest-cohort=(),magnetometer=(),microphone=(),midi=(),payment=(\"https://*.paypal.com\" \"https://*.barion.com\"),sync-xhr=*,usb=(),xr-spatial-tracking=()",
+    "strict-transport-security": "max-age=631138519; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://skilltraining.tn.gov.in https://cdnjs.cloudflare.com ; font-src 'self' 'unsafe-inline' 'unsafe-eval' https://skilltraining.tn.gov.in https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com data: ; style-src 'self' 'unsafe-inline' 'unsafe-eval' https://skilltraining.tn.gov.in https://cdnjs.cloudflare.com https://fonts.googleapis.com ; img-src 'self' https://skilltraining.tn.gov.in https://www.hitwebcounter.com https://hitwebcounter.com data: blob: "
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Directorate of Employment & Training",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.skilltraining.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-powered-by": "PHP/8.2.20",
+    "set-cookie": "skilltraining_session=eyJpdiI6ImpqZGlmSi9uQTRHVzdPR3hWKzk0cUE9PSIsInZhbHVlIjoiYjd4S1l2S0YxcFBXTnRodE4yZVVqc2VCQmkwaU95bk5PVE40M05RWWROa1dndTBVUTNJMmNhREtscUp0clZpN3Q5Q3hCcTQ2QkhlVXYzVDZEalZUMExEMC91aU52MGpjdms4cFVHZ3R6cFhMblVDZ3hlbW9GcitDSE9xdkNmN0giLCJtYWMiOiI2MjJkMzIwM2ViZjljZGU0Y2E1ZDY5YWIwZjVkNDA2M2M0NjZmZTU0NDhkMDUxZGNlZDg2MzE2MTRiZTkwNmZmIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 19:21:38 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+    "x-frame-options": "sameorigin",
+    "referrer-policy": "same-origin",
+    "permissions-policy": "accelerometer=(),autoplay=(),camera=(),encrypted-media=(),fullscreen=*,geolocation=*,gyroscope=(),interest-cohort=(),magnetometer=(),microphone=(),midi=(),payment=(\"https://*.paypal.com\" \"https://*.barion.com\"),sync-xhr=*,usb=(),xr-spatial-tracking=()",
+    "strict-transport-security": "max-age=631138519; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://skilltraining.tn.gov.in https://cdnjs.cloudflare.com ; font-src 'self' 'unsafe-inline' 'unsafe-eval' https://skilltraining.tn.gov.in https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com data: ; style-src 'self' 'unsafe-inline' 'unsafe-eval' https://skilltraining.tn.gov.in https://cdnjs.cloudflare.com https://fonts.googleapis.com ; img-src 'self' https://skilltraining.tn.gov.in https://www.hitwebcounter.com https://hitwebcounter.com data: blob: "
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Directorate of Employment & Training",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 66,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.2.20'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "idx": 236,
+ "host": "www.tanuvas.ac.in",
+ "url": "https://www.tanuvas.ac.in",
+ "name": "Tamil Nadu Veterinary and Animal Sciences University , TANUVAS",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-22",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tanuvas.ac.in",
+  "domain": "tanuvas.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tanuvas.ac.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jul  8 00:00:00 2026 GMT",
+  "notAfter": "Jan 22 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "14.139.186.151"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 include:_spf.google.com ~all",
+   "cisco-ci-domainverification=b058eca29ef90a492b84de7b731fe403c1b943cc855c04ee106b174ccd504c1",
+   "MS=42A5DA6045AB6B39EC773356C743BACA32A26D82",
+   "_tlhdq6gafbecfocilaqcdijck0lwbs7"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=quarantine; fo=1; rua=mailto:pmaster-wlist@tanuvas.ac.in; ruf=mailto:pmaster-wlist@tanuvas.ac.in"
+  ],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tanuvas.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "set-cookie": "PHPSESSID=jj6p7m21c32h7nm5397lc5i6bj; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "TANUVAS",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 64468,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.52 (Ubuntu)'."
+   ]
+  ]
+ }
+}

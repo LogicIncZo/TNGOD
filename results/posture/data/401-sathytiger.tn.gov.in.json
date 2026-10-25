@@ -1,0 +1,156 @@
+{
+ "idx": 401,
+ "host": "sathytiger.tn.gov.in",
+ "url": "https://sathytiger.tn.gov.in",
+ "name": "Sathyamangalam Tiger Reserve",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-08",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "sathytiger.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "sathytiger.tn.gov.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Oct 10 23:20:24 2026 GMT",
+  "notAfter": "Jan  8 23:20:23 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "404",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "13.200.227.6"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://sathytiger.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "csrf_cookie_name=66923211103d461c32e099b5655dac93; expires=Sun, 25 Oct 2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options"
+   ],
+   "title": "Sathyamangalam Tiger Reserve",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 196546,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://sathytiger.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "csrf_cookie_name=49d199a215c3356d352a29c2f6c300e8; expires=Sun, 25 Oct 2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options"
+   ],
+   "title": "Sathyamangalam Tiger Reserve",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 196546,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 40,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

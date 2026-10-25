@@ -1,0 +1,140 @@
+{
+ "idx": 219,
+ "host": "www.msuniv.ac.in",
+ "url": "https://www.msuniv.ac.in",
+ "name": "Manonmaniam Sundaranar University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "msuniv.ac.in",
+  "domain": "msuniv.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.msuniv.ac.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Sep  8 08:38:11 2026 GMT",
+  "notAfter": "Dec  7 08:38:10 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.235.105.160"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 include:_spf.google.com -all"
+  ],
+  "dmarc": [
+   "v=DMARC1;p=reject; rua=mailto:admin@msuniv.ac.in; adkim=s; aspf=s"
+  ],
+  "spf": "v=spf1 include:_spf.google.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.msuniv.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "upgrade",
+    "vary"
+   ],
+   "title": "Manonmaniam Sundaranar University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 99220,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.msuniv.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "upgrade",
+    "vary"
+   ],
+   "title": "Manonmaniam Sundaranar University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 99220,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 57,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

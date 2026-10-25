@@ -1,0 +1,172 @@
+{
+ "idx": 301,
+ "host": "www.tirunelvelicorporation.com",
+ "url": "https://www.tirunelvelicorporation.com",
+ "name": "Tirunelveli Corporation",
+ "group": "Municipal Corporations & Urban Local Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tirunelvelicorporation.com",
+  "domain": "tirunelvelicorporation.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tirunelvelicorporation.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 13 00:12:05 2026 GMT",
+  "notAfter": "Dec 12 01:09:34 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.83.179",
+   "172.67.180.122"
+  ],
+  "aaaa": [
+   "2606:4700:3030::6815:53b3",
+   "2606:4700:3031::ac43:b47a"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tirunelvelicorporation.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-powered-by": "PHP/7.4.33",
+    "x-frame-options": "DENY",
+    "set-cookie": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%222e19fc90e6f3a16cfad3380c575986c0%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%2249.204.191.116%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A75%3A%22Mozilla%2F5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit%2F537.36%20Chrome%2F126%20Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1792931602%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dd0550bbd4c8f0b394bc1cc8b2dcfd51a; path=/; secure"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "\u0ba4\u0bbf\u0bb0\u0bc1\u0ba8\u0bc6\u0bb2\u0bcd\u0bb5\u0bc7\u0bb2\u0bbf \u0bae\u0bbe\u0ba8\u0b95\u0bb0\u0bbe\u0b9f\u0bcd\u0b9a\u0bbf | \u0ba4\u0bbf\u0bb0\u0bc1\u0ba8\u0bc6\u0bb2\u0bcd\u0bb5\u0bc7\u0bb2\u0bbf \u0bae\u0bbe\u0bae\u0ba9\u0bcd\u0bb1\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 47205,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tirunelvelicorporation.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-powered-by": "PHP/7.4.33",
+    "x-frame-options": "DENY",
+    "set-cookie": "ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%220b411836c27c9a3a9f70d532f4e50f01%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%2249.204.191.116%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A75%3A%22Mozilla%2F5.0%20%28X11%3B%20Linux%20x86_64%29%20AppleWebKit%2F537.36%20Chrome%2F126%20Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1792931603%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Db7e57a53ab9d6713975f38944907c24e; path=/; secure"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "\u0ba4\u0bbf\u0bb0\u0bc1\u0ba8\u0bc6\u0bb2\u0bcd\u0bb5\u0bc7\u0bb2\u0bbf \u0bae\u0bbe\u0ba8\u0b95\u0bb0\u0bbe\u0b9f\u0bcd\u0b9a\u0bbf | \u0ba4\u0bbf\u0bb0\u0bc1\u0ba8\u0bc6\u0bb2\u0bcd\u0bb5\u0bc7\u0bb2\u0bbf \u0bae\u0bbe\u0bae\u0ba9\u0bcd\u0bb1\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 47205,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 43,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/7.4.33'."
+   ]
+  ]
+ }
+}

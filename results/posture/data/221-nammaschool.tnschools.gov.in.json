@@ -1,0 +1,171 @@
+{
+ "idx": 221,
+ "host": "nammaschool.tnschools.gov.in",
+ "url": "https://nammaschool.tnschools.gov.in",
+ "name": "Namma School Namma Ooru Palli (NSNOP)",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-04-18",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "nammaschool.tnschools.gov.in",
+  "domain": "tnschools.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "nammaschool.tnschools.gov.in",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Oct  3 00:00:00 2026 GMT",
+  "notAfter": "Apr 18 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "99.86.147.114",
+   "99.86.147.46",
+   "99.86.147.83",
+   "99.86.147.90"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://nammaschool.tnschools.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "AmazonS3",
+    "via": "1.1 acdc6cdf02b75b093c39fed27ba62b74.cloudfront.net (CloudFront)",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; frame-ancestors *;",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "permissions-policy": "geolocation=*, microphone=*, camera=*",
+    "x-cache": "Hit from cloudfront"
+   },
+   "all_header_names": [
+    "age",
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-cache",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Namma School Namma Ooru Palli",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 80328,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://nammaschool.tnschools.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "AmazonS3",
+    "via": "1.1 4f76b1355e0c2265d60140f0e55e1328.cloudfront.net (CloudFront)",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "content-security-policy": "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:; frame-ancestors *;",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "permissions-policy": "geolocation=*, microphone=*, camera=*",
+    "x-cache": "Hit from cloudfront"
+   },
+   "all_header_names": [
+    "age",
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "via",
+    "x-amz-cf-id",
+    "x-amz-cf-pop",
+    "x-cache",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Namma School Namma Ooru Palli",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 80328,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

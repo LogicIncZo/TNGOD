@@ -1,0 +1,82 @@
+{
+ "idx": 201,
+ "host": "tnwakfboard.org",
+ "url": "https://tnwakfboard.org",
+ "name": "TN Wakf Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "origin-522",
+ "csv_detail": "corrected hostname (original guess had no DNS)",
+ "csv_cert_expires": "2027-01-04",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnwakfboard.org",
+  "domain": "tnwakfboard.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnwakfboard.org",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Oct  6 13:47:23 2026 GMT",
+  "notAfter": "Jan  4 14:45:58 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "000",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.86.103",
+   "172.67.217.214"
+  ],
+  "aaaa": [
+   "2606:4700:3035::6815:5667",
+   "2606:4700:3036::ac43:d9d6"
+  ],
+  "mx": [],
+  "txt": [
+   "google-site-verification=tx09hNgqTBshdc_0qXH0gKHfMfhr8AQcAeWePlnxIBE"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "TimeoutError: timed out"
+  }
+ },
+ "posture": {
+  "score": 88,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

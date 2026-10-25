@@ -1,0 +1,164 @@
+{
+ "idx": 190,
+ "host": "tncu.tn.gov.in",
+ "url": "https://tncu.tn.gov.in",
+ "name": "TN Cooperative Union",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-10-25",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tncu.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tncu.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Jul 27 03:44:59 2026 GMT",
+  "notAfter": "Oct 25 03:44:58 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.236"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tncu.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "frame-ancestors 'self';",
+    "set-cookie": "laravel_session=eyJpdiI6IitsYmdZcnZzcGV4aDE5amNwUW5ta2c9PSIsInZhbHVlIjoicWZwZHhZT05CS0FLSmVtV21CZmZyYmptOWloUzRsUEdLQTEya3RJUVVNTVNQVTQ5Szltb1VtYmdXUWo4aElkSGE3NGtkRHZNWWcvRWFKTHE3c25TOXQ5OEZNTnJTcU9KdmZyaTlOeHphbTVpcTJkZGZQZnhtakNQVjJ6SFVEVWEiLCJtYWMiOiI5NmY1ZDkzOGU5OWRlMWQ3NzU5ZTRiY2ZmMjdmN2M2ODM4NmQ1MjZiOTU0OTY0ZWQwZTBjN2QxZjE3NGI1MWMwIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:01 GMT; Max-Age=7200; path=/; httponly"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "TAMIL NADU COOPERATIVE UNION | Home - Tamil Nadu Cooperative Union",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 84440,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tncu.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.52 (Ubuntu)",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "frame-ancestors 'self';",
+    "set-cookie": "laravel_session=eyJpdiI6IjBqMFM3ZG5nZWZVYlFEd2xFb1BkaWc9PSIsInZhbHVlIjoiUWg3OFdzejBLVHZyRUs5YzJMd3p3cHRjcW84RjhUY3I0clRrRkcvZHVpaWo3aDI2Y3Z6T2x3T0k3b3VXU3JaTGtSTkdIb29YY3ZuTEZHcnNUT3FtOFlzaXpFK2xtaHcvdzdRU0VjWDFuWlA3eHNTSkQzdklrM0NPYncrc3dxUFAiLCJtYWMiOiJkYWJlYjI4ZTE3ZjJjMjUyNjlmZDlhYzYxNjA1Y2EwOWY3YjhiNWE0MjQ2YWM5YzY1MjI3NGJkZGQxODg2YmE3IiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:01 GMT; Max-Age=7200; path=/; httponly"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "TAMIL NADU COOPERATIVE UNION | Home - Tamil Nadu Cooperative Union",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 84440,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.52 (Ubuntu)'."
+   ]
+  ]
+ }
+}

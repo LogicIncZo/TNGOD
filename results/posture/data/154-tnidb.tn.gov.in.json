@@ -1,0 +1,161 @@
+{
+ "idx": 154,
+ "host": "tnidb.tn.gov.in",
+ "url": "https://tnidb.tn.gov.in",
+ "name": "Tamil Nadu Infrastructure Development Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnidb.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnidb.tn.gov.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 13 04:48:03 2026 GMT",
+  "notAfter": "Nov 11 04:48:02 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.90"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnidb.tn.gov.in/en/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' data: https://www.googletagmanager.com https://use.fontawesome.com https://unpkg.com https://maps.googleapis.com http://maps.google.com;",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "django_language=en; expires=Mon, 25 Oct 2027 18:02:56 GMT; Max-Age=31536000; Path=/;HttpOnly;Secure"
+   },
+   "all_header_names": [
+    "access-control-allow-credentials",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-expose-headers",
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Home",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 92400,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://tnidb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' data: https://www.googletagmanager.com",
+    "referrer-policy": "strict-origin-when-cross-origin"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-credentials",
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-expose-headers",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "vary",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Apache2 Ubuntu Default Page: It works",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 10918,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

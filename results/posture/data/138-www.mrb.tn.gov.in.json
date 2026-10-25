@@ -1,0 +1,174 @@
+{
+ "idx": 138,
+ "host": "www.mrb.tn.gov.in",
+ "url": "https://www.mrb.tn.gov.in",
+ "name": "Medical Services Recruitment Board (MRB)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-01-29",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "mrb.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "mrb.tn.gov.in",
+  "leaf_issuer": "R13",
+  "leaf_org": "",
+  "notBefore": "Oct 31 18:35:30 2025 GMT",
+  "notAfter": "Jan 29 18:35:29 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "R13; ISRG Root X1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "404",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.143"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.mrb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.0.7",
+    "x-powered-by": "PHP/8.0.30",
+    "set-cookie": "PHPSESSID=1hvei0oku9j9ms2287ia2c6eh8; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Tamil Nadu Medical Services Recruitment Board",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 53028,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.mrb.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (AlmaLinux) OpenSSL/3.0.7",
+    "x-powered-by": "PHP/8.0.30",
+    "set-cookie": "PHPSESSID=nv5o114qdcd4jdfq2g681q5fvt; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Tamil Nadu Medical Services Recruitment Board",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 53028,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.62 (AlmaLinux) OpenSSL/3.0.7'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.0.30'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "idx": 210,
+ "host": "www.bim.edu",
+ "url": "https://www.bim.edu",
+ "name": "Bharathidasan Institute of Management (BIM), Tiruchirappalli",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-02-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "bim.edu",
+  "domain": "bim.edu",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.bim.edu",
+  "leaf_issuer": "GlobalSign GCC R46 AlphaSSL CA 2025",
+  "leaf_org": "",
+  "notBefore": "Aug  8 10:31:48 2026 GMT",
+  "notAfter": "Feb 23 10:31:48 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "GlobalSign GCC R46 AlphaSSL CA 2025",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "134.195.139.123"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 bim-edu.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "google-site-verification=ebpmoQVSR5bE6Ccfcrsq-SH3Lzm0d8DInlNWXDcW2Uw",
+   "_globalsign-domain-verification=wgNOtDGi5QGaWC7TWL97HgyI3gWGH15HORGqqybaQa",
+   "_globalsign-domain-verification=INLF96ySZzQyxbZLWQqRhv5gtVP6M1L8ciL7JXKaqt",
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "v=spf1 include:spf.protection.outlook.com -all",
+   "_globalsign-domain-verification=wgNOtDGi5QGaWC7TWL97HgyI3gWGH15HORGqqybaQa",
+   "_globalsign-domain-verification=INLF96ySZzQyxbZLWQqRhv5gtVP6M1L8ciL7JXKaqt",
+   "google-site-verification=ebpmoQVSR5bE6Ccfcrsq-SH3Lzm0d8DInlNWXDcW2Uw"
+  ],
+  "dmarc": [
+   "_y1jkhfj96y2dullhnh5v5f4w2xgxg3b"
+  ],
+  "spf": "v=spf1 include:spf.protection.outlook.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://bim.edu/index/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-powered-by": "PHP/8.2.35"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Bharathidasan Institute of Management",
+   "generator": "WordPress 6.6.10",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://bim.edu/index/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-powered-by": "PHP/8.2.35"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Bharathidasan Institute of Management",
+   "generator": "WordPress 6.6.10",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 55,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.2.35'."
+   ]
+  ]
+ }
+}

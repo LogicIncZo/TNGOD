@@ -1,0 +1,152 @@
+{
+ "idx": 86,
+ "host": "www.cra.tn.gov.in",
+ "url": "https://www.cra.tn.gov.in",
+ "name": "Commissionerate of Revenue Administration and Disaster Management",
+ "group": "Directorates & Commissionerates",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "cra.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "",
+  "tls": "no-tls (timeout)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "103.59.64.163"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.cra.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "default",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "feature-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "\u0bb5\u0bb0\u0bc1\u0bb5\u0bbe\u0baf\u0bcd \u0ba8\u0bbf\u0bb0\u0bc1\u0bb5\u0bbe\u0b95\u0bae\u0bcd \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0baa\u0bc7\u0bb0\u0bbf\u0b9f\u0bb0\u0bcd \u0bae\u0bc7\u0bb2\u0bbe\u0ba3\u0bcd\u0bae\u0bc8 \u0b86\u0ba3\u0bc8\u0baf\u0bb0\u0b95\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 37958,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.cra.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": "default",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "feature-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "\u0bb5\u0bb0\u0bc1\u0bb5\u0bbe\u0baf\u0bcd \u0ba8\u0bbf\u0bb0\u0bc1\u0bb5\u0bbe\u0b95\u0bae\u0bcd \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0baa\u0bc7\u0bb0\u0bbf\u0b9f\u0bb0\u0bcd \u0bae\u0bc7\u0bb2\u0bbe\u0ba3\u0bcd\u0bae\u0bc8 \u0b86\u0ba3\u0bc8\u0baf\u0bb0\u0b95\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 37958,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 48,
+  "grade": "D",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

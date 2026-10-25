@@ -1,0 +1,138 @@
+{
+ "idx": 278,
+ "host": "tiruvarur.nic.in",
+ "url": "https://tiruvarur.nic.in",
+ "name": "Thiruvarur",
+ "group": "Districts",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tiruvarur.nic.in",
+  "domain": "tiruvarur.nic.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tiruvarur.nic.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 15:30:33 2026 GMT",
+  "notAfter": "Dec 16 15:30:32 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.195.223.189"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 -all",
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tiruvarur.nic.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Tiruvarur District, Government of Tamil Nadu | Land of Agriculture | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 194705,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tiruvarur.nic.in:443/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Tiruvarur District, Government of Tamil Nadu | Land of Agriculture | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 194705,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 54,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ]
+  ]
+ }
+}

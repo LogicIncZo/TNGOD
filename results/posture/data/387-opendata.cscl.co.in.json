@@ -1,0 +1,160 @@
+{
+ "idx": 387,
+ "host": "opendata.cscl.co.in",
+ "url": "https://opendata.cscl.co.in/welcome",
+ "name": "CSCL Open Data Portal",
+ "group": "Smart City SPVs (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-03-01",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "opendata.cscl.co.in",
+  "domain": "opendata.cscl.co.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.cscl.co.in",
+  "leaf_issuer": "GlobalSign GCC R46 DV TLS CA 2025",
+  "leaf_org": "",
+  "notBefore": "Aug 14 08:46:27 2026 GMT",
+  "notAfter": "Mar  1 08:46:27 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "GlobalSign GCC R46 DV TLS CA 2025",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "115.124.96.118"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://opendata.cscl.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.16.1",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "etag",
+    "expires",
+    "last-modified",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-frame-options",
+    "x-generator"
+   ],
+   "title": "City Data Exchange Portal",
+   "generator": "Drupal 7 (http://drupal.org)",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 68641,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://opendata.cscl.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.16.1",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "etag",
+    "expires",
+    "last-modified",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-drupal-cache",
+    "x-frame-options",
+    "x-generator"
+   ],
+   "title": "City Data Exchange Portal",
+   "generator": "Drupal 7 (http://drupal.org)",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 68641,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 56,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.16.1'."
+   ]
+  ]
+ }
+}

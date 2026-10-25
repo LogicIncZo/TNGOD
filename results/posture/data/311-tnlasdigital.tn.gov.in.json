@@ -1,0 +1,146 @@
+{
+ "idx": 311,
+ "host": "tnlasdigital.tn.gov.in",
+ "url": "https://tnlasdigital.tn.gov.in",
+ "name": "TN Legislative Assembly Digital Repository",
+ "group": "Law, Judiciary & Legislature",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-26",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnlasdigital.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnlasdigital.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Aug 28 11:47:15 2026 GMT",
+  "notAfter": "Nov 26 11:47:14 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.249"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnlasdigital.tn.gov.in/jspui/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.google.com *.googleapis.com *.gstatic.com *.google-analytics.com *.cloudflare.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.google-analytics.com *.googleapis.com *.googletagmanager.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: https:; connect-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com *.googleapis.com *.g.doubleclick.net https://freegeoip.net; img-src 'self' blob: data: *.gstatic.com",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=31536000;includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "JSESSIONID=84F6DD9ABC058CD06ECA29D1BF5349F5; Path=/jspui; Secure; HttpOnly; SameSite=Strict",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Digital Repository of Tamil Nadu Legislative Assembly",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 75056,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnlasdigital.tn.gov.in/jspui/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.google.com *.googleapis.com *.gstatic.com *.google-analytics.com *.cloudflare.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: *.google.com *.google-analytics.com *.googleapis.com *.googletagmanager.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: https:; connect-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com *.google-analytics.com *.googleapis.com *.g.doubleclick.net https://freegeoip.net; img-src 'self' blob: data: *.gstatic.com",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=31536000;includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "JSESSIONID=DCA4150300C07EE74D24CCDF949E91F9; Path=/jspui; Secure; HttpOnly; SameSite=Strict",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Digital Repository of Tamil Nadu Legislative Assembly",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 75056,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "idx": 318,
+ "host": "cmchistn.com",
+ "url": "https://cmchistn.com",
+ "name": "Chief Minister's Comprehensive Health Insurance Scheme",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "cmchistn.com",
+  "domain": "cmchistn.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cmchistn.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 28 10:07:29 2026 GMT",
+  "notAfter": "Dec 27 11:07:13 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.45.226",
+   "172.67.219.173"
+  ],
+  "aaaa": [
+   "2606:4700:3031::ac43:dbad",
+   "2606:4700:3033::6815:2de2"
+  ],
+  "mx": [
+   "0 _dc-mx.4b1d0c19d1ab.cmchistn.com."
+  ],
+  "txt": [
+   "v=spf1 a mx a:cmchistn.com ip4:103.14.120.62 ?all",
+   "3dfpt63nhbikqr1b1qdbmhd1do",
+   "e41c20chntj7msdvrgf1nr4arb",
+   "google-site-verification=OkUEF4y13d2TKa-UShOTg8Dh-FbqwwZt97zvT18fw-Y",
+   "r7pdrmdicg3gtomu806edf2id7"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 a mx a:cmchistn.com ip4:103.14.120.62 ?all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://cmchistn.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "last-modified",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Chief Minister's Comprehensive Health Insurance Scheme",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 1954,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://cmchistn.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "last-modified",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Chief Minister's Comprehensive Health Insurance Scheme",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 1954,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

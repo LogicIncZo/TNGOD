@@ -1,0 +1,154 @@
+{
+ "idx": 417,
+ "host": "tamilnaduimti.org",
+ "url": "https://tamilnaduimti.org",
+ "name": "IMTI (WRD training institute)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "error",
+ "csv_detail": "HTTP 403 to bots",
+ "csv_cert_expires": "2027-01-10",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tamilnaduimti.org",
+  "domain": "tamilnaduimti.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tamilnaduimti.org",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Oct 12 01:17:59 2026 GMT",
+  "notAfter": "Jan 10 01:17:58 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "35.208.49.93"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tamilnaduimti.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "host-header",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-cache-enabled",
+    "x-content-type-options",
+    "x-httpd-modphp",
+    "x-proxy-cache",
+    "x-xss-protection"
+   ],
+   "title": "tamilnaduimti",
+   "generator": "Elementor 4.3.4; features: e_font_icon_svg, additional_custom_breakpoints; setti",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tamilnaduimti.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "host-header",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-cache-enabled",
+    "x-content-type-options",
+    "x-httpd-modphp",
+    "x-proxy-cache",
+    "x-xss-protection"
+   ],
+   "title": "tamilnaduimti",
+   "generator": "Elementor 4.3.4; features: e_font_icon_svg, additional_custom_breakpoints; setti",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

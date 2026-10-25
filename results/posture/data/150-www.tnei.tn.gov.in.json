@@ -1,0 +1,156 @@
+{
+ "idx": 150,
+ "host": "www.tnei.tn.gov.in",
+ "url": "https://www.tnei.tn.gov.in",
+ "name": "Tamil Nadu Electrical Inspectorate",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnei.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnei.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Dec 25 00:00:00 2025 GMT",
+  "notAfter": "Jan 24 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.33"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnei.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "referrer-policy": "no-referrer, strict-origin-when-cross-origin",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=15552000",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "content=default-src self",
+    "set-cookie": "PHPSESSID=lsp8kae1m7ibl47puc1f72g8v0; secure; HttpOnly"
+   },
+   "all_header_names": [
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNEI - Home",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 26235,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnei.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "referrer-policy": "no-referrer, strict-origin-when-cross-origin",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=15552000",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "content=default-src self",
+    "set-cookie": "PHPSESSID=ro6bc0gv4kf6grs3tk3emfo6i0; secure; HttpOnly"
+   },
+   "all_header_names": [
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNEI - Home",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 26235,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

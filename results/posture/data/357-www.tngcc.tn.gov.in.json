@@ -1,0 +1,124 @@
+{
+ "idx": 357,
+ "host": "www.tngcc.tn.gov.in",
+ "url": "https://www.tngcc.tn.gov.in",
+ "name": "Tamil Nadu Green Climate Company (TNGCC)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-04",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tngcc.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tngcc.tn.gov.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Aug  6 06:10:06 2026 GMT",
+  "notAfter": "Nov  4 06:10:05 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "13.204.243.207"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tngcc.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "tngcc_visitor_counted=1; expires=Mon, 26 Oct 2026 18:03:33 GMT; Max-Age=86400; path=/"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "TNGCC &#8211; Tamil Nadu Green Climate Company",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 47,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

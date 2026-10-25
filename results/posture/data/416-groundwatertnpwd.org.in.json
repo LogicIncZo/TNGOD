@@ -1,0 +1,166 @@
+{
+ "idx": 416,
+ "host": "groundwatertnpwd.org.in",
+ "url": "https://groundwatertnpwd.org.in",
+ "name": "Ground & Surface Water Resources Data Centre (WRD)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-06-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "groundwatertnpwd.org.in",
+  "domain": "groundwatertnpwd.org.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "Plesk",
+  "leaf_issuer": "Plesk",
+  "leaf_org": "Plesk",
+  "notBefore": "Jun 11 11:00:53 2025 GMT",
+  "notAfter": "Jun 11 11:00:53 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Plesk",
+  "chain_issuers": "Plesk",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "188.42.97.51"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.groundwatertnpwd.org.in."
+  ],
+  "txt": [
+   "v=spf1 +a +mx +a:gains.monstercloudapps.com -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=quarantine; adkim=s; aspf=s"
+  ],
+  "spf": "v=spf1 +a +mx +a:gains.monstercloudapps.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://groundwatertnpwd.org.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "STATE GROUND AND SURFACE WATER RESOURCES DATA CENTRE",
+   "generator": "Microsoft FrontPage 6.0",
+   "content_type": "text/html",
+   "body_bytes": 4177,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://groundwatertnpwd.org.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "STATE GROUND AND SURFACE WATER RESOURCES DATA CENTRE",
+   "generator": "Microsoft FrontPage 6.0",
+   "content_type": "text/html",
+   "body_bytes": 4177,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

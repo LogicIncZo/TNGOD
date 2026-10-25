@@ -1,0 +1,160 @@
+{
+ "idx": 375,
+ "host": "ticelbiopark.com",
+ "url": "https://ticelbiopark.com",
+ "name": "TICEL Biopark Ltd.",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "ticelbiopark.com",
+  "domain": "ticelbiopark.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.ticelbiopark.com",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Oct 13 20:22:30 2026 GMT",
+  "notAfter": "Jan 11 20:22:29 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.21.58.250"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 mail.ticelbiopark.com."
+  ],
+  "txt": [
+   "https://ticelbiopark.com//sitemap.xml",
+   "google-site-verification=YUoMR7d5dxj4sKCae45OZAXPJZKoWAWydHqYGGO0AHI",
+   "v=spf1 +a +mx +ip4:103.21.58.250 +include:webhostbox.net ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 +a +mx +ip4:103.21.58.250 +include:webhostbox.net ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://ticelbiopark.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.25.5",
+    "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")"
+   },
+   "all_header_names": [
+    "cache-control",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "permissions-policy",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-proxy-cache",
+    "x-server-cache"
+   ],
+   "title": "TICEL Bio Park - Biotechnology &amp; Coworking Spaces Tamil Nadu",
+   "generator": "WordPress 7.1.3",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://ticelbiopark.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.25.5",
+    "permissions-policy": "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")"
+   },
+   "all_header_names": [
+    "cache-control",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "permissions-policy",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-proxy-cache",
+    "x-server-cache"
+   ],
+   "title": "TICEL Bio Park - Biotechnology &amp; Coworking Spaces Tamil Nadu",
+   "generator": "WordPress 7.1.3",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.25.5'."
+   ]
+  ]
+ }
+}

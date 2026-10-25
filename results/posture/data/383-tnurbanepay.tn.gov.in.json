@@ -1,0 +1,117 @@
+{
+ "idx": 383,
+ "host": "tnurbanepay.tn.gov.in",
+ "url": "https://tnurbanepay.tn.gov.in",
+ "name": "TNUrbanPay",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-02-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnurbanepay.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnurbanepay.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Jul 28 00:00:00 2026 GMT",
+  "notAfter": "Feb 11 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.13"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnurbanepay.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "__AntiXsrfToken=ae8a67219d7e426d836d3ac1c0f16108; path=/; secure; HttpOnly; SameSite=None",
+    "x-aspnet-version": "4.0.30319",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000; includeSubDomains"
+   },
+   "all_header_names": [
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "set-cookie",
+    "strict-transport-security",
+    "x-aspnet-version",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 33997,
+   "cookies": {
+    "total": 3,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

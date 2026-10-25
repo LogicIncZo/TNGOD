@@ -1,0 +1,172 @@
+{
+ "idx": 413,
+ "host": "tndtegteonline.in",
+ "url": "https://tndtegteonline.in",
+ "name": "DoTE GTE portal",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tndtegteonline.in",
+  "domain": "tndtegteonline.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tndtegteonline.in",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Oct  9 09:11:52 2026 GMT",
+  "notAfter": "Jan  7 10:11:47 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.26.4.72",
+   "104.26.5.72",
+   "172.67.73.148"
+  ],
+  "aaaa": [
+   "2606:4700:20::681a:448",
+   "2606:4700:20::681a:548",
+   "2606:4700:20::ac43:4994"
+  ],
+  "mx": [
+   "100 us2.mx1.mailhostbox.com.",
+   "100 us2.mx2.mailhostbox.com.",
+   "100 us2.mx3.mailhostbox.com."
+  ],
+  "txt": [
+   "v=spf1 redirect=_spf.mailhostbox.com"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 redirect=_spf.mailhostbox.com",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tndtegteonline.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "Next.js",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "nel",
+    "report-to",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-powered-by"
+   ],
+   "title": "DoTE GTE",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://tndtegteonline.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "Next.js",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "nel",
+    "report-to",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-powered-by"
+   ],
+   "title": "DoTE GTE",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'Next.js'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,162 @@
+{
+ "idx": 188,
+ "host": "tnctvwb.in",
+ "url": "https://tnctvwb.in",
+ "name": "TN Cable TV Operators & Workers Welfare Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-04",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnctvwb.in",
+  "domain": "tnctvwb.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnctvwb.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Oct  6 05:50:14 2026 GMT",
+  "notAfter": "Jan  4 05:50:13 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "403",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "13.233.217.184"
+  ],
+  "aaaa": [],
+  "mx": [
+   "100 us2.mx1.mailhostbox.com.",
+   "100 us2.mx2.mailhostbox.com.",
+   "100 us2.mx3.mailhostbox.com."
+  ],
+  "txt": [
+   "v=spf1 redirect=_spf.mailhostbox.com"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 redirect=_spf.mailhostbox.com",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnctvwb.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=0",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "content-security-policy": "frame-ancestors 'self' https://tnctvwb.in;",
+    "set-cookie": "CAKEPHP=csuqdidee3odcdfbn50kbn1f10; path=/; secure; HttpOnly;HttpOnly;Secure",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=self"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "::Tamil Nadu Cable Operator and Workers Welfare Board :: Login",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 31649,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnctvwb.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "strict-transport-security": "max-age=0",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "content-security-policy": "frame-ancestors 'self' https://tnctvwb.in;",
+    "set-cookie": "CAKEPHP=lr4k5fg4f673p4jms6ocrf67tq; path=/; secure; HttpOnly;HttpOnly;Secure",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=self"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "::Tamil Nadu Cable Operator and Workers Welfare Board :: Login",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 31649,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 83,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

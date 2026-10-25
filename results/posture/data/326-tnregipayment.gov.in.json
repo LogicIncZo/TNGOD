@@ -1,0 +1,131 @@
+{
+ "idx": 326,
+ "host": "tnregipayment.gov.in",
+ "url": "https://tnregipayment.gov.in",
+ "name": "e-Payment System",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2018-03-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnregipayment.gov.in",
+  "domain": "tnregipayment.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnregipayment.gov.in",
+  "leaf_issuer": "GlobalSign Organization Validation CA - SHA256 - G2",
+  "leaf_org": "Government of Tamil Nadu",
+  "notBefore": "Mar 11 06:37:54 2016 GMT",
+  "notAfter": "Mar 12 06:37:54 2018 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "GlobalSign Root CA",
+  "chain_issuers": "GlobalSign Organization Validation CA - SHA256 - G2; GlobalSign Root CA",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.90"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnregipayment.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache-Coyote/1.1"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 100,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache-Coyote/1.1'."
+   ]
+  ]
+ }
+}

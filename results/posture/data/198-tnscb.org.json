@@ -1,0 +1,170 @@
+{
+ "idx": 198,
+ "host": "tnscb.org",
+ "url": "https://tnscb.org",
+ "name": "TN Slum Clearance Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "corrected hostname (original guess had no DNS)",
+ "csv_cert_expires": "2026-12-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnscb.org",
+  "domain": "tnscb.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnscb.org",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 24 13:38:18 2026 GMT",
+  "notAfter": "Dec 23 14:38:14 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.22.217",
+   "172.67.207.33"
+  ],
+  "aaaa": [
+   "2606:4700:3032::6815:16d9",
+   "2606:4700:3033::ac43:cf21"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnscb.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "host-header",
+    "link",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "vary",
+    "x-cache-enabled",
+    "x-content-type-options",
+    "x-httpd-modphp",
+    "x-proxy-cache",
+    "x-xss-protection"
+   ],
+   "title": "Why Players Prefer Instant Payout Casinos",
+   "generator": "Elementor 4.3.4; features: e_font_icon_svg, additional_custom_breakpoints; setti",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 66778,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnscb.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "host-header",
+    "link",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "vary",
+    "x-cache-enabled",
+    "x-content-type-options",
+    "x-httpd-modphp",
+    "x-proxy-cache",
+    "x-xss-protection"
+   ],
+   "title": "Why Players Prefer Instant Payout Casinos",
+   "generator": "Elementor 4.3.4; features: e_font_icon_svg, additional_custom_breakpoints; setti",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 66778,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

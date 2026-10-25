@@ -1,0 +1,77 @@
+{
+ "idx": 373,
+ "host": "www.ttdconline.com",
+ "url": "https://www.ttdconline.com",
+ "name": "Tamilnadu Tourism Development Corporation (TTDC)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2026-10-25",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "ttdconline.com",
+  "domain": "ttdconline.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "ttdconline.com",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Oct 25 00:00:00 2025 GMT",
+  "notAfter": "Oct 25 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; AAA Certificate Services",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "61.246.29.209"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 mail.ttdconline.com."
+  ],
+  "txt": [
+   "v=spf1 ip4:136.243.44.47 ip4:117.240.123.55 ip4:148.251.87.11 include:_spf.prestomails.in ~all",
+   "google-site-verification=rn4F1rYYn0xHIX6pCW7j0fJF8qYZVUT5TBwiMlcOjqA",
+   "google-site-verification=rn4F1rYYn0xHIX6pCW7j0fJF8qYZVUT5TBwiMlcOjqA",
+   "v=spf1 ip4:136.243.44.47 ip4:117.240.123.55 ip4:148.251.87.11 include:_spf.prestomails.in ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": "v=spf1 ip4:136.243.44.47 ip4:117.240.123.55 ip4:148.251.87.11 include:_spf.prestomails.in ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  }
+ },
+ "posture": {
+  "score": 98,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

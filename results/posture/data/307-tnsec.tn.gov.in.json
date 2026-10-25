@@ -1,0 +1,147 @@
+{
+ "idx": 307,
+ "host": "tnsec.tn.gov.in",
+ "url": "https://tnsec.tn.gov.in",
+ "name": "State Election Commission",
+ "group": "Law, Judiciary & Legislature",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-08",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnsec.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnsec.tn.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Aug 10 12:23:03 2026 GMT",
+  "notAfter": "Nov  8 12:23:02 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.253"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnsec.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "NGINX + Lua",
+    "referrer-policy": "strict-origin",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()",
+    "content-security-policy": "style-src 'self'  cse.google.com *.google.com 'unsafe-inline' ;   script-src 'self' 'unsafe-inline' 'unsafe-eval'  ; script-src-elem 'self'  cse.google.com *.google.com 'unsafe-inline'; img-src tnsec.tn.gov.in   cse.google.com *.google.com 'self' data: https:; font-src tnsec.tn.gov.in  cse.google.com *.google.com;",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-powered-by",
+    "x-request-id",
+    "x-xss-protection"
+   ],
+   "title": "Tamil Nadu State Election Commission",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 72544,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://tnsec.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "NGINX + Lua"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "vary",
+    "x-powered-by",
+    "x-request-id"
+   ],
+   "title": "Welcome to OpenResty!",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 128646,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 76,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'NGINX + Lua'."
+   ]
+  ]
+ }
+}

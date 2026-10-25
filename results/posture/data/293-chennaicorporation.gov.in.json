@@ -1,0 +1,141 @@
+{
+ "idx": 293,
+ "host": "chennaicorporation.gov.in",
+ "url": "https://chennaicorporation.gov.in",
+ "name": "Greater Chennai Corporation",
+ "group": "Municipal Corporations & Urban Local Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "chennaicorporation.gov.in",
+  "domain": "chennaicorporation.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "chennaicorporation.gov.in",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Nov 21 00:00:00 2025 GMT",
+  "notAfter": "Dec 20 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "13.127.192.94"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mx.mgovcloud.in.",
+   "20 mx2.mgovcloud.in.",
+   "50 mx3.mgovcloud.in."
+  ],
+  "txt": [
+   "zoho-verification=zb78627302.zmverify.mgovcloud.in",
+   "v=spf1 include:mgovcloud.in ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1"
+  ],
+  "spf": "v=spf1 include:mgovcloud.in ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://chennaicorporation.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache-Coyote/1.1"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding"
+   ],
+   "title": "Apache Tomcat/7.0.82",
+   "generator": "",
+   "content_type": "text/html;charset=ISO-8859-1",
+   "body_bytes": 11286,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 400,
+   "final_url": "http://chennaicorporation.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "awselb/2.0"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "400 The plain HTTP request was sent to HTTPS port",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 622,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 65,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache-Coyote/1.1'."
+   ]
+  ]
+ }
+}

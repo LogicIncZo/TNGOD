@@ -1,0 +1,148 @@
+{
+ "idx": 423,
+ "host": "thiran360.tn.gov.in",
+ "url": "https://thiran360.tn.gov.in",
+ "name": "Thiran 360 (administrative capacity building)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-02-05",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "thiran360.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.thiran360.tn.gov.in",
+  "leaf_issuer": "GeoTrust TLS RSA CA G1",
+  "leaf_org": "TAMIL NADU SKILL DEVELOPMENT CORPORATION",
+  "notBefore": "Feb  6 00:00:00 2026 GMT",
+  "notAfter": "Feb  5 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "DigiCert Global Root G2",
+  "chain_issuers": "GeoTrust TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.39"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://thiran360.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "\u0ba4\u0bbf\u0bb1\u0ba9\u0bcd 360 - Capacity Building for Administrative Excellence",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 519,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://thiran360.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server"
+   ],
+   "title": "\u0ba4\u0bbf\u0bb1\u0ba9\u0bcd 360 - Capacity Building for Administrative Excellence",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 519,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 47,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

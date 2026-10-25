@@ -1,0 +1,165 @@
+{
+ "idx": 400,
+ "host": "tnprojectnilgiritahr.com",
+ "url": "https://tnprojectnilgiritahr.com",
+ "name": "Project Nilgiri Tahr",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnprojectnilgiritahr.com",
+  "domain": "tnprojectnilgiritahr.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnprojectnilgiritahr.com",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep  8 09:46:13 2026 GMT",
+  "notAfter": "Dec  7 09:46:12 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "308",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "216.198.79.1"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mx2.hostinger.com.",
+   "5 mx1.hostinger.com."
+  ],
+  "txt": [
+   "v=spf1 include:_spf.mail.hostinger.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:_spf.mail.hostinger.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnprojectnilgiritahr.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Vercel",
+    "strict-transport-security": "max-age=63072000"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-origin",
+    "age",
+    "cache-control",
+    "connection",
+    "content-disposition",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "server",
+    "strict-transport-security",
+    "vary",
+    "x-matched-path",
+    "x-nextjs-prerender",
+    "x-nextjs-stale-time",
+    "x-vercel-cache",
+    "x-vercel-id"
+   ],
+   "title": "Project Nilgiri Tahr",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 74693,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnprojectnilgiritahr.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Vercel",
+    "strict-transport-security": "max-age=63072000"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "access-control-allow-origin",
+    "age",
+    "cache-control",
+    "connection",
+    "content-disposition",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "server",
+    "strict-transport-security",
+    "vary",
+    "x-matched-path",
+    "x-nextjs-prerender",
+    "x-nextjs-stale-time",
+    "x-vercel-cache",
+    "x-vercel-id"
+   ],
+   "title": "Project Nilgiri Tahr",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 74693,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 62,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

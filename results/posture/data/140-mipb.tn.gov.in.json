@@ -1,0 +1,66 @@
+{
+ "idx": 140,
+ "host": "mipb.tn.gov.in",
+ "url": "https://mipb.tn.gov.in",
+ "name": "MSME Investment Promotion Bureau",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "dead",
+ "csv_detail": "no DNS A record / NXDOMAIN at check time",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "mipb.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "",
+  "tls": "no-tls (4057E88AD17B0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:767:Name or service not k)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "Domain does not resolve (no A/AAAA record)."
+   ]
+  ]
+ }
+}

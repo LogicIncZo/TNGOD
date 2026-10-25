@@ -1,0 +1,185 @@
+{
+ "idx": 239,
+ "host": "www.tamilvu.org",
+ "url": "https://www.tamilvu.org",
+ "name": "Tamil Virtual Academy",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-22",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tamilvu.org",
+  "domain": "tamilvu.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tamilvu.org",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 23 02:04:31 2026 GMT",
+  "notAfter": "Dec 22 03:04:27 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.71.223",
+   "172.67.149.182"
+  ],
+  "aaaa": [
+   "2606:4700:3030::6815:47df",
+   "2606:4700:3035::ac43:95b6"
+  ],
+  "mx": [],
+  "txt": [
+   "D45333C6C095E3766BC9C5A38150FADE",
+   "2868DF6BE63D3A3835A4A63D510942A1",
+   "5031D9728A6437C6C1B4A76642B96B9D",
+   "88678CAC26BA5E7FB6F1142B766D5C06",
+   "D523D68B276993D9D857BD9C7538B322",
+   "0A7B59AC11F813BB349C0227D11E64B8"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tamilvu.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expect-ct",
+    "expires",
+    "feature-policy",
+    "last-modified",
+    "nel",
+    "public-key-pins",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0b87\u0ba3\u0bc8\u0baf\u0b95\u0bcd \u0b95\u0bb2\u0bcd\u0bb5\u0bbf\u0b95\u0bcd\u0b95\u0bb4\u0b95\u0bae\u0bcd TAMIL VIRTUAL ACADEMY | \u0ba4\u0bc7\u0bae\u0ba4\u0bc1\u0bb0\u0ba4\u0bcd \u0ba4\u0bae\u0bbf\u0bb4\u0bcb\u0b9a\u0bc8 \u0b89\u0bb2\u0b95\u0bae\u0bc6\u0bb2\u0bbe\u0bae\u0bcd \u0baa\u0bb0\u0bb5\u0bc1\u0bae\u0bcd \u0bb5\u0b95\u0bc8 \u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bb2\u0bcd \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 114477,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.tamilvu.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "expect-ct",
+    "expires",
+    "feature-policy",
+    "last-modified",
+    "nel",
+    "public-key-pins",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0b87\u0ba3\u0bc8\u0baf\u0b95\u0bcd \u0b95\u0bb2\u0bcd\u0bb5\u0bbf\u0b95\u0bcd\u0b95\u0bb4\u0b95\u0bae\u0bcd TAMIL VIRTUAL ACADEMY | \u0ba4\u0bc7\u0bae\u0ba4\u0bc1\u0bb0\u0ba4\u0bcd \u0ba4\u0bae\u0bbf\u0bb4\u0bcb\u0b9a\u0bc8 \u0b89\u0bb2\u0b95\u0bae\u0bc6\u0bb2\u0bbe\u0bae\u0bcd \u0baa\u0bb0\u0bb5\u0bc1\u0bae\u0bcd \u0bb5\u0b95\u0bc8 \u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bb2\u0bcd \u0bb5\u0bc7\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 115036,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "idx": 398,
+ "host": "kmtr.co.in",
+ "url": "https://kmtr.co.in",
+ "name": "Kalakkad Mundanthurai Tiger Reserve (KMTR)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "kmtr.co.in",
+  "domain": "kmtr.co.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.kmtr.co.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Oct 25 08:22:59 2026 GMT",
+  "notAfter": "Jan 23 08:22:58 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "69.46.29.54"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 kmtr.co.in."
+  ],
+  "txt": [
+   "v=spf1 ip4:69.46.29.54 include:spf-c.mailbaby.net ip4:209.133.218.2 include:relay.mailbaby.net ip4:209.133.209.251 +a +mx +ip4:5.254.79.130 include:relay.mailchannels.net ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 ip4:69.46.29.54 include:spf-c.mailbaby.net ip4:209.133.218.2 include:relay.mailbaby.net ip4:209.133.209.251 +a +mx +ip4:5.254.79.130 include:relay.mailchannels.net ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://kmtr.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "ci_session=c8gk12gv2s17opnq02hosl0a85fvlgla; expires=Sun, 25-Oct-2026 20:03:38 GMT; Max-Age=7200; path=/; HttpOnly; secure",
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie"
+   ],
+   "title": "KMTR Kalakad Mundanthurai Tiger Reserve, Tirunelveli TamilNadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 48967,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://kmtr.co.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "ci_session=olqvcunjuhb3t49h6q7p2ps3e1p5jjrs; expires=Sun, 25-Oct-2026 20:03:40 GMT; Max-Age=7200; path=/; HttpOnly; secure",
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie"
+   ],
+   "title": "KMTR Kalakad Mundanthurai Tiger Reserve, Tirunelveli TamilNadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 48967,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

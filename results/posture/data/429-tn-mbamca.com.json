@@ -1,0 +1,152 @@
+{
+ "idx": 429,
+ "host": "tn-mbamca.com",
+ "url": "https://tn-mbamca.com",
+ "name": "TN MBA/MCA counselling",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-05-05",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tn-mbamca.com",
+  "domain": "tn-mbamca.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tn-mbamca.com",
+  "leaf_issuer": "Amazon RSA 2048 M01",
+  "leaf_org": "",
+  "notBefore": "Oct 20 00:00:00 2026 GMT",
+  "notAfter": "May  5 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Amazon RSA 2048 M01; Amazon Root CA 1; Starfield Services Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "54.240.162.116",
+   "54.240.162.22",
+   "54.240.162.69",
+   "54.240.162.94"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.tn-mbamca.com."
+  ],
+  "txt": [
+   "google-site-verification=MCP6RURcxBYo3lxJWwSnULdvmFq5dJTp4CSN0MNSCuI",
+   "v=spf1 +mx +a +ip4:69.46.6.164 +include:_spf.hostingcosmos.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 +mx +a +ip4:69.46.6.164 +include:_spf.hostingcosmos.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tn-mbamca.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "vary"
+   ],
+   "title": "TN MBAMCA-2026",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 6612,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tn-mbamca.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "vary"
+   ],
+   "title": "TN MBAMCA-2026",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 6612,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -48,10 +48,10 @@
    "error": null,
    "headers": {
     "server": "ZGS",
-    "set-cookie": "JSESSIONID=D305A82379047895C2308F108875AB2F; Path=/; Secure; HttpOnly; SameSite=None",
+    "set-cookie": "JSESSIONID=979F74703CD1871611956C47C0DB21AE; Path=/; Secure; HttpOnly; SameSite=None",
     "referrer-policy": "strict-origin-when-cross-origin",
     "x-content-type-options": "nosniff",
-    "content-security-policy": "script-src 'self' 'strict-dynamic' static.zohocdn.com salesiq.zoho.in dtzpfzv31buvf.cloudfront.net cdn.pagesense.io js.zohocdn.com widgets.zohosalesiq.com zohotagmanager.cdn.pagesense.io 'nonce-c487282dbee8b4a32a719b8741b6d1f8';object-src 'none';base-uri 'self' static.zohocdn.com;report-uri https://logsapi.zoho.in/csplog?service=support;",
+    "content-security-policy": "script-src 'self' 'strict-dynamic' static.zohocdn.com salesiq.zoho.in dtzpfzv31buvf.cloudfront.net cdn.pagesense.io js.zohocdn.com widgets.zohosalesiq.com zohotagmanager.cdn.pagesense.io 'nonce-742bf582e080ec8f8e07232c2e86f3fc';object-src 'none';base-uri 'self' static.zohocdn.com;report-uri https://logsapi.zoho.in/csplog?service=support;",
     "permissions-policy": "accelerometer=(), ambient-light-sensor=(), bluetooth=(), compute-pressure=(), document-domain=(), encrypted-media=(), gamepad=(), gyroscope=(), hid=(), magnetometer=(), midi=(), screen-wake-lock=(), serial=(), speaker-selection=(), usb=(), xr-spatial-tracking=()",
     "x-frame-options": "SAMEORIGIN",
     "strict-transport-security": "max-age=63072000;includeSubDomains"
@@ -94,10 +94,10 @@
    "error": null,
    "headers": {
     "server": "ZGS",
-    "set-cookie": "JSESSIONID=E45F16C21B66C5F3723E6BF9FD2CE4BF; Path=/; Secure; HttpOnly; SameSite=None",
+    "set-cookie": "JSESSIONID=60C04851ACED3ABD3BB9134F31DF1854; Path=/; Secure; HttpOnly; SameSite=None",
     "referrer-policy": "strict-origin-when-cross-origin",
     "x-content-type-options": "nosniff",
-    "content-security-policy": "script-src 'self' 'strict-dynamic' static.zohocdn.com salesiq.zoho.in dtzpfzv31buvf.cloudfront.net cdn.pagesense.io js.zohocdn.com widgets.zohosalesiq.com zohotagmanager.cdn.pagesense.io 'nonce-bbefd43fa44c12c2648f13608386d0b4';object-src 'none';base-uri 'self' static.zohocdn.com;report-uri https://logsapi.zoho.in/csplog?service=support;",
+    "content-security-policy": "script-src 'self' 'strict-dynamic' static.zohocdn.com salesiq.zoho.in dtzpfzv31buvf.cloudfront.net cdn.pagesense.io js.zohocdn.com widgets.zohosalesiq.com zohotagmanager.cdn.pagesense.io 'nonce-902f236b08bb6af8a6d92f48d7a22ba4';object-src 'none';base-uri 'self' static.zohocdn.com;report-uri https://logsapi.zoho.in/csplog?service=support;",
     "permissions-policy": "accelerometer=(), ambient-light-sensor=(), bluetooth=(), compute-pressure=(), document-domain=(), encrypted-media=(), gamepad=(), gyroscope=(), hid=(), magnetometer=(), midi=(), screen-wake-lock=(), serial=(), speaker-selection=(), usb=(), xr-spatial-tracking=()",
     "x-frame-options": "SAMEORIGIN",
     "strict-transport-security": "max-age=63072000;includeSubDomains"

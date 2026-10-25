@@ -1,0 +1,142 @@
+{
+ "idx": 306,
+ "host": "tnrajbhavan.gov.in",
+ "url": "https://tnrajbhavan.gov.in",
+ "name": "Raj Bhavan (Lok Bhavan)",
+ "group": "Law, Judiciary & Legislature",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; corrected hostname (rajbhavan.tn.gov.in has no DNS)",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnrajbhavan.gov.in",
+  "domain": "tnrajbhavan.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnrajbhavan.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 17 17:28:34 2026 GMT",
+  "notAfter": "Dec 16 17:28:33 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.52.75"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject;"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://lokbhavan.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "img-src 'self' *.twimg.com *.twitter.com img.youtube.com *.s3waas.gov.in ccps.digifootprint.gov.in dae.gov.in secure.gravatar.com data: maps.gstatic.com maps.googleapis.com cbpssubscriber.mygov.in translation-plugin.bhashini.co.in testvani-hyd.nic.in vani-hyd.nic.in img.freepik.com app.ailifebot.com;connect-src 'self' *.s3waas.gov.in maps.googleapis.com www.google-analytics.com translation-plugin.bhashini.co.in www.instagram.com vani-hyd.nic.in testvani-hyd.nic.in feedback.digifootprint.gov.in branding-resources.s3.ap-south-1.amazonaws.com app.ailifebot.com app.engati.com bb.branding-element.com api.ipify.org c.go.moulse.net vc-cc-templates.wpbakery.com;object-src 'none';media-src 'self' playhls.media.nic.in *.s3waas.gov.in data: 'unsafe-inline' 'unsafe-eval' blob:;child-src *;frame-src *;form-action *.s3waas.gov.in 'self';frame-ancestors 'self' *.s3waas.gov.in ;upgrade-insecure-requests;worker-src 'self' *.s3waas.gov.in",
+    "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),magnetometer=(),gyroscope=(),magnetometer=(),layout-animations=(),legacy-image-formats=(self),microphone=(vani-hyd.nic.in testvani-hyd.nic.in self),midi=(),navigation-override=(),oversized-images=(self),payment=(),picture-in-picture=(),publickey-credentials-get=(),speaker-selection=(),sync-xhr=(self),unoptimized-images=(self),unsized-media=(self),usb=(),vibrate=(),vr=(),screen-wake-lock=(),screen-wake-lock=(),web-share=(),xr-spatial-tracking=()",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expect-ct",
+    "permissions-policy",
+    "referrer-policy",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Homepage | Lok Bhavan, Tamil Nadu | Offices of Lok Bhavan &amp; Official residence of the Governor, Tamil Nadu | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 166186,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://lokbhavan.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "content-security-policy": "img-src 'self' *.twimg.com *.twitter.com img.youtube.com *.s3waas.gov.in ccps.digifootprint.gov.in dae.gov.in secure.gravatar.com data: maps.gstatic.com maps.googleapis.com cbpssubscriber.mygov.in translation-plugin.bhashini.co.in testvani-hyd.nic.in vani-hyd.nic.in img.freepik.com app.ailifebot.com;connect-src 'self' *.s3waas.gov.in maps.googleapis.com www.google-analytics.com translation-plugin.bhashini.co.in www.instagram.com vani-hyd.nic.in testvani-hyd.nic.in feedback.digifootprint.gov.in branding-resources.s3.ap-south-1.amazonaws.com app.ailifebot.com app.engati.com bb.branding-element.com api.ipify.org c.go.moulse.net vc-cc-templates.wpbakery.com;object-src 'none';media-src 'self' playhls.media.nic.in *.s3waas.gov.in data: 'unsafe-inline' 'unsafe-eval' blob:;child-src *;frame-src *;form-action *.s3waas.gov.in 'self';frame-ancestors 'self' *.s3waas.gov.in ;upgrade-insecure-requests;worker-src 'self' *.s3waas.gov.in",
+    "permissions-policy": "accelerometer=(),ambient-light-sensor=(),autoplay=(),battery=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),execution-while-not-rendered=(),execution-while-not-rendered=(),execution-while-out-of-viewport=(),fullscreen=(),gamepad=(),geolocation=(),magnetometer=(),gyroscope=(),magnetometer=(),layout-animations=(),legacy-image-formats=(self),microphone=(vani-hyd.nic.in testvani-hyd.nic.in self),midi=(),navigation-override=(),oversized-images=(self),payment=(),picture-in-picture=(),publickey-credentials-get=(),speaker-selection=(),sync-xhr=(self),unoptimized-images=(self),unsized-media=(self),usb=(),vibrate=(),vr=(),screen-wake-lock=(),screen-wake-lock=(),web-share=(),xr-spatial-tracking=()",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expect-ct",
+    "permissions-policy",
+    "referrer-policy",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Homepage | Lok Bhavan, Tamil Nadu | Offices of Lok Bhavan &amp; Official residence of the Governor, Tamil Nadu | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 166186,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 88,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

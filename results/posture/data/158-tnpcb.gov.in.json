@@ -1,0 +1,155 @@
+{
+ "idx": 158,
+ "host": "tnpcb.gov.in",
+ "url": "https://tnpcb.gov.in",
+ "name": "Tamil Nadu Pollution Control Board (TNPCB)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-10-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpcb.gov.in",
+  "domain": "tnpcb.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpcb.gov.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Aug  1 06:55:21 2026 GMT",
+  "notAfter": "Oct 30 06:55:20 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.210"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mx.mgovcloud.in.",
+   "20 mx2.mgovcloud.in.",
+   "50 mx3.mgovcloud.in."
+  ],
+  "txt": [
+   "zoho-verification=zb32133969.zmverify.mgovcloud.in",
+   "v=spf1 include:mgovcloud.in mx ip4:164.100.14.0/24 ip4:164.100.2.0/24 ip4:164.100.10.0/24 ip4:164.100.15.0/24 ip4:164.100.13.0/24 ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=quarantine; fo=1; rua=mailto:pmaster-wlist@tnpcb.gov.in; ruf=mailto:pmaster-wlist@tnpcb.gov.inkim=r"
+  ],
+  "spf": "v=spf1 include:mgovcloud.in mx ip4:164.100.14.0/24 ip4:164.100.2.0/24 ip4:164.100.10.0/24 ip4:164.100.15.0/24 ip4:164.100.13.0/24 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnpcb.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.2.35",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=()",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-powered-by"
+   ],
+   "title": "TNPCB - Tamil Nadu Pollution Control Board",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnpcb.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.2.35",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=()",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-powered-by"
+   ],
+   "title": "TNPCB - Tamil Nadu Pollution Control Board",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.2.35'."
+   ]
+  ]
+ }
+}

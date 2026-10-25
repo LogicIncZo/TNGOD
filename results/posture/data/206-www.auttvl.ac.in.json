@@ -1,0 +1,186 @@
+{
+ "idx": 206,
+ "host": "www.auttvl.ac.in",
+ "url": "https://www.auttvl.ac.in",
+ "name": "Anna University Regional Campus - Tirunelveli",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-17",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "auttvl.ac.in",
+  "domain": "auttvl.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "auttvl.ac.in",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 23:41:37 2026 GMT",
+  "notAfter": "Dec 17 00:41:32 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.25.53",
+   "172.67.222.184"
+  ],
+  "aaaa": [
+   "2606:4700:3030::ac43:deb8",
+   "2606:4700:3032::6815:1935"
+  ],
+  "mx": [],
+  "txt": [
+   "v=spf1 a mx ptr include:secureserver.net ~all",
+   "google-site-verification=muUoZ9_yVGaAlkwfdTbOCFpV29m82XneT_Dqu7CgwgM",
+   "pn468nlfpnr54r1lt071f94k25"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 a mx ptr include:secureserver.net ~all",
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://auttvl.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "via": "1.1 varnish",
+    "x-cache": "MISS"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "age",
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "vary",
+    "via",
+    "x-cache",
+    "x-cache-hits",
+    "x-fastly-request-id",
+    "x-github-edge-region",
+    "x-github-request-id",
+    "x-proxy-cache",
+    "x-served-by",
+    "x-timer"
+   ],
+   "title": "Anna University Regional Campus &#8211; Tirunelveli",
+   "generator": "WordPress 5.7.2",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 31134,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://auttvl.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "via": "1.1 varnish",
+    "x-cache": "HIT"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "age",
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "vary",
+    "via",
+    "x-cache",
+    "x-cache-hits",
+    "x-fastly-request-id",
+    "x-github-edge-region",
+    "x-github-request-id",
+    "x-proxy-cache",
+    "x-served-by",
+    "x-timer"
+   ],
+   "title": "Anna University Regional Campus &#8211; Tirunelveli",
+   "generator": "WordPress 5.7.2",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 31134,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 54,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ]
+  ]
+ }
+}

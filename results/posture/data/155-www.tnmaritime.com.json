@@ -1,0 +1,166 @@
+{
+ "idx": 155,
+ "host": "www.tnmaritime.com",
+ "url": "https://www.tnmaritime.com",
+ "name": "Tamil Nadu Maritime Board",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-01",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnmaritime.com",
+  "domain": "tnmaritime.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnmaritime.com",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Sep  2 09:29:52 2026 GMT",
+  "notAfter": "Dec  1 09:29:51 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.25.99",
+   "172.67.133.252"
+  ],
+  "aaaa": [
+   "2606:4700:3034::6815:1963",
+   "2606:4700:3037::ac43:85fc"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnmaritime.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "permissions-policy": "geolocation=(self), microphone=(), camera=(), fullscreen=(self), payment=(), usb=(), accelerometer=(), autoplay=(), gyroscope=()",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "img-src 'self' data: https://openlayers.org https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' ajax.googleapis.com https://cdn.polyfill.io https://openlayers.org http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self'  'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com fonts.googleapis.com maxcdn.bootstrapcdn.com https://openlayers.org http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com; frame-ancestors 'self'",
+    "set-cookie": "csrftoken=aRywGJSv2cHQRUwrdyaiAZGaCWKDSbWSD4LxYSvWTZE7HJLP3oByVMhUxW9Ok6Dz; expires=Sun, 24 Oct 2027 23:34:38 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax; Secure"
+   },
+   "all_header_names": [
+    "connection",
+    "content-language",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "cross-origin-embedder-policy",
+    "cross-origin-opener-policy",
+    "cross-origin-resource-policy",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Home - Tamil Nadu Maritime Board, Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 119898,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnmaritime.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "permissions-policy": "geolocation=(self), microphone=(), camera=(), fullscreen=(self), payment=(), usb=(), accelerometer=(), autoplay=(), gyroscope=()",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "img-src 'self' data: https://openlayers.org https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' ajax.googleapis.com https://cdn.polyfill.io https://openlayers.org http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com; connect-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self'  'unsafe-inline' 'unsafe-eval' https://fonts.googleapis.com fonts.googleapis.com maxcdn.bootstrapcdn.com https://openlayers.org http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com; frame-ancestors 'self'",
+    "set-cookie": "csrftoken=4OePLuVNeX4AgcpE6GyDTWs2DBzAnoOTEwNnNKnR4dLn6HX97BD2Y49E7zBPZDrL; expires=Sun, 24 Oct 2027 23:34:39 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax; Secure"
+   },
+   "all_header_names": [
+    "connection",
+    "content-language",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "cross-origin-embedder-policy",
+    "cross-origin-opener-policy",
+    "cross-origin-resource-policy",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Home - Tamil Nadu Maritime Board, Government of Tamil Nadu",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 119898,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

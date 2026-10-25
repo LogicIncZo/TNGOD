@@ -1,0 +1,72 @@
+{
+ "idx": 349,
+ "host": "tnpds.gov.in",
+ "url": "https://tnpds.gov.in",
+ "name": "Public Distribution Scheme (PDS)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2027-03-01",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpds.gov.in",
+  "domain": "tnpds.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tnpds.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Feb 18 00:00:00 2026 GMT",
+  "notAfter": "Mar  1 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "167.86.39.220"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 ip4:103.249.97.116 ip4:103.249.97.117 +a +mx +ip4:115.124.104.183 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject; sp=reject; rf=afrf; pct=100; ri=86400"
+  ],
+  "spf": "v=spf1 ip4:103.249.97.116 ip4:103.249.97.117 +a +mx +ip4:115.124.104.183 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  }
+ },
+ "posture": {
+  "score": 98,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

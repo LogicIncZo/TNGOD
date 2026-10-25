@@ -1,0 +1,141 @@
+{
+ "idx": 238,
+ "host": "www.tamiluniversity.ac.in",
+ "url": "https://www.tamiluniversity.ac.in",
+ "name": "Tamil University, Thanjavur",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-11-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tamiluniversity.ac.in",
+  "domain": "tamiluniversity.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tamiluniversity.ac.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep  1 09:09:01 2026 GMT",
+  "notAfter": "Nov 30 09:09:00 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "169.38.77.132"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mx1.aeswebservices.com."
+  ],
+  "txt": [
+   "v=spf1 +mx +a +ip4:169.38.102.174 ~all",
+   "v=spf1 +mx +a +ip4:169.38.102.174 ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 +mx +a +ip4:169.38.102.174 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tamiluniversity.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding"
+   ],
+   "title": ":~: Tamil University :~:",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 6006,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tamiluniversity.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding"
+   ],
+   "title": ":~: Tamil University :~:",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 6006,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

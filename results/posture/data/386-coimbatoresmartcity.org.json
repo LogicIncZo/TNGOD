@@ -1,0 +1,172 @@
+{
+ "idx": 386,
+ "host": "coimbatoresmartcity.org",
+ "url": "https://coimbatoresmartcity.org",
+ "name": "Coimbatore Smart City (Idhu Namma Kovai)",
+ "group": "Smart City SPVs (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "coimbatoresmartcity.org",
+  "domain": "coimbatoresmartcity.org",
+  "port": "8443",
+  "tls": "ok",
+  "leaf_cn": "coimbatoresmartcity.org",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 17:22:33 2026 GMT",
+  "notAfter": "Dec 16 18:20:01 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "526",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.33.62",
+   "172.67.159.68"
+  ],
+  "aaaa": [
+   "2606:4700:3032::ac43:9f44",
+   "2606:4700:3036::6815:213e"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://coimbatoresmartcity.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=glrah1ki3qcuj851gpcsn7lkp70mf12n; expires=Sun, 25 Oct 2026 20:03:35 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Coimbatore Smart City - Idhu Namma Kovai",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 180937,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://coimbatoresmartcity.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=g61idslteq897o35fs3tsv0o112j9vs0; expires=Sun, 25 Oct 2026 20:03:36 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "same-origin"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-permitted-cross-domain-policies",
+    "x-xss-protection"
+   ],
+   "title": "Coimbatore Smart City - Idhu Namma Kovai",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 180937,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ]
+  ]
+ }
+}

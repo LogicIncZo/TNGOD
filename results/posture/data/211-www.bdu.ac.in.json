@@ -1,0 +1,66 @@
+{
+ "idx": 211,
+ "host": "www.bdu.ac.in",
+ "url": "https://www.bdu.ac.in",
+ "name": "Bharathidasan University, Tiruchirappalli",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-03-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "bdu.ac.in",
+  "domain": "bdu.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "WWW.BDU.AC.IN",
+  "leaf_issuer": "GlobalSign GCC R3 EV TLS CA 2025",
+  "leaf_org": "Bharathidasan University",
+  "notBefore": "Feb 19 10:46:21 2026 GMT",
+  "notAfter": "Mar 23 10:46:20 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "GlobalSign GCC R3 EV TLS CA 2025",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": "Timeout"
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
+  }
+ },
+ "posture": {
+  "score": 60,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "Domain does not resolve (no A/AAAA record)."
+   ]
+  ]
+ }
+}

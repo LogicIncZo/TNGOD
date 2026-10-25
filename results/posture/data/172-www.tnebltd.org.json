@@ -1,0 +1,158 @@
+{
+ "idx": 172,
+ "host": "www.tnebltd.org",
+ "url": "https://www.tnebltd.org",
+ "name": "TamilNadu Electricity Board Limited",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "tnebltd.org",
+  "domain": "tnebltd.org",
+  "port": "",
+  "tls": "no-tls (40F703F0E5710000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:767:No address associated)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "103.59.64.244"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 a mx -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none; pct=100; fo=1; rua=mailto:dmarc-reports@tnebltd.org"
+  ],
+  "spf": "v=spf1 a mx -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnebltd.org/en/tneb/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "django_language=en; expires=Mon, 25 Oct 2027 18:02:58 GMT; Max-Age=31536000; Path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Home - TNEB",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 34528,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnebltd.org/en/tneb/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "django_language=en; expires=Mon, 25 Oct 2027 18:02:59 GMT; Max-Age=31536000; Path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Home - TNEB",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 34528,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 38,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

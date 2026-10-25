@@ -1,0 +1,154 @@
+{
+ "idx": 427,
+ "host": "trackertngcc.tn.gov.in",
+ "url": "https://trackertngcc.tn.gov.in",
+ "name": "TN Green Climate Company tracker",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-02-09",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "trackertngcc.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "trackertngcc.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Feb  9 00:00:00 2026 GMT",
+  "notAfter": "Feb  9 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "139.59.13.2"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://trackertngcc.tn.gov.in/login",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "laravel-session=eyJpdiI6Inl2U1pGREs3NUZ0anExMlA1bUl4N3c9PSIsInZhbHVlIjoiY3lEVnJhR2JUQTZXMm5EaHkyMTg3U2xhU1VURzJYZ1FoeDFJQzJRN1I4MlNGaHg5U29PZy9JTXJ3TXA5Y3JFVnoyb0ZyRXZlWDl1Z2lDbnVqazdjc1RRcWlPN2pkTkkwYnhFcWtDYnNkaVkwK3ZLWWpJQjc5R1k2bHoxNXdRSHkiLCJtYWMiOiIxMjI3OGMzZTRhYzJkYTQ3NzkyNjcxZjA3MzEwZmMwYzYyZjdmZTdjMmU3ZTIwOGE4MzhiOWM4YjQ1NDk1NGQwIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:45 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "upgrade",
+    "vary"
+   ],
+   "title": "Login - Tamil Nadu Green Climate Company",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 16499,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://trackertngcc.tn.gov.in/login",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "laravel-session=eyJpdiI6IlZJYTRsNUdpdFJWbjJUTE1uS0JlOXc9PSIsInZhbHVlIjoiY3AwYk1LK1hhVzdOY2NyTlJPN2x2NVZndy8xYVQ1bHVHTEp1bW1lTXpMWWNVYmRXcUU5RVpLR1liVXdvUjk5ODJlOWdIV0RERGNYRms5TXhSWlkvMlVYRm44eTBaVWs3NEpGRkVPWFpkVG8zRVJZVEdBK3IwdGVSQldacVVNdnYiLCJtYWMiOiI5NmRhMDU1Zjk0ZDg2MjQ3MTJmMGRmYTkzZTQyNTNkZTVhNTgwM2IzMmJjYzdlZDFlODlhNjhkMmU3M2VmZDg2IiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:45 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "upgrade",
+    "vary"
+   ],
+   "title": "Login - Tamil Nadu Green Climate Company",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 16499,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 37,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

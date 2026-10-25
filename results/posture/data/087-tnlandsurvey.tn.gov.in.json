@@ -1,0 +1,158 @@
+{
+ "idx": 87,
+ "host": "tnlandsurvey.tn.gov.in",
+ "url": "https://tnlandsurvey.tn.gov.in",
+ "name": "Commissionerate of Survey & Settlement",
+ "group": "Directorates & Commissionerates",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-10",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnlandsurvey.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnlandsurvey.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "May 26 00:00:00 2026 GMT",
+  "notAfter": "Dec 10 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "404",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.96"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnlandsurvey.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "content-security-policy": "default-src 'self';          script-src 'self' 'unsafe-inline';          style-src 'self' 'unsafe-inline';          img-src 'self' data: blob:;          font-src 'self' data:;          connect-src 'self' https://collabland-tn.gov.in;          form-action 'self' https://surepay.ndml.in https://collabland-tn.gov.in;          frame-src 'self' data: https://collabland-tn.gov.in;          frame-ancestors 'self';          object-src 'self';          base-uri 'self';",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "csrf_cookie=a8eaed4f5e8dccc20abd79c0d0fa14aa; expires=Sun, 25 Oct 2026 20:02:46 GMT; Max-Age=7200; path=/; secure; HttpOnly; SameSite=Lax"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Commissionerate of Survey and Settlement",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 66576,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnlandsurvey.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "content-security-policy": "default-src 'self';          script-src 'self' 'unsafe-inline';          style-src 'self' 'unsafe-inline';          img-src 'self' data: blob:;          font-src 'self' data:;          connect-src 'self' https://collabland-tn.gov.in;          form-action 'self' https://surepay.ndml.in https://collabland-tn.gov.in;          frame-src 'self' data: https://collabland-tn.gov.in;          frame-ancestors 'self';          object-src 'self';          base-uri 'self';",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "csrf_cookie=64d353313c379aaaedaeeadaa7506c8e; expires=Sun, 25 Oct 2026 20:02:47 GMT; Max-Age=7200; path=/; secure; HttpOnly; SameSite=Lax"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Commissionerate of Survey and Settlement",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 66576,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

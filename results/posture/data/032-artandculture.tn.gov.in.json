@@ -54,7 +54,7 @@
     "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
     "permissions-policy": "interest-cohort=()",
     "content-security-policy": "; base-uri 'self'",
-    "set-cookie": "VISTIOR_CONT=yes; expires=Sun, 25-Oct-2026 18:51:30 GMT; Max-Age=3600; path=/;HttpOnly;Secure"
+    "set-cookie": "VISTIOR_CONT=yes; expires=Sun, 25-Oct-2026 19:04:46 GMT; Max-Age=3600; path=/;HttpOnly;Secure"
    },
    "all_header_names": [
     "cache-control",
@@ -103,7 +103,7 @@
     "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
     "permissions-policy": "interest-cohort=()",
     "content-security-policy": "; base-uri 'self'",
-    "set-cookie": "VISTIOR_CONT=yes; expires=Sun, 25-Oct-2026 18:51:30 GMT; Max-Age=3600; path=/;HttpOnly;Secure"
+    "set-cookie": "VISTIOR_CONT=yes; expires=Sun, 25-Oct-2026 19:04:47 GMT; Max-Age=3600; path=/;HttpOnly;Secure"
    },
    "all_header_names": [
     "cache-control",

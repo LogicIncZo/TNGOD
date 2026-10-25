@@ -1,0 +1,140 @@
+{
+ "idx": 296,
+ "host": "salemcorporation.gov.in",
+ "url": "https://salemcorporation.gov.in",
+ "name": "Salem Corporation",
+ "group": "Municipal Corporations & Urban Local Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "corrected hostname (original guess had no DNS)",
+ "csv_cert_expires": "2026-12-23",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "salemcorporation.gov.in",
+  "domain": "salemcorporation.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "salemcorporation.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 24 00:26:44 2026 GMT",
+  "notAfter": "Dec 23 00:26:43 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "65.21.208.49"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 salemcorporation.gov.in."
+  ],
+  "txt": [
+   "v=spf1 +a +mx +ip4:65.21.208.53 +ip4:65.21.208.49 +include:websitewelcome.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 +a +mx +ip4:65.21.208.53 +ip4:65.21.208.49 +include:websitewelcome.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://salemcorporation.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding"
+   ],
+   "title": "SALEM CITY MUNICIPAL CORPORATION",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 94460,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://salemcorporation.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding"
+   ],
+   "title": "SALEM CITY MUNICIPAL CORPORATION",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 94460,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

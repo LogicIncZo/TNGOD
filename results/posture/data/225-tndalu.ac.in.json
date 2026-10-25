@@ -1,0 +1,176 @@
+{
+ "idx": 225,
+ "host": "tndalu.ac.in",
+ "url": "https://tndalu.ac.in",
+ "name": "Tamil Nadu Dr. Ambedkar Law University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-19",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tndalu.ac.in",
+  "domain": "tndalu.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tndalu.ac.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Oct 21 11:41:06 2026 GMT",
+  "notAfter": "Jan 19 11:41:05 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "91.108.106.63",
+   "93.127.173.182"
+  ],
+  "aaaa": [
+   "2a02:4780:1f:2ab4:d1e2:ee6:36a0:fd8d",
+   "2a02:4780:20:6e6b:b2ca:fba3:e612:fb7f"
+  ],
+  "mx": [
+   "0 tndalu-ac-in.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "v=spf1 include:spf.protection.outlook.com -all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:spf.protection.outlook.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tndalu.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.3.35",
+    "set-cookie": "laravel_session=eyJpdiI6IjFaZXNLVWNnekthelgrOWR6M0JaVUE9PSIsInZhbHVlIjoiaTlmS21lYVlIMVNkQ1RMZ0lkaFdQUnNvS1NBVDg2RXJTSS9IMzY1am5wYVhKNXBhc0pGUTRRajNoeFVGK2xhWFZ2WHRZajhqVHlSOTU0S1d3OUdPbzR6ZUxMTW1Zb0U5WGpvQi9RTG8rbnllS1NabXg0bmlmVFYrTllZRWpJQ2MiLCJtYWMiOiI5NWExMGNhNjhiZWUwM2Y0MzNiMzlhOTc0Njk3Nzk2ZjUwNWVmZWMzYjMyYWI5YTAwZTA2ZjYxZjZlYzdlZGZlIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 23:03:07 GMT; Max-Age=18000; path=/; httponly; samesite=lax; secure",
+    "content-security-policy": "upgrade-insecure-requests",
+    "server": "hcdn"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "panel",
+    "platform",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-hcdn-cache-status",
+    "x-hcdn-request-id",
+    "x-hcdn-upstream-rt",
+    "x-powered-by"
+   ],
+   "title": "The Tamil Nadu Dr.Ambedkar Law University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 162091,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tndalu.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.3.35",
+    "set-cookie": "laravel_session=eyJpdiI6IlVCZzIraDJUWFNRWWhONnFxMXcyTVE9PSIsInZhbHVlIjoiOUJGUlFCcjJQT25sUGlSSTB5OEx2d1U5blJlZUp1blZGOU13emFzVEppZjRUNGFzNU1SeFJmZlBxM2FLbGRCazBtZ3VTUTdsVlhwRnB2WkhmN2UwSlIzOFVWS0w5OWhKV2tVbTI3ZXZNVitLQmdwakZhdVBiWnFtOHVpTVAwSWsiLCJtYWMiOiJlZDQ2NzM0NDI3YTA4MzkzNWZhOThlNmI4Zjk0MWY2OGExNmY3MmEwYzFmNTY0MmY3MWY1YWQ2NTU1YWI5MzViIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 23:03:08 GMT; Max-Age=18000; path=/; httponly; samesite=lax; secure",
+    "content-security-policy": "upgrade-insecure-requests",
+    "server": "hcdn"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "panel",
+    "platform",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-hcdn-cache-status",
+    "x-hcdn-request-id",
+    "x-hcdn-upstream-rt",
+    "x-powered-by"
+   ],
+   "title": "The Tamil Nadu Dr.Ambedkar Law University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 162090,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 48,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.3.35'."
+   ]
+  ]
+ }
+}

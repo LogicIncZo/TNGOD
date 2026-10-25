@@ -1,0 +1,167 @@
+{
+ "idx": 410,
+ "host": "auegov.ac.in",
+ "url": "https://auegov.ac.in",
+ "name": "Anna University e-Governance (CeGov)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-09",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "auegov.ac.in",
+  "domain": "auegov.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.auegov.ac.in",
+  "leaf_issuer": "Thawte TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Jun 25 00:00:00 2026 GMT",
+  "notAfter": "Jan  9 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Thawte TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "14.139.161.125"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 ASPMX.L.GOOGLE.COM.",
+   "10 ALT3.ASPMX.L.GOOGLE.COM.",
+   "10 ALT4.ASPMX.L.GOOGLE.COM.",
+   "5 ALT1.ASPMX.L.GOOGLE.COM.",
+   "5 ALT2.ASPMX.L.GOOGLE.COM."
+  ],
+  "txt": [
+   "google-site-verification=icITBwF4iHYCeeM_v3eWxdAanbk-DslHNn_PhKAbMzM",
+   "_fx4ami4vadgqd0t94tyodtu87fyv9dj.auegov.ac.in",
+   "v=DMARC1; p=none; rua=mailto:dmarc-support@auegov.ac.in",
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc": [
+   "_fx4ami4vadgqd0t94tyodtu87fyv9dj"
+  ],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.auegov.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.0",
+    "x-powered-by": "PHP/8.3.22",
+    "set-cookie": "ci_session=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; secure; HttpOnly"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "CeGov",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.auegov.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.0",
+    "x-powered-by": "PHP/8.3.22",
+    "set-cookie": "ci_session=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; secure; HttpOnly"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "CeGov",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 53,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.0'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.3.22'."
+   ]
+  ]
+ }
+}

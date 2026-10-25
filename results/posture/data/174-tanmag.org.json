@@ -1,0 +1,164 @@
+{
+ "idx": 174,
+ "host": "tanmag.org",
+ "url": "https://tanmag.org",
+ "name": "Tamilnadu Magnesite Limited (TANMAG)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tanmag.org",
+  "domain": "tanmag.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.tanmag.org",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Sep 25 16:00:26 2026 GMT",
+  "notAfter": "Dec 24 16:00:25 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "199.79.62.93"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 tanmag.org."
+  ],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tanmag.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.29.8",
+    "set-cookie": "ci_session=6aa99f4038564e5200cc5dab6a6753309bed2dd4; expires=Sun, 25-Oct-2026 20:03:01 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-proxy-cache",
+    "x-server-cache"
+   ],
+   "title": "TANMAG - TAMILNADU MAGNESITE LIMITED",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 61510,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://tanmag.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx/1.29.8",
+    "set-cookie": "ci_session=4d9703b4cf203152c29834ba52928f04a36bd7ca; expires=Sun, 25-Oct-2026 20:03:02 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-proxy-cache",
+    "x-server-cache"
+   ],
+   "title": "TANMAG - TAMILNADU MAGNESITE LIMITED",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 61510,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 35,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'nginx/1.29.8'."
+   ]
+  ]
+ }
+}

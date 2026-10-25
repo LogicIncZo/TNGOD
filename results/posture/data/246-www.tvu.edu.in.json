@@ -1,0 +1,164 @@
+{
+ "idx": 246,
+ "host": "www.tvu.edu.in",
+ "url": "https://www.tvu.edu.in",
+ "name": "Thiruvalluvar University, Vellore",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tvu.edu.in",
+  "domain": "tvu.edu.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tvu.edu.in",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 06:01:28 2026 GMT",
+  "notAfter": "Dec 16 06:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "403",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.24.127",
+   "172.67.218.204"
+  ],
+  "aaaa": [
+   "2606:4700:3034::ac43:dacc",
+   "2606:4700:3035::6815:187f"
+  ],
+  "mx": [],
+  "txt": [
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 403,
+   "final_url": "https://www.tvu.edu.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "default-src 'none'; script-src 'nonce-p5V1lVhVXdVTzXDclv90cF' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+    "server": "cloudflare",
+    "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+    "referrer-policy": "same-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "accept-ch",
+    "alt-svc",
+    "cf-mitigated",
+    "cf-ray",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "critical-ch",
+    "cross-origin-embedder-policy",
+    "cross-origin-opener-policy",
+    "cross-origin-resource-policy",
+    "date",
+    "nel",
+    "origin-agent-cluster",
+    "permissions-policy",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Just a moment...",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 5372,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 403,
+   "final_url": "https://www.tvu.edu.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "default-src 'none'; script-src 'nonce-7iJLlxEgW3OpqN7AbCx7Wa' 'unsafe-eval' https://challenges.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com blob:; child-src 'self' https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+    "server": "cloudflare",
+    "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+    "referrer-policy": "same-origin",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=15552000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "accept-ch",
+    "alt-svc",
+    "cf-mitigated",
+    "cf-ray",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "critical-ch",
+    "cross-origin-embedder-policy",
+    "cross-origin-opener-policy",
+    "cross-origin-resource-policy",
+    "date",
+    "nel",
+    "origin-agent-cluster",
+    "permissions-policy",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Just a moment...",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 5372,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 98,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

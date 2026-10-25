@@ -53,7 +53,7 @@
     "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
     "x-content-type-options": "nosniff",
     "referrer-policy": "strict-origin-when-cross-origin",
-    "set-cookie": "XSRF-TOKEN=eyJpdiI6IkJKVEs3QzE4N2xXUkNPRU1iOWlsUGc9PSIsInZhbHVlIjoiN3lIRzdhcHp1QVFONFp2L0oxakZ5Vno3WExrcnBQMkRUa0J0SkRKZ0tMTHE4OWlDQXJucS9QY0QrL0I3dWNHWWtRYnFZc1FETUNpS1c4cjVpR2xlbk9Kc2NyNXUzQkhDZzJyQ0s1alNIVy9XSEdXTDNyMmNrWXoraW5EeUw5ajAiLCJtYWMiOiI0Y2RmYzdhY2M2YzQ3OTQ4OGQ0OGUwZjI1ZGM4YmVlOTI1NGVkMGFkYTZhYTA4ZWE1MjJjOTNkNmFlMjQ0NDMzIiwidGFnIjoiIn0%3D; expires=Sun, 25-Oct-2026 19:51:26 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    "set-cookie": "XSRF-TOKEN=eyJpdiI6IkVHNTlDRGpJSHptc2g3R3ZRWk4zT1E9PSIsInZhbHVlIjoiUm5QS0Y2bmx5Y1ZtaHVxSFYwaDRFZnNvUEs5SjJCclRZbTBGNWZONFNpS3hmM0dmZmx2ZE9hcXdUQ1ROd2VXUXBocjhESlZtZFZMWFBkbXRWU1JzMWFoZjRGcEpFK3pYYVBiaG55SzhRczZ3QWN2VUVvd085VFh1UmphMEpRYVkiLCJtYWMiOiIzNTY1OTI0MjdlMzMzMWYzMzdiMDE2OTBhZjA5MDBjZGMyYTIzZDU4MDFkMzFhMDFhMDgxNWM1ZGYxZDI3M2RlIiwidGFnIjoiIn0%3D; expires=Sun, 25-Oct-2026 20:04:44 GMT; Max-Age=7200; path=/; secure; samesite=lax"
    },
    "all_header_names": [
     "access-control-allow-headers",
@@ -99,7 +99,7 @@
     "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
     "x-content-type-options": "nosniff",
     "referrer-policy": "strict-origin-when-cross-origin",
-    "set-cookie": "XSRF-TOKEN=eyJpdiI6Imc2MDFhcy9abStaK3N0YlVZdFBHaEE9PSIsInZhbHVlIjoieXpiQy82RS9penJXbzNML2toeUhWaEEzbHoydFJ2TzcwZnBQczBmUVp1Rjg3UjZmM1ZkL1pEMFQxSENsVFRnL3JacTI5TEtXTHMwUjhNUzdZVzJpM05QNFVDMnE0Q29mZlRkNkF1aVVKSFlxeXZjYWhNc0VkSXQwTzN1OFFxODQiLCJtYWMiOiI5ZDJiMzdjOGEwNjVkNDBjZWY1YzgwZTA2MGM0NGZkMWQzYjllNDBiNzgxYTY3ZjBjYzc3MmMzNDE3Zjc1MDZiIiwidGFnIjoiIn0%3D; expires=Sun, 25-Oct-2026 19:51:27 GMT; Max-Age=7200; path=/; secure; samesite=lax"
+    "set-cookie": "XSRF-TOKEN=eyJpdiI6InppUDZFeXVRUzhCcU04eHhKSmFuK1E9PSIsInZhbHVlIjoiNDFnWVdZVXJtVnVBZGY5V0xwYkNYeHRPbXRlWS84ZWVTZ2k5QzNSVmY4cUJXY2ZVK1lkVEZsN21zVm1wZVZvWC9LTGk0c0pLdHB6ZTB2a2xiUUV5SGFxTFNpNkVJalVucU1PVUtkTWlMbXovN0V3dGduYXpXSEJpM1lYQ1UzVEEiLCJtYWMiOiIyYTY4MzYwMTI1ZjM0MjJmNWE2MmJlMmVmOGRmZGEyMjM4OGJjNzMwZmNjMDRlOWI3M2ZhMTY0YWE2MGI0N2I1IiwidGFnIjoiIn0%3D; expires=Sun, 25-Oct-2026 20:04:44 GMT; Max-Age=7200; path=/; secure; samesite=lax"
    },
    "all_header_names": [
     "access-control-allow-headers",

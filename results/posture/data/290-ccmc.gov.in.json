@@ -1,0 +1,163 @@
+{
+ "idx": 290,
+ "host": "ccmc.gov.in",
+ "url": "https://ccmc.gov.in",
+ "name": "Coimbatore City Municipal Corporation",
+ "group": "Municipal Corporations & Urban Local Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200 (corrected hostname; the .tn.gov.in variant has no DNS)",
+ "csv_cert_expires": "2027-02-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "ccmc.gov.in",
+  "domain": "ccmc.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.ccmc.gov.in",
+  "leaf_issuer": "SSL.com TLS Issuing RSA CA R1",
+  "leaf_org": "",
+  "notBefore": "Jul 28 10:10:08 2026 GMT",
+  "notAfter": "Feb 11 10:06:46 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "SSL.com TLS RSA Root CA 2022",
+  "chain_issuers": "SSL.com TLS Issuing RSA CA R1; SSL.com TLS RSA Root CA 2022",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "35.154.215.247"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mail.ccmc.gov.in."
+  ],
+  "txt": [
+   "google-site-verification=uXWpEtdQlRtA4qN0tQvPl6RppN63-DIaI2T8oYBErD4",
+   "v=spf1 ip4:27.100.26.142 include:spf.antispamcloud.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 ip4:27.100.26.142 include:spf.antispamcloud.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://ccmc.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "ci_session=3im62qdteg760q2juk5a1t54eqcgru2c; expires=Sun, 25 Oct 2026 20:03:20 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "upgrade-insecure-requests"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Coimbatore City Municipal Corporation",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 158454,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://ccmc.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "ci_session=prr80gh269dbhik4nd7fdcst36qicsjc; expires=Sun, 25 Oct 2026 20:03:20 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "content-security-policy": "upgrade-insecure-requests"
+   },
+   "all_header_names": [
+    "access-control-allow-headers",
+    "access-control-allow-methods",
+    "access-control-allow-origin",
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Coimbatore City Municipal Corporation",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 158454,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 73,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

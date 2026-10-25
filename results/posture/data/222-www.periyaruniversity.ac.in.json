@@ -1,0 +1,146 @@
+{
+ "idx": 222,
+ "host": "www.periyaruniversity.ac.in",
+ "url": "https://www.periyaruniversity.ac.in",
+ "name": "Periyar University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-22",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "periyaruniversity.ac.in",
+  "domain": "periyaruniversity.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.periyaruniversity.ac.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Oct 24 04:57:45 2026 GMT",
+  "notAfter": "Jan 22 04:57:44 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "154.210.206.214"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 ASPMX.L.GOOGLE.COM.",
+   "10 ALT3.ASPMX.L.GOOGLE.COM.",
+   "10 ALT4.ASPMX.L.GOOGLE.COM.",
+   "5 ALT1.ASPMX.L.GOOGLE.COM.",
+   "5 ALT2.ASPMX.L.GOOGLE.COM."
+  ],
+  "txt": [
+   "v=spf1 ip4:154.210.206.214 +a +mx  ~all",
+   "v=spf1 ip4:154.210.206.214 +a +mx  ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": "v=spf1 ip4:154.210.206.214 +a +mx  ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.periyaruniversity.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Periyar University, Salem",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 101104,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.periyaruniversity.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Periyar University, Salem",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 101104,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 57,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

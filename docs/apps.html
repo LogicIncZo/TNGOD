@@ -104,7 +104,7 @@ function parseCSV(text){
   return rows.filter(r => r.length >= 6).map(r => ({
     name: r[0], pkg: r[1], group: r[2], tier: r[3] || "1", owner: r[4],
     playUrl: r[5], installs: r[6] || "", updated: r[7] || "", rating: r[8] || "",
-    source: r[9] || "", notes: r[10] || ""
+    source: r[9] || "", notes: r[10] || "", backends: r[11] || ""
   }));
 }
 
@@ -133,7 +133,8 @@ function render(){
     tb.innerHTML = rows.map(r => {
       const tierChip = r.tier === "2" ? ' <span class="chip t2">Tier 2 · scheme</span>' : "";
       const nameCell = '<a href="' + r.playUrl + '" target="_blank" rel="noopener">' + esc(r.name) + "</a>" + tierChip +
-        (r.notes ? ' <span class="pkg">— ' + esc(r.notes) + "</span>" : "");
+        (r.notes ? ' <span class="pkg">— ' + esc(r.notes) + "</span>" : "") +
+        (r.backends ? '<br><span class="pkg">API: ' + esc(r.backends) + "</span>" : "");
       const pkgCell = '<span class="pkg">' + esc(r.pkg) + "</span><br>" +
         '<a href="' + r.playUrl + '" target="_blank" rel="noopener" class="pkg">Play ▸</a>' +
         (r.rating ? " ★" + esc(r.rating) : "");

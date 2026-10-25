@@ -1,0 +1,152 @@
+{
+ "idx": 412,
+ "host": "dipexamstndte.in",
+ "url": "https://dipexamstndte.in",
+ "name": "DipExOnline (DGE exam portal)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "dipexamstndte.in",
+  "domain": "dipexamstndte.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "dipexamstndte.in",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Sep 21 21:23:31 2026 GMT",
+  "notAfter": "Dec 20 21:23:30 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "122.252.253.21"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://dipexamstndte.in/DipExOnline/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.5",
+    "x-powered-by": "PHP/8.5.6"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "DipExOnline",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 98033,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://dipexamstndte.in/DipExOnline/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.5",
+    "x-powered-by": "PHP/8.5.6"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "DipExOnline",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 98033,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 43,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.5'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.5.6'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "idx": 388,
+ "host": "erodesmartcity.org",
+ "url": "https://erodesmartcity.org",
+ "name": "Erode Smart City",
+ "group": "Smart City SPVs (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200 (redirects to www.erodesmartcity.org)",
+ "csv_cert_expires": "2027-01-03",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "erodesmartcity.org",
+  "domain": "erodesmartcity.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "erodesmartcity.org",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Oct  5 13:39:25 2026 GMT",
+  "notAfter": "Jan  3 13:39:24 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "202.191.130.27"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.erodesmartcity.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "set-cookie": "pll_language=en; expires=Mon, 25-Oct-2027 18:03:37 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Erode Smart City &#8211; Erode Smart City Limited",
+   "generator": "WordPress 6.8",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 144728,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.erodesmartcity.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "set-cookie": "pll_language=en; expires=Mon, 25-Oct-2027 18:03:38 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Erode Smart City &#8211; Erode Smart City Limited",
+   "generator": "WordPress 6.8",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 144728,
+   "cookies": {
+    "total": 1,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 35,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.58 (Ubuntu)'."
+   ]
+  ]
+ }
+}

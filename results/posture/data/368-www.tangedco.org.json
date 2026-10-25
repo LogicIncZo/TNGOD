@@ -1,0 +1,162 @@
+{
+ "idx": 368,
+ "host": "www.tangedco.org",
+ "url": "https://www.tangedco.org/en",
+ "name": "Tamilnadu Generation and Distribution Corporation Limited (TANGEDCO)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "tangedco.org",
+  "domain": "tangedco.org",
+  "port": "",
+  "tls": "no-tls (40A7291AC77B0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:767:No address associated)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "103.59.64.244"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tangedco.org/en/tangedco/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "set-cookie": "django_language=en; expires=Mon, 25 Oct 2027 18:03:32 GMT; Max-Age=31536000; Path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Home - \u0ba4.\u0ba8\u0bbe.\u0bae\u0bbf.\u0b89.\u0baa.\u0b95",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 15787,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tangedco.org/en/tangedco/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "set-cookie": "django_language=en; expires=Mon, 25 Oct 2027 18:03:32 GMT; Max-Age=31536000; Path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "vary",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Home - \u0ba4.\u0ba8\u0bbe.\u0bae\u0bbf.\u0b89.\u0baa.\u0b95",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 15787,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 25,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

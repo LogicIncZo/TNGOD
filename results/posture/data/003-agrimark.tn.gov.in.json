@@ -48,7 +48,7 @@
    "error": null,
    "headers": {
     "server": "nginx",
-    "set-cookie": "ci_session=efbd2sl8r47kam66j87c28sssqm54m10; expires=Sun, 25-Oct-2026 19:51:25 GMT; Max-Age=7200; path=/; HttpOnly",
+    "set-cookie": "ci_session=c2von9glvl0ai8ve6iurjlut51htbr4l; expires=Sun, 25-Oct-2026 20:04:44 GMT; Max-Age=7200; path=/; HttpOnly",
     "x-frame-options": "SAMEORIGIN",
     "content-security-policy": "upgrade-insecure-requests",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
@@ -89,7 +89,7 @@
    "error": null,
    "headers": {
     "server": "nginx",
-    "set-cookie": "ci_session=v8pi3b18a9g2bebcvrenog5kftm7evrp; expires=Sun, 25-Oct-2026 19:51:26 GMT; Max-Age=7200; path=/; HttpOnly",
+    "set-cookie": "ci_session=l2ni11jsebj5fk488e5r8c98la66cgu4; expires=Sun, 25-Oct-2026 20:04:45 GMT; Max-Age=7200; path=/; HttpOnly",
     "x-frame-options": "SAMEORIGIN",
     "content-security-policy": "upgrade-insecure-requests",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",

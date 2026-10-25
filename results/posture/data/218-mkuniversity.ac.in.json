@@ -1,0 +1,97 @@
+{
+ "idx": 218,
+ "host": "mkuniversity.ac.in",
+ "url": "https://mkuniversity.ac.in",
+ "name": "Madurai Kamaraj University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2026-11-10",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "mkuniversity.ac.in",
+  "domain": "mkuniversity.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "mkuniversity.ac.in",
+  "leaf_issuer": "YR1",
+  "leaf_org": "",
+  "notBefore": "Aug 12 07:00:07 2026 GMT",
+  "notAfter": "Nov 10 07:00:06 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR1; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "139.59.51.111"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "NC3789",
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": 503,
+   "final_url": "http://mkuniversity.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {},
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 104,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 98,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "idx": 415,
+ "host": "tndotehub.in",
+ "url": "https://tndotehub.in",
+ "name": "DoTE Web Apps",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tndotehub.in",
+  "domain": "tndotehub.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tndotehub.in",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Oct 14 16:51:13 2026 GMT",
+  "notAfter": "Jan 12 17:48:43 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.20.72",
+   "172.67.191.223"
+  ],
+  "aaaa": [
+   "2606:4700:3034::ac43:bfdf",
+   "2606:4700:3037::6815:1448"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tndotehub.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "via": "1.1 google"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "transfer-encoding",
+    "via"
+   ],
+   "title": "DoTE WEB APPS",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 4392,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "TimeoutError: timed out"
+  }
+ },
+ "posture": {
+  "score": 57,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

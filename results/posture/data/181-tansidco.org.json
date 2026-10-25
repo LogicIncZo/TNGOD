@@ -1,0 +1,157 @@
+{
+ "idx": 181,
+ "host": "tansidco.org",
+ "url": "https://tansidco.org",
+ "name": "TANSIDCO",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "corrected hostname (original guess had no DNS)",
+ "csv_cert_expires": "2027-01-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tansidco.org",
+  "domain": "tansidco.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tansidco.org",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jan  7 00:00:00 2026 GMT",
+  "notAfter": "Jan  7 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "14.99.10.50"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "v=spf1 include:_spf.google.com include:zeptomail.net.in include:secureserver.net -all",
+   "google-site-verification=2gvexbR-4fyNCxGr9-i7vpKg05e2HNEwMGlmad2vF0A",
+   "google-site-verification=KJDxe373TDAIvQmyB-l059tPo6i2dCrv0E5eOra7BX0",
+   "google-site-verification=juLt_Gnu1vtUlcey1ylqiNCfXeV8kfJH1SXRj30PHQk"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject; rua=mailto:postmaster@tansidco.org, mailto:dmarc@tansidco.org; pct=100; adkim=s; aspf=s"
+  ],
+  "spf": "v=spf1 include:_spf.google.com include:zeptomail.net.in include:secureserver.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tansidco.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "12357898=5b033a9463518e33928063b5f10418c6; expires=Sun, 25-Oct-2026 20:02:59 GMT; Max-Age=7200; path=/; HttpOnly;SameSite=Strict",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "feature-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TANSIDCO",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 20866,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tansidco.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "12357898=7417a8efb805230bce82f1e13b6747aa; expires=Sun, 25-Oct-2026 20:02:59 GMT; Max-Age=7200; path=/; HttpOnly;SameSite=Strict",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubdomains; preload"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "feature-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TANSIDCO",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 20866,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

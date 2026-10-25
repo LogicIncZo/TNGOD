@@ -1,0 +1,128 @@
+{
+ "idx": 209,
+ "host": "b-u.ac.in",
+ "url": "https://b-u.ac.in",
+ "name": "Bharathiar University, Coimbatore",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-03-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "b-u.ac.in",
+  "domain": "b-u.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.b-u.ac.in",
+  "leaf_issuer": "GoDaddy TLS Intermediate CA DV - R1v1",
+  "leaf_org": "",
+  "notBefore": "Aug 25 10:41:15 2026 GMT",
+  "notAfter": "Mar 11 10:41:15 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Go Daddy Root Certificate Authority - G2",
+  "chain_issuers": "GoDaddy TLS Intermediate CA DV - R1v1; GoDaddy TLS Root CA - R1; Go Daddy Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.246.193.66",
+   "14.139.186.178"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 aspmx.l.google.com.",
+   "20 alt1.aspmx.l.google.com.",
+   "20 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "rmkued92jvl2s84kf68u5bi9sh",
+   "t7hm0sdh2qpivvr2u6i188iqlq",
+   "v=spf1 include:_spf.google.com ~all",
+   "2vg7ud0c8j51cqptb3f864akl2",
+   "4ttsqd4f96kmbsnep6kmdjahbq",
+   "APMOVM81CHJO876L7SNMMF7M6",
+   "dphaipsfgvhlthi8aq0mgor0pq",
+   "google-site-verification=pgLp-QPm2f4LLDDJB8lZIY6Nidsih-qc7xbqZX0XEl0"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject; rua=mailto:webmaster@b-u.ac.in; pct=100; adkim=s; aspf=s"
+  ],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://b-u.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "https://faculty.b-u.ac.in",
+    "strict-transport-security": "max-age=63072000; includeSubDomains"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-type",
+    "date",
+    "etag",
+    "expires",
+    "last-modified",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-drupal-cache",
+    "x-drupal-dynamic-cache",
+    "x-frame-options",
+    "x-generator"
+   ],
+   "title": "Bharathiar University | Bharathiar University",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "TimeoutError: timed out"
+  }
+ },
+ "posture": {
+  "score": 88,
+  "grade": "B",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

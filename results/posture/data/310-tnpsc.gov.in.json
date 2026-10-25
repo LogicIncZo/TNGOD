@@ -1,0 +1,140 @@
+{
+ "idx": 310,
+ "host": "tnpsc.gov.in",
+ "url": "https://tnpsc.gov.in",
+ "name": "Tamil Nadu Public Service Commission",
+ "group": "Law, Judiciary & Legislature",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-11-02",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpsc.gov.in",
+  "domain": "tnpsc.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpsc.gov.in",
+  "leaf_issuer": "Go Daddy Secure Certificate Authority - G2",
+  "leaf_org": "",
+  "notBefore": "Nov  2 11:52:24 2025 GMT",
+  "notAfter": "Nov  2 11:30:08 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Go Daddy Secure Certificate Authority - G2; Go Daddy Root Certificate Authority - G2; C=US, O=The Go Daddy Group, Inc., OU=Go Daddy Class 2 Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "404",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.232"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject;"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnpsc.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000",
+    "content-security-policy": "script-src 'unsafe-inline' 'unsafe-eval' 'self' https://cse.google.com; script-src-elem 'unsafe-inline' 'self' https://www.google.com; style-src 'unsafe-inline' 'self' https://fonts.googleapis.com; font-src 'unsafe-inline' 'self' https://fonts.gstatic.com;"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNPSC",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 8993,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnpsc.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=31536000",
+    "content-security-policy": "script-src 'unsafe-inline' 'unsafe-eval' 'self' https://cse.google.com; script-src-elem 'unsafe-inline' 'self' https://www.google.com; style-src 'unsafe-inline' 'self' https://fonts.googleapis.com; font-src 'unsafe-inline' 'self' https://fonts.gstatic.com;"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "strict-transport-security",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TNPSC",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 8993,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 86,
+  "grade": "B",
+  "findings": [
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

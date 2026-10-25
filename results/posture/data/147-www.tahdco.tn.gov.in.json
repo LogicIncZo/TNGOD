@@ -1,0 +1,124 @@
+{
+ "idx": 147,
+ "host": "www.tahdco.tn.gov.in",
+ "url": "https://www.tahdco.tn.gov.in",
+ "name": "Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2024-09-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tahdco.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tahdco.tn.gov.in",
+  "leaf_issuer": "R11",
+  "leaf_org": "",
+  "notBefore": "Jun 18 18:33:24 2024 GMT",
+  "notAfter": "Sep 16 18:33:23 2024 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "R11",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "404",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "218.248.29.76"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 404,
+   "final_url": "https://www.tahdco.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "404 Not Found",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 548,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 404,
+   "final_url": "https://tahdco.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx"
+   },
+   "all_header_names": [
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server"
+   ],
+   "title": "404 Not Found",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 548,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 18,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

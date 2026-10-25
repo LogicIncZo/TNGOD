@@ -1,0 +1,162 @@
+{
+ "idx": 139,
+ "host": "mtcbus.tn.gov.in",
+ "url": "https://mtcbus.tn.gov.in",
+ "name": "Metropolitan Transport Corporation (Chennai) Ltd.",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-03-04",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "mtcbus.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.mtcbus.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Feb  2 00:00:00 2026 GMT",
+  "notAfter": "Mar  4 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36",
+  "verify_code": "21 (unable to verify the first certificate)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.177"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://mtcbus.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "default-src * data: blob: 'unsafe-inline' 'unsafe-eval';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-powered-by": "PHP/7.2.10",
+    "set-cookie": "ci_session=trig55kb99rsb6b1nu9s07167te6tpdd; expires=Sun, 25-Oct-2026 18:17:47 GMT; Max-Age=900; path=/; HttpOnly"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Metropolitan Transport Corporation (Chennai) Ltd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 100609,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 0,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://mtcbus.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "default-src * data: blob: 'unsafe-inline' 'unsafe-eval';",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-powered-by": "PHP/7.2.10",
+    "set-cookie": "ci_session=dan7moj70khc84fa4au7gp4q97ti6dl6; expires=Sun, 25-Oct-2026 18:17:48 GMT; Max-Age=900; path=/; HttpOnly"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "Metropolitan Transport Corporation (Chennai) Ltd",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 100609,
+   "cookies": {
+    "total": 2,
+    "no_secure": 2,
+    "no_httponly": 0,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 53,
+  "grade": "D",
+  "findings": [
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (2 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/7.2.10'."
+   ]
+  ]
+ }
+}

@@ -48,7 +48,7 @@
    "error": null,
    "headers": {
     "server": "nginx",
-    "set-cookie": "PHPSESSID=a1emq8ls8hg5e28f7mv4q515oc; path=/; secure; HttpOnly; SameSite=Lax",
+    "set-cookie": "PHPSESSID=cdpa6kp8aaio920cijeqabp6df; path=/; secure; HttpOnly; SameSite=Lax",
     "x-frame-options": "SAMEORIGIN",
     "x-content-type-options": "nosniff",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -94,7 +94,7 @@
    "error": null,
    "headers": {
     "server": "nginx",
-    "set-cookie": "PHPSESSID=erq46gk4bvugec65ng13v1l764; path=/; secure; HttpOnly; SameSite=Lax",
+    "set-cookie": "PHPSESSID=aenmp6mehhc38bv0dvrtpr03b9; path=/; secure; HttpOnly; SameSite=Lax",
     "x-frame-options": "SAMEORIGIN",
     "x-content-type-options": "nosniff",
     "strict-transport-security": "max-age=31536000; includeSubDomains",

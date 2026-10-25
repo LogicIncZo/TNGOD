@@ -1,0 +1,148 @@
+{
+ "idx": 231,
+ "host": "tnpesu.org",
+ "url": "https://tnpesu.org",
+ "name": "Tamil Nadu Physical Education and Sports University, Chennai",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-10",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpesu.org",
+  "domain": "tnpesu.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpesu.org",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jun 26 00:00:00 2026 GMT",
+  "notAfter": "Jan 10 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; AAA Certificate Services",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "63.250.38.206"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 mail.tnpesu.org."
+  ],
+  "txt": [
+   "v=spf1 +a +mx +ip4:63.250.38.202 +ip4:63.250.38.207 include:spf.web-hosting.com +ip4:63.250.38.206 ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 +a +mx +ip4:63.250.38.202 +ip4:63.250.38.207 include:spf.web-hosting.com +ip4:63.250.38.206 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnpesu.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "keep-alive",
+    "last-modified",
+    "server",
+    "x-turbo-charged-by"
+   ],
+   "title": "TAMILNADU - SPORTS-UNIVERSITY",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 41000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnpesu.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "LiteSpeed"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "keep-alive",
+    "last-modified",
+    "server",
+    "x-turbo-charged-by"
+   ],
+   "title": "TAMILNADU - SPORTS-UNIVERSITY",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 41000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

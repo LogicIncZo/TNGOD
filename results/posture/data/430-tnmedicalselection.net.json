@@ -1,0 +1,173 @@
+{
+ "idx": 430,
+ "host": "tnmedicalselection.net",
+ "url": "https://tnmedicalselection.net",
+ "name": "TN Medical Selection (DME Selection Committee)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-02",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnmedicalselection.net",
+  "domain": "tnmedicalselection.net",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tnmedicalselection.net",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jun 18 00:00:00 2026 GMT",
+  "notAfter": "Jan  2 23:59:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "50.63.9.30"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 smtp.asia.secureserver.net.",
+   "10 mailstore1.asia.secureserver.net."
+  ],
+  "txt": [
+   "fmj1kf0frem6lv7tr4ibogtv68"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnmedicalselection.net/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "set-cookie": "ASP.NET_SessionId=utovraxyb5im0tldtjjbp5m3; path=/; HttpOnly; SameSite=Lax",
+    "x-aspnet-version": "4.0.30319",
+    "x-powered-by": "ASP.NET"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "x-aspnet-version",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "Selection Committee- DME",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnmedicalselection.net/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "set-cookie": "ASP.NET_SessionId=nwrds1qjuaggurnucj1phlmu; path=/; HttpOnly; SameSite=Lax",
+    "x-aspnet-version": "4.0.30319",
+    "x-powered-by": "ASP.NET"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "x-aspnet-version",
+    "x-powered-by",
+    "x-powered-by-plesk"
+   ],
+   "title": "Selection Committee- DME",
+   "generator": "",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 33,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

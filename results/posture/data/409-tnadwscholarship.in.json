@@ -1,0 +1,166 @@
+{
+ "idx": 409,
+ "host": "tnadwscholarship.in",
+ "url": "https://tnadwscholarship.in",
+ "name": "AD&TW Dept Overseas Scholarship",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2027-01-15",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnadwscholarship.in",
+  "domain": "tnadwscholarship.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnadwscholarship.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Oct 17 03:59:01 2026 GMT",
+  "notAfter": "Jan 15 03:59:00 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "82.29.164.200"
+  ],
+  "aaaa": [],
+  "mx": [
+   "100 us3.mx1.mailhostbox.com.",
+   "100 us3.mx2.mailhostbox.com.",
+   "100 us3.mx3.mailhostbox.com."
+  ],
+  "txt": [
+   "v=spf1 redirect=_spf.mailhostbox.com"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none; sp=none; rua=mailto:"
+  ],
+  "spf": "v=spf1 redirect=_spf.mailhostbox.com",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnadwscholarship.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "permissions-policy": "geolocation=(), microphone=(), camera=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "laravel_session=eyJpdiI6IllWUFBHQWZGcEZUWmorcFljSzluc0E9PSIsInZhbHVlIjoiWVhET2JvRmtJRzBkUis1dkJsbDVsa2w5Z2UyMjNyczlscllZK0hGTEZlWjlGWVJJR1BnNmx6YkZneDNLOWhjSmRVVFUvYkwxRVpXRnFVenR1cy9yOGJPOEsreGtVZmNBNi94V2U1Ujg4WUJZOEVoMGkzYnUyMCtqdCtrZU5nSloiLCJtYWMiOiIyYzY3NzFmN2E4YjZkOWMyYTdlYjdiNzdlMmRjNDY3ZTljN2YzODM2NjlkNzQzZjVhOGRmOWNiNjY1MGY0ZTI0IiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:41 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "via": "0.0 Caddy",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "PHP/8.3.29"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "via",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Overseas Scholarship | Adi Dravidar and Tribal Welfare",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 34214,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnadwscholarship.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "permissions-policy": "geolocation=(), microphone=(), camera=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "set-cookie": "laravel_session=eyJpdiI6IkJoV3NZQ29jRFBLcThqaU9iS2VGMVE9PSIsInZhbHVlIjoiSUFndmtTNU4vN0F6dnpXUnpRR0Uxd0xBdXZWSGlGQlB5NFBvaEs1Q3RUVFlhSjYrQXlQcDVRNEFFSzMwOEZWcnF0YUF3RnJHUDBOM2pmYU5MQ29PRXRPczdDOWFxcGQ3VjBlQXRJNUdLaDBwdHNlZXhGS0xGZ0xYSkM3VXRuY1kiLCJtYWMiOiIyNTkzOGQzNzM4N2E2MDQ5Njc1N2RkMDkzYTU2YTcwYWFjNjQ4YmRmNTEwMWI1YWUwNmQzZmVkMjA5Y2QyOTkyIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:41 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "via": "0.0 Caddy",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "x-powered-by": "PHP/8.3.29"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "permissions-policy",
+    "referrer-policy",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "via",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by",
+    "x-xss-protection"
+   ],
+   "title": "Overseas Scholarship | Adi Dravidar and Tribal Welfare",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 34214,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.3.29'."
+   ]
+  ]
+ }
+}

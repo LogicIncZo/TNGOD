@@ -1,0 +1,160 @@
+{
+ "idx": 149,
+ "host": "tncdw.org",
+ "url": "https://tncdw.org",
+ "name": "Tamil Nadu Corporation for Development of Women (TNCDW)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tncdw.org",
+  "domain": "tncdw.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tncdw.org",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 28 11:18:23 2026 GMT",
+  "notAfter": "Dec 27 11:18:22 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "161.118.183.230"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "v=spf1 include:dc-aa8e722993._spfm.tncdw.org ~all",
+   "\tv=spf1 include:_spf.google.com ~all",
+   "google-site-verification=OGrNOk7LmciNOOgZkIk5ZNDJctuQBNTQKd0FptKoJcg"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:dc-aa8e722993._spfm.tncdw.org ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tncdw.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "set-cookie": "csrfToken=b2e9bdc985ba793dff64f17e57bb28c188fee3633af29bb1867a7555f8bd8b8b3f3f85cceb9da974a9c3ca674171c6ae9be2b41f30b3094686053e2bc646d3af; path=/; HttpOnly",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "TNCDW",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 144052,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tncdw.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "set-cookie": "csrfToken=aafddc6fa14119849582d8f20985617c8793baecc3821c507972efb833811d4d4ae1f9d54dcc7bd2369bd24da23b2a3c99d9558602f914830a2760899ee81d62; path=/; HttpOnly",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "TNCDW",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 144052,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 48,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Apache/2.4.41 (Ubuntu)'."
+   ]
+  ]
+ }
+}

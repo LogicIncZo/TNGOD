@@ -1,0 +1,136 @@
+{
+ "idx": 251,
+ "host": "chengalpattu.nic.in",
+ "url": "https://chengalpattu.nic.in",
+ "name": "Chengalpattu",
+ "group": "Districts",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-28",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "chengalpattu.nic.in",
+  "domain": "chengalpattu.nic.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "chengalpattu.nic.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 29 03:33:12 2026 GMT",
+  "notAfter": "Dec 28 03:33:11 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.195.222.169"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1;p=quarantine;sp=quarantine;pct=100"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://chengalpattu.nic.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Chengalpattu District,Government of Tamilnadu | Lake District | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://chengalpattu.nic.in:443/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Chengalpattu District,Government of Tamilnadu | Lake District | India",
+   "generator": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress.",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 59,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ]
+  ]
+ }
+}

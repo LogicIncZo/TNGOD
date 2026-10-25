@@ -1,0 +1,162 @@
+{
+ "idx": 178,
+ "host": "tantea.nic.in",
+ "url": "https://tantea.nic.in",
+ "name": "TamilNadu Tea Plantation Corporation (TANTEA)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-05-25",
+ "csv_emudhra": "g1-watch",
+ "tls": {
+  "host": "tantea.nic.in",
+  "domain": "tantea.nic.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tantea.nic.in",
+  "leaf_issuer": "emSign SSL CA - G1",
+  "leaf_org": "",
+  "notBefore": "Apr 30 06:41:43 2025 GMT",
+  "notAfter": "May 25 06:41:19 2026 GMT",
+  "impacted": "EMSIGN-FAMILY",
+  "matched_intermediates": "emSign Root CA - G1; emSign SSL CA - G1",
+  "chain_roots": "",
+  "chain_issuers": "emSign SSL CA - G1; emSign Root CA - G1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "164.100.63.142"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": "RRSIG",
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tantea.nic.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "Tantea",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 17286,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://tantea.nic.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "accept-ranges",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "etag",
+    "last-modified",
+    "server",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "Tantea",
+   "generator": "",
+   "content_type": "text/html",
+   "body_bytes": 17286,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

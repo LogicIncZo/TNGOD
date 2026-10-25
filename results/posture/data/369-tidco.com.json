@@ -1,0 +1,173 @@
+{
+ "idx": 369,
+ "host": "tidco.com",
+ "url": "https://tidco.com",
+ "name": "TamilNadu Industrial Development Corporation Ltd.",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-26",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tidco.com",
+  "domain": "tidco.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tidco.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 27 07:48:49 2026 GMT",
+  "notAfter": "Dec 26 08:48:41 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.18.246",
+   "172.67.183.245"
+  ],
+  "aaaa": [
+   "2606:4700:3034::6815:12f6",
+   "2606:4700:3037::ac43:b7f5"
+  ],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 alt3.aspmx.l.google.com.",
+   "10 alt4.aspmx.l.google.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "google-site-verification=6K97K1LJnNSOE4rbVVlrT1ESjKKHBWNUMa8eNSfBg04",
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tidco.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "strict-transport-security": "max-age=31536000",
+    "permissions-policy": "geolocation=()",
+    "referrer-policy": "same-origin",
+    "content-security-policy": "same-orgin",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "feature-policy",
+    "nel",
+    "permissions-policy",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TIDCO",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 87964,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tidco.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "strict-transport-security": "max-age=31536000",
+    "permissions-policy": "geolocation=()",
+    "referrer-policy": "same-origin",
+    "content-security-policy": "same-orgin",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cf-cache-status",
+    "cf-ray",
+    "clear-site-data",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "feature-policy",
+    "nel",
+    "permissions-policy",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TIDCO",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 87964,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 83,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

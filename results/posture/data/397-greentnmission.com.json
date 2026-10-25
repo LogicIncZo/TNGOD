@@ -1,0 +1,172 @@
+{
+ "idx": 397,
+ "host": "greentnmission.com",
+ "url": "https://greentnmission.com",
+ "name": "Green Tamil Nadu Mission",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "greentnmission.com",
+  "domain": "greentnmission.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "greentnmission.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 02:34:45 2026 GMT",
+  "notAfter": "Dec 16 03:34:39 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.34.19",
+   "172.67.153.53"
+  ],
+  "aaaa": [
+   "2606:4700:3031::6815:2213",
+   "2606:4700:3033::ac43:9935"
+  ],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://greentnmission.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=i49g7eprufr5rs5vnrt5lo561rda13jk; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; secure; HttpOnly",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(self)",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 152129,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://greentnmission.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=mlo48ibv0d4vd64f9h67rg5nkn2fl21o; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; secure; HttpOnly",
+    "x-frame-options": "DENY",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(self)",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 152129,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 70,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

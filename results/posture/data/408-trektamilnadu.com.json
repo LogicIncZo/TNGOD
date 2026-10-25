@@ -1,0 +1,169 @@
+{
+ "idx": 408,
+ "host": "trektamilnadu.com",
+ "url": "https://trektamilnadu.com",
+ "name": "Trek Tamil Nadu (TNWEC)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-24",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "trektamilnadu.com",
+  "domain": "trektamilnadu.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "trektamilnadu.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 25 08:05:41 2026 GMT",
+  "notAfter": "Dec 24 09:05:38 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.49.17",
+   "172.67.158.11"
+  ],
+  "aaaa": [
+   "2606:4700:3031::ac43:9e0b",
+   "2606:4700:3033::6815:3111"
+  ],
+  "mx": [
+   "0 trektamilnadu-com.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "MS=ms91742656",
+   "v=spf1 include:spf.protection.outlook.com -all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:spf.protection.outlook.com -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://trektamilnadu.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "trek_tamilnadu_session=eyJpdiI6ImN2aVVJVFVEVDc4K0FPLzVmQ0lHSHc9PSIsInZhbHVlIjoiLys0cVA1RmRnbEZuczhYcEVvblFCdGRMUkh6VGNha29ZanJlTDg4c2YwQjhiUGhTRUNlNFhEU0xjVldGY1JDOEFkaUR2NGw3MldOdTJuOEhzRWE3MzhTdnQzN1NiTHRLNlBTZ3ZiZVdtNmVDZEkrK0RzcmhlNzFMdVRWL0NVckQiLCJtYWMiOiIwOGE5ZWMyMzk3Nzc5ZTgyZDBlN2IzZDE3ZTRmNTY4YTQwNjE5Nzc2N2M2ZGZmODYwNjM0OWRkNTBjYWExYjgyIiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:41 GMT; Max-Age=7200; path=/; httponly",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Trek Tamilnadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://trektamilnadu.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "set-cookie": "trek_tamilnadu_session=eyJpdiI6Ikh1Z3RiK2oweFdPK0lkVTM4b1UyQlE9PSIsInZhbHVlIjoiUkJVcU5KSU04SDU3Z2NQZi9Rd2JNSFArU0ljSmswaTBVWFpmZVk1UkhoYnNtVkJuZmJHc3lnY2FzWktmVVlLcVo3bjRWQUovTGp2WkU5Q0FjNmFrNE1EdGR2SUtGOHIzc09oY2pWMW9SbGkrc0ZoRzRWVGpvbk1RaERwOGdBc2kiLCJtYWMiOiI0YjUzODE2OWRlM2NlZTNhZTdjZjQ0ODgwN2E0MzY3MTU0MDZjNjZkOGFjZmFiZDIxOTZiYmNiZTkyNTZiMTI3IiwidGFnIjoiIn0%3D; expires=Sun, 25 Oct 2026 20:03:42 GMT; Max-Age=7200; path=/; httponly",
+    "server": "cloudflare"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "nel",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "Trek Tamilnadu",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 2
+   }
+  }
+ },
+ "posture": {
+  "score": 42,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

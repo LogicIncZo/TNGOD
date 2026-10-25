@@ -1,0 +1,164 @@
+{
+ "idx": 135,
+ "host": "www.tidelpark.com",
+ "url": "https://www.tidelpark.com",
+ "name": "Information Technology Park, Chennai (TIDEL Park)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-01-09",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tidelpark.com",
+  "domain": "tidelpark.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tidelpark.com",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Oct 11 09:11:00 2026 GMT",
+  "notAfter": "Jan  9 09:10:59 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "3.108.237.162"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [
+   "v=DMARC1; p=none;"
+  ],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tidelpark.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET",
+    "set-cookie": "PHPSESSID=on5eu5b3buvio72s9a7oilnqje; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "x-powered-by"
+   ],
+   "title": "Best Strategic Office spaces for IT &amp; ITES | TIDEL Park",
+   "generator": "TIDEL Park",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 106844,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "http://www.tidelpark.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Microsoft-IIS/10.0",
+    "x-powered-by": "ASP.NET",
+    "set-cookie": "PHPSESSID=jr4e31sq13jlg8047gubfsad80; path=/"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-length",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "x-powered-by"
+   ],
+   "title": "Best Strategic Office spaces for IT &amp; ITES | TIDEL Park",
+   "generator": "TIDEL Park",
+   "content_type": "text/html; charset=utf-8",
+   "body_bytes": 106840,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 38,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "Server header discloses version: 'Microsoft-IIS/10.0'."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'ASP.NET'."
+   ]
+  ]
+ }
+}

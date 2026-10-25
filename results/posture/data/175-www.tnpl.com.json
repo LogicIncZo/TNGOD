@@ -1,0 +1,175 @@
+{
+ "idx": 175,
+ "host": "www.tnpl.com",
+ "url": "https://www.tnpl.com",
+ "name": "Tamilnadu News Print And Papers Ltd. (TNPL)",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "recovered on retry (slow NIC network)",
+ "csv_cert_expires": "2026-12-27",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnpl.com",
+  "domain": "tnpl.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnpl.com",
+  "leaf_issuer": "YE2",
+  "leaf_org": "",
+  "notBefore": "Sep 28 14:42:57 2026 GMT",
+  "notAfter": "Dec 27 14:42:56 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE2; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "000",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "45.79.121.100"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "google-site-verification=GKP8RmuZsIsKL-hllaj5RJofddfeBe_92_Tp09BKGl4",
+   "_globalsign-domain-verification=UYyrhvgvmn8Wuh_Us8DiCKwjY1-BDFYcLqOE6yrQNg",
+   "_globalsign-domain-verification=ql5YPzlTa0UIZ_T4CbC6yZkMneMbFnHoQyzuwpHAqH ",
+   "_globalsign-domain-verification=4WdHm_ol31-nuWImYc6leJya5l1Wn7wE9d2qymfqPz",
+   "google-site-verification=-zdHE7nkEBIu2hjUedv4T0LCMsxb0UM70wu-oEJKolk",
+   "google-site-verification=-zdHE7nkEBIu2hjUedv4T0LCMsxb0UM70wu-oEJKolk",
+   "_globalsign-domain-verification=38wWzQTqrKMOfx5iGeCcpH8fZ--2cBOvhts--NGTPK",
+   "_globalsign-domain-verification=9Jz6JLqi7p80mTvnQ8ai4fmBeI8h5q7G9yoJDLRr16",
+   "google-site-verification=GKP8RmuZsIsKL-hllaj5RJofddfeBe_92_Tp09BKGl4",
+   "_globalsign-domain-verification=UYyrhvgvmn8Wuh_Us8DiCKwjY1-BDFYcLqOE6yrQNg"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnpl.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "upgrade-insecure-requests;",
+    "permissions-policy": "geolocation=(self)",
+    "referrer-policy": "strict-origin",
+    "server": "nestify-cdn-gw",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "alt-svc",
+    "cache-control",
+    "cdn-tag",
+    "connection",
+    "content-encoding",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "nestify-cdn-cache",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 25791,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnpl.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "content-security-policy": "upgrade-insecure-requests;",
+    "permissions-policy": "geolocation=(self)",
+    "referrer-policy": "strict-origin",
+    "server": "nestify-cdn-gw",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
+   },
+   "all_header_names": [
+    "access-control-allow-origin",
+    "alt-svc",
+    "cache-control",
+    "cdn-tag",
+    "connection",
+    "content-encoding",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "nestify-cdn-cache",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 25791,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

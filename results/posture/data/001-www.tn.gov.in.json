@@ -34,8 +34,8 @@
   "aaaa": [],
   "mx": [],
   "txt": [
-   "v=spf1 ip4:103.59.65.10/32 ip4:103.59.65.11/32 ip4:103.59.65.12/32 ip4:164.100.134.10/32 -all",
-   "google-site-verification=ZuqJq1YxzjXM7xt6nKVJUmEJUBvPx2rtc5KIHiDvq8s"
+   "google-site-verification=ZuqJq1YxzjXM7xt6nKVJUmEJUBvPx2rtc5KIHiDvq8s",
+   "v=spf1 ip4:103.59.65.10/32 ip4:103.59.65.11/32 ip4:103.59.65.12/32 ip4:164.100.134.10/32 -all"
   ],
   "dmarc": [
    "v=DMARC1; p=reject; rua=mailto:dmarc-report@tn.gov.in; ruf=mailto:dmarc-failed@tn.gov.in; sp=reject; pct=100; fo=1; ri=28800; adkim=s; aspf=s; "
@@ -53,7 +53,7 @@
    "error": null,
    "headers": {
     "server": "nginx",
-    "set-cookie": "PHPSESSID=cuqqratvl00s7e2d3hg6m402e5; path=/; secure; HttpOnly; SameSite=Lax",
+    "set-cookie": "PHPSESSID=mshe2kkd2431n7g0ut55elda0l; path=/; secure; HttpOnly; SameSite=Lax",
     "x-frame-options": "SAMEORIGIN",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "referrer-policy": "strict-origin",
@@ -101,7 +101,7 @@
    "error": null,
    "headers": {
     "server": "nginx",
-    "set-cookie": "PHPSESSID=b50r2m2tmt64iam3msb66ov88n; path=/; secure; HttpOnly; SameSite=Lax",
+    "set-cookie": "PHPSESSID=ddvo35mtv18knua3j3loqjin08; path=/; secure; HttpOnly; SameSite=Lax",
     "x-frame-options": "SAMEORIGIN",
     "strict-transport-security": "max-age=31536000; includeSubDomains",
     "referrer-policy": "strict-origin",

@@ -50,8 +50,7 @@ _done = 0
 
 
 def log(msg):
-    with _lock:
-        print(msg, file=sys.stderr, flush=True)
+    print(msg, file=sys.stderr, flush=True)
 
 
 def url_host(u):

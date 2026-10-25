@@ -1,0 +1,155 @@
+{
+ "idx": 399,
+ "host": "nilgiristreecuttingpermissions.org",
+ "url": "https://nilgiristreecuttingpermissions.org",
+ "name": "Nilgiris Tree Cutting Permissions",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "error",
+ "csv_detail": "HTTP 429 (rate-limited)",
+ "csv_cert_expires": "2026-12-30",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "nilgiristreecuttingpermissions.org",
+  "domain": "nilgiristreecuttingpermissions.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "nilgiristreecuttingpermissions.org",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Oct  1 17:45:13 2026 GMT",
+  "notAfter": "Dec 30 17:45:12 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "89.117.157.126"
+  ],
+  "aaaa": [
+   "2a02:4780:11:1101:0:2ace:afd8:6"
+  ],
+  "mx": [
+   "10 mx2.hostinger.com.",
+   "5 mx1.hostinger.com."
+  ],
+  "txt": [
+   "v=spf1 include:_spf.mail.hostinger.com ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none"
+  ],
+  "spf": "v=spf1 include:_spf.mail.hostinger.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://nilgiristreecuttingpermissions.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.0.30",
+    "server": "LiteSpeed",
+    "content-security-policy": "upgrade-insecure-requests"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "panel",
+    "platform",
+    "server",
+    "x-powered-by"
+   ],
+   "title": "Tree Cutting & Land Sale Permission Services",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 1492,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://nilgiristreecuttingpermissions.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-powered-by": "PHP/8.0.30",
+    "server": "LiteSpeed",
+    "content-security-policy": "upgrade-insecure-requests"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "connection",
+    "content-length",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "panel",
+    "platform",
+    "server",
+    "x-powered-by"
+   ],
+   "title": "Tree Cutting & Land Sale Permission Services",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 1492,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 63,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/8.0.30'."
+   ]
+  ]
+ }
+}

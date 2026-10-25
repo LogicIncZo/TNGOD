@@ -1,0 +1,156 @@
+{
+ "idx": 121,
+ "host": "rera.tn.gov.in",
+ "url": "https://rera.tn.gov.in",
+ "name": "Tamil Nadu Real Estate Regulatory Authority (TNRERA)",
+ "group": "Commissions, Statutory & Autonomous Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-31",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "rera.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "rera.tn.gov.in",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Jun 16 00:00:00 2026 GMT",
+  "notAfter": "Dec 31 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.218"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://rera.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://maps.googleapis.com https://www.google.com;style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://fonts.gstatic.com;img-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://rera.tn.gov.in data: https://maps.googleapis.com https://www.gstatic.com https://mt1.google.com https://cdn-icons-png.flaticon.com https://www.openstreetmap.org https://*.tile.openstreetmap.org;font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://cdn.linearicons.com https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com;connect-src 'self' https://www.paynimo.com https://securepg.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://www.googleapis.com https://www.openstreetmap.org https://*.tile.openstreetmap.org https://dashboard.pmay-urban.gov.in;frame-src 'self' https://www.google.com;",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "tnrera_session=eyJpdiI6ImlNOWNFZWlKYnlRdENwM2lra3UrVHc9PSIsInZhbHVlIjoid2t4VW15VUp5WG82dkhTWGJHMlE3L1NVM1gydUY5cWw1SDhqL1lTd2c4alZzRkJwcXRBSnRjS3VhSHZxTUZVdHhib3VjUmRyUmxFQ2dCM3FqblZIMjh6VnZkS3FKVlU1M3hmNHlhdUdKbHZQU004VUZWcWhrM1RiZW9tS1paU0ciLCJtYWMiOiJhOTRkYTkyNWRjYTIzYzc5YmJmZDc0N2Q2ODdhMDg0NDYzODA5ZDQ1ODlhOTJiM2Y5YWYxZDQ2YjQ3MzQ1MTFmIiwidGFnIjoiIn0%3D; path=/; secure; httponly; samesite=lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": ":: TNRERA ::",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://rera.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "content-security-policy": "default-src 'self';script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://maps.googleapis.com https://www.google.com;style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://fonts.gstatic.com;img-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://rera.tn.gov.in data: https://maps.googleapis.com https://www.gstatic.com https://mt1.google.com https://cdn-icons-png.flaticon.com https://www.openstreetmap.org https://*.tile.openstreetmap.org;font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://cdn.linearicons.com https://www.paynimo.com https://pay.billdesk.com https://api.billdesk.com;connect-src 'self' https://www.paynimo.com https://securepg.paynimo.com https://pay.billdesk.com https://api.billdesk.com https://www.googleapis.com https://www.openstreetmap.org https://*.tile.openstreetmap.org https://dashboard.pmay-urban.gov.in;frame-src 'self' https://www.google.com;",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "tnrera_session=eyJpdiI6ImltRHpKQVdnWElHRlc1TnhwNHNia3c9PSIsInZhbHVlIjoiTmV3M1lvT1AyckZLNnpqaWUyc2k5VE5yNmU0eE80N0EvbW5yVHJONTRiN2dBWU9PUzZ1UjJzdFA3WGgvTkRWYkJTZ1QyZk5ITjAzY1R1cVo4eEZqRWtaWHFlMWJHcUs5VDd0c3NQMUMwa0hoZVRNTDJOMFFsS1FwWVFRVU9qVHMiLCJtYWMiOiJkNmQ5ODY0YmY5MzM2NmFmMjdjYjAwMjMwOWU0NTY1MzllNDFlOWJmMDMzZmZiZTM1YmY2ZDQwNDI3YzUzZjk4IiwidGFnIjoiIn0%3D; path=/; secure; httponly; samesite=lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "server",
+    "set-cookie",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": ":: TNRERA ::",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 0,
+    "no_httponly": 1,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 56,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (0 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

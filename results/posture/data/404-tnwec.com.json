@@ -1,0 +1,173 @@
+{
+ "idx": 404,
+ "host": "tnwec.com",
+ "url": "https://tnwec.com",
+ "name": "TN Wilderness Experiences Corporation (TNWEC)",
+ "group": "Eco-Tourism & Environment (Tier 2)",
+ "tier": "2",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-16",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnwec.com",
+  "domain": "tnwec.com",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnwec.com",
+  "leaf_issuer": "WE1",
+  "leaf_org": "",
+  "notBefore": "Sep 17 15:19:58 2026 GMT",
+  "notAfter": "Dec 16 16:19:49 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "WE1; GTS Root R4; GlobalSign Root CA",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "104.21.28.153",
+   "172.67.170.229"
+  ],
+  "aaaa": [
+   "2606:4700:3034::6815:1c99",
+   "2606:4700:3034::ac43:aae5"
+  ],
+  "mx": [
+   "0 tnwec-com.mail.protection.outlook.com."
+  ],
+  "txt": [
+   "NETORGFT14834244.onmicrosoft.com",
+   "v=spf1 include:secureserver.net -all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:secureserver.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnwec.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=sk9skl4fc2o8ivmpatgke531kplg60h1; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Tamil Nadu Wilderness Experiences Corporation",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 79196,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnwec.com/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "cloudflare",
+    "set-cookie": "ci_session=3ccknlevs3r62vcgpkqlob50jomi0he5; expires=Sun, 25-Oct-2026 20:03:39 GMT; Max-Age=7200; path=/; HttpOnly",
+    "x-frame-options": "DENY"
+   },
+   "all_header_names": [
+    "alt-svc",
+    "cache-control",
+    "cf-cache-status",
+    "cf-ray",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "nel",
+    "pragma",
+    "report-to",
+    "server",
+    "server-timing",
+    "set-cookie",
+    "transfer-encoding",
+    "vary",
+    "x-frame-options"
+   ],
+   "title": "Tamil Nadu Wilderness Experiences Corporation",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 79196,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 0,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 50,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 0 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

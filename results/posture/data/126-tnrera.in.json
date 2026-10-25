@@ -1,0 +1,82 @@
+{
+ "idx": 126,
+ "host": "tnrera.in",
+ "url": "https://tnrera.in",
+ "name": "TN Real Estate Regulatory Authority (TNRERA)",
+ "group": "Commissions, Statutory & Autonomous Bodies",
+ "tier": "1",
+ "csv_status": "unreachable",
+ "csv_detail": "DNS live; no HTTP response",
+ "csv_cert_expires": "",
+ "csv_emudhra": "",
+ "tls": {
+  "host": "tnrera.in",
+  "domain": "tnrera.in",
+  "port": "",
+  "tls": "no-tls (4047C2D934740000:error:8000006F:system library:BIO_connect:Connection refused:../crypto/bio/bio_sock2.c:183:calling conn)",
+  "leaf_cn": "",
+  "leaf_issuer": "",
+  "leaf_org": "",
+  "notBefore": "",
+  "notAfter": "",
+  "impacted": "",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "",
+  "verify_code": "",
+  "http_status": "",
+  "expired": ""
+ },
+ "dns": {
+  "a": [
+   "0.0.0.0"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 alltheemails.com."
+  ],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  }
+ },
+ "posture": {
+  "score": 58,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "HTTPS handshake failed (no usable TLS)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

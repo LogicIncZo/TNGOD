@@ -1,0 +1,154 @@
+{
+ "idx": 75,
+ "host": "tntextiles.tn.gov.in",
+ "url": "https://tntextiles.tn.gov.in",
+ "name": "Textiles Department",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2027-05-04",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tntextiles.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tntextiles.tn.gov.in",
+  "leaf_issuer": "GoDaddy TLS Intermediate CA DV - R1v1",
+  "leaf_org": "",
+  "notBefore": "Oct 18 06:11:12 2026 GMT",
+  "notAfter": "May  4 06:11:12 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Go Daddy Root Certificate Authority - G2",
+  "chain_issuers": "GoDaddy TLS Intermediate CA DV - R1v1; GoDaddy TLS Root CA - R1; Go Daddy Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.59.64.237"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tntextiles.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "pll_language=en; expires=Mon, 25 Oct 2027 18:02:46 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "last-modified",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding"
+   ],
+   "title": "Home - Department of Textiles",
+   "generator": "All in One SEO (AIOSEO) 4.4.3",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 2,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tntextiles.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "set-cookie": "pll_language=en; expires=Mon, 25 Oct 2027 18:02:48 GMT; Max-Age=31536000; path=/; secure; SameSite=Lax"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "last-modified",
+    "link",
+    "server",
+    "set-cookie",
+    "transfer-encoding"
+   ],
+   "title": "Home - Department of Textiles",
+   "generator": "All in One SEO (AIOSEO) 4.4.3",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 2,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 37,
+  "grade": "F",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 2 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

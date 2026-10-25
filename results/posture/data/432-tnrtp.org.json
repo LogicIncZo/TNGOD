@@ -1,0 +1,79 @@
+{
+ "idx": 432,
+ "host": "tnrtp.org",
+ "url": "https://tnrtp.org",
+ "name": "TN Rural Transformation Project (TNRTP)",
+ "group": "Service Portals & Projects (Tier 2)",
+ "tier": "2",
+ "csv_status": "unreachable",
+ "csv_detail": "DNS live; no HTTP response",
+ "csv_cert_expires": "2027-02-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnrtp.org",
+  "domain": "tnrtp.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnrtp.org",
+  "leaf_issuer": "GoDaddy TLS Intermediate CA DV - R1v1",
+  "leaf_org": "",
+  "notBefore": "Jul 29 15:11:24 2026 GMT",
+  "notAfter": "Feb 12 15:11:24 2027 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "Go Daddy Root Certificate Authority - G2",
+  "chain_issuers": "GoDaddy TLS Intermediate CA DV - R1v1; GoDaddy TLS Root CA - R1; Go Daddy Root Certificate Authority - G2",
+  "verify_code": "0 (ok)",
+  "http_status": "405",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "15.197.225.128",
+   "3.33.251.168"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 smtp.secureserver.net.",
+   "10 mailstore1.secureserver.net."
+  ],
+  "txt": [
+   "google-site-verification=CJvuIDkVKxKIldh4QtIaPdkWPXNpNaWAgBHgT-ZqaJM",
+   "google-site-verification=mlB_Nazzwf45_P6j-ZBrMQLCw13o1Y9F06OGq5sMZ1o",
+   "google-site-verification=J6k6y1NV7ZaEr9Y-PyaMggCxNe_GEmnriq_wIC8QDs4",
+   "v=spf1 include:secureserver.net -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject; rua=mailto:dmarc_rua@onsecureserver.net; adkim=r; aspf=r;"
+  ],
+  "spf": "v=spf1 include:secureserver.net -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error [Errno 111] Connection refused>"
+  }
+ },
+ "posture": {
+  "score": 98,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "idx": 385,
+ "host": "cscl.co.in",
+ "url": "https://cscl.co.in",
+ "name": "Chennai Smart City Limited (CSCL)",
+ "group": "Smart City SPVs (Tier 2)",
+ "tier": "2",
+ "csv_status": "error",
+ "csv_detail": "server up but HTTP 500 at check time",
+ "csv_cert_expires": "2026-10-20",
+ "csv_emudhra": "g1-watch",
+ "tls": {
+  "host": "cscl.co.in",
+  "domain": "cscl.co.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "cscl.co.in",
+  "leaf_issuer": "emSign SSL CA - G1",
+  "leaf_org": "",
+  "notBefore": "Sep 25 13:08:59 2025 GMT",
+  "notAfter": "Oct 20 13:08:59 2026 GMT",
+  "impacted": "EMSIGN-FAMILY",
+  "matched_intermediates": "emSign Root CA - G1; emSign SSL CA - G1",
+  "chain_roots": "emSign Root CA - G1",
+  "chain_issuers": "emSign SSL CA - G1; emSign Root CA - G1",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "000",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "117.232.67.143"
+  ],
+  "aaaa": [],
+  "mx": [
+   "0 cscl.co.in.",
+   "10 mail.cscl.co.in."
+  ],
+  "txt": [
+   "google-site-verification=1TBltKUAmKt-niMAxm9nGD-MiZ_3SSOyacxsmwvby0A",
+   "_globalsign-domain-verification=wUi3C2brLV0-jDxMtigtTGrinMr-ir-mYHGeLYPLQl",
+   "_globalsign-domain-verification=twLS5DykdLQxjVYiFveSYC5iCKARm_L-5xBpRmuuOf",
+   "v=spf1 +mx +a +ip4:115.124.105.159 ~all",
+   "MS=A05F9C0926CC57275E4B018A8C77E07CD47BF767",
+   "_globalsign-domain-verification=6SahGRX_CK6K6SxfU6YwxpoMAwzXg3DZeCbkYcDgAC"
+  ],
+  "dmarc": [
+   "v=DMARC1;p=quarantine;sp=none;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400"
+  ],
+  "spf": "v=spf1 +mx +a +ip4:115.124.105.159 ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "TimeoutError: The read operation timed out"
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "TimeoutError: The read operation timed out"
+  }
+ },
+ "posture": {
+  "score": 28,
+  "grade": "n/a (site not live)",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

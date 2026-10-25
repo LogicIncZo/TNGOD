@@ -1,0 +1,164 @@
+{
+ "idx": 116,
+ "host": "www.tnsic.gov.in",
+ "url": "https://www.tnsic.gov.in",
+ "name": "Tamil Nadu Information Commission",
+ "group": "Commissions, Statutory & Autonomous Bodies",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-07",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnsic.gov.in",
+  "domain": "tnsic.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnsic.gov.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep  8 04:14:46 2026 GMT",
+  "notAfter": "Dec  7 04:14:45 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.167.13"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnsic.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=fte0r962ue1p3oa9tu7urq7577; expires=Tue, 24-Nov-2026 18:02:49 GMT; Max-Age=2592000; path=/; domain=tnsic.gov.in; secure; HttpOnly; SameSite=strict",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "Tamil Nadu Information Commission",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 37493,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnsic.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "nginx",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=d7vp2b9kfksa0pd4hqsubn4lvq; expires=Tue, 24-Nov-2026 18:02:49 GMT; Max-Age=2592000; path=/; domain=tnsic.gov.in; secure; HttpOnly; SameSite=strict",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "pragma",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-powered-by"
+   ],
+   "title": "Tamil Nadu Information Commission",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 37493,
+   "cookies": {
+    "total": 2,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 56,
+  "grade": "D",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/7.4.33'."
+   ]
+  ]
+ }
+}

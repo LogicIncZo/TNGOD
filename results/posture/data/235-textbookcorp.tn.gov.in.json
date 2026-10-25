@@ -1,0 +1,156 @@
+{
+ "idx": 235,
+ "host": "textbookcorp.tn.gov.in",
+ "url": "https://textbookcorp.tn.gov.in",
+ "name": "Tamil Nadu Text Book and Educational Services Corporation",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2025-05-02",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "textbookcorp.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.textbookcorp.tn.gov.in",
+  "leaf_issuer": "Sectigo RSA Domain Validation Secure Server CA",
+  "leaf_org": "",
+  "notBefore": "Apr  2 00:00:00 2024 GMT",
+  "notAfter": "May  2 23:59:59 2025 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "AAA Certificate Services",
+  "chain_issuers": "Sectigo RSA Domain Validation Secure Server CA; USERTrust RSA Certification Authority; AAA Certificate Services",
+  "verify_code": "10 (certificate has expired)",
+  "http_status": "200",
+  "expired": "YES"
+ },
+ "dns": {
+  "a": [
+   "103.59.65.53"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://textbookcorp.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-powered-by": "PHP/5.4.16"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "TNTBESC",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 44384,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://textbookcorp.tn.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-powered-by": "PHP/5.4.16"
+   },
+   "all_header_names": [
+    "connection",
+    "content-type",
+    "date",
+    "server",
+    "transfer-encoding",
+    "x-powered-by"
+   ],
+   "title": "TNTBESC",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 44384,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 0,
+  "grade": "F",
+  "findings": [
+   [
+    "High",
+    "TLS certificate has EXPIRED."
+   ],
+   [
+    "High",
+    "Certificate chain does not verify (expired/mismatch)."
+   ],
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ],
+   [
+    "Info",
+    "X-Powered-By discloses stack: 'PHP/5.4.16'."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "idx": 79,
+ "host": "tnsta.gov.in",
+ "url": "https://tnsta.gov.in",
+ "name": "Transport and Road Safety Commission",
+ "group": "Secretariat Departments",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-03",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnsta.gov.in",
+  "domain": "tnsta.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnsta.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "May 19 00:00:00 2026 GMT",
+  "notAfter": "Dec  3 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.59"
+  ],
+  "aaaa": [],
+  "mx": [],
+  "txt": [
+   "v=spf1 -all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=reject;"
+  ],
+  "spf": "v=spf1 -all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://tnsta.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "set-cookie": "PHPSESSID=dbtqh6gvcl33iq81h0irgqcsjf; path=/",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "permissions-policy": "fullscreen 'none'; microphone 'none'",
+    "content-security-policy": "default-src 'self' 'unsafe-inline' *.tn.gov.in fonts.googleapis.com;\u00e2\u0080\u009d",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "\u0baa\u0bcb\u0b95\u0bcd\u0b95\u0bc1\u0bb5\u0bb0\u0ba4\u0bcd\u0ba4\u0bc1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b9a\u0bbe\u0bb2\u0bc8 \u0baa\u0bbe\u0ba4\u0bc1\u0b95\u0bbe\u0baa\u0bcd\u0baa\u0bc1 \u0b86\u0ba3\u0bc8\u0baf\u0bb0\u0b95\u0bae\u0bcd, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1 \u0b85\u0bb0\u0b9a\u0bc1",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 99516,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://tnsta.gov.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "",
+    "set-cookie": "PHPSESSID=9evh9o019i4spepf736863aocd; path=/",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "permissions-policy": "fullscreen 'none'; microphone 'none'",
+    "content-security-policy": "default-src 'self' 'unsafe-inline' *.tn.gov.in fonts.googleapis.com;\u00e2\u0080\u009d",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "permissions-policy",
+    "pragma",
+    "referrer-policy",
+    "server",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "\u0baa\u0bcb\u0b95\u0bcd\u0b95\u0bc1\u0bb5\u0bb0\u0ba4\u0bcd\u0ba4\u0bc1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b9a\u0bbe\u0bb2\u0bc8 \u0baa\u0bbe\u0ba4\u0bc1\u0b95\u0bbe\u0baa\u0bcd\u0baa\u0bc1 \u0b86\u0ba3\u0bc8\u0baf\u0bb0\u0b95\u0bae\u0bcd, \u0ba4\u0bae\u0bbf\u0bb4\u0bcd\u0ba8\u0bbe\u0b9f\u0bc1 \u0b85\u0bb0\u0b9a\u0bc1",
+   "generator": "",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 99516,
+   "cookies": {
+    "total": 1,
+    "no_secure": 1,
+    "no_httponly": 1,
+    "no_samesite": 1
+   }
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (1 without Secure, 1 without HttpOnly)."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

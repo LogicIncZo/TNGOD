@@ -1,0 +1,155 @@
+{
+ "idx": 186,
+ "host": "www.tiic.org",
+ "url": "https://www.tiic.org",
+ "name": "The Tamilnadu Industrial Investment Corporation Ltd.",
+ "group": "Boards, Corporations & PSUs",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-09",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tiic.org",
+  "domain": "tiic.org",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "www.tiic.org",
+  "leaf_issuer": "RapidSSL TLS RSA CA G1",
+  "leaf_org": "",
+  "notBefore": "Dec 10 00:00:00 2025 GMT",
+  "notAfter": "Dec  9 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "RapidSSL TLS RSA CA G1; DigiCert Global Root G2",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "15.206.33.11"
+  ],
+  "aaaa": [
+   "2406:da1a:991:4100:9ff6:7750:2f83:a926"
+  ],
+  "mx": [],
+  "txt": [
+   "bml7qvlwzk5bxzrn0k0dbz7hm66lhdzy",
+   "_i9fn6y78i1q50bryixtcwz4fr4wpp1y",
+   "google-site-verification=m5GrSuHz1wv2ZYmqQj08l6YG8XN02uYbjFl1OlMw-1Q",
+   "bqz0xqx4pvh5hw0v21zlq5fxd6d7jpcf",
+   "1dsj5l2ktgnn0mf38d14y6l6c8vp8rtq",
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc": [
+   "v=DMARC1; p=none; pct=50;"
+  ],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tiic.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy-report-only",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TIIC - Small Business Loans | Entrepreneur Loan | Tamil Nadu",
+   "generator": "Powered by Slider Revolution 6.0.7 - responsive, Mobile-Friendly Slider Plugin f",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 122393,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tiic.org/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-security-policy-report-only",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "TIIC - Small Business Loans | Entrepreneur Loan | Tamil Nadu",
+   "generator": "Powered by Slider Revolution 6.0.7 - responsive, Mobile-Friendly Slider Plugin f",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 122393,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 68,
+  "grade": "C",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

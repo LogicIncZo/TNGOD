@@ -1,0 +1,121 @@
+{
+ "idx": 339,
+ "host": "karuvoolam.tn.gov.in",
+ "url": "https://karuvoolam.tn.gov.in",
+ "name": "Karuvoolam (IFHRMS)",
+ "group": "Schemes, Programmes & e-Governance Portals",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-20",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "karuvoolam.tn.gov.in",
+  "domain": "tn.gov.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "*.karuvoolam.tn.gov.in",
+  "leaf_issuer": "Sectigo Public Server Authentication CA DV R36",
+  "leaf_org": "",
+  "notBefore": "Jun  5 00:00:00 2026 GMT",
+  "notAfter": "Dec 20 23:59:59 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "USERTrust RSA Certification Authority",
+  "chain_issuers": "Sectigo Public Server Authentication CA DV R36; Sectigo Public Server Authentication Root R46; USERTrust RSA Certification Authority",
+  "verify_code": "0 (ok)",
+  "http_status": "302",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "164.100.134.245"
+  ],
+  "aaaa": [],
+  "mx": [
+   "10 mxtnt.karuvoolam.tn.gov.in."
+  ],
+  "txt": [
+   "v=spf1 a mx ptr ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 a mx ptr ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.karuvoolam.tn.gov.in/web/tnta/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "via": "1.1 ID-7716077373070026 uproxy-5",
+    "set-cookie": "TS01982434=01ba4f08fcf973edb525f71301449aa905c0a71657a4ea269d296724173b24ec2dabdcfaedf4c34c6903c8378650ea2991c49360ca7299bf37ab6400673c14e9494fc2370df8861ce46067e70cd9edc891f307e3d8; path=/; domain=www.karuvoolam.tn.gov.in",
+    "strict-transport-security": "max-age=63072000;"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "liferay-portal",
+    "pragma",
+    "set-cookie",
+    "strict-transport-security",
+    "transfer-encoding",
+    "via",
+    "x-content-type-options",
+    "x-frame-options",
+    "x-xss-protection"
+   ],
+   "title": "Home - TNTA - Kalanjiyam",
+   "generator": "",
+   "content_type": "text/html;charset=UTF-8",
+   "body_bytes": 171817,
+   "cookies": {
+    "total": 8,
+    "no_secure": 3,
+    "no_httponly": 4,
+    "no_samesite": 8
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "ConnectionResetError: [Errno 104] Connection reset by peer"
+  }
+ },
+ "posture": {
+  "score": 73,
+  "grade": "C",
+  "findings": [
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Cookies without Secure/HttpOnly flags (3 without Secure, 4 without HttpOnly)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

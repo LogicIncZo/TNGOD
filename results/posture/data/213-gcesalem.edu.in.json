@@ -1,0 +1,125 @@
+{
+ "idx": 213,
+ "host": "gcesalem.edu.in",
+ "url": "https://gcesalem.edu.in",
+ "name": "Government College of Engineering (GCE), Salem",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200",
+ "csv_cert_expires": "2026-12-12",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "gcesalem.edu.in",
+  "domain": "gcesalem.edu.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "gcesalem.edu.in",
+  "leaf_issuer": "YE1",
+  "leaf_org": "",
+  "notBefore": "Sep 13 17:52:34 2026 GMT",
+  "notAfter": "Dec 12 17:52:33 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YE1; Root YE; ISRG Root X2; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "200",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "103.194.242.18",
+   "103.21.78.186"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 aspmx.l.google.com.",
+   "10 aspmx2.googlemail.com.",
+   "10 aspmx3.googlemail.com.",
+   "5 alt1.aspmx.l.google.com.",
+   "5 alt2.aspmx.l.google.com."
+  ],
+  "txt": [
+   "google-site-verification=rJXIQ-1sIGBbDmW4D7vl3A46qd_oNrfhrMu14iDvl0Q"
+  ],
+  "dmarc": [],
+  "spf": null,
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://gcesalem.edu.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(), microphone=(), camera=()",
+    "content-security-policy": "frame-ancestors 'self';"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-language",
+    "content-security-policy",
+    "content-type",
+    "date",
+    "expires",
+    "last-modified",
+    "permissions-policy",
+    "referrer-policy",
+    "server",
+    "transfer-encoding",
+    "upgrade",
+    "vary",
+    "x-content-type-options",
+    "x-frame-options"
+   ],
+   "title": "Welcome to GCE - Salem | Gcesalem",
+   "generator": "Drupal 10 (https://www.drupal.org)",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 200000,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": null,
+   "final_url": null,
+   "redirects": [],
+   "error": "URLError: <urlopen error timed out>"
+  }
+ },
+ "posture": {
+  "score": 78,
+  "grade": "B",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Low",
+    "No SPF record on the apex TXT set."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}

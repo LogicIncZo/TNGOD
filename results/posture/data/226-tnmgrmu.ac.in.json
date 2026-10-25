@@ -1,0 +1,153 @@
+{
+ "idx": 226,
+ "host": "tnmgrmu.ac.in",
+ "url": "https://tnmgrmu.ac.in",
+ "name": "Tamil Nadu Dr. M.G.R. Medical University",
+ "group": "Universities & Academic Institutions",
+ "tier": "1",
+ "csv_status": "live",
+ "csv_detail": "HTTP 200; strict TLS OK",
+ "csv_cert_expires": "2026-12-11",
+ "csv_emudhra": "unaffected",
+ "tls": {
+  "host": "tnmgrmu.ac.in",
+  "domain": "tnmgrmu.ac.in",
+  "port": "443",
+  "tls": "ok",
+  "leaf_cn": "tnmgrmu.ac.in",
+  "leaf_issuer": "YR2",
+  "leaf_org": "",
+  "notBefore": "Sep 12 01:12:04 2026 GMT",
+  "notAfter": "Dec 11 01:12:03 2026 GMT",
+  "impacted": "no",
+  "matched_intermediates": "",
+  "chain_roots": "",
+  "chain_issuers": "YR2; Root YR; ISRG Root X1",
+  "verify_code": "0 (ok)",
+  "http_status": "301",
+  "expired": "no"
+ },
+ "dns": {
+  "a": [
+   "15.206.238.26"
+  ],
+  "aaaa": [],
+  "mx": [
+   "1 ASPMX.L.GOOGLE.COM.",
+   "10 ALT3.ASPMX.L.GOOGLE.COM.",
+   "10 ALT4.ASPMX.L.GOOGLE.COM.",
+   "5 ALT1.ASPMX.L.GOOGLE.COM.",
+   "5 ALT2.ASPMX.L.GOOGLE.COM."
+  ],
+  "txt": [
+   "1gbnuskcsfbr63j4cj8ue0ito8",
+   "v=spf1 include:_spf.google.com ~all"
+  ],
+  "dmarc": [],
+  "spf": "v=spf1 include:_spf.google.com ~all",
+  "dnssec": null,
+  "error": null
+ },
+ "http": {
+  "https": {
+   "scheme": "https",
+   "status": 200,
+   "final_url": "https://www.tnmgrmu.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "The Tamil Nadu Dr. M.G.R Medical University",
+   "generator": "WordPress 7.0.2",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 169417,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  },
+  "http": {
+   "scheme": "http",
+   "status": 200,
+   "final_url": "https://www.tnmgrmu.ac.in/",
+   "redirects": [],
+   "error": null,
+   "headers": {
+    "server": "Apache"
+   },
+   "all_header_names": [
+    "cache-control",
+    "connection",
+    "content-type",
+    "date",
+    "expires",
+    "link",
+    "server",
+    "transfer-encoding",
+    "vary"
+   ],
+   "title": "The Tamil Nadu Dr. M.G.R Medical University",
+   "generator": "WordPress 7.0.2",
+   "content_type": "text/html; charset=UTF-8",
+   "body_bytes": 169417,
+   "cookies": {
+    "total": 0,
+    "no_secure": 0,
+    "no_httponly": 0,
+    "no_samesite": 0
+   }
+  }
+ },
+ "posture": {
+  "score": 52,
+  "grade": "D",
+  "findings": [
+   [
+    "Medium",
+    "No HSTS header on the HTTPS response."
+   ],
+   [
+    "Low",
+    "No Content-Security-Policy header."
+   ],
+   [
+    "Low",
+    "No clickjacking protection (X-Frame-Options / CSP frame-ancestors)."
+   ],
+   [
+    "Info",
+    "No X-Content-Type-Options: nosniff."
+   ],
+   [
+    "Info",
+    "No Referrer-Policy header."
+   ],
+   [
+    "Medium",
+    "Plain http:// serves content (no redirect to https://)."
+   ],
+   [
+    "Low",
+    "No DMARC record (_dmarc TXT)."
+   ],
+   [
+    "Info",
+    "Zone does not appear to be DNSSEC-signed."
+   ]
+  ]
+ }
+}
