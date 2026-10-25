@@ -34,6 +34,7 @@ EXCLUDE = {
     "healthidsbx.abdm.gov.in", "abhasbx.abdm.gov.in", "dev.abdm.gov.in",  # ABDM
     "hhsuat.tnega.org",                                        # UAT, NXDOMAIN
     "sandbox.assets.moving.tech", "plasma.moving.tech",        # vendor infra
+    "appmonitor.moving.tech", "assets.moving.tech", "config.moving.tech",
 }
 
 # curated names/notes for backend hosts discovered in the APKs

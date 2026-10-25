@@ -40,11 +40,11 @@ The directory is organized in two layers:
 ## Snapshot (25 Oct 2026, after the homepage/sitemap link sweep)
 
 - **441 entries** (Tier 1: 371 · Tier 2: 70) · **404 unique URLs** reachable or DNS-confirmed
-- **471 entries** (Tier 1: 371 · Tier 2: 70 · Tier 3: 30 app backends) · 334+ live / 28 unreachable / 10 server-error / 32 defunct / 37 no-site (Tier-3 rows carry their own verification status)
+- **468 entries** (Tier 1: 371 · Tier 2: 70 · Tier 3: 27 app backends) · 334+ live / 28 unreachable / 10 server-error / 32 defunct / 37 no-site (Tier-3 rows carry their own verification status)
 - The sweep crawled all 316 inventory URLs (homepages + robots.txt + sitemaps), extracted 3,685 outbound hostnames, filtered to 748 new candidates, and added 88 verified TN-relevant hosts
 - **TLS certificates scanned for all 389 hosts** (2026-10-25, openssl chain capture): **0 sites on the revoked eMudhra G3 intermediates**, 5 on the eMudhra/emSign **G1 watch-list** (`tamilnadupost.cept.gov.in`, `tnsericulture.tn.gov.in`, `ideunom.ac.in`, `cscl.co.in`, `tantea.nic.in`), 320 on unaffected CAs, and **24 with already-expired leaf certs** — expiry dates are the new `cert_expires` column, chain status the `emudhra` column
 - **Companion Android-app registry (25 Oct 2026):** 27 official apps verified on Google Play, seeded from the state's [own app registry](https://www.tn.gov.in/mobileappform.php) — [ANDROID-APPS.md](./ANDROID-APPS.md) / [apps page](https://logicinczo.github.io/TNGOD/apps.html)
-- **Tier 3 — app backends (30 rows):** static URL extraction from 26 APKs (`tools/extract_app_urls.py`) found 48 first-party backend hosts the apps talk to (GCC ERP/GIS estate, `urbantamilnilam.tn.gov.in`, `tnurbanepay.tn.gov.in`, `tn.erss.in`, `tnstc.in`, `api.moving.tech`, `mobileapi.phr.tn.gov.in`, …); central-government integrations (ABDM, Parivahan) and SDK noise excluded
+- **Tier 3 — app backends (27 rows):** static URL extraction from 26 APKs (`tools/extract_app_urls.py`) found 48 first-party backend hosts the apps talk to (GCC ERP/GIS estate, `urbantamilnilam.tn.gov.in`, `tnurbanepay.tn.gov.in`, `tn.erss.in`, `tnstc.in`, `api.moving.tech`, `mobileapi.phr.tn.gov.in`, …); central-government integrations (ABDM, Parivahan) and SDK noise excluded
 - IGOD org-type codes used for grouping: `SPORT` state portal · `E003` departments · `E004` directorates · `E013` commissions · `E051` statutory/autonomous bodies · `E011` boards/undertakings · `E059` PSUs/JVs · `E009` academies/institutions · `E042` districts · `SPMA` schemes/portals · `OTHR` others
 
 ## Reproducing the sweep

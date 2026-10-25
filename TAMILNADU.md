@@ -2,7 +2,7 @@
 
 > **TNGOD** (Tamil Nadu Government Online Directory) is a comprehensive, verified directory of Tamil Nadu government websites, modeled on and sourced from **IGOD — the Integrated Government Online Directory** ([igod.gov.in](https://igod.gov.in), now served by the [National Portal Web Directory](https://www.india.gov.in/directory/web-directory)), cross-checked against the [official TN portal](https://www.tn.gov.in) and supplemented with well-known state portals that IGOD's state listing omits.
 
-**Compiled & URL-verified:** 24 October 2026 · **Link-sweep + APK URL extraction:** 25 October 2026 · **Entries:** 471 (incl. 30 Tier-3 app backends) · **Unique URLs:** 434
+**Compiled & URL-verified:** 24 October 2026 · **Link-sweep + APK URL extraction:** 25 October 2026 · **Entries:** 468 (incl. 27 Tier-3 app backends) · **Unique URLs:** 434
 
 ## Status legend
 

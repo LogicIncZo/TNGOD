@@ -26,7 +26,7 @@ in dex bytecodes, binary XML, `resources.arsc`, assets and native libs was extra
 - **first-party** — government-owned or named scheme-vendor backends (`*.gov.in`, `*.nic.in`,
   `*.tnega.org`, `tnstc.in`, `tangedco.org`, `chennaimetrorail.org`, `moving.tech` (CUMTA's
   ticketing vendor), `tn-nhis.com` (CMCHIS vendor), …) → promoted to **Tier 3** rows in
-  [`tamilnadu-sites.csv`](./tamilnadu-sites.csv) (group *App API Backends (Tier 3)*, 30 rows)
+  [`tamilnadu-sites.csv`](./tamilnadu-sites.csv) (group *App API Backends (Tier 3)*, 27 rows)
 - **sdk** — payments/analytics/maps/crash SDKs (Juspay, Google/Firebase, Razorpay, Mappls, …) — excluded
 - **other** — framework/vendor noise (react.dev, wikipedia, font hosts, …) — excluded
 
